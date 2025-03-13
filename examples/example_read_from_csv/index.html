@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Bar Chart</title>
+    <!-- D3.js library (version 7) -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      /* Basic styling for the chart */
+      body {
+        font-family: sans-serif;
+        margin: 20px;
+      }
+      .bar {
+        fill: steelblue;
+      }
+      .bar:hover {
+        fill: orange;
+      }
+      .axis text {
+        font-size: 12px;
+      }
+      .axis path,
+      .axis line {
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Simple Bar Chart from CSV</h1>
+    <!-- A container for our chart -->
+    <svg id="chart" width="600" height="300"></svg>
+
+    <script>
+      // Dimensions for our chart
+      const width = 600;
+      const height = 300;
+      const margin = { top: 20, right: 20, bottom: 30, left: 40 };
+
+      // Select the SVG we declared above
+      const svg = d3.select('#chart')
+                    .attr('width', width)
+                    .attr('height', height);
+
+      // Load the CSV file
+      d3.csv('data.csv').then(data => {
+        // Convert numeric values from strings to numbers
+        data.forEach(d => {
+          d.value = +d.value;
+        });
+
+        // Create scales
+        const x = d3.scaleBand()
+                    .domain(data.map(d => d.name))
+                    .range([margin.left, width - margin.right])
+                    .padding(0.1);
+
+        const y = d3.scaleLinear()
+                    .domain([0, d3.max(data, d => d.value)])
+                    .nice() // rounds up domain for a nicer axis
+                    .range([height - margin.bottom, margin.top]);
+
+        // Draw bars
+        svg.selectAll('.bar')
+           .data(data)
+           .enter().append('rect')
+             .attr('class', 'bar')
+             .attr('x', d => x(d.name))
+             .attr('y', d => y(d.value))
+             .attr('width', x.bandwidth())
+             .attr('height', d => y(0) - y(d.value));
+
+        // Add x-axis
+        svg.append('g')
+           .attr('class', 'axis')
+           .attr('transform', `translate(0, ${height - margin.bottom})`)
+           .call(d3.axisBottom(x));
+
+        // Add y-axis
+        svg.append('g')
+           .attr('class', 'axis')
+           .attr('transform', `translate(${margin.left}, 0)`)
+           .call(d3.axisLeft(y));
+      });
+    </script>
+  </body>
+</html>

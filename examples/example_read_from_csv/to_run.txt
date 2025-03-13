@@ -1,0 +1,3 @@
+python -m http.server 8000
+
+and then visit localhost:8080 on your browser

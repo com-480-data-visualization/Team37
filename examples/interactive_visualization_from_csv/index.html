@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Interactive Category Bar Chart</title>
+    <!-- Include D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 20px;
+      }
+      /* Styling the dropdown */
+      select {
+        padding: 5px;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      /* Bar styling */
+      .bar {
+        fill: steelblue;
+      }
+      .bar:hover {
+        fill: orange;
+      }
+      .axis text {
+        font-size: 12px;
+      }
+      .axis path,
+      .axis line {
+        stroke: #000;
+        shape-rendering: crispEdges;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Interactive Bar Chart by Category</h1>
+    <!-- Dropdown menu for categories -->
+    <label for="categorySelect">Select Category: </label>
+    <select id="categorySelect"></select>
+    
+    <!-- Container for the chart -->
+    <svg id="chart" width="600" height="400"></svg>
+
+    <script>
+      // Define chart dimensions and margins
+      const width = 600;
+      const height = 400;
+      const margin = { top: 20, right: 20, bottom: 50, left: 50 };
+
+      // Create an SVG container
+      const svg = d3.select('#chart')
+                    .attr('width', width)
+                    .attr('height', height);
+
+      // Global variables to hold data and scales
+      let fullData, xScale, yScale, xAxisGroup, yAxisGroup;
+
+      // Function to update chart based on selected category
+      function updateChart(selectedCategory) {
+        // Filter data by the selected category
+        const filteredData = fullData.filter(d => d.category === selectedCategory);
+
+        // Update scales
+        xScale.domain(filteredData.map(d => d.name));
+        yScale.domain([0, d3.max(filteredData, d => d.value)]).nice();
+
+        // Bind data to bars
+        const bars = svg.selectAll('.bar')
+                        .data(filteredData, d => d.name);
+
+        // Exit phase: remove bars that are no longer needed
+        bars.exit()
+            .transition()
+            .duration(500)
+            .attr('y', yScale(0))
+            .attr('height', 0)
+            .remove();
+
+        // Update phase: update existing bars
+        bars.transition()
+            .duration(500)
+            .attr('x', d => xScale(d.name))
+            .attr('y', d => yScale(d.value))
+            .attr('width', xScale.bandwidth())
+            .attr('height', d => yScale(0) - yScale(d.value));
+
+        // Enter phase: add new bars
+        bars.enter().append('rect')
+            .attr('class', 'bar')
+            .attr('x', d => xScale(d.name))
+            .attr('y', yScale(0))
+            .attr('width', xScale.bandwidth())
+            .attr('height', 0)
+          .transition()
+            .duration(500)
+            .attr('y', d => yScale(d.value))
+            .attr('height', d => yScale(0) - yScale(d.value));
+
+        // Update the axes with transitions
+        xAxisGroup.transition().duration(500).call(d3.axisBottom(xScale));
+        yAxisGroup.transition().duration(500).call(d3.axisLeft(yScale));
+      }
+
+      // Load CSV data
+      d3.csv('data.csv').then(data => {
+        // Parse numeric values
+        data.forEach(d => {
+          d.value = +d.value;
+        });
+        fullData = data;
+
+        // Set up scales
+        xScale = d3.scaleBand()
+                   .range([margin.left, width - margin.right])
+                   .padding(0.1);
+        yScale = d3.scaleLinear()
+                   .range([height - margin.bottom, margin.top]);
+
+        // Create groups for axes
+        xAxisGroup = svg.append('g')
+                        .attr('class', 'axis')
+                        .attr('transform', `translate(0, ${height - margin.bottom})`);
+        yAxisGroup = svg.append('g')
+                        .attr('class', 'axis')
+                        .attr('transform', `translate(${margin.left}, 0)`);
+
+        // Create dropdown menu
+        const categories = Array.from(new Set(data.map(d => d.category)));
+        const dropdown = d3.select('#categorySelect');
+
+        dropdown.selectAll('option')
+                .data(categories)
+                .enter()
+                .append('option')
+                .attr('value', d => d)
+                .text(d => d);
+
+        // Initial display: show the first category
+        updateChart(categories[0]);
+
+        // Add event listener to update chart on selection change
+        dropdown.on('change', function() {
+          const selected = this.value;
+          updateChart(selected);
+        });
+      });
+    </script>
+  </body>
+</html>
