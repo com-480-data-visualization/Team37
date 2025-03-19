@@ -57,3 +57,17 @@ Please, fill the following sections about your project.
 - < 24h: 80% of the grade for the milestone
 - < 48h: 70% of the grade for the milestone
 
+
+# Running
+Download data from https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
+
+(HS92)
+
+pip install -r requirements.txt
+
+## For jupyter
+
+`cd src/eda`
+
+`jupyter notebook`
+

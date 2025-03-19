@@ -2,7 +2,11 @@
 
 * pre-prcess data
    * Find stories
-   * Aggregate for efficiency. Merge product categories based on the text behind the semicolon.  
+   * Aggregate for efficiency. Merge product categories based on the text behind the semicolon. 
+
+* Data processing
+   * We will need to be able to adjust for inflation ('value' is nominal dollars).
+   * We will probably need GDP data to normalize trade (ie, how much of the economy is trade).  
 
 ## Data source
 

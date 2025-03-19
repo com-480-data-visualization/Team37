@@ -1,0 +1,13 @@
+# Core Jupyter
+jupyter
+
+# Scientific computing
+numpy
+scipy
+
+# Data manipulation
+pandas
+
+# Visualization
+matplotlib
+seaborn
