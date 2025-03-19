@@ -1,0 +1,4 @@
+__ipynb_checkpoints__/
+*.ipynb_checkpoints
+__pycache__
+*.code-workspace

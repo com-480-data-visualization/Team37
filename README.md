@@ -61,7 +61,7 @@ Please, fill the following sections about your project.
 # Running
 Download data from https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
 
-(HS92)
+(select HS92 and put it in data/BACI_HS92_V202501)
 
 pip install -r requirements.txt
 
@@ -69,5 +69,4 @@ pip install -r requirements.txt
 
 `cd src/eda`
 
-`jupyter notebook`
-
+Run `jupyter notebook`
