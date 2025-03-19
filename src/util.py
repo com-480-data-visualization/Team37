@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
+import numpy as np
+
 mpl.rcParams.update({
     'font.size': 14,            # general font size
     'axes.titlesize': 16,       # title font size
@@ -37,7 +39,7 @@ def aggregate_across_sections(data_df_with_section_col: pd.DataFrame):
 
 
 def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None, 
-               ymax=None, figsize=(8, 5), stacked=False, stack_norm=False):
+               ymax=None, figsize=(8, 5), stacked=False, stack_norm=False, legend_ncols=1):
     """
     Plots a basic line chart or a stacked area plot from a pandas DataFrame.
     
@@ -54,17 +56,18 @@ def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None,
         figsize (tuple, optional): Figure size. Defaults to (8, 5).
         stacked (bool, optional): If True, creates a stacked plot instead of separate lines.
         stack_norm (bool, optional): If True (and stacked is True), normalize each x tick to sum to 100.
+        legend_ncols (int, optional): Number of columns for the legend. Defaults to 1.
     
     Usage in a Jupyter Notebook:
         plot_lines(df, 'year', ['sales', 'profit'], xtitle='Year', ytitle='Amount',
-                   title='Sales and Profit over Years', stacked=True, stack_norm=True)
+                   title='Sales and Profit over Years', stacked=True, stack_norm=True, legend_ncols=2)
     """
     # Ensure ycols is a list
     if isinstance(ycols, str):
         ycols = [ycols]
     
     # Process labels: convert to string and truncate to at most 20 characters
-    labels = [f"{str(label)[:20]}.." for label in ycols]
+    labels = [label[:20] + (".." if len(label) > 20 else "") for label in ycols]
     
     plt.figure(figsize=figsize)
     
@@ -87,14 +90,14 @@ def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None,
         # Reverse the legend entries so the top area is listed last
         if len(ycols) > 1:
             handles, labs = plt.gca().get_legend_handles_labels()
-            plt.legend(handles[::-1], labs[::-1], loc='upper left')
+            plt.legend(handles[::-1], labs[::-1], loc='upper left', ncol=legend_ncols)
     else:
         # Plot separate line charts using the processed labels
         for col, lab in zip(ycols, labels):
             plt.plot(df[xcol], df[col], marker='o', label=lab)
         
         if len(ycols) > 1:
-            plt.legend(loc='upper left')
+            plt.legend(loc='upper left', ncol=legend_ncols)
     
     if xtitle:
         plt.xlabel(xtitle)
