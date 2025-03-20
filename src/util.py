@@ -39,7 +39,8 @@ def aggregate_across_sections(data_df_with_section_col: pd.DataFrame):
 
 
 def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None, 
-               ymax=None, figsize=(8, 5), stacked=False, stack_norm=False, legend_ncols=1):
+               ymax=None, figsize=(8, 5), stacked=False, stack_norm=False, legend_ncols=1,
+               normalize_to_xpoint=None, legend_out=False):
     """
     Plots a basic line chart or a stacked area plot from a pandas DataFrame.
     
@@ -57,47 +58,70 @@ def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None,
         stacked (bool, optional): If True, creates a stacked plot instead of separate lines.
         stack_norm (bool, optional): If True (and stacked is True), normalize each x tick to sum to 100.
         legend_ncols (int, optional): Number of columns for the legend. Defaults to 1.
+        normalize_to_xpoint (scalar, optional): The x-axis value to use for normalization.
+            Each timeseries is normalized by dividing by its value at the given x value.
+        legend_out (bool, optional): If True, places the legend completely out of the plot to the right.
     
-    Usage in a Jupyter Notebook:
+    Usage:
         plot_lines(df, 'year', ['sales', 'profit'], xtitle='Year', ytitle='Amount',
-                   title='Sales and Profit over Years', stacked=True, stack_norm=True, legend_ncols=2)
+                   title='Sales and Profit over Years', stacked=True, stack_norm=True, 
+                   legend_ncols=2, normalize_to_xpoint=2000, legend_out=True)
     """
+    import matplotlib.pyplot as plt
+    import numpy as np
+
     # Ensure ycols is a list
     if isinstance(ycols, str):
         ycols = [ycols]
     
-    # Process labels: convert to string and truncate to at most 20 characters
-    labels = [label[:20] + (".." if len(label) > 20 else "") for label in ycols]
+    # Create a copy of the dataframe to avoid modifying the original
+    df_plot = df.copy()
+
+    # Apply normalization if requested
+    if normalize_to_xpoint is not None:
+        for col in ycols:
+            matching_rows = df_plot[df_plot[xcol] == normalize_to_xpoint]
+            if matching_rows.empty:
+                raise ValueError(f"No matching x value equal to {normalize_to_xpoint} for normalization in column '{col}'")
+            normalization_value = matching_rows.iloc[0][col]
+            if normalization_value == 0:
+                raise ValueError(f"Normalization factor is zero for column '{col}' at x value {normalize_to_xpoint}")
+            df_plot[col] = df_plot[col] / normalization_value
+    
+    # Process labels: truncate to at most 20 characters (adding ".." if truncated)
+    labels = [label[:25] + (".." if len(label) > 25 else "") for label in ycols]
     
     plt.figure(figsize=figsize)
     
     if stacked:
-        # Get x values and y values as arrays
-        x = df[xcol].values
-        y_vals = [df[col].values for col in ycols]
+        # Extract x values and y values from the modified dataframe
+        x = df_plot[xcol].values
+        y_vals = [df_plot[col].values for col in ycols]
         
         if stack_norm:
-            # Compute totals per x tick
             totals = np.sum(y_vals, axis=0)
-            # Avoid division by zero: set zero totals to 1
-            totals[totals == 0] = 1
-            # Normalize each series to sum to 100 at each x tick
+            totals[totals == 0] = 1  # Avoid division by zero
             y_vals = [(y / totals) * 100 for y in y_vals]
         
-        # Create the stackplot with processed labels
         plt.stackplot(x, *y_vals, labels=labels)
         
-        # Reverse the legend entries so the top area is listed last
         if len(ycols) > 1:
             handles, labs = plt.gca().get_legend_handles_labels()
-            plt.legend(handles[::-1], labs[::-1], loc='upper left', ncol=legend_ncols)
+            if legend_out:
+                plt.legend(handles[::-1], labs[::-1], loc='center left', 
+                           bbox_to_anchor=(1, 0.5), ncol=legend_ncols)
+            else:
+                plt.legend(handles[::-1], labs[::-1], loc='upper left', ncol=legend_ncols)
     else:
-        # Plot separate line charts using the processed labels
+        # Plot each timeseries as a separate line
         for col, lab in zip(ycols, labels):
-            plt.plot(df[xcol], df[col], marker='o', label=lab)
+            plt.plot(df_plot[xcol], df_plot[col], marker='o', label=lab)
         
         if len(ycols) > 1:
-            plt.legend(loc='upper left', ncol=legend_ncols)
+            if legend_out:
+                plt.legend(loc='center left', bbox_to_anchor=(1, 0.5), ncol=legend_ncols)
+            else:
+                plt.legend(loc='upper left', ncol=legend_ncols)
     
     if xtitle:
         plt.xlabel(xtitle)
@@ -106,10 +130,14 @@ def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None,
     if title:
         plt.title(title)
     
-    # Set y-axis limits if provided
     if ymin is not None or ymax is not None:
         plt.ylim(bottom=ymin, top=ymax)
     
-    plt.tight_layout()
+    # Adjust layout to make room for the legend if it's outside the plot
+    if legend_out:
+        plt.tight_layout(rect=[0, 0, 0.8, 1])
+    else:
+        plt.tight_layout()
+    
     plt.grid(True)
     plt.show()

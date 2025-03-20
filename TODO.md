@@ -7,6 +7,7 @@
 * Data processing
    * We will need to be able to adjust for inflation ('value' is nominal dollars).
    * We will probably need GDP data to normalize trade (ie, how much of the economy is trade).  
+   * Verify that values are in nominal USD.
 
 ## Data source
 
@@ -27,6 +28,9 @@ https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
 * Trends over time per country.
 * Visualize impact of policy (laws, agreements, presidents).
 
+### After EDA
+* Visualize the spread of industry/exports. How exports (ie surplus production) of eg machinery shifts around the globe.
+* Visualize which countries are the most dependent on trade and could face most disruption if globalization recedes.
 
 ## Data processing (managing complexity)
 
