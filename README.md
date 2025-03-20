@@ -59,13 +59,39 @@ Here are some of the potential questions we want to provide visual intuition for
 * Who has a surplus of food/energy and who needs to import it to survive?
 * What are some "single points of failure" in terms of exports that, if disrupted, would change the way we live?
 * How do events like wars or revolutions affect what countries import from and export to other countries?
-* Does the shif of industry eastwards appear in export/import data? Intuitively, how large is it?
+* Does the shift of industry eastwards appear in export/import data? Intuitively, how large is it?
 * Do landmark trade deals have a visible impact in trade activity?
 
 ### Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
+
+#### EDA: Pre-processing
+
+The data is already clean and easy to load and manipulate.
+One challenge is that the dataset is quite large, owing mostly to the number of product categories (~5000).
+The number of rows is in the order of num_years(28) x num_countries(238)^2 x categories(~5000).
+
+We find that for the purposes of most of our analysis, this level of detail in category classification is unnecessary; for example we do not need to distinguish between pure-bred and non-pure bred horses (codes 010111 and 010119).
+
+To this end, we use the built-in structure of the 6-digit HS92 product codes and aggregate based on the first two digits.
+This yields 98 broader categories like "Meat and edible meat offal" or "Mineral fuels, mineral oils and products of their distillation" and reduces the size of the dataset by an order of magnitude.
+This aggregation allows us to manipulate the data in an ordinary laptop.
+
+#### EDA: Insights
+Here is a quick enumeration of some initial findings:
+* Total export tonnage increased from 7B Tons in 1995 to 15B Tons in 2023
+* The largest export categories in USD are Electrical Machinery, Mineral Fuels, Mechanical Machinery, Vehicles, and Pharmaceutical Products (and, for example, not food).
+* The three largest exporters are: China, the US, and Germany, totaling ~30% of total exports.
+* The three largest importers are: the US, China, and Germany, totaling again ~30% of total imports.
+* The US exports ~60% of the dollar amount it imports while China imports ~60% of the amount it exports.
+* China exports almost 2x as much as the next largest exporter while it was not even in the top 3 in 1995.
+* China exports ~35% of electrical machinery and ~60% of toys and games.
+* When the war in Ukraine started, Ukrainian exports of Iron and Steel fell by ~50% compared to the average before the war.
+* Russia's share of Mineral Fuel exports fell from ~10% in 2021 to ~7.5% in 2023.
+* Syria's exports and imports fell by ~90% and ~70% after the beginning of the civil war in 2011 and did not recover at all by 2023.
+
 
 ### Related work
 
