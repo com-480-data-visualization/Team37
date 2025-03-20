@@ -23,11 +23,28 @@ Please, fill the following sections about your project.
 >
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
 
+#### Dataset: CEPII BACI Bilateral Trade flows
+
+CEPII is a French research center that specializes in the world economy.
+They publish the [BACI Bilateral Trade Flows dataset](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37), which is a cleaner, reconciled, and more readily available version of the UN Comtrade database.
+This dataset contains the value of all bilateral imports and exports between countries and for thousands of product categories. The dataset does not include data on the import and export of services.
+
+We are focusing on data following the "Harmonized System 1992 (HS 1992)" classification, which allows us to explore trade data between 1995 and 2023 to observe long-term trends.
+
+The dataset is ~8GB in size and has the following features for each year:
+* Product Code (~5000 different categories)
+* Exporting Country (238 Countries)
+* Importing Country
+* Yearly Value in Nominal US Dollars (thousands)
+* Yearly Weight in metric tons.
+
 ### Problematic
 
 > Frame the general topic of your visualization and the main axis that you want to develop.
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
+
+#### Problematic: 
 
 ### Exploratory Data Analysis
 
