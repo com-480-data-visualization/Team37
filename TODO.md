@@ -1,9 +1,5 @@
 ## TODO:
 
-* pre-prcess data
-   * Find stories
-   * Aggregate for efficiency. Merge product categories based on the text behind the semicolon. 
-
 * Data processing
    * We will need to be able to adjust for inflation ('value' is nominal dollars).
    * We will probably need GDP data to normalize trade (ie, how much of the economy is trade).  
@@ -17,8 +13,8 @@ https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
 
 ## Visualization ideas
 
-* The profs preferene is to guide the viewer through a story. Ie, everything shown must be dense. Examples were:
-   * A timeline of car fatalities annotated with relevant.
+* The prof's preference is to guide the viewer through a story. Ie, everything shown must be dense. Examples were:
+   * A timeline of car fatalities annotated with relevant law-passing events.
    * A single page that shows a stacked area plot that shows how people spend their day, with options to filter by age and employment status.
    * For example: "who makes our food now, who did it in the past" 
 

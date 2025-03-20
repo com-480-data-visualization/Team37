@@ -44,7 +44,23 @@ The dataset is ~8GB in size and has the following features for each year:
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
-#### Problematic: 
+#### Problematic: Trade and Globalization since the "End of History"
+
+After the early 90s, globalization accelerated with clear manifestations in the proliferation of free trade agreements, the transfer of industry to regions with cheaper labor, and the establishment of shallow supply chains involving high levels of geographic inter-depency.
+For many of us, this direction appeared to be inevitable and permanent.
+In recent years, however, the economic world order established after "The End of History" shows signs that it may be unraveling.
+
+In this sense, this is the right moment to peek under the hood and obtain intuition on how the machinery of international trade operates.
+
+Our goal in exploring and visualizing bilateral trade data is to offer non-experts perspective on these matters in a digestible and pleasant way. 
+No one in the team is an expert; therefore, our objective is to understand the broad strokes of how our world exchanged goods in the era of globalization without overstepping.
+
+Here are some of the potential questions we want to provide visual intuition for: 
+* Who has a surplus of food/energy and who needs to import it to survive?
+* What are some "single points of failure" in terms of exports that, if disrupted, would change the way we live?
+* How do events like wars or revolutions affect what countries import from and export to other countries?
+* Does the shif of industry eastwards appear in export/import data? Intuitively, how large is it?
+* Do landmark trade deals have a visible impact in trade activity?
 
 ### Exploratory Data Analysis
 
