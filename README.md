@@ -2,15 +2,15 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Huiyun Zhu | |
+| Huiyun Zhu | | 355235 |
 | Konstantinos Prasopoulos | 285813 |
-| Yuchen Qian | |
+| Yuchen Qian | |322420 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (21st March, 5pm)
 
-**10% of the final grade**
+**10% of the final grade** 
 
 This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
 Please, fill the following sections about your project.
@@ -94,12 +94,24 @@ Here is a quick enumeration of some initial findings:
 
 
 ### Related work
-
-
 > - What others have already done with the data?
 > - Why is your approach original?
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+
+#### Related work
+
+Numerous institutions and organizations have analyzed international trade using datasets similar to CEPII’s BACI, such as the UN Comtrade database and World Bank trade reports. These studies provide broad economic insights, focusing on trade balances, global supply chains, and the effects of geopolitical shifts on commerce. The existing trade data visulizations include: The observatory of economic complexity, world trade oranization trade reports and international trade centre trade map, While these platforms provide valuable insights, they often focus on static trade statistics rather than exploring deeper patterns or historical shifts in globalization. Moreover, they may lack a user-friendly, interactive storytelling component to engage broader audiences beyond economists and policymakers.
+
+Our project differentiates itself by:
+* Bridging data with real-world events: Instead of merely presenting numbers, we aim to connect trade patterns with significant historical moments, such as trade agreements, financial crises, and supply chain disruptions.
+* Identifying critical trade dependencies: By highlighting countries with dominant exports in key product categories, we examine potential risks in global supply chains and economic vulnerabilities.
+* Using an interactive, storytelling-based approach: Inspired by data journalism from sources like The Financial Times, The New York Times, and Our World in Data, we focus on making trade data accessible to non-experts through engaging, visually intuitive presentations.
+
+There are the source of inspiration.
+* The Financial Times' Trade War Graphics: A visually rich explanation of trade conflicts and economic policies through interactive charts.
+*  Our World in Data: A platform renowned for its clean, user-friendly approach to data-driven storytelling.
+* The New York Times’ Supply Chain Crisis Report: A compelling visual narrative detailing global trade disruptions.
 
 ## Milestone 2 (18th April, 5pm)
 
