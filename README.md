@@ -2,9 +2,9 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Huiyun Zhu | | 355235 |
+| Huiyun Zhu   | 355235 |
 | Konstantinos Prasopoulos | 285813 |
-| Yuchen Qian | |322420 |
+| Yuchen Qian  |322420 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -68,6 +68,7 @@ Here are some of the potential questions we want to provide visual intuition for
 > - Show some basic statistics and get insights about the data
 
 #### EDA: Pre-processing
+You can find the notebook in the path: Team37/src/eda/EDA.ipynb
 
 The data is already clean and easy to load and manipulate.
 One challenge is that the dataset is quite large, owing mostly to the number of product categories (~5000).
