@@ -2,6 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import numpy as np
+import os
+
+from params import *
+import util
 
 mpl.rcParams.update({
     'font.size': 14,            # general font size
@@ -12,6 +16,60 @@ mpl.rcParams.update({
     'legend.fontsize': 14,      # legend font size
     'figure.titlesize': 20      # figure title font size
 })
+
+def load_csv_or_pickle(file_path, pickle_suffix=".pkl"):
+    # Create the pickle file name by replacing the extension (or appending if no extension found)
+    base, ext = os.path.splitext(file_path)
+    pickle_path = base + pickle_suffix
+
+    if os.path.exists(pickle_path):
+        print(f"Loading pickle: {pickle_path}")
+        df = pd.read_pickle(pickle_path)
+    else:
+        print(f"Loading CSV: {file_path}")
+        df = util.load_csv_file(file_path)
+        # Save the DataFrame to a pickle for future use
+        df.to_pickle(pickle_path)
+    return df
+
+def standard_unit_and_name_conversions(df):
+    df['value'] = df['value'].div(1000.0*1000.0*1000.0) # From thousands to USD trillions.
+    df['quantity'] = df['quantity'].div(1000.0*1000.0) # From metric tons to millions of metric tons.
+    df.rename(columns={'value': 'value_trln_USD', 'quantity': 'quantity_mln_metric_tons'}, inplace=True)
+    return df
+
+def load_all_data():
+    # Load country codes
+    cc_df = load_csv_or_pickle(f"{DATA_DIR}/{country_codes_file}")
+
+    # Load product codes
+    pc_df = load_csv_or_pickle(f"{DATA_DIR}/{product_codes_file}")
+
+    # Load expanded product codes, then filter and select columns
+    epc22_df = load_csv_or_pickle(f"{OTHER_DATA_DIR}/{expanded_product_codes_file_22}")
+    epc22_df = epc22_df[epc22_df["hscode"].str.len() == 2]
+    epc22_df = epc22_df[['section', 'hscode', 'description']]
+
+    # Main dataset: aggregate data from multiple years
+    data_df = pd.DataFrame()
+    for year in datayears:
+        # Load CSV (or pickle) for the given year
+        file_name = f"{DATA_DIR}/{datafile_prefix}{year}{datafile_sufix}"
+        df = load_csv_or_pickle(file_name)
+
+        # Rename columns and merge all data into a single DataFrame
+        df.rename(columns=symbol_to_colname, inplace=True)
+        df['product'] = df['product'].astype(str)
+        
+        # Optimization: aggregate by product section before concatenating.
+        # This merges similar products (same first 2 digits), reducing the number of rows.
+        df = util.aggregate_across_sections(df)
+        
+        data_df = pd.concat([data_df, df])
+    
+    data_df.reset_index(drop=True, inplace=True)
+    return data_df, epc22_df, pc_df, cc_df
+
 
 def load_csv_file(file_path):
     """
@@ -30,6 +88,54 @@ def load_csv_file(file_path):
     except Exception as e:
         print("An error occurred while loading the CSV file:", e)
         return None
+
+
+def save_dataframe_to_csv(dataframe, file_path, index=False, encoding='utf-8'):
+    """
+    Save a pandas DataFrame to a CSV file.
+
+    Args:
+        dataframe (pd.DataFrame): The pandas DataFrame to save.
+        file_path (str): The path where the CSV file will be saved.
+                         If the directory doesn't exist, it will be created.
+        index (bool, optional): Whether to write the DataFrame's index as a column.
+                                Defaults to False.
+        encoding (str, optional): The encoding to use for the output file.
+                                  Defaults to 'utf-8'.
+
+    Returns:
+        bool: True if the DataFrame was saved successfully, False otherwise.
+    """
+    # Basic check to ensure the input is a DataFrame
+    if not isinstance(dataframe, pd.DataFrame):
+        print(f"Error: The provided 'dataframe' object is not a pandas DataFrame.")
+        return False
+    
+    if not file_path or not isinstance(file_path, str):
+        print(f"Error: Invalid 'file_path' provided.")
+        return False
+
+    try:
+        # Ensure the directory for the file exists, create it if not
+        output_dir = os.path.dirname(file_path)
+        if output_dir:  # Check if there is a directory part in the path
+            os.makedirs(output_dir, exist_ok=True)
+            print(f"Ensured directory exists: {output_dir}")
+
+        # Save the DataFrame to CSV
+        print(f"Attempting to save DataFrame with {len(dataframe)} records to {file_path}...")
+        dataframe.to_csv(file_path, index=index, encoding=encoding)
+        print(f"DataFrame successfully saved to {file_path}")
+        return True
+    except IOError as e:
+        # Catch file system related errors specifically
+        print(f"An IOError occurred while saving the CSV file to {file_path}: {e}")
+        return False
+    except Exception as e:
+        # Catch any other exceptions during the process
+        print(f"An unexpected error occurred while saving the DataFrame to CSV: {e}")
+        return False
+
 
 def aggregate_across_sections(data_df_with_section_col: pd.DataFrame):
     df = data_df_with_section_col
