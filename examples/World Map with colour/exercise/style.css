@@ -1,0 +1,96 @@
+/*
+This CSS governs the appearance of our site.
+You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
+*/
+
+/*
+This makes the border and padding be counted as part of the element's size.
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model
+It switches from
+	https://mdn.mozillademos.org/files/13647/box-model-standard-small.png
+to
+	https://mdn.mozillademos.org/files/13649/box-model-alt-small.png
+*/
+* {
+	box-sizing: border-box;
+}
+
+/*
+Make the document fill the whole viewport, this overrides any weird defaults that browsers might have.
+*/
+html, body, figure {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Default font and size */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #f5f5f5;
+}
+
+h1 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+p {
+	color: #666;
+	margin-bottom: 20px;
+}
+
+#world-map {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	max-width: 100%;
+	height: auto;
+}
+
+.country {
+	stroke: #999;
+	stroke-width: 0.5px;
+	transition: all 0.3s ease;
+}
+
+.country:hover {
+	stroke: #333;
+	stroke-width: 1.5px;
+	cursor: pointer;
+	filter: brightness(0.9);
+}
+
+.country.selected {
+	stroke: #333;
+	stroke-width: 2px;
+	filter: brightness(1.1);
+}
+
+.country-label {
+	fill: #333;
+	font-size: 8px;
+	text-anchor: middle;
+	pointer-events: none;
+}
+
+.legend {
+	font-family: sans-serif;
+}
+
+.legend text {
+	fill: #333;
+}
+
+.legend rect {
+	stroke: #999;
+	stroke-width: 1px;
+}
+
+svg {
+	width: 100%;
+	height: auto;
+}

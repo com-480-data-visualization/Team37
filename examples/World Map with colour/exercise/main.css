@@ -1,0 +1,45 @@
+body {
+	font: 16px sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #f5f5f5;
+}
+
+#map-plot {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+
+.canton {
+	fill: none;
+	stroke: #fff;
+	stroke-linejoin: round;
+	stroke-width: 1px;
+}
+
+.canton-label {
+	font-size: 12px;
+	font-weight: bold;
+	pointer-events: none;
+}
+
+.point {
+	fill: #ff6b6b;
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+#colorbar {
+	font-size: 12px;
+}
+
+#colorbar-area {
+	stroke: #999;
+}
+
+.canton-boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}

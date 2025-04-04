@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>World Map</title>
+	<meta name="description" content="Simple World Map with Country Names">
+	<meta name="author" content="Your Name">
+
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.country {
+			transition: fill 0.3s ease;
+		}
+		.country:hover {
+			stroke-width: 2px;
+		}
+	</style>
+</head>
+<body>
+	<h1>World Map</h1>
+	<p>A simple visualization of world countries with their names.</p>
+
+	<div id="map-container">
+		<svg id="world-map" viewBox="0 0 960 480" width="960" height="480"></svg>
+	</div>
+
+	<!-- 加载必要的库 -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="https://unpkg.com/topojson-client@3"></script>
+	
+	<!-- 添加调试信息显示区域 -->
+	<div id="debug-info" style="margin-top: 20px; padding: 10px; background: #f0f0f0;">
+		<h3>Test</h3>
+		<pre id="debug-output"></pre>
+	</div>
+
+	<!-- 加载主程序 -->
+	<script>
+		// 添加调试函数
+		const debugOutput = document.getElementById('debug-output');
+		const originalConsoleLog = console.log;
+		console.log = function() {
+			originalConsoleLog.apply(console, arguments);
+			const args = Array.from(arguments);
+			debugOutput.textContent += args.map(arg => 
+				typeof arg === 'object' ? JSON.stringify(arg, null, 2) : arg
+			).join(' ') + '\n';
+		};
+	</script>
+	<script src="main.js"></script>  
+</body>
+</html>
