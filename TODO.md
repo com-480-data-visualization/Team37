@@ -52,3 +52,71 @@ https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
 
 * Percent of total deficit of top 5 countries
 * focus on niche but extreme categories, eg toys.
+
+
+
+FIRST PAGE - MAKE CLEAR THIS IS ONLY ABOUT GOODS - good site https://www.wto.org/english/res_e/statis_e/statistics2023_e.htm  (look at bottom) merchandise == physical goods
+* Answers who makes more than they consume? Who the opposite? 
+* Swipe right to see this over time. Also shows trade as % of GDP and tonnage. We can add a visualization for tonnage. - apparently, it is about 7 times the total number of active cars in the world.
+
+
+
+
+
+## ANALOGY FOR TONNAGE OF TRADE
+Let's break down the comparison step by step:
+
+Estimate the Total Weight of All Cars:
+
+There are roughly 1.4 billion cars in operation worldwide.
+
+Assuming an average car weighs about 1.5 metric tons (this is a rough estimate; many passenger cars fall in the 1.2–2.0 metric ton range), the total weight is:
+
+1.4
+ billion
+×
+1.5
+ metric tons
+=
+2.1
+ billion metric tons
+1.4 billion×1.5 metric tons=2.1 billion metric tons
+Compare with 15.12 Billion Metric Tons:
+
+The value you mentioned is 15.12 billion metric tons.
+
+To see how many times heavier that is compared to all the cars, we divide:
+
+15.12
+ billion metric tons
+2.1
+ billion metric tons
+≈
+7.2
+2.1 billion metric tons
+15.12 billion metric tons
+​
+ ≈7.2
+This means 15.12 billion metric tons is roughly 7 times the total weight of all active cars in the world (using our assumed average weight).
+
+
+
+
+## Scratch
+I have this dataframe that shows the trade deficit per country per year.
+
+      year  country  value_trln_USD
+0     1995        4       -0.000213
+1     1995        8       -0.000602
+2     1995       12       -0.000382
+3     1995       20       -0.001006
+4     1995       24        0.001942
+...    ...      ...             ...
+6451  2023      862       -0.002356
+6452  2023      876       -0.000051
+6453  2023      882       -0.000483
+6454  2023      887       -0.010809
+6455  2023      894        0.005213
+
+
+What I want to do is eventually is to plot a stacked bar chart that can also go negative: For each year, the top 5 countries with the highest deficit in 2023 should appear as a stacked bar below the x axis, with the rest other than the N appearing as . In contrast, the top 5 

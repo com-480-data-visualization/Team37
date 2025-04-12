@@ -10,6 +10,8 @@ datafile_prefix = "BACI_HS92_Y"
 datafile_sufix = "_V202501.csv"
 country_codes_file = "country_codes_V202501.csv"
 product_codes_file = "product_codes_HS92_V202501.csv"
+gdp_file = "world-gdp-nominal.csv"
+cpi_file = "cpi.csv"
 expanded_product_codes_file_22 = "harmonized-system_22.csv"
 
 symbol_to_colname = {"t": "year", "i": "exporter", "j": "importer", "k": "product", "v": "value", "q": "quantity"}

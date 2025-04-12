@@ -82,7 +82,15 @@ def load_all_data():
     else:
         print(f"Found all_data pickle")
 
-    return data_df, epc22_df, pc_df, cc_df
+    # Load global nominal gdp
+    gdp_df = load_csv_or_pickle(f"{OTHER_DATA_DIR}/{gdp_file}")
+    assert(not gdp_df.empty)
+
+    # Load US cpi data
+    cpi_df = load_csv_or_pickle(f"{OTHER_DATA_DIR}/{cpi_file}")
+    assert(not gdp_df.empty)
+
+    return data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df
 
 
 def load_csv_file(file_path):
@@ -277,7 +285,6 @@ def make_human_readable(df_in, cc_df, epc22_df, country_fmt=None, product_fmt=No
         raise ValueError("Called without specifying any format")
     
     df = df_in.copy()
-    print(df)
     if country_fmt:
         if country_fmt != 'country_name' and country_fmt != 'country_iso2' and country_fmt != 'country_iso3':
             raise ValueError(f"Country format {country_fmt} is invalid")
@@ -288,8 +295,11 @@ def make_human_readable(df_in, cc_df, epc22_df, country_fmt=None, product_fmt=No
         if 'importer' in df.columns:
             df['importer'] = df['importer'].map(cc_df.set_index('country_code')[country_fmt])
             converted = True
+        if 'country' in df.columns:
+            df['country'] = df['country'].map(cc_df.set_index('country_code')[country_fmt])
+            converted = True
         if not converted:
-            raise ValueError(f"No column importer or exporter in {df.columns}")
+            raise ValueError(f"No expected column in {df.columns}")
 
     if product_fmt:
         if product_fmt != 'hscode' and product_fmt != 'description':
@@ -300,3 +310,42 @@ def make_human_readable(df_in, cc_df, epc22_df, country_fmt=None, product_fmt=No
 
     return df
     
+def adjust_for_inflation(nominal_df, cpi_df, target_year, nominal_col="world_nominal_gdp"):
+    """
+    Adjusts nominal values using the CPI to express them in target-year dollars.
+
+    Args:
+        nominal_df (pd.DataFrame): DataFrame with columns 'year' and $nominal_col.
+        cpi_df (pd.DataFrame): DataFrame with columns 'year' and 'cpi'.
+        target_year (int): The year whose CPI will be used as the base for the adjustment.
+
+    Returns:
+        pd.DataFrame: A new DataFrame containing:
+            - 'year'
+            - $nominal_col: the original nominal GDP values.
+            - 'real_{target_year}': thevalues adjusted to target-year dollars.
+    
+    Raises:
+        ValueError: If the target_year is not present in the CPI DataFrame.
+    """
+    # Check if the target_year exists in the CPI data
+    if target_year not in cpi_df['year'].values:
+        raise ValueError(f"Target year {target_year} not found in CPI data")
+
+    if len(nominal_df) != len(cpi_df):
+        raise ValueError(f"CPI and nominal dataframes have different lengths - {len(cpi_df)} vs ({len(nominal_df)})")
+    
+    # Get the CPI for the target year
+    target_cpi = cpi_df.loc[cpi_df['year'] == target_year, 'cpi'].values[0]
+    
+    # Merge the GDP and CPI data on 'year' so that each GDP value has the corresponding CPI
+    merged_df = pd.merge(nominal_df, cpi_df, on='year', how='left')
+    
+    # Compute the GDP adjusted to target-year dollars
+    # For each record:
+    #     Adjusted GDP = Nominal GDP * (target_year CPI / CPI in that year)
+    adjusted_column_name = f'real_{target_year}'
+    merged_df[adjusted_column_name] = merged_df[nominal_col] * (target_cpi / merged_df['cpi'])
+    
+    # Return only the relevant columns
+    return merged_df[['year', nominal_col, adjusted_column_name]]
