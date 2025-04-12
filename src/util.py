@@ -21,11 +21,12 @@ def load_csv_or_pickle(file_path, pickle_suffix=".pkl"):
     # Create the pickle file name by replacing the extension (or appending if no extension found)
     base, ext = os.path.splitext(file_path)
     pickle_path = base + pickle_suffix
+    df = pd.DataFrame()
 
     if os.path.exists(pickle_path):
         print(f"Loading pickle: {pickle_path}")
         df = pd.read_pickle(pickle_path)
-    else:
+    elif os.path.exists(file_path):
         print(f"Loading CSV: {file_path}")
         df = util.load_csv_file(file_path)
         # Save the DataFrame to a pickle for future use
@@ -41,33 +42,46 @@ def standard_unit_and_name_conversions(df):
 def load_all_data():
     # Load country codes
     cc_df = load_csv_or_pickle(f"{DATA_DIR}/{country_codes_file}")
+    assert(not cc_df.empty)
 
     # Load product codes
     pc_df = load_csv_or_pickle(f"{DATA_DIR}/{product_codes_file}")
+    assert(not pc_df.empty)
 
     # Load expanded product codes, then filter and select columns
     epc22_df = load_csv_or_pickle(f"{OTHER_DATA_DIR}/{expanded_product_codes_file_22}")
     epc22_df = epc22_df[epc22_df["hscode"].str.len() == 2]
     epc22_df = epc22_df[['section', 'hscode', 'description']]
+    assert(not epc22_df.empty)
 
-    # Main dataset: aggregate data from multiple years
+    # Main dataset: aggregate data from multiple years.
+
+    # Try loading the pre-aggregated pickle first.
+    all_data_name = "BACI_HS92_all.pkl"
     data_df = pd.DataFrame()
-    for year in datayears:
-        # Load CSV (or pickle) for the given year
-        file_name = f"{DATA_DIR}/{datafile_prefix}{year}{datafile_sufix}"
-        df = load_csv_or_pickle(file_name)
+    data_df = load_csv_or_pickle(f"{DATA_DIR}/{all_data_name}")
+    if (data_df.empty):
+        for year in datayears:
+            # Load CSV (or pickle) for the given year
+            file_name = f"{DATA_DIR}/{datafile_prefix}{year}{datafile_sufix}"
+            df = load_csv_or_pickle(file_name)
+            assert(not df.empty)
 
-        # Rename columns and merge all data into a single DataFrame
-        df.rename(columns=symbol_to_colname, inplace=True)
-        df['product'] = df['product'].astype(str)
-        
-        # Optimization: aggregate by product section before concatenating.
-        # This merges similar products (same first 2 digits), reducing the number of rows.
-        df = util.aggregate_across_sections(df)
-        
-        data_df = pd.concat([data_df, df])
+            # Rename columns and merge all data into a single DataFrame
+            df.rename(columns=symbol_to_colname, inplace=True)
+            df['product'] = df['product'].astype(str)
+            
+            # Optimization: aggregate by product section before concatenating.
+            # This merges similar products (same first 2 digits), reducing the number of rows.
+            df = util.aggregate_across_sections(df)
+            data_df = pd.concat([data_df, df])
     
-    data_df.reset_index(drop=True, inplace=True)
+        data_df.reset_index(inplace=True)
+        print(f"Storing all years pickle as {all_data_name}")
+        data_df.to_pickle(f"{DATA_DIR}/{all_data_name}")
+    else:
+        print(f"Found all_data pickle")
+
     return data_df, epc22_df, pc_df, cc_df
 
 
@@ -90,10 +104,10 @@ def load_csv_file(file_path):
         return None
 
 
-def save_dataframe_to_csv(dataframe, file_path, index=False, encoding='utf-8'):
+def save_dataframe_to_csv(dataframe, file_path, index=False, encoding='utf-8', float_format="%.8f"):
     """
-    Save a pandas DataFrame to a CSV file.
-
+    Save a pandas DataFrame to a CSV file with float numbers formatted in fixed-point notation.
+    
     Args:
         dataframe (pd.DataFrame): The pandas DataFrame to save.
         file_path (str): The path where the CSV file will be saved.
@@ -102,44 +116,44 @@ def save_dataframe_to_csv(dataframe, file_path, index=False, encoding='utf-8'):
                                 Defaults to False.
         encoding (str, optional): The encoding to use for the output file.
                                   Defaults to 'utf-8'.
-
+        float_format (str, optional): Format string for floating point numbers.
+                                      Defaults to '%.4f', which formats floats to four decimal places.
+    
     Returns:
         bool: True if the DataFrame was saved successfully, False otherwise.
     """
     # Basic check to ensure the input is a DataFrame
     if not isinstance(dataframe, pd.DataFrame):
-        print(f"Error: The provided 'dataframe' object is not a pandas DataFrame.")
+        print("Error: The provided 'dataframe' object is not a pandas DataFrame.")
         return False
     
     if not file_path or not isinstance(file_path, str):
-        print(f"Error: Invalid 'file_path' provided.")
+        print("Error: Invalid 'file_path' provided.")
         return False
 
     try:
         # Ensure the directory for the file exists, create it if not
         output_dir = os.path.dirname(file_path)
-        if output_dir:  # Check if there is a directory part in the path
+        if output_dir:  # Only create directories if the path includes them
             os.makedirs(output_dir, exist_ok=True)
             print(f"Ensured directory exists: {output_dir}")
 
-        # Save the DataFrame to CSV
+        # Save the DataFrame to CSV with the specified float format
         print(f"Attempting to save DataFrame with {len(dataframe)} records to {file_path}...")
-        dataframe.to_csv(file_path, index=index, encoding=encoding)
+        dataframe.to_csv(file_path, index=index, encoding=encoding, float_format=float_format)
         print(f"DataFrame successfully saved to {file_path}")
         return True
     except IOError as e:
-        # Catch file system related errors specifically
         print(f"An IOError occurred while saving the CSV file to {file_path}: {e}")
         return False
     except Exception as e:
-        # Catch any other exceptions during the process
         print(f"An unexpected error occurred while saving the DataFrame to CSV: {e}")
         return False
 
 
 def aggregate_across_sections(data_df_with_section_col: pd.DataFrame):
     df = data_df_with_section_col
-    df["product_chapter"] = df['product'].str[:2]
+    df["product_chapter"] = df['product'].str[:2].astype('string')
     df = df.groupby(["year", "exporter", "importer", "product_chapter"]).agg({'value': 'sum', 'quantity':'sum'})
     return df
 
@@ -247,3 +261,42 @@ def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None,
     
     plt.grid(True)
     plt.show()
+
+def make_human_readable(df_in, cc_df, epc22_df, country_fmt=None, product_fmt=None):
+    """ Map numeric values to human-readable names
+    Options for country_fmt:
+    * 'country_name'
+    * 'country_iso2'
+    * 'country_iso3'
+
+    Options for product fmt:
+    * 'hscode'
+    * 'description'
+    """
+    if not country_fmt and not product_fmt:
+        raise ValueError("Called without specifying any format")
+    
+    df = df_in.copy()
+    print(df)
+    if country_fmt:
+        if country_fmt != 'country_name' and country_fmt != 'country_iso2' and country_fmt != 'country_iso3':
+            raise ValueError(f"Country format {country_fmt} is invalid")
+        converted = False
+        if 'exporter' in df.columns:
+            df['exporter'] = df['exporter'].map(cc_df.set_index('country_code')[country_fmt])
+            converted = True
+        if 'importer' in df.columns:
+            df['importer'] = df['importer'].map(cc_df.set_index('country_code')[country_fmt])
+            converted = True
+        if not converted:
+            raise ValueError(f"No column importer or exporter in {df.columns}")
+
+    if product_fmt:
+        if product_fmt != 'hscode' and product_fmt != 'description':
+            if 'product_chapter' in df.columns:
+                df['product_chapter'] = df['product_chapter'].map(epc22_df.set_index('hscode')['description'])
+            else:
+                raise ValueError(f"No column product_chapter in {df.columns}")
+
+    return df
+    

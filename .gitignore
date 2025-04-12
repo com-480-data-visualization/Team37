@@ -4,3 +4,4 @@ __pycache__
 *.code-workspace
 BACI_HS92_V202501
 BACI_HS92_V202501.zip
+*.pkl

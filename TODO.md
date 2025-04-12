@@ -49,3 +49,6 @@ https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37
   * Need a sense of the total deficit and the total surplus. Is the surplus of surplus countries growing?
     * The quantity (weight) of food exports has increased by 2.6x - More population can This (likely) means that.
     * As a percent of GDP, Food trade has increases quite a bit (~50%). Goal is to make a compeling and intuitive visualization of this
+
+* Percent of total deficit of top 5 countries
+* focus on niche but extreme categories, eg toys.

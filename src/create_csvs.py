@@ -4,10 +4,23 @@ from params import *
 
 
 
-def create_deficit_csv(in_df):
+def get_totals_by_country(in_df: pd.DataFrame, year: int):
+
     df = in_df.copy()
-    df = standard_unit_and_name_conversions(df)
-    print(df)
+    df = df[df["year"] == year]
+
+    # Calculate, for each country, total exports and imports separately.
+    imp = df.groupby(["importer"]).agg({'value_trln_USD': 'sum', 'quantity_mln_metric_tons':'sum'})
+    exp = df.groupby(["exporter"]).agg({'value_trln_USD': 'sum', 'quantity_mln_metric_tons':'sum'})
+    balance = exp - imp
+    print(imp)
+    print(exp)
+    print(balance)
+
+    return exp.reset_index(), imp.reset_index(), balance.reset_index()
+
+
+
 
 
 if __name__ == "__main__":
@@ -27,6 +40,9 @@ if __name__ == "__main__":
 
 
     data_df, epc22_df, pc_df, cc_df = util.load_all_data()
+    data_df = standard_unit_and_name_conversions(data_df)
 
-
-    create_deficit_csv(data_df)
+    imports, exports, balance = get_totals_by_country(data_df, 2023)
+    print(balance)
+    save_dataframe_to_csv(make_human_readable(balance, cc_df, epc22_df, country_fmt="country_iso3"),
+                           f"{OUTPUT_DIR}/absolute_deficit.csv")
