@@ -7,6 +7,7 @@ BACI_HS92_V202501.zip
 *.pkl
 
 src/web/dist/
+src/web/data/
 node_modules/
 .vite/
 

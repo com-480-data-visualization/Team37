@@ -16,7 +16,7 @@ const App: React.FC = () => {
       <main>
         <section>
           <h2>World Trade Balance Map (Animated)</h2>
-          <WorldTradeMapAnimated /> 
+          <WorldTradeMapAnimated />
         </section>
         <section>
           <h2>Global Trade Balance Map (2023)</h2>
@@ -43,4 +43,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App; 
+export default App;
