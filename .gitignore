@@ -10,6 +10,7 @@ src/web/dist/
 node_modules/
 .vite/
 
+.DS_Store
 # Build output (not ignored because GitHub Pages uses it)
 # /docs/
 
