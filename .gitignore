@@ -5,3 +5,29 @@ __pycache__
 BACI_HS92_V202501
 BACI_HS92_V202501.zip
 *.pkl
+
+src/web/dist/
+node_modules/
+.vite/
+
+# Build output (not ignored because GitHub Pages uses it)
+# /docs/
+
+# Local env files
+.env*
+!.env.example
+
+# OS / Editor stuff
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript cache
+*.tsbuildinfo
