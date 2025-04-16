@@ -16,7 +16,7 @@ export function useData<T>(filename: string) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`/data/${filename}`);
+        const response = await fetch(import.meta.env.BASE_URL + "data/" + filename);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

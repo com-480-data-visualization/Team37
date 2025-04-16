@@ -1,3 +1,13 @@
+## Workflow
+* To develop locally do:
+  * Make sure you are using node version v20.19.0 `node -v`
+  * In `src/web` run `npm install` to install all dependencies.
+  * In `src/web` run `npm run dev`.
+
+* To deploy the current changes to GitHub pages do
+  * From the root of the repo run `deploy.sh` - this calls `npm run build` and places the generated static files in docs/
+  * Add changes to docs/ and push.
+
 ## TODO:
 
 * Data processing
