@@ -32,7 +32,15 @@ export function useData<T>(filename: string) {
               console.warn('CSV parsing errors:', results.errors);
             }
             console.log('Parsed data:', results.data);
-            setData(results.data as T);
+            // 强Force conversion of the value_trln_USD field to a number
+            const fixedData = (results.data as any[]).map(row => ({
+              ...row,
+              value_trln_USD: Number(row.value_trln_USD)
+            }));
+            if (filename === 'absolute_deficit_all_years.csv') {
+              console.log('【主地图数据 after fix】', fixedData.slice(0, 10));
+            }
+            setData(fixedData as T);
             setLoading(false);
           },
           error: (error) => {
