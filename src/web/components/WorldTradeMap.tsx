@@ -226,7 +226,7 @@ const countryNameAlias: Record<string, string> = {
 interface TradeData {
   year: string;
   country: string;
-  value_trln_USD: number;
+  value_bln_USD: number;
 }
 
 export const WorldTradeMap: React.FC = () => {
@@ -270,7 +270,7 @@ export const WorldTradeMap: React.FC = () => {
     const mapData = allData.map(item => {
       const name = getCountryName(item.country, item.country);
       const geoName = geoNameMapping[name.toLowerCase()];
-      return { name: geoName || name, value: Number(item.value_trln_USD) || 0 };
+      return { name: geoName || name, value: Number(item.value_bln_USD) || 0 };
     });
 
     const validGeoNames = new Set(worldJson.features.map(f => f.properties?.NAME?.toLowerCase()));
@@ -280,12 +280,13 @@ export const WorldTradeMap: React.FC = () => {
     const values = finalMapData.map(item => item.value).filter(v => !isNaN(v));
     const minValue = Math.min(...values);
     const maxValue = Math.max(...values);
+    const maxRange = Math.max(minValue, maxValue)
 
     const option = {
       backgroundColor: '#fff',
       title: {
-        text: 'World Trade Balance Map (2023)',
-        subtext: 'Unit: Trillion USD',
+        text: 'Trade Suprluses and Deficits in $ Billion in 2023',
+        // subtext: 'Unit: Billion USD',
         left: 'center',
         top: 20,
         textStyle: { color: '#333', fontSize: 20 }
@@ -294,13 +295,13 @@ export const WorldTradeMap: React.FC = () => {
         trigger: 'item',
         formatter: (params: any) => {
           const value = params.value || 0;
-          return `${params.name}<br/>Trade ${value >= 0 ? 'Surplus' : 'Deficit'}: ${value.toFixed(6)} Trillion USD`;
+          return `${params.name}<br/>Trade ${value >= 0 ? 'Surplus' : 'Deficit'}: ${value.toFixed(2)} Billion USD`;
         }
       },
       visualMap: {
         left: 'left',
-        min: minValue,
-        max: maxValue,
+        min: maxRange,
+        max: -maxRange,
         text: ['Surplus', 'Deficit'],
         realtime: false,
         calculable: true,
@@ -310,7 +311,7 @@ export const WorldTradeMap: React.FC = () => {
         name: 'Trade Balance',
         type: 'map',
         map: 'world',
-        roam: true,
+        roam: false,
         emphasis: { label: { show: true } },
         data: finalMapData
       }]
@@ -333,7 +334,7 @@ export const WorldTradeMap: React.FC = () => {
   return (
     <div style={{ width: '100%', margin: '20px 0' }}>
       <div ref={chartRef} style={{
-        width: '100%', height: '600px', backgroundColor: '#fff',
+        width: '100%', height: '800px', backgroundColor: '#fff',
         borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
       }} />
     </div>

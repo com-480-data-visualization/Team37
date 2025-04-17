@@ -225,7 +225,7 @@ const countryNameAlias: Record<string, string> = {
 interface TradeData {
     year: string;
     country: string;
-    value_trln_USD: number;
+    value_bln_USD: number;
 }
 
 export const WorldTradeMapAnimated: React.FC = () => {
@@ -287,7 +287,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
         const mapData = yearData.map(item => {
             let name = matchCountryName(item.country, item.country);
             const geoName = geoNameMap[name.toLowerCase()];
-            return { name: geoName || name, value: Number(item.value_trln_USD) || 0 };
+            return { name: geoName || name, value: Number(item.value_bln_USD) || 0 };
         });
 
         const geoNames = worldJson.features.map(f => f.properties?.NAME).filter(Boolean);
@@ -298,24 +298,25 @@ export const WorldTradeMapAnimated: React.FC = () => {
         const values = finalMapData.map(item => item.value).filter(v => !isNaN(v));
         const minValue = Math.min(...values);
         const maxValue = Math.max(...values);
+        const maxRange = Math.max(minValue, maxValue)
 
         const option = {
             backgroundColor: '#fff',
             title: {
                 text: `World Trade Balance Map (${year})`,
-                subtext: 'Unit: Trillion USD',
+                // subtext: 'Unit: Billion USD',
                 left: 'center',
                 top: 20,
                 textStyle: { color: '#333', fontSize: 20 }
             },
             tooltip: {
                 trigger: 'item',
-                formatter: params => `${params.name}<br/>Trade ${params.value >= 0 ? 'Surplus' : 'Deficit'}: ${params.value.toFixed(6)} Trillion USD`
+                formatter: params => `${params.name}<br/>Trade ${params.value >= 0 ? 'Surplus' : 'Deficit'}: ${params.value.toFixed(2)} Billion USD`
             },
             visualMap: {
                 left: 'left',
-                min: minValue,
-                max: maxValue,
+                min: maxRange,
+                max: -maxRange,
                 text: ['Surplus', 'Deficit'],
                 realtime: false,
                 calculable: true,

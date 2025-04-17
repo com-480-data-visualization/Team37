@@ -90,10 +90,13 @@ if __name__ == "__main__":
 
     # Create Absulute $ deficit CSV
     imports, exports, balance = get_totals_by_country(data_df)
-    save_dataframe_to_csv(make_human_readable(balance, cc_df, epc22_df, country_fmt="country_iso3"),
+    to_csv = balance.copy()
+    to_csv["value_trln_USD"] = to_csv["value_trln_USD"].mul(1000.0).round(2)
+    to_csv.rename(columns={"value_trln_USD": "value_bln_USD"}, inplace=True)
+    save_dataframe_to_csv(make_human_readable(to_csv, cc_df, epc22_df, country_fmt="country_iso3"),
                            f"{OUTPUT_DIR}/absolute_deficit_all_years.csv")
     year = 2023
-    save_dataframe_to_csv(make_human_readable(balance[balance["year"] == year], cc_df, epc22_df, country_fmt="country_iso3"),
+    save_dataframe_to_csv(make_human_readable(to_csv[to_csv["year"] == year], cc_df, epc22_df, country_fmt="country_iso3"),
                            f"{OUTPUT_DIR}/absolute_deficit_{year}.csv")
     
     # Create overal $ trade volume CSV - tonnage, inflation-adjusted and as % of GDP

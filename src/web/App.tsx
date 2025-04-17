@@ -10,33 +10,41 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <header>
-        <h1>World Trade Visualization</h1>
-        <p>Visualization Analysis Based on Real Trade Data</p>
+        <h1>The Flow of Goods Around the World</h1>
+        {/* <p>Visualization Analysis Based on Real Trade Data</p> */}
       </header>
       <main>
+
+        {/* Wrap the two charts in a flex container */}
+        <div className="chart-row">
+          <section className="chart-column">
+            <h2>Trade as Percentage of GDP</h2>
+            <TradeGDPChart />
+          </section>
+          <section className="chart-column">
+            <h2>Global Trade by Weight</h2>
+            <TradeWeightChart />
+          </section>
+        </div>
+        {/* End of the flex container */}
+
         <section>
-          <h2>World Trade Balance Map (Animated)</h2>
-          <WorldTradeMapAnimated />
-        </section>
-        <section>
-          <h2>Global Trade Balance Map (2023)</h2>
           <WorldTradeMap />
         </section>
         <section>
           <h2>Trade Balance Distribution</h2>
           <TradeBalanceDistribution />
         </section>
-        <section>
-          <h2>Trade as Percentage of GDP</h2>
-          <TradeGDPChart />
-        </section>
-        <section>
-          <h2>Global Trade by Weight</h2>
-          <TradeWeightChart />
-        </section>
+
+
+
         <section>
           <h2>Trade Balance Trends</h2>
           <TradeTrendChart />
+        </section>
+        <section>
+          <h2>World Trade Balance Map (Animated)</h2>
+          <WorldTradeMapAnimated />
         </section>
       </main>
     </div>

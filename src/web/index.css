@@ -17,6 +17,32 @@ body {
   padding: 20px;
 }
 
+/* In src/web/index.css */
+
+.chart-row {
+  display: flex; /* Enables flexbox layout */
+  flex-wrap: wrap; /* Allows items to wrap onto the next line on smaller screens */
+  gap: 20px; /* Adds space between the columns (adjust as needed) */
+  margin-bottom: 20px; /* Adds some space below the row */
+}
+
+.chart-column {
+  flex: 1; /* Allows each column to grow and take up equal space */
+  min-width: 300px; /* Optional: Prevents columns from becoming too narrow before wrapping */
+  /* If you want exactly 50% width minus the gap, you could use calc: */
+  /* width: calc(50% - 10px); */ /* (where 10px is half the gap) */
+  /* However, flex: 1 is usually more flexible */
+}
+
+/* Optional: Ensure the chart divs inside the columns behave correctly */
+.chart-column > div[style*="height"] { /* Target the div holding the echart */
+  width: 100% !important; /* Ensure it takes the full width of the column */
+  /* Height might need adjustment if you want them to be uniform, */
+  /* but the fixed height in the components might be sufficient. */
+}
+
+
+
 header {
   text-align: center;
   margin-bottom: 40px;
