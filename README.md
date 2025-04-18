@@ -118,6 +118,8 @@ There are the source of inspiration.
 
 **10% of the final grade**
 
+Find the Milestone 2 deliverable in `Milestone 2/`.
+
 
 ## Milestone 3 (30th May, 5pm)
 
