@@ -19,8 +19,8 @@ export const TradeWeightChart: React.FC = () => {
     const option = {
       backgroundColor: '#fff',
       title: {
-        text: 'Global Goods Trade by Weight',
-        subtext: 'Unit: Million Metric Tons',
+        // text: 'Global Goods Trade by Weight',
+        // subtext: 'Unit: Million Metric Tons',
         left: 'center',
         top: 20,
         textStyle: {
@@ -35,15 +35,16 @@ export const TradeWeightChart: React.FC = () => {
           const gizaPyramid = value / 5.9; // The Pyramids of Giza weigh about 5.9 million tons.
           const cars = value / 1.4; // Total global vehicle weight of about 140 million tons
           return `Year ${params[0].axisValue}<br/>
-            Total Weight: ${value.toFixed(0)}M metric tons<br/>
-            Equivalent to: ${gizaPyramid.toFixed(0)}x Pyramid of Giza<br/>
-            Or ${cars.toFixed(0)}x all active cars in the world`;
+            Total Weight: ${value.toFixed(0)}M metric tons<br/>`;
+            // Equivalent to: ${gizaPyramid.toFixed(0)}x Pyramid of Giza<br/>
+            // Or ${cars.toFixed(0)}x all active cars in the world`;
         }
       },
       grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '3%',
+        left: '6%',
+        right: '6%',
+        bottom: '5%',
+        top: '5%',
         containLabel: true
       },
       xAxis: {
@@ -51,14 +52,26 @@ export const TradeWeightChart: React.FC = () => {
         boundaryGap: false,
         data: tradeData.map(item => item.year),
         axisLabel: {
-          formatter: '{value}'
+          formatter: '{value}',
+          fontSize: 16
         }
       },
       yAxis: {
         type: 'value',
-        name: 'Weight (Million Metric Tons)',
+        position: 'right',
+        name: 'Weight (Metric Tons)',
+        nameLocation: 'middle', // Position the title in the middle vertically
+        nameGap: 55, // Adjust this value to control the distance from the axis labels
+        nameTextStyle: {
+          verticalAlign: 'middle', // Ensures vertical centering
+          align: 'center', // Ensures horizontal centering relative to the axis line
+          padding: [0, 0, 0, 0],
+          rotate: 90,
+          fontSize: 18
+        },
         axisLabel: {
-          formatter: '{value}M'
+          formatter: '{value}B',
+          fontSize: 16
         }
       },
       series: [
@@ -70,10 +83,26 @@ export const TradeWeightChart: React.FC = () => {
           symbol: 'circle',
           symbolSize: 5,
           lineStyle: {
-            width: 2
+            width: 10,
+            color: '#808080'
+          },
+          itemStyle: {
+            color: '#808080'
           },
           areaStyle: {
-            opacity: 0.3
+            color: new echarts.graphic.LinearGradient(
+              0, 0, 0, 1, // Defines a vertical gradient (from top y=0 to bottom y=1)
+              [
+                {
+                  offset: 0, // Start of the gradient (at the line)
+                  color: 'rgba(128, 128, 128, 1.0)'
+                },
+                {
+                  offset: 1, // End of the gradient (at the bottom)
+                  color: 'rgba(128, 128, 128, 0)'
+                }
+              ]
+            )
           }
         }
       ]

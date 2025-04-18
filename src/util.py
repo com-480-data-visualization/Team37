@@ -303,10 +303,11 @@ def make_human_readable(df_in, cc_df, epc22_df, country_fmt=None, product_fmt=No
 
     if product_fmt:
         if product_fmt != 'hscode' and product_fmt != 'description':
-            if 'product_chapter' in df.columns:
-                df['product_chapter'] = df['product_chapter'].map(epc22_df.set_index('hscode')['description'])
-            else:
-                raise ValueError(f"No column product_chapter in {df.columns}")
+            raise ValueError(f"Country format {country_fmt} is invalid")
+        if 'product_chapter' in df.columns:
+            df['product_chapter'] = df['product_chapter'].map(epc22_df.set_index('hscode')[product_fmt])
+        else:
+            raise ValueError(f"No column product_chapter in {df.columns}")
 
     return df
     
@@ -349,3 +350,36 @@ def adjust_for_inflation(nominal_df, cpi_df, target_year, nominal_col="world_nom
     
     # Return only the relevant columns
     return merged_df[['year', nominal_col, adjusted_column_name]]
+
+
+def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n):
+    # keep only 2023 and group smaller values
+    tmp = chapter_totals[chapter_totals["year"] == year][["product_chapter", "value_trln_USD", "quantity_mln_metric_tons"]].copy()
+
+    # Pre-group some categories with too much detail TODO: CHECK chapters one by one AND EXPAND
+    food_rows = tmp[tmp["product_chapter"].isin(food_chapters)]
+    food_row = {"product_chapter": "Food Related",
+                  "value_trln_USD": food_rows["value_trln_USD"].sum(),
+                  "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum()
+                  }
+    # drop food rows from tmp
+    tmp = tmp[~tmp["product_chapter"].isin(food_chapters)]
+
+    # Convert chapters to human-readable names
+    tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
+
+    # Add food row to tmp to be considered for top_n
+    tmp = pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
+    tmp = tmp.sort_values(by=["value_trln_USD"], ascending=False)
+
+
+    # Keep
+    to_csv = tmp.iloc[:keep_top_n, :]
+    other_row = {"product_chapter": "Other",
+                  "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
+                  "quantity_mln_metric_tons": tmp.iloc[keep_top_n:]["quantity_mln_metric_tons"].sum()
+                  }
+    # Add other row
+    to_csv = pd.concat([to_csv, pd.DataFrame([other_row])], ignore_index=True)
+
+    return to_csv

@@ -20,3 +20,8 @@ symbol_to_colname = {"t": "year", "i": "exporter", "j": "importer", "k": "produc
 # For the notebook
 # datadir = "../../data/BACI_HS92_V202501"
 # other_datadir = "../../data"
+
+# Trade Specific
+# Consider 01, 05, 
+food_chapters = ["02", "03", "04", "07", "08", "09", "10", "11", "12", "13", "14",
+                "15", "16", "17", "18", "19", "20", "21"]

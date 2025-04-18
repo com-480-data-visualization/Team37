@@ -11,54 +11,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.app {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* In src/web/index.css */
-
-.chart-row {
-  display: flex; /* Enables flexbox layout */
-  flex-wrap: wrap; /* Allows items to wrap onto the next line on smaller screens */
-  gap: 20px; /* Adds space between the columns (adjust as needed) */
-  margin-bottom: 20px; /* Adds some space below the row */
-}
-
-.chart-column {
-  flex: 1; /* Allows each column to grow and take up equal space */
-  min-width: 300px; /* Optional: Prevents columns from becoming too narrow before wrapping */
-  /* If you want exactly 50% width minus the gap, you could use calc: */
-  /* width: calc(50% - 10px); */ /* (where 10px is half the gap) */
-  /* However, flex: 1 is usually more flexible */
-}
-
-/* Optional: Ensure the chart divs inside the columns behave correctly */
-.chart-column > div[style*="height"] { /* Target the div holding the echart */
-  width: 100% !important; /* Ensure it takes the full width of the column */
-  /* Height might need adjustment if you want them to be uniform, */
-  /* but the fixed height in the components might be sufficient. */
-}
-
-
-
-header {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-h1 {
-  color: #2c3e50;
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-header p {
-  color: #666;
-  font-size: 1.1rem;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -85,3 +37,98 @@ section {
     padding: 10px;
   }
 } 
+
+/**************************** Text ***************************/
+header h1 {
+  margin-bottom: 0.2em; /* Reduce default h1 margin if needed */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/*********************** Custom Classes ***********************/
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chart-row {
+  display: flex; /* Enables flexbox layout */
+  flex-wrap: wrap; /* Allows items to wrap onto the next line on smaller screens */
+  gap: 20px; /* Adds space between the columns (adjust as needed) */
+  margin-bottom: 20px; /* Adds some space below the row */
+}
+
+.chart-column {
+  flex: 1; /* Allows each column to grow and take up equal space */
+  min-width: 300px; /* Optional: Prevents columns from becoming too narrow before wrapping */
+  /* If you want exactly 50% width minus the gap, you could use calc: */
+  /* width: calc(50% - 10px); */ /* (where 10px is half the gap) */
+  /* However, flex: 1 is usually more flexible */
+}
+
+.chart-column > div[style*="height"] { /* Target the div holding the echart */
+  width: 100% !important; /* Ensure it takes the full width of the column */
+  /* Height might need adjustment if you want them to be uniform, */
+  /* but the fixed height in the components might be sufficient. */
+}
+
+.description-text {
+  margin-top: 0.5em; /* Adds some space below the h1 */
+  margin-bottom: 2em; /* Adds some space above the main content */
+  color: #333; /* Or your desired text color */
+  font-size: 1.4rem; /* Slightly larger font size */
+  line-height: 1.8; /* Improves readability */
+  max-width: 1200px; /* Limits the width on larger screens */
+  margin-left: auto;  /* Centers the text block */
+  margin-right: auto; /* Centers the text block */
+  text-align: center; /* Centers the text itself. Use 'left' or 'justify' if preferred. */
+  padding: 1em 1em; /* Adds some padding on the sides */
+}
+
+/*********************** Temporary ***********************/
+
+
+/* Styles for the new Image/Text Section */
+.image-text-section {
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Vertically center items in the row */
+  gap: 30px; /* Space between the image and text columns */
+  margin-top: 40px; /* Space above this section */
+  margin-bottom: 40px; /* Space below this section */
+  padding: 20px; /* Optional padding inside the section */
+  background-color: #ffffff; /* Optional subtle background */
+  border-radius: 8px; /* Optional rounded corners */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05); /* Optional subtle shadow */
+}
+
+.image-column {
+  flex: 1; /* Make image column take up 1 part of the available space */
+  /* Or use flex-basis: 50%; */
+}
+
+.text-column {
+  flex: 1; /* Make text column take up 1 part of the available space */
+  /* Or use flex-basis: 50%; */
+}
+
+.section-image {
+  display: block; /* Prevents extra space below the image */
+  max-width: 80%; /* Make image responsive, scale down if needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners for the image */
+}

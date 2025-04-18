@@ -303,7 +303,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
         const option = {
             backgroundColor: '#fff',
             title: {
-                text: `World Trade Balance Map (${year})`,
+                text: `Trade Balance in Nominal USD (${year})`,
                 // subtext: 'Unit: Billion USD',
                 left: 'center',
                 top: 20,
@@ -326,7 +326,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 name: 'Trade Balance',
                 type: 'map',
                 map: 'world',
-                roam: true,
+                roam: false,
                 emphasis: { label: { show: true } },
                 data: finalMapData
             }]
