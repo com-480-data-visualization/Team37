@@ -16,14 +16,14 @@ main {
   flex-direction: column;
   gap: 20px;
 }
-
+/* this one adds extra borders --- remove
 section {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-
+*/
 @media (max-width: 768px) {
   .app {
     padding: 10px;
@@ -40,12 +40,15 @@ section {
 
 /**************************** Text ***************************/
 header h1 {
-  margin-bottom: 0.2em; /* Reduce default h1 margin if needed */
+  /* margin-bottom: 0.2em; /* Reduce default h1 margin if needed */ */
 }
 
 header {
+  /* margin-bottom: 40px; */
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 h1 {
@@ -61,16 +64,34 @@ header p {
 
 /*********************** Custom Classes ***********************/
 .app {
-  max-width: 1200px;
+  max-width: 95%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
+}
+
+/* Full page sections */
+.fullpage-section {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
 
 .chart-row {
-  display: flex; /* Enables flexbox layout */
-  flex-wrap: wrap; /* Allows items to wrap onto the next line on smaller screens */
-  gap: 20px; /* Adds space between the columns (adjust as needed) */
-  margin-bottom: 20px; /* Adds some space below the row */
+  /*
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+  */
+  display: flex;
+  gap: 2rem;
+  width: 95%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  align-items: center;
 }
 
 .chart-column {
@@ -105,24 +126,28 @@ header p {
 
 /* Styles for the new Image/Text Section */
 .image-text-section {
-  display: flex; /* Enable Flexbox */
-  align-items: center; /* Vertically center items in the row */
-  gap: 30px; /* Space between the image and text columns */
-  margin-top: 40px; /* Space above this section */
-  margin-bottom: 40px; /* Space below this section */
-  padding: 20px; /* Optional padding inside the section */
-  background-color: #ffffff; /* Optional subtle background */
-  border-radius: 8px; /* Optional rounded corners */
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05); /* Optional subtle shadow */
+  /*
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  */
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
 }
 
 .image-column {
   flex: 1; /* Make image column take up 1 part of the available space */
-  /* Or use flex-basis: 50%; */
-}
-
-.text-column {
-  flex: 1; /* Make text column take up 1 part of the available space */
   /* Or use flex-basis: 50%; */
 }
 
@@ -241,13 +266,6 @@ header p {
   flex: 1;
 }
 
-.text-column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .section-image {
   width: 100%;
   height: auto;
@@ -261,16 +279,28 @@ header p {
   margin: 3rem 0;
 }
 
-.chart-column {
+.chart-column, .text-column {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .image-text-section,
-  .chart-row {
+  .chart-row, .image-text-section {
     flex-direction: column;
+    padding: 10px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .description-text {
+    padding: 0 10px;
   }
 }

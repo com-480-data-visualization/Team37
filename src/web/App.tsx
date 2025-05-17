@@ -15,9 +15,32 @@ import { inView, animate} from 'framer-motion';
 import placeholder_cars from './assets/tmp_cars_world.png';
 
 const App: React.FC = () => {
+  const sectionStyle = {
+    minHeight: '100vh',
+    width: '100%',
+    padding: '2rem',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center'
+  };
+
+  const nullStyle = {} // for debugging...
+
+  const fullPageStyle = {
+    minHeight: '100vh',
+    width: '100%',
+    padding: '0', // Remove padding from sections
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    backgroundColor: 'transparent', // Ensure no background
+    boxShadow: 'none', // Remove any shadow
+    border: 'none' // Remove any borders
+  };
+
   return (
     <div className="app">
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper style={fullPageStyle}>
         <section className="intro">
           <header>
             <h1>The Flow of Goods Around the World</h1>
@@ -35,13 +58,14 @@ const App: React.FC = () => {
 
         {/* Wrap the two charts in a flex container */}
         <div className="chart-row">
-          <ScrollAnimationWrapper>
+          <ScrollAnimationWrapper style={fullPageStyle}>
           <section className="chart-column">
             <h2>What percentage of global economic activity is conducted through trade?</h2>
             <TradeGDPChart />
           </section>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper>
+
+          <ScrollAnimationWrapper style={fullPageStyle}>
           <section className="chart-column">
             <h2>How much "stuff" does humanity shuffle around the world? </h2>
             <TradeWeightChart />
@@ -50,7 +74,7 @@ const App: React.FC = () => {
         </div>
         {/* End of the flex container */}
 
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper style={fullPageStyle}>
         <section className="image-text-section"> {/* Container for the row */}
           <div className="image-column"> {/* Left column for image */}
             <img
@@ -73,7 +97,7 @@ const App: React.FC = () => {
         </section>
         </ScrollAnimationWrapper>
 
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper style={fullPageStyle}>
         <section>
           <p className="description-text"> In Dollar terms, some countries consume more material
             goods than they create.
@@ -86,7 +110,7 @@ const App: React.FC = () => {
         </section>
         </ScrollAnimationWrapper>
 
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper style={fullPageStyle}>
         <section>
           <h2>What Categories of Goods Dominate Global Trade Value? (2023)</h2>
           <p className="description-text">
@@ -115,7 +139,7 @@ const App: React.FC = () => {
           <TradeTrendChart />
         </section> */}
 
-        <ScrollAnimationWrapper>
+        <ScrollAnimationWrapper style={fullPageStyle}>
         <section>
           <p className="description-text"> Freely explore the location of deficits and surpluces for
             specific goods categories for any year after 1995.
