@@ -132,3 +132,92 @@ header p {
   height: auto; /* Maintain aspect ratio */
   border-radius: 8px; /* Optional: Rounded corners for the image */
 }
+
+#food-gallery {
+  width: 98vw;
+  margin-left: -49vw;
+  left: 50%;
+  position: relative;
+  background: #f8f9fa;
+}
+
+#food-gallery h3 {
+  font-family: "Azeret Mono", monospace;
+  color: #333;
+  background: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+#food-gallery header,
+#food-gallery footer {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img-group-container {
+  height: 500vh;
+  position: relative;
+}
+
+.img-group-container > div {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.img-group {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.img-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#food-gallery header h2 {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #27ae60;
+  bottom: 50px;
+  transform-origin: left;
+  z-index: 100;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #food-gallery header h2 {
+    font-size: 36px;
+  }
+  
+  .img-container h3 {
+    font-size: 24px;
+  }
+}

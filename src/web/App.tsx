@@ -1,24 +1,19 @@
 import React from 'react';
 import { WorldTradeMap } from "./components/WorldTradeMap";
-import { FoodTradeMap } from "./components/FoodTradeMap";
 import { TradeTrendChart } from "./components/TradeTrendChart";
 import { TradeGDPChart } from "./components/TradeGDPChart";
 import { TradeWeightChart } from "./components/TradeWeightChart";
 import { TradeBalanceDistribution } from "./components/TradeBalanceDistribution";
 import { WorldTradeMapAnimated } from "./components/WorldTradeMapAnimated";
 import { ChapterTotalsBarChart } from "./components/ChapterTotalsBarChart";
-import { Parallax } from 'react-scroll-parallax';
-import { ParallaxProvider } from 'react-scroll-parallax';
-import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
+import { FoodSection } from './components/FoodSection';
 
 
 /* TODO: TMP */
 import placeholder_cars from './assets/tmp_cars_world.png';
-import placeholder_yemen from './assets/yemen.png';
 
 const App: React.FC = () => {
   return (
-    <ParallaxProvider>
     <div className="app">
       <header>
         <h1>The Flow of Goods Around the World</h1>
@@ -90,60 +85,14 @@ const App: React.FC = () => {
           <TradeBalanceDistribution />
         </section> */}
 
-        <section>
+        {/*<section>
           <h1>  FOOD </h1>
           <p className="description-text"> 
           </p>
           <FoodTradeMap />
-        </section>
+        </section> */}
 
-        <section className="image-text-section"> {/* Container for the row */}
-            <ParallaxBanner style={{ aspectRatio: '2/1', margin: '2rem 0' }}>
-              <ParallaxBannerLayer speed={-15}>
-                {/*<div className="image-column"> {/* Left column for image } */}
-                  <div style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: '100%',
-                    width: '100%',
-                    overflow: 'hidden'
-                  }}>
-                  <img
-                    src={placeholder_yemen}
-                    alt="Descriptive text"
-                    className="section-image" // Class for specific image styling
-                  />
-                </div>
-              </ParallaxBannerLayer>
-              <ParallaxBannerLayer speed={5}>
-                {/* <h2>Title</h2> */}
-                  <div style={{
-                    padding: '2rem',
-                    color: 'white', // White text
-                    maxWidth: '100%',
-                    position: 'relative',
-                    zIndex: 2 // Ensure text stays above overlay
-                  }}>
-                <p className="description-text" style={{ color: 'inherit' }}>
-                  {/* @yq: text belong to the previous section. comment out for now.
-                  In dollar terms, Brazil produces a surplus of food-related goods that is similar to China's deficit.
-                  Even though this is the largest food-related trade defficit in the world, it is still only approximately 0.6% of China's total GDP.
-
-                  <br />
-                  <br /> */}
-                  {/* @yq: the yemen text should be much more concise. We're doing presentation, not a full blown paper */}
-                  In contrast, Yemen's food-related imports are 17.5% of the country's GDP.
-                  <br />
-                  The environment is unsuitable for efficient large-scale agriculture which led the country of 39 million people to have a high depence on food imports.
-                  {/* (Placeholder Figure) */}
-                </p>
-              </div>
-            </ParallaxBannerLayer>
-            </ParallaxBanner>
-          </section>
-
-
+        <FoodSection />
 
         {/* <section>
           <h2>Trade Balance Trends</h2>
@@ -159,7 +108,6 @@ const App: React.FC = () => {
         </section>
       </main>
     </div>
-    </ParallaxProvider>
   );
 };
 
