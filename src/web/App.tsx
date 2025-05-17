@@ -37,7 +37,7 @@ const App: React.FC = () => {
         </ScrollAnimationWrapper>
       <main>
 
-        <VerticalScrollSection items={[
+        <VerticalScrollSection title="Introduction" items={[
           { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
           { title: "How much \"stuff\" does humanity shuffle around the world?", content: <TradeWeightChart/> }
         ]} />
