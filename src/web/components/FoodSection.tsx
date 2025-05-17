@@ -56,7 +56,7 @@ export const FoodSection = () => {
             <li className="img-container">
               <div style={{ width: '100%', height: '100%', display: 'flex', padding: '20px'}}>
 
-                {/* Image container (60-70% width) */}
+                {/* @yc: @kp we need to update the yemen image, at least circling out the country.  */}
                 <div style={{width: '65%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', paddingRight: '20px'}}>
                   <img 
                     src={placeholder_yemen} 
@@ -71,7 +71,7 @@ export const FoodSection = () => {
                   />
                 </div>
 
-                {/* Text container (35% width) */}
+                {/* @yc: The description text needs to be number-focused and significantly shorter */}
                 <div style={{width: '35%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '30px', backgroundColor: 'rgba(255,255,255,0.85)', borderRadius: '8px', boxShadow: '0 2px 10px rgba(0,0,0,0.1)'}}>
                   <p style={{color: '#333', lineHeight: '1.6', fontSize: '16px'}}>
                   In contrast, Yemen's food-related imports are 17.5% of the country's GDP.
