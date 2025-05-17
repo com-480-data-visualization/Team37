@@ -130,12 +130,11 @@ export const TradeWeightChart: React.FC = () => {
     <div 
       ref={chartRef} 
       style={{ 
-        width: '100%', 
-        height: '400px',
+        width: '95%',
+        height: '600px',
         backgroundColor: '#fff',
-        borderRadius: '8px',
-        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-        marginTop: '20px'
+        borderRadius: '98%',
+        marginTop: '1%'
       }} 
     />
   );
