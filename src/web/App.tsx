@@ -8,36 +8,17 @@ import { WorldTradeMapAnimated } from "./components/WorldTradeMapAnimated";
 import { ChapterTotalsBarChart } from "./components/ChapterTotalsBarChart";
 import { FoodSection } from './components/FoodSection';
 import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
+import { VerticalScrollSection } from './components/VerticalScrollSection';
+import { fullPageStyle } from './components/FullPageStyle';
+
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
+import { FoodTradeMap } from "./components/FoodTradeMap";
 
 /* TODO: TMP */
 import placeholder_cars from './assets/tmp_cars_world.png';
 
 const App: React.FC = () => {
-  const sectionStyle = {
-    minHeight: '100vh',
-    width: '100%',
-    padding: '2rem',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center'
-  };
-
-  const nullStyle = {} // for debugging...
-
-  const fullPageStyle = {
-    minHeight: '100vh',
-    width: '100%',
-    padding: '0', // Remove padding from sections
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    backgroundColor: 'transparent', // Ensure no background
-    boxShadow: 'none', // Remove any shadow
-    border: 'none' // Remove any borders
-  };
-
   return (
     <div className="app">
         <ScrollAnimationWrapper style={fullPageStyle}>
@@ -56,23 +37,10 @@ const App: React.FC = () => {
         </ScrollAnimationWrapper>
       <main>
 
-        {/* Wrap the two charts in a flex container */}
-        <div className="chart-row">
-          <ScrollAnimationWrapper style={fullPageStyle}>
-          <section className="chart-column">
-            <h2>What percentage of global economic activity is conducted through trade?</h2>
-            <TradeGDPChart />
-          </section>
-          </ScrollAnimationWrapper>
-
-          <ScrollAnimationWrapper style={fullPageStyle}>
-          <section className="chart-column">
-            <h2>How much "stuff" does humanity shuffle around the world? </h2>
-            <TradeWeightChart />
-          </section>
-          </ScrollAnimationWrapper>
-        </div>
-        {/* End of the flex container */}
+        <VerticalScrollSection items={[
+          { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
+          { title: "How much \"stuff\" does humanity shuffle around the world?", content: <TradeWeightChart/> }
+        ]} />
 
         <ScrollAnimationWrapper style={fullPageStyle}>
         <section className="image-text-section"> {/* Container for the row */}

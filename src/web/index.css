@@ -304,3 +304,20 @@ header p {
     padding: 0 10px;
   }
 }
+
+.scroll-section-header {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .scroll-section-header {
+    font-size: 36px;
+    letter-spacing: -0.5px;
+  }
+}
