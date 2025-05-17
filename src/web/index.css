@@ -221,3 +221,56 @@ header p {
     font-size: 24px;
   }
 }
+
+/* Base styles for scroll animations */
+.scroll-section {
+  width: 100%;
+  margin: 2rem 0;
+  opacity: 0; /* Start invisible */
+  transform: translateX(-50px); /* Start slightly to the left */
+}
+
+/* Specific section styles */
+.image-text-section {
+  display: flex;
+  gap: 2rem;
+  min-height: 60vh;
+}
+
+.image-column {
+  flex: 1;
+}
+
+.text-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.chart-row {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.chart-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .image-text-section,
+  .chart-row {
+    flex-direction: column;
+  }
+}
