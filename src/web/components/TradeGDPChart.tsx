@@ -107,46 +107,41 @@ export const TradeGDPChart: React.FC = () => {
           fontSize: 16
         }
       },
-      series: [
-        {
-          name: 'Trade as % of GDP',
-          type: 'line',
-          data: tradeData.map(item => ({
-            value: item.trade_pcn_gdp,
-            itemStyle: {
-              color: eventData[item.year] ? '#FF6B6B' : '#85BB65'
-            }
-          })),
-          smooth: true,
-          symbol: 'circle',
-          symbolSize: function (data: any) {
-            return eventData[data[0]] ? 10 : 5;
-          },
-          lineStyle: {
-            width: 10,
-            color: '#85BB65'
-          },
+      series: [{
+        name: 'Trade as % of GDP',
+        type: 'line',
+        data: tradeData.map(item => ({
+          value: item.trade_pcn_gdp,
           itemStyle: {
-            color: '#85BB65'
+            color: eventData[item.year] ? '#FF6B6B' : '#85BB65',
+            borderColor: eventData[item.year] ? '#FFF' : 'transparent',
+            borderWidth: eventData[item.year] ? 2 : 0,
+            shadowColor: eventData[item.year] ? 'rgba(255,107,107,0.5)' : 'transparent',
+            shadowBlur: eventData[item.year] ? 10 : 0
           },
-          emphasis: {
-            itemStyle: {
-              color: '#FF6B6B',
-              borderWidth: 2,
-              borderColor: '#FFF'
-            }
+          symbolSize: eventData[item.year] ? 14 : 6,
+          symbol: eventData[item.year] ? 'roundRect' : 'circle',
+        })),
+        smooth: true,
+        lineStyle: {
+          width: 3, // Slightly thinner line
+          color: '#85BB65'
+        },
+        emphasis: { // Hover effects
+          scale: true,
+          itemStyle: {
+            color: '#FF6B6B',
+            borderColor: '#FFF',
+            borderWidth: 3,
+            shadowColor: 'rgba(255,107,107,0.8)',
+            shadowBlur: 15
           },
-          areaStyle: {
-            color: new echarts.graphic.LinearGradient(
-              0, 0, 0, 1,
-              [
-                { offset: 0, color: 'rgba(133, 187, 101, 1.0)' },
-                { offset: 1, color: 'rgba(133, 187, 101, 0)' }
-              ]
-            )
+          symbolSize: function (data: any) {
+            return eventData[data[0]] ? 18 : 8;
           }
         }
-      ]
+      }
+    ]
     };
 
     chart.setOption(option);
