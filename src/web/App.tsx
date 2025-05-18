@@ -10,6 +10,7 @@ import { FoodSection } from './components/FoodSection';
 import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
+import { ZoomScroll } from './components/ZoomScroll'
 
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
@@ -65,7 +66,7 @@ const App: React.FC = () => {
         </section>
         </ScrollAnimationWrapper>
 
-        <ScrollAnimationWrapper style={fullPageStyle}>
+        {/*<ScrollAnimationWrapper style={fullPageStyle}>
         <section>
           <p className="description-text"> In Dollar terms, some countries consume more material
             goods than they create.
@@ -76,7 +77,14 @@ const App: React.FC = () => {
           </p>
           <WorldTradeMap />
         </section>
+        </ScrollAnimationWrapper> */}
+
+        <ScrollAnimationWrapper style={fullPageStyle}>
+          <ZoomScroll items={[
+            { title: "In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.", content: <WorldTradeMap /> },
+          ]} />
         </ScrollAnimationWrapper>
+
 
         <ScrollAnimationWrapper style={fullPageStyle}>
         <section>
