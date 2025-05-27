@@ -11,3 +11,5 @@ pandas
 # Visualization
 matplotlib
 seaborn
+
+tqdm

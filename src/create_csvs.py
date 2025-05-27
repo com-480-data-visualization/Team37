@@ -2,6 +2,7 @@ import os
 from util import *
 from data_manip import *
 from params import *
+from tqdm import tqdm
 
 
 def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
@@ -16,12 +17,13 @@ def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df
       .rename_axis("product_chapter")                # keys become index name
       .reset_index()                                 # back to two columns
 )
-    print(pd.DataFrame(prod_chap_df))
     save_dataframe_to_csv(prod_chap_df, f"{OUTPUT_DIR_INTERACTIVE}/prod_chap_to_description.csv")
 
 
     # For each country
-    for cc in country_codes:
+    print(f"Creating CSVs for each country for the interactive section")
+    for cc in tqdm(country_codes):
+
         # Produce a (Year x Chapter x [total_imports, total_exports, balance] = 18 * 220 * 3 = 11800 rows
         cc_import_view, cc_export_view = get_imports_exports_for_country_per_year_chapter(data_df, cc)
         cc_import_view.drop(columns=['quantity_mln_metric_tons'], inplace=True)
@@ -36,7 +38,8 @@ def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df
 
         country_name = get_country_name(cc, cc_df, 'country_iso3')
         save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/surplus_deficit_by_chapter.csv")
-        break
+
+        # Produce a  rows
 
 def produce_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
     # # Create Absulute $ deficit CSV
