@@ -12,27 +12,32 @@ const eventData = {
   "1995": {
     title: "WTO Established",
     description: "World Trade Organization officially begins operation on January 1, 1995.",
-    imageUrl: "./assets/wto.png"
+    imageUrl: "./assets/wto.png",
+    newsUrl: "https://en.wikipedia.org/wiki/World_Trade_Organization"
   },
   "2001": {
     title: "China joined WTO",
     description: "Jesus Christ pls save me from this huge trade deficit.",
-    imageUrl: "./assets/wto-china.jpg"
+    imageUrl: "./assets/wto-china.jpg",
+    newsUrl: "https://www.wto.org/english/thewto_e/acc_e/s7lu_e.pdf"
   },
   "2008": {
     title: "Global Financial Crisis",
     description: "Trade volumes dropped sharply during the financial crisis.",
-    imageUrl: "./assets/2008-mortgage.webp"
+    imageUrl: "./assets/2008-mortgage.webp",
+    newsUrl: "https://en.wikipedia.org/wiki/2008_financial_crisis"
   },
   "2016": {
     title: "MAKE AMERICA GREAT AGAIN!!!!!!!!!!!!!!!",
     description: "CHINA!!!!!!!!!!!!!!!!!!!!!",
-    imageUrl: "./assets/trump_mad.webp"
+    imageUrl: "./assets/trump_mad.webp",
+    newsUrl: "https://www.bbc.com/news/election-us-2016-37920175"
   },
   "2020": {
     title: "COVID-19 Pandemic",
     description: "Global trade was significantly disrupted by pandemic lockdowns.",
-    imageUrl: "./assets/corona.jpg"
+    imageUrl: "./assets/corona.jpg",
+    newsUrl: "https://www.who.int/news/item/29-06-2020-covidtimeline"
   }
 };
 
@@ -57,22 +62,7 @@ export const TradeGDPChart: React.FC = () => {
         }
       },
       tooltip: {
-        trigger: 'axis',
-        formatter: function (params: any) {
-          const year = params[0].axisValue;
-          const event = eventData[year];
-          if (event) {
-            return `
-              <div style="font-weight:bold;margin-bottom:5px;text-align:center">${event.title} (${year})</div>
-              <div style="text-align:center;margin-bottom:5px">${event.description}</div>
-              <div style="display:flex;justify-content:center;margin:10px 0">
-                <img src="${event.imageUrl}" style="max-width:100%;max-height:100px;border-radius:4px;display:block"/>
-              </div>
-              <div style="margin-top:5px;text-align:center">Trade: ${params[0].value.toFixed(2)}% of GDP</div>
-            `;
-          }
-          return `Year ${year}<br/>Trade as % of GDP: ${params[0].value.toFixed(2)}%`;
-        }
+        show: false
       },
       grid: {
         left: '6%',
@@ -183,49 +173,73 @@ export const TradeGDPChart: React.FC = () => {
       />
       
       {/* Custom popup for clicked points */}
-      {selectedPoint && eventData[selectedPoint.year] && (
-        <div style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          backgroundColor: 'white',
-          padding: '20px',
-          borderRadius: '8px',
-          boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-          zIndex: 1000,
-          maxWidth: '400px'
-        }}>
-          <button 
-            onClick={() => setSelectedPoint(null)}
-            style={{
+      {selectedPoint && eventData[selectedPoint.year] && (() => {
+        // Calculate the left position and clamp it to avoid overflow
+        const yearPercent = (parseInt(selectedPoint.year) - 1995) * (100 / (2023 - 1995));
+        const safePercent = Math.max(10, Math.min(90, yearPercent));
+        return (
+          <>
+            {/* Overlay: click to close popup */}
+            <div
+              style={{
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                width: '100vw',
+                height: '100vh',
+                zIndex: 999, // Lower than popup
+                background: 'rgba(0,0,0,0)', // Fully transparent
+              }}
+              onClick={() => setSelectedPoint(null)}
+            />
+            {/* Popup */}
+            <div style={{
               position: 'absolute',
-              top: '10px',
-              right: '10px',
-              background: 'none',
-              border: 'none',
-              fontSize: '18px',
-              cursor: 'pointer'
-            }}
-          >
-
-          </button>
-          <h3 style={{ marginTop: 0 }}>
-            {eventData[selectedPoint.year].title} ({selectedPoint.year})
-          </h3>
-          <p>{eventData[selectedPoint.year].description}</p>
-          <img 
-            src={eventData[selectedPoint.year].imageUrl} 
-            alt={eventData[selectedPoint.year].title}
-            style={{ 
-              width: '100%', 
-              borderRadius: '4px',
-              margin: '10px 0'
-            }}
-          />
-          <p>Trade: {selectedPoint.value.toFixed(2)}% of GDP</p>
-        </div>
-      )}
+              top: '50%',
+              left: `${safePercent}%`,
+              transform: 'translate(-50%, -50%)',
+              backgroundColor: 'white',
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+              zIndex: 1000,
+              maxWidth: '200px',
+              transition: 'left 0.3s ease-in-out'
+            }}>
+              <button 
+                onClick={() => setSelectedPoint(null)}
+                style={{
+                  position: 'absolute',
+                  top: '10px',
+                  right: '10px',
+                  background: 'none',
+                  border: 'none',
+                  fontSize: '18px',
+                  cursor: 'pointer'
+                }}
+              >
+              </button>
+              <h3 style={{ marginTop: 0, fontSize: '1.05rem', lineHeight: 1.2 }}>
+                {eventData[selectedPoint.year].title} ({selectedPoint.year})
+              </h3>
+              <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>{eventData[selectedPoint.year].description}</p>
+              <a href={eventData[selectedPoint.year].newsUrl} target="_blank" rel="noopener noreferrer">
+                <img 
+                  src={eventData[selectedPoint.year].imageUrl} 
+                  alt={eventData[selectedPoint.year].title}
+                  style={{ 
+                    width: '100%', 
+                    borderRadius: '4px',
+                    margin: '10px auto',
+                    display: 'block'
+                  }}
+                />
+              </a>
+              <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>Trade: {selectedPoint.value.toFixed(2)}% of GDP</p>
+            </div>
+          </>
+        );
+      })()}
     </div>
   );
 };
@@ -258,22 +272,7 @@ const TradeGDPChartWithScroll = ({ tradeData }) => {
         }
       },
       tooltip: {
-        trigger: 'axis',
-        formatter: function (params: any) {
-          const year = params[0].axisValue;
-          const event = eventData[year];
-          if (event) {
-            return `
-              <div style="font-weight:bold;margin-bottom:5px;text-align:center">${event.title} (${year})</div>
-              <div style="text-align:center;margin-bottom:5px">${event.description}</div>
-              <div style="display:flex;justify-content:center;margin:10px 0">
-                <img src="${event.imageUrl}" style="max-width:100%;max-height:100px;border-radius:4px;display:block"/>
-              </div>
-              <div style="margin-top:5px;text-align:center">Trade: ${params[0].value.toFixed(2)}% of GDP</div>
-            `;
-          }
-          return `Year ${year}<br/>Trade as % of GDP: ${params[0].value.toFixed(2)}%`;
-        }
+        show: false
       },
       grid: {
         left: '6%',
@@ -460,46 +459,29 @@ const TradeGDPChartWithScroll = ({ tradeData }) => {
               textAlign: 'center'
             }}
           >
-            <h3 style={{ marginTop: 0 }}>
+            <h3 style={{ marginTop: 0, fontSize: '1.05rem', lineHeight: 1.2 }}>
               {eventData[eventYears[activeEventIndex]].title} ({eventYears[activeEventIndex]})
             </h3>
-            <p>{eventData[eventYears[activeEventIndex]].description}</p>
-            <img 
-              src={eventData[eventYears[activeEventIndex]].imageUrl} 
-              style={{ 
-                maxWidth: '100%',
-                maxHeight: '150px',
-                borderRadius: '4px',
-                margin: '10px auto',
-                display: 'block'
-              }} 
-              alt={eventData[eventYears[activeEventIndex]].title}
-            />
-            <p>
+            <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>{eventData[eventYears[activeEventIndex]].description}</p>
+            <a href={eventData[eventYears[activeEventIndex]].newsUrl} target="_blank" rel="noopener noreferrer">
+              <img 
+                src={eventData[eventYears[activeEventIndex]].imageUrl} 
+                alt={eventData[eventYears[activeEventIndex]].title}
+                style={{ 
+                  width: '100%', 
+                  borderRadius: '4px',
+                  margin: '10px auto',
+                  display: 'block'
+                }}
+              />
+            </a>
+            <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>
               <strong>Trade:</strong> {
                 tradeData.find(d => d.year === eventYears[activeEventIndex])?.trade_pcn_gdp?.toFixed(2) ?? 'N/A'} % of GDP
             </p>
           </motion.div>
         )}
       </div>
-    </div>
-  );
-};
-
-
-export const ScrollTest = () => {
-  const { data: tradeData, loading } = useData<TradeGDPData[]>('goods_trade_as_pcnt_gdp.csv');
-
-  return (
-    <div>
-      <h1>Global Trade Over Time</h1>
-      <p>Scroll down to explore key events in global trade history</p>
-      
-      {tradeData && tradeData.length > 0 ? (
-        <TradeGDPChartWithScroll tradeData={tradeData} />
-      ) : (
-        <div>Loading data...</div>
-      )}
     </div>
   );
 };

@@ -11,7 +11,6 @@ import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
 import { ZoomScroll } from './components/ZoomScroll'
-import { ScrollTest } from './components/TradeGDPChart';
 
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
@@ -43,8 +42,6 @@ const App: React.FC = () => {
           { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
           { title: "How much \"stuff\" does humanity shuffle around the world?", content: <TradeWeightChart/> }
         ]} />
-
-        <ScrollTest />
 
         <ScrollAnimationWrapper style={fullPageStyle}>
         <section className="image-text-section"> {/* Container for the row */}
