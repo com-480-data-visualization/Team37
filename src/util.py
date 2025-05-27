@@ -33,11 +33,6 @@ def load_csv_or_pickle(file_path, pickle_suffix=".pkl"):
         df.to_pickle(pickle_path)
     return df
 
-def standard_unit_and_name_conversions(df):
-    df['value'] = df['value'].div(1000.0*1000.0*1000.0) # From thousands to USD trillions.
-    df['quantity'] = df['quantity'].div(1000.0*1000.0) # From metric tons to millions of metric tons.
-    df.rename(columns={'value': 'value_trln_USD', 'quantity': 'quantity_mln_metric_tons'}, inplace=True)
-    return df
 
 def load_all_data():
     # Load country codes
@@ -144,12 +139,12 @@ def save_dataframe_to_csv(dataframe, file_path, index=False, encoding='utf-8', f
         output_dir = os.path.dirname(file_path)
         if output_dir:  # Only create directories if the path includes them
             os.makedirs(output_dir, exist_ok=True)
-            print(f"Ensured directory exists: {output_dir}")
+            # print(f"Ensured directory exists: {output_dir}")
 
         # Save the DataFrame to CSV with the specified float format
-        print(f"Attempting to save DataFrame with {len(dataframe)} records to {file_path}...")
+        # print(f"Attempting to save DataFrame with {len(dataframe)} records to {file_path}...")
         dataframe.to_csv(file_path, index=index, encoding=encoding, float_format=float_format)
-        print(f"DataFrame successfully saved to {file_path}")
+        # print(f"DataFrame successfully saved to {file_path}")
         return True
     except IOError as e:
         print(f"An IOError occurred while saving the CSV file to {file_path}: {e}")
@@ -269,117 +264,3 @@ def plot_lines(df, xcol, ycols, xtitle=None, ytitle=None, title=None, ymin=None,
     
     plt.grid(True)
     plt.show()
-
-def make_human_readable(df_in, cc_df, epc22_df, country_fmt=None, product_fmt=None):
-    """ Map numeric values to human-readable names
-    Options for country_fmt:
-    * 'country_name'
-    * 'country_iso2'
-    * 'country_iso3'
-
-    Options for product fmt:
-    * 'hscode'
-    * 'description'
-    """
-    if not country_fmt and not product_fmt:
-        raise ValueError("Called without specifying any format")
-    
-    df = df_in.copy()
-    if country_fmt:
-        if country_fmt != 'country_name' and country_fmt != 'country_iso2' and country_fmt != 'country_iso3':
-            raise ValueError(f"Country format {country_fmt} is invalid")
-        converted = False
-        if 'exporter' in df.columns:
-            df['exporter'] = df['exporter'].map(cc_df.set_index('country_code')[country_fmt])
-            converted = True
-        if 'importer' in df.columns:
-            df['importer'] = df['importer'].map(cc_df.set_index('country_code')[country_fmt])
-            converted = True
-        if 'country' in df.columns:
-            df['country'] = df['country'].map(cc_df.set_index('country_code')[country_fmt])
-            converted = True
-        if not converted:
-            raise ValueError(f"No expected column in {df.columns}")
-
-    if product_fmt:
-        if product_fmt != 'hscode' and product_fmt != 'description':
-            raise ValueError(f"Country format {country_fmt} is invalid")
-        if 'product_chapter' in df.columns:
-            df['product_chapter'] = df['product_chapter'].map(epc22_df.set_index('hscode')[product_fmt])
-        else:
-            raise ValueError(f"No column product_chapter in {df.columns}")
-
-    return df
-    
-def adjust_for_inflation(nominal_df, cpi_df, target_year, nominal_col="world_nominal_gdp"):
-    """
-    Adjusts nominal values using the CPI to express them in target-year dollars.
-
-    Args:
-        nominal_df (pd.DataFrame): DataFrame with columns 'year' and $nominal_col.
-        cpi_df (pd.DataFrame): DataFrame with columns 'year' and 'cpi'.
-        target_year (int): The year whose CPI will be used as the base for the adjustment.
-
-    Returns:
-        pd.DataFrame: A new DataFrame containing:
-            - 'year'
-            - $nominal_col: the original nominal GDP values.
-            - 'real_{target_year}': thevalues adjusted to target-year dollars.
-    
-    Raises:
-        ValueError: If the target_year is not present in the CPI DataFrame.
-    """
-    # Check if the target_year exists in the CPI data
-    if target_year not in cpi_df['year'].values:
-        raise ValueError(f"Target year {target_year} not found in CPI data")
-
-    if len(nominal_df) != len(cpi_df):
-        raise ValueError(f"CPI and nominal dataframes have different lengths - {len(cpi_df)} vs ({len(nominal_df)})")
-    
-    # Get the CPI for the target year
-    target_cpi = cpi_df.loc[cpi_df['year'] == target_year, 'cpi'].values[0]
-    
-    # Merge the GDP and CPI data on 'year' so that each GDP value has the corresponding CPI
-    merged_df = pd.merge(nominal_df, cpi_df, on='year', how='left')
-    
-    # Compute the GDP adjusted to target-year dollars
-    # For each record:
-    #     Adjusted GDP = Nominal GDP * (target_year CPI / CPI in that year)
-    adjusted_column_name = f'real_{target_year}'
-    merged_df[adjusted_column_name] = merged_df[nominal_col] * (target_cpi / merged_df['cpi'])
-    
-    # Return only the relevant columns
-    return merged_df[['year', nominal_col, adjusted_column_name]]
-
-
-def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n):
-    # keep only 2023 and group smaller values
-    tmp = chapter_totals[chapter_totals["year"] == year][["product_chapter", "value_trln_USD", "quantity_mln_metric_tons"]].copy()
-
-    # Pre-group some categories with too much detail TODO: CHECK chapters one by one AND EXPAND
-    food_rows = tmp[tmp["product_chapter"].isin(food_chapters)]
-    food_row = {"product_chapter": "Food Related",
-                  "value_trln_USD": food_rows["value_trln_USD"].sum(),
-                  "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum()
-                  }
-    # drop food rows from tmp
-    tmp = tmp[~tmp["product_chapter"].isin(food_chapters)]
-
-    # Convert chapters to human-readable names
-    tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
-
-    # Add food row to tmp to be considered for top_n
-    tmp = pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
-    tmp = tmp.sort_values(by=["value_trln_USD"], ascending=False)
-
-
-    # Keep
-    to_csv = tmp.iloc[:keep_top_n, :]
-    other_row = {"product_chapter": "Other",
-                  "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
-                  "quantity_mln_metric_tons": tmp.iloc[keep_top_n:]["quantity_mln_metric_tons"].sum()
-                  }
-    # Add other row
-    to_csv = pd.concat([to_csv, pd.DataFrame([other_row])], ignore_index=True)
-
-    return to_csv
