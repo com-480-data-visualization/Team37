@@ -1,5 +1,6 @@
 import pandas as pd
 from params import *
+from typing import Optional, Literal
 
 
 
@@ -170,39 +171,6 @@ def adjust_for_inflation(nominal_df, cpi_df, target_year, nominal_col="world_nom
     return merged_df[['year', nominal_col, adjusted_column_name]]
 
 
-# def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n):
-#     # keep only #year and group smaller values
-#     tmp = chapter_totals[chapter_totals["year"] == year][["product_chapter", "value_trln_USD", "quantity_mln_metric_tons"]].copy()
-
-#     # Pre-group some categories with too much detail TODO: CHECK chapters one by one AND EXPAND
-#     food_rows = tmp[tmp["product_chapter"].isin(FOOD_CHAPTERS)]
-#     food_row = {"product_chapter": "Food Related",
-#                   "value_trln_USD": food_rows["value_trln_USD"].sum(),
-#                   "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum()
-#                   }
-#     # drop food rows from tmp
-#     tmp = tmp[~tmp["product_chapter"].isin(FOOD_CHAPTERS)]
-
-#     # Convert chapters to human-readable names
-#     tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
-
-#     # Add food row to tmp to be considered for top_n
-#     tmp = pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
-#     tmp = tmp.sort_values(by=["value_trln_USD"], ascending=False)
-
-
-#     # Keep
-#     to_csv = tmp.iloc[:keep_top_n, :]
-#     other_row = {"product_chapter": "Other",
-#                   "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
-#                   "quantity_mln_metric_tons": tmp.iloc[keep_top_n:]["quantity_mln_metric_tons"].sum()
-#                   }
-#     # Add other row
-#     to_csv = pd.concat([to_csv, pd.DataFrame([other_row])], ignore_index=True)
-
-#     return to_csv
-
-
 def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
                                 year: int, keep_top_n: int) -> pd.DataFrame:
     """
@@ -246,8 +214,6 @@ def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
     return result
 
 
-# --- new public API -----------------------------------------------------
-
 def get_chapter_totals_all_years(chapter_totals, cc_df, epc22_df,
                                  keep_top_n: int) -> pd.DataFrame:
     """
@@ -274,6 +240,109 @@ def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df,
                                              cc_df, epc22_df,
                                              keep_top_n)
     return all_years.loc[all_years["year"] == year].reset_index(drop=True)
+
+import pandas as pd
+from typing import Literal
+
+# ---------------------------------------------------------------------
+# 1.  One year × one chapter
+# ---------------------------------------------------------------------
+def _top_partners_single_year_chapter(
+    trades: pd.DataFrame,
+    year: int,
+    chapter: str,
+    actor_col: Literal["importer", "exporter"],
+    keep_top_n: int,
+) -> pd.DataFrame:
+    """
+    Return a DataFrame with the top-*n* partners for the given
+    (year, chapter), followed by an aggregated “Other” row.
+
+    Columns of *trades* expected:
+      ['year', 'exporter', 'importer',
+       'product_chapter', 'value_trln_USD', 'quantity_mln_metric_tons']
+    """
+    # 1. slice the data we need ----------------------------------------
+    cols = [actor_col, "value_trln_USD", "quantity_mln_metric_tons"]
+    tmp = (
+        trades.loc[
+            (trades["year"] == year) & (trades["product_chapter"] == chapter),
+            cols,
+        ]
+        .groupby(actor_col, as_index=False)
+        .sum()
+    )
+
+    # 2. rank partners by value ----------------------------------------
+    tmp = tmp.sort_values("value_trln_USD", ascending=False)
+
+    # 3. split into top-n and “other” ----------------------------------
+    top_n = tmp.iloc[:keep_top_n, :]
+    other_needed = len(tmp) > keep_top_n
+    if other_needed:
+        other_row = {
+            actor_col: "Other",
+            "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
+            "quantity_mln_metric_tons": tmp.iloc[
+                keep_top_n:
+            ]["quantity_mln_metric_tons"].sum(),
+        }
+        top_n = pd.concat([top_n, pd.DataFrame([other_row])], ignore_index=True)
+
+    # 4. annotate with year & chapter so we can concatenate later ------
+    top_n.insert(0, "product_chapter", chapter)
+    top_n.insert(0, "year", year)
+    return top_n
+
+
+# ---------------------------------------------------------------------
+# 2.  All years × all chapters
+# ---------------------------------------------------------------------
+def get_top_partners_all_years(
+    trades: pd.DataFrame,
+    actor: Literal["importer", "exporter"],
+    keep_top_n: int,
+) -> pd.DataFrame:
+    """
+    Compute the top-*n* importers *or* exporters per
+    (year, product_chapter).  Returns one tidy DataFrame whose rows are
+
+        year · product_chapter · importer/exporter · value · quantity
+    """
+    actor_col = "importer" if actor == "importer" else "exporter"
+
+    # iterate over every year × chapter that exists in the data -------
+    frames = [
+        _top_partners_single_year_chapter(
+            trades, y, chap, actor_col, keep_top_n
+        )
+        for y in sorted(trades["year"].unique())
+        for chap in sorted(trades.loc[trades["year"] == y, "product_chapter"].unique())
+    ]
+    return pd.concat(frames, ignore_index=True)
+
+
+# ---------------------------------------------------------------------
+# 3.  Convenience wrapper (filter to one year or one chapter)
+# ---------------------------------------------------------------------
+def get_top_partners(
+    trades: pd.DataFrame,
+    actor: Literal["importer", "exporter"],
+    year: Optional[int] = None,
+    chapter: Optional[str] = None,
+    keep_top_n: int = 5,
+) -> pd.DataFrame:
+    """
+    Wrapper that calls *get_top_partners_all_years* and then, if requested,
+    filters the result to a specific year and/or chapter.
+    """
+    all_data = get_top_partners_all_years(trades, actor, keep_top_n)
+    if year is not None:
+        all_data = all_data.loc[all_data["year"] == year]
+    if chapter is not None:
+        all_data = all_data.loc[all_data["product_chapter"] == chapter]
+    return all_data.reset_index(drop=True)
+
 
 def standard_unit_and_name_conversions(df):
     df['value'] = df['value'].div(1000.0*1000.0*1000.0) # From thousands to USD trillions.

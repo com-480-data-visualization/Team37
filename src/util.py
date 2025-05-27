@@ -131,7 +131,7 @@ def save_dataframe_to_csv(dataframe, file_path, index=False, encoding='utf-8', f
         return False
     
     if not file_path or not isinstance(file_path, str):
-        print("Error: Invalid 'file_path' provided.")
+        print(f"Error: Invalid file_path {file_path} provided.")
         return False
 
     try:
