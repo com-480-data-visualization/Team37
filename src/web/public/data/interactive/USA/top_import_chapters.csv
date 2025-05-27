@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.12624242,11.27456854
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.11837823,6.44724560
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.10480098,10.42807106
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.06355951,466.33663203
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02639378,1.69172008
+1995,Other,0.31756390,276.63936323
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.13356832,11.96970633
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.11801761,6.60832197
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.10745818,12.04536581
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.07792402,483.97691659
+1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02760593,1.88828245
+1996,Other,0.33676648,313.19278401
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.14837004,11.95631381
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.12506645,7.15607258
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.11743888,13.25310369
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.08271204,533.08692506
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03244287,2.07907464
+1997,Other,0.37066241,325.12029824
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.15930916,13.74366779
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.12917062,8.32511985
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.12632037,13.90137269
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.06216026,575.28486577
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03302741,2.15192026
+1998,Other,0.40534381,352.13908787
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.17122906,16.86747386
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.15099823,16.48427625
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.14993533,10.53498256
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.07947092,561.59505629
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03521248,2.31536220
+1999,Other,0.43633904,365.95405700
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.18695165,7.79141593
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.18686499,8.97633531
+2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.16345795,15.88001624
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.13623617,623.47948434
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.04083677,1.98662615
+2000,Other,0.47562834,237.40652801
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.16708532,8.43630932
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.15997293,15.71818760
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.15498842,7.66148275
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.12272458,650.43884753
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03880835,1.75489658
+2001,Other,0.47062561,220.80049216
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.17396462,19.06771474
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.16781052,9.23352563
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.15855537,7.32780874
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.12060800,632.57842368
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03886433,1.91903064
+2002,Other,0.50839358,241.99847814
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.17924651,17.55091558
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.17630594,9.05423989
+2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.16209710,6.86170927
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.16139608,727.81116431
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.04287708,1.96510657
+2003,Other,0.54341979,255.06396474
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.21650499,771.35827805
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.20416994,10.63483246
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.19485517,18.05108718
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.19038454,13.89816217
+2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.04879830,2.00027746
+2004,Other,0.61986354,420.77620903
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.29727860,842.84733947
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.22761518,11.59602853
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.21298275,9.02512646
+2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.20470286,19.46147763
+2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.05248037,2.15262947
+2005,Other,0.67990005,306.41410905
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.34100234,842.69400272
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.24983102,13.37392739
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.23598635,10.10699332
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.22274345,21.30386161
+2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.05760122,2.22802941
+2006,Other,0.74815851,426.24889195
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.36697611,807.79131221
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.26516851,14.35457313
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.25405026,9.42311328
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.22079924,20.56215586
+2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.06170980,2.41822410
+2007,Other,0.79663555,402.40303910
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.49314076,822.45693399
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.26157971,12.09314666
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.25686317,10.22978429
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.19971284,16.96265633
+2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.06408685,2.51159441
+2008,Other,0.82239937,377.42810298
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.27527019,602.02736569
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.21811293,7.77316733
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.21114350,11.38068872
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.13370518,11.52465236
+2009,Pharmaceutical products,0.06594160,1.99129556
+2009,Other,0.64586945,271.85878168
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.35704706,646.08594903
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.26458311,12.71077759
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.25833137,9.67696058
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.18642362,15.83358034
+2010,Pharmaceutical products,0.07291147,2.09736159
+2010,Other,0.78004315,331.80383948
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.45459555,623.17330204
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.29820624,13.99906636
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.28169760,11.43980290
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.20697895,18.63934293
+2011,Pharmaceutical products,0.07837891,2.14053382
+2011,Other,0.88580219,343.58408877
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.42749973,553.29871326
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.31216770,15.86774235
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.29559970,9.24878320
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.24422854,20.63541061
+2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.08193263,2.99311750
+2012,Other,0.91206917,349.79370394
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.38327591,518.82130149
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.31052504,15.00685955
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.29704261,8.20372680
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.25392771,21.70674930
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.08124433,3.11881232
+2013,Other,0.92474663,371.89130696
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.34840193,429.43467818
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.32998095,14.08422447
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.31210237,7.80956873
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.26603939,22.41071179
+2014,Pharmaceutical products,0.08898098,2.31902919
+2014,Other,0.98707205,378.73307966
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.32874664,14.44648493
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.31895780,8.67390704
+2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.28463424,23.76549791
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.19781546,488.48305477
+2015,Pharmaceutical products,0.10160931,2.38301994
+2015,Other,0.98190971,402.01528682
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.32341156,9.08263782
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.31486441,14.25643612
+2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.28516342,24.01705296
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.16141273,579.82892651
+2016,Pharmaceutical products,0.10783750,2.42507348
+2016,Other,0.96141281,389.51355592
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.37207522,8.55878012
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.34962176,16.22473584
+2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.29448798,24.99523899
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.20075416,460.14060300
+2017,Pharmaceutical products,0.11419255,2.49002415
+2017,Other,0.99675253,405.85550400
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.38675432,17.52786030
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.37640353,8.51752642
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.30742977,24.93875431
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.23871168,420.83991606
+2018,Pharmaceutical products,0.13161934,2.62119217
+2018,Other,1.07019504,424.08836364
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.37716731,17.80647404
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.35788004,9.70060941
+2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.30795674,25.80332807
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.20763607,388.91295264
+2019,Pharmaceutical products,0.14256638,2.51160164
+2019,Other,1.06001848,425.77537545
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.35941507,18.00837774
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.34850650,34.90479728
+2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.25341269,21.01892099
+2020,Pharmaceutical products,0.15315353,2.59126104
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.12825796,469.47488689
+2020,Other,1.04688445,426.58367646
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.42379368,21.42230991
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.38841591,11.53351993
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.27905560,22.67515791
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.22334563,478.28903915
+2021,Pharmaceutical products,0.16741223,2.95646658
+2021,Other,1.28895569,469.81306103
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.47577191,23.19116557
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.46465702,13.96125655
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.32263671,25.14851051
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.32017544,478.66539638
+2022,Pharmaceutical products,0.19069972,3.10319269
+2022,Other,1.42970192,459.46212141
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.45662183,21.89214731
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.45486511,15.83497418
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.37295572,26.53653981
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.26565729,488.16323334
+2023,Pharmaceutical products,0.19052765,2.85083477
+2023,Other,1.26155074,421.32268641

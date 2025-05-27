@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Food Related,0.00081686,1.62122862
+1995,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00034131,0.08034685
+1995,Raw hides and skins (other than furskins) and leather,0.00022929,0.03400554
+1995,Rubber and articles thereof,0.00016118,0.10707005
+1995,Pharmaceutical products,0.00013930,0.08723046
+1995,Other,0.00092805,1.40954092
+1996,Food Related,0.00106267,1.57838634
+1996,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00036225,0.09035119
+1996,Raw hides and skins (other than furskins) and leather,0.00025437,0.03902353
+1996,Rubber and articles thereof,0.00020157,0.34826279
+1996,Pharmaceutical products,0.00014367,0.09706092
+1996,Other,0.00093638,1.72358244
+1997,Food Related,0.00103743,1.73989642
+1997,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00035819,0.09455571
+1997,Raw hides and skins (other than furskins) and leather,0.00023380,0.03775775
+1997,Rubber and articles thereof,0.00020243,0.17599107
+1997,Pharmaceutical products,0.00014807,0.08624748
+1997,Other,0.00108880,1.83187026
+1998,Food Related,0.00105046,1.53554989
+1998,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00024273,0.06938510
+1998,Rubber and articles thereof,0.00023576,0.20740643
+1998,Raw hides and skins (other than furskins) and leather,0.00021449,0.03313564
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00017334,0.02059232
+1998,Other,0.00126494,2.17338325
+1999,Food Related,0.00081570,1.62322851
+1999,Rubber and articles thereof,0.00021126,0.20158329
+1999,Raw hides and skins (other than furskins) and leather,0.00020143,0.02841084
+1999,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00019196,0.07226199
+1999,Pharmaceutical products,0.00015539,0.08009085
+1999,Other,0.00103073,2.06395227
+2000,Food Related,0.00079148,1.40009741
+2000,Raw hides and skins (other than furskins) and leather,0.00026281,0.03499816
+2000,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00020148,0.07976908
+2000,Pharmaceutical products,0.00018728,0.08618369
+2000,Rubber and articles thereof,0.00017690,0.16868932
+2000,Other,0.00111414,1.89600623
+2001,Food Related,0.00060846,1.36568704
+2001,Raw hides and skins (other than furskins) and leather,0.00030906,0.03578330
+2001,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00021195,0.08269685
+2001,Rubber and articles thereof,0.00017712,0.14046562
+2001,Pharmaceutical products,0.00016914,0.08290891
+2001,Other,0.00093441,2.24086485
+2002,Food Related,0.00065037,1.42240590
+2002,Raw hides and skins (other than furskins) and leather,0.00025902,0.03406551
+2002,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00021797,0.07129500
+2002,Rubber and articles thereof,0.00017531,0.15587805
+2002,Pharmaceutical products,0.00017095,0.09125867
+2002,Other,0.00075470,1.64414047
+2003,Food Related,0.00088678,1.64620659
+2003,Raw hides and skins (other than furskins) and leather,0.00030541,0.03999491
+2003,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00020866,0.06552933
+2003,Rubber and articles thereof,0.00019973,0.17020466
+2003,Pharmaceutical products,0.00017073,0.09702052
+2003,Other,0.00085904,2.47460748
+2004,Food Related,0.00128140,1.91971700
+2004,Raw hides and skins (other than furskins) and leather,0.00034596,0.05446865
+2004,Rubber and articles thereof,0.00024740,0.19653434
+2004,Pharmaceutical products,0.00021048,0.10684291
+2004,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00020109,0.06948345
+2004,Other,0.00119547,3.60863044
+2005,Food Related,0.00153053,2.17788527
+2005,Raw hides and skins (other than furskins) and leather,0.00033885,0.04780595
+2005,Rubber and articles thereof,0.00031870,0.19971648
+2005,Pharmaceutical products,0.00026132,0.09861286
+2005,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00021397,0.07521586
+2005,Other,0.00174647,4.35690877
+2006,Food Related,0.00167656,1.87342164
+2006,Raw hides and skins (other than furskins) and leather,0.00034763,0.05201459
+2006,Rubber and articles thereof,0.00032702,0.18015004
+2006,Pharmaceutical products,0.00026998,0.11755692
+2006,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00023264,0.08629112
+2006,Other,0.00159790,4.23812826
+2007,Food Related,0.00182355,2.26135241
+2007,Rubber and articles thereof,0.00042339,0.20294055
+2007,Raw hides and skins (other than furskins) and leather,0.00035515,0.04677972
+2007,Pharmaceutical products,0.00030301,0.10917871
+2007,Wood and articles of wood; wood charcoal,0.00027690,2.58354050
+2007,Other,0.00213017,1.92240272
+2008,Food Related,0.00275143,2.32638743
+2008,Rubber and articles thereof,0.00054441,0.16563994
+2008,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00044222,0.62888118
+2008,Pharmaceutical products,0.00034652,0.13927709
+2008,Wood and articles of wood; wood charcoal,0.00032253,2.21900145
+2008,Other,0.00252231,1.48438719
+2009,Food Related,0.00246268,2.62443551
+2009,Rubber and articles thereof,0.00046206,0.19064243
+2009,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00045801,0.99413633
+2009,Pharmaceutical products,0.00031354,0.10485714
+2009,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00023079,0.01161351
+2009,Other,0.00214871,2.48837538
+2010,Food Related,0.00285985,3.18044448
+2010,Rubber and articles thereof,0.00065375,0.21211151
+2010,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00065309,0.92423697
+2010,Pharmaceutical products,0.00033727,0.08703073
+2010,Wood and articles of wood; wood charcoal,0.00030893,2.00530451
+2010,Other,0.00264372,1.51290220
+2011,Food Related,0.00329306,2.98741111
+2011,Rubber and articles thereof,0.00087947,0.25710761
+2011,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00061257,0.89124146
+2011,Pharmaceutical products,0.00042812,0.10540300
+2011,Wood and articles of wood; wood charcoal,0.00034489,2.09019346
+2011,Other,0.00304029,1.32685237
+2012,Food Related,0.00402125,4.36770432
+2012,Rubber and articles thereof,0.00095889,0.30725856
+2012,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00056114,0.87915835
+2012,Pharmaceutical products,0.00039214,0.09056100
+2012,Raw hides and skins (other than furskins) and leather,0.00035078,0.04232810
+2012,Other,0.00307921,2.18612869
+2013,Food Related,0.00414407,4.62401621
+2013,Rubber and articles thereof,0.00106617,0.29181371
+2013,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00067548,1.03273664
+2013,Raw hides and skins (other than furskins) and leather,0.00037007,0.04799125
+2013,Pharmaceutical products,0.00033096,0.06892713
+2013,Other,0.00307484,2.22722384
+2014,Food Related,0.00406569,4.18076530
+2014,Rubber and articles thereof,0.00099074,0.26203596
+2014,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00075351,1.24273372
+2014,Raw hides and skins (other than furskins) and leather,0.00037177,0.04315511
+2014,Pharmaceutical products,0.00036702,0.08060899
+2014,Other,0.00289132,2.27292248
+2015,Food Related,0.00322108,3.02907470
+2015,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00124261,2.01925747
+2015,Rubber and articles thereof,0.00075577,0.26281570
+2015,Raw hides and skins (other than furskins) and leather,0.00040320,0.03913597
+2015,Pharmaceutical products,0.00034195,0.06936002
+2015,Other,0.00263715,2.01199741
+2016,Food Related,0.00321177,3.13201755
+2016,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00133216,2.56009469
+2016,Rubber and articles thereof,0.00064638,0.26232765
+2016,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00037341,0.01607175
+2016,Raw hides and skins (other than furskins) and leather,0.00033972,0.03537939
+2016,Other,0.00229108,2.27974241
+2017,Food Related,0.00378274,4.05366297
+2017,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00161058,2.68786705
+2017,Rubber and articles thereof,0.00069569,0.24432523
+2017,Wood and articles of wood; wood charcoal,0.00033691,2.03036167
+2017,Raw hides and skins (other than furskins) and leather,0.00030484,0.04647202
+2017,Other,0.00274102,1.65549875
+2018,Food Related,0.00350222,2.70403536
+2018,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00204288,2.70997745
+2018,Rubber and articles thereof,0.00074621,0.25741748
+2018,Wood and articles of wood; wood charcoal,0.00048915,3.42483709
+2018,Pharmaceutical products,0.00029246,0.07314998
+2018,Other,0.00255134,1.64906065
+2019,Food Related,0.00364632,3.41783737
+2019,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00176323,2.84266524
+2019,Rubber and articles thereof,0.00070698,0.24180589
+2019,Wood and articles of wood; wood charcoal,0.00039552,2.62667495
+2019,Pharmaceutical products,0.00029325,0.07576145
+2019,Other,0.00226173,1.08624140
+2020,Food Related,0.00346808,3.31719526
+2020,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00133651,2.84321120
+2020,Rubber and articles thereof,0.00069224,0.24025383
+2020,Wood and articles of wood; wood charcoal,0.00035947,2.59291303
+2020,Pharmaceutical products,0.00028206,0.07304353
+2020,Other,0.00192413,1.44192320
+2021,Food Related,0.00485227,3.25121197
+2021,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00177298,2.83151381
+2021,Rubber and articles thereof,0.00080411,0.24140379
+2021,Wood and articles of wood; wood charcoal,0.00061133,4.02939316
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00054283,0.02085701
+2021,Other,0.00251124,1.37348021
+2022,Food Related,0.00567204,4.02095375
+2022,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00220920,2.96409178
+2022,Rubber and articles thereof,0.00093511,0.23802275
+2022,Wood and articles of wood; wood charcoal,0.00061435,3.23804574
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00044443,0.04283958
+2022,Other,0.00284462,1.47687885
+2023,Food Related,0.00478538,3.22293383
+2023,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00211721,3.51169624
+2023,Rubber and articles thereof,0.00084986,0.23377072
+2023,Wood and articles of wood; wood charcoal,0.00050425,2.49900698
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00041892,0.03592033
+2023,Other,0.00233607,1.04976838

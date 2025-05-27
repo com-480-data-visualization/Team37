@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Pharmaceutical products,0.00001797,0.01810257
+1995,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000361,0.00236662
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000263,0.00003661
+1995,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00000072,0.00102448
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000071,0.00001553
+1995,Other,0.00000101,0.00038171
+1996,Pharmaceutical products,0.00004295,0.03366807
+1996,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000486,0.00242175
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000173,0.00001675
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000057,0.00000719
+1996,Iron or steel articles,0.00000051,0.00121829
+1996,Other,0.00000169,0.00102613
+1997,Pharmaceutical products,0.00004771,0.02439720
+1997,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000538,0.00268127
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000356,0.00003900
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000322,0.00020448
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000057,0.00001161
+1997,Other,0.00000202,0.00144026
+1998,Pharmaceutical products,0.00008322,0.04348016
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000548,0.00005121
+1998,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000542,0.00223661
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000253,0.00024125
+1998,Food Related,0.00000134,0.00040590
+1998,Other,0.00000219,0.00074062
+1999,Pharmaceutical products,0.00007104,0.04236804
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000845,0.00030844
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000829,0.00066395
+1999,Food Related,0.00000464,0.01465205
+1999,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000354,0.00227501
+1999,Other,0.00000732,0.01294508
+2000,Pharmaceutical products,0.00007969,0.06180612
+2000,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000652,0.00438339
+2000,Fertilizers,0.00000115,0.00835000
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000086,0.00000316
+2000,Food Related,0.00000078,0.00645453
+2000,Other,0.00000187,0.00103287
+2001,Pharmaceutical products,0.00006846,0.06123205
+2001,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000714,0.00458990
+2001,Fertilizers,0.00000107,0.00001500
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000060,0.00000977
+2001,Plastics and articles thereof,0.00000026,0.00004717
+2001,Other,0.00000070,0.00033015
+2002,Pharmaceutical products,0.00007661,0.05625108
+2002,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000957,0.00407463
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000025,0.00000621
+2002,Food Related,0.00000015,0.00066134
+2002,"Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",0.00000009,0.00000000
+2002,Other,0.00000062,0.00016134
+2003,Pharmaceutical products,0.00013214,0.06460335
+2003,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001376,0.00453580
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000417,0.00005805
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000168,0.00030313
+2003,Iron or steel articles,0.00000060,0.00044758
+2003,Other,0.00000117,0.00034597
+2004,Pharmaceutical products,0.00011452,0.04451452
+2004,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001117,0.00427753
+2004,Food Related,0.00000123,0.00078251
+2004,Fertilizers,0.00000088,0.00250000
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000061,0.00207266
+2004,Other,0.00000189,0.00025195
+2005,Pharmaceutical products,0.00015428,0.06258713
+2005,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000789,0.00288644
+2005,Food Related,0.00000112,0.00027994
+2005,Copper and articles thereof,0.00000064,0.00015780
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000030,0.00003514
+2005,Other,0.00000126,0.00071097
+2006,Pharmaceutical products,0.00013726,0.06114829
+2006,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001338,0.00502110
+2006,Food Related,0.00000102,0.00030582
+2006,Plastics and articles thereof,0.00000092,0.00043152
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000034,0.00007536
+2006,Other,0.00000115,0.00014256
+2007,Pharmaceutical products,0.00016549,0.06441790
+2007,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000471,0.00128144
+2007,Food Related,0.00000126,0.00033663
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000053,0.00002144
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000031,0.00022894
+2007,Other,0.00000127,0.00146974
+2008,Pharmaceutical products,0.00016510,0.06586874
+2008,"Ships, boats and floating structures",0.00001776,0.00000000
+2008,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000584,0.00176067
+2008,Food Related,0.00000136,0.00031832
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000044,0.00000187
+2008,Other,0.00000129,0.00018670
+2009,Pharmaceutical products,0.00013120,0.05543589
+2009,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000572,0.00189551
+2009,Food Related,0.00000156,0.00051532
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000038,0.00003968
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000023,0.00000329
+2009,Other,0.00000089,0.00021275
+2010,Pharmaceutical products,0.00016580,0.07131137
+2010,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000678,0.00162227
+2010,Food Related,0.00000201,0.00043936
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000023,0.00000469
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000019,0.00010206
+2010,Other,0.00000054,0.00022379
+2011,Pharmaceutical products,0.00016958,0.05390936
+2011,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000869,0.00167579
+2011,Food Related,0.00000288,0.00042334
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000036,0.00003441
+2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000032,0.00000739
+2011,Other,0.00000111,0.00032147
+2012,Pharmaceutical products,0.00019481,0.07294233
+2012,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001121,0.00198827
+2012,Food Related,0.00000288,0.00049795
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000084,0.00009387
+2012,"Aircraft, spacecraft, and parts thereof",0.00000020,0.00000010
+2012,Other,0.00000051,0.00012433
+2013,Pharmaceutical products,0.00017797,0.06279866
+2013,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000765,0.00138825
+2013,Food Related,0.00000298,0.00070596
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000037,0.00000071
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000028,0.00000285
+2013,Other,0.00000071,0.00014440
+2014,Pharmaceutical products,0.00018786,0.06020621
+2014,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000978,0.00186660
+2014,Food Related,0.00000406,0.00091415
+2014,"Ships, boats and floating structures",0.00000307,0.00001040
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000129,0.00011474
+2014,Other,0.00000136,0.00026563
+2015,Pharmaceutical products,0.00017649,0.05554509
+2015,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001208,0.00256637
+2015,Food Related,0.00000291,0.00067841
+2015,"Ships, boats and floating structures",0.00000231,0.00100247
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000176,0.00007594
+2015,Other,0.00000119,0.00010902
+2016,Pharmaceutical products,0.00024294,0.04660580
+2016,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001281,0.00262455
+2016,Food Related,0.00000225,0.00066765
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000155,0.00330403
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000069,0.00027667
+2016,Other,0.00000081,0.00019049
+2017,Pharmaceutical products,0.00019328,0.06155056
+2017,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001135,0.00211384
+2017,Food Related,0.00000304,0.00071167
+2017,Fertilizers,0.00000139,0.00409000
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000056,0.00012296
+2017,Other,0.00000129,0.00033161
+2018,Pharmaceutical products,0.00028138,0.08526215
+2018,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001265,0.00187257
+2018,"Ships, boats and floating structures",0.00000584,0.00081423
+2018,Food Related,0.00000345,0.00070732
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000072,0.00009351
+2018,Other,0.00000097,0.00072161
+2019,Pharmaceutical products,0.00029716,0.09859462
+2019,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001501,0.00180870
+2019,Food Related,0.00000265,0.00060449
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000062,0.00065092
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000019,0.00001039
+2019,Other,0.00000091,0.00064536
+2020,Pharmaceutical products,0.00027427,0.06798217
+2020,"Aircraft, spacecraft, and parts thereof",0.00012321,0.00008000
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000978,0.00457443
+2020,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000583,0.00093034
+2020,Food Related,0.00000209,0.00051996
+2020,Other,0.00000235,0.00087381
+2021,Pharmaceutical products,0.00032026,0.08242304
+2021,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000855,0.00170585
+2021,Food Related,0.00000104,0.00024050
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000077,0.00016331
+2021,"Aircraft, spacecraft, and parts thereof",0.00000070,0.00000313
+2021,Other,0.00000127,0.00037079
+2022,Pharmaceutical products,0.00039005,0.09002225
+2022,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000865,0.00178168
+2022,Food Related,0.00000302,0.00067025
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000037,0.00000078
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000030,0.00006779
+2022,Other,0.00000105,0.00025333
+2023,Pharmaceutical products,0.00035164,0.08818913
+2023,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000632,0.00130465
+2023,Food Related,0.00000234,0.00056503
+2023,"Aircraft, spacecraft, and parts thereof",0.00000044,0.00000232
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000039,0.00000871
+2023,Other,0.00000180,0.00062033

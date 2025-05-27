@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00846387,63.99599577
+1995,Organic chemicals,0.00029586,0.85978129
+1995,Iron and steel,0.00018286,0.54827682
+1995,Fertilizers,0.00013704,0.60525993
+1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00002963,0.13414621
+1995,Other,0.00009011,0.27726983
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01041533,65.84964955
+1996,Organic chemicals,0.00016226,0.83968823
+1996,Fertilizers,0.00012980,0.63432146
+1996,Iron and steel,0.00011519,0.37872679
+1996,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00003324,0.16352439
+1996,Other,0.00006846,0.09498656
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00977306,65.24213377
+1997,Organic chemicals,0.00024603,0.88943170
+1997,Iron and steel,0.00011739,0.40194519
+1997,Fertilizers,0.00009646,0.62573455
+1997,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00003305,0.20567404
+1997,Other,0.00007358,0.07375586
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00681516,66.11292648
+1998,Organic chemicals,0.00021363,1.01175065
+1998,Iron and steel,0.00013046,0.55079224
+1998,Fertilizers,0.00006445,0.64590613
+1998,Plastics and articles thereof,0.00002628,0.05074393
+1998,Other,0.00010495,0.40296389
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00830126,63.14634157
+1999,Iron and steel,0.00013986,0.77315939
+1999,Organic chemicals,0.00012334,0.79671425
+1999,Plastics and articles thereof,0.00005106,0.09789980
+1999,Fertilizers,0.00004896,0.59830294
+1999,Other,0.00006959,0.25572218
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01323449,60.93883831
+2000,Organic chemicals,0.00030371,1.01253916
+2000,Iron and steel,0.00010263,0.56691724
+2000,Fertilizers,0.00007976,0.68318691
+2000,Plastics and articles thereof,0.00007521,0.10691964
+2000,Other,0.00009213,0.22165262
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01183272,61.28227897
+2001,Organic chemicals,0.00023232,0.82235892
+2001,Iron and steel,0.00011687,0.66006404
+2001,Fertilizers,0.00007863,0.68747805
+2001,Plastics and articles thereof,0.00004828,0.07877707
+2001,Other,0.00008866,0.24775322
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00956363,50.95413129
+2002,Iron and steel,0.00015886,0.76120368
+2002,Organic chemicals,0.00015408,0.78780739
+2002,Fertilizers,0.00009989,0.61603537
+2002,Plastics and articles thereof,0.00003551,0.05781454
+2002,Other,0.00007038,0.35109646
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01307839,57.61487508
+2003,Organic chemicals,0.00028211,0.86953677
+2003,Iron and steel,0.00016251,0.69421838
+2003,Fertilizers,0.00010914,0.58972340
+2003,Plastics and articles thereof,0.00007544,0.10187668
+2003,Other,0.00012551,0.37208504
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01826636,62.10390677
+2004,Iron and steel,0.00031166,0.82746269
+2004,Organic chemicals,0.00028800,0.79096104
+2004,Fertilizers,0.00023163,0.53326504
+2004,Plastics and articles thereof,0.00006740,0.07222525
+2004,Other,0.00015511,0.40577687
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02767188,68.51851382
+2005,Organic chemicals,0.00033043,0.76739794
+2005,Iron and steel,0.00025085,0.62178539
+2005,Fertilizers,0.00013963,0.34551090
+2005,Plastics and articles thereof,0.00007746,0.07074212
+2005,Other,0.00019760,0.22885424
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03721688,74.93281785
+2006,Organic chemicals,0.00045962,0.81382961
+2006,Iron and steel,0.00030555,0.72613393
+2006,Fertilizers,0.00016501,0.58053413
+2006,Plastics and articles thereof,0.00014962,0.12322210
+2006,Other,0.00015604,0.39579663
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03720880,67.50153137
+2007,Organic chemicals,0.00060644,0.94040667
+2007,Iron and steel,0.00039714,0.85394077
+2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00034041,0.00025879
+2007,Fertilizers,0.00024160,0.84854839
+2007,Other,0.00039948,0.89990736
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.05113553,69.83297575
+2008,Organic chemicals,0.00070577,0.99989241
+2008,Iron and steel,0.00057183,0.67454660
+2008,Fertilizers,0.00027902,0.67947116
+2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00027566,0.00648569
+2008,Other,0.00088713,1.08542610
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03323178,72.13099773
+2009,Organic chemicals,0.00034607,1.00899237
+2009,Iron and steel,0.00024108,0.65159128
+2009,Fertilizers,0.00014213,0.52054296
+2009,Plastics and articles thereof,0.00010579,0.11551937
+2009,Other,0.00017801,0.52086923
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03734405,64.82494562
+2010,Iron and steel,0.00049808,0.94895997
+2010,Organic chemicals,0.00046708,0.93133913
+2010,Fertilizers,0.00024585,0.80761076
+2010,Plastics and articles thereof,0.00011044,0.10204424
+2010,Other,0.00021425,0.55054714
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01816698,23.11972830
+2011,Organic chemicals,0.00012365,0.17102557
+2011,Iron and steel,0.00010567,0.19497330
+2011,Fertilizers,0.00008013,0.18797721
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004361,0.00500482
+2011,Other,0.00013747,0.20940772
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.05785403,67.73938657
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00104137,0.00021751
+2012,Iron and steel,0.00012058,0.26377207
+2012,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00003313,0.04848051
+2012,Organic chemicals,0.00002103,0.05023854
+2012,Other,0.00013586,0.15096483
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.04157634,50.25743882
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00054371,0.00004456
+2013,Fertilizers,0.00014355,0.35842730
+2013,Iron and steel,0.00012066,0.30439890
+2013,Organic chemicals,0.00011500,0.24622704
+2013,Other,0.00026158,1.12376352
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01945154,26.81997837
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00084957,0.00011386
+2014,Iron and steel,0.00014429,0.40963703
+2014,Organic chemicals,0.00008738,0.21418310
+2014,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00006479,0.11731578
+2014,Other,0.00031284,0.40755369
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00923803,22.52206751
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00142066,0.00010109
+2015,Fertilizers,0.00010302,0.30639698
+2015,Iron and steel,0.00009493,0.31153685
+2015,Organic chemicals,0.00005469,0.15722028
+2015,Other,0.00022084,0.21529634
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01782796,52.88464988
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00171064,0.00012765
+2016,Iron and steel,0.00018100,0.56800019
+2016,Copper and articles thereof,0.00008864,0.01826117
+2016,Aluminium and articles thereof,0.00007033,0.04698773
+2016,Other,0.00030539,0.70663545
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01828778,52.88504196
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00168042,0.00008858
+2017,Iron and steel,0.00016731,0.51123250
+2017,Copper and articles thereof,0.00008497,0.01735165
+2017,Aluminium and articles thereof,0.00006709,0.04557083
+2017,Other,0.00030436,0.70272325
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03013151,65.09561061
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00081133,0.00010655
+2018,Iron and steel,0.00018196,0.42114152
+2018,Copper and articles thereof,0.00009926,0.01817982
+2018,Fertilizers,0.00007148,0.25604250
+2018,Other,0.00023895,0.32599275
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03128492,66.89111531
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00119808,0.00005090
+2019,Iron and steel,0.00020257,0.68293787
+2019,Copper and articles thereof,0.00006218,0.01250687
+2019,Organic chemicals,0.00003448,0.16410475
+2019,Other,0.00013181,0.33021616
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00710266,19.33277906
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00165874,0.00004973
+2020,Iron and steel,0.00026450,0.86313804
+2020,Copper and articles thereof,0.00010185,0.02131434
+2020,Aluminium and articles thereof,0.00004019,0.03194580
+2020,Other,0.00010172,0.16507760
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03142059,59.33874555
+2021,Iron and steel,0.00061249,1.32132959
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00023777,0.00000530
+2021,Copper and articles thereof,0.00014361,0.02010333
+2021,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00008407,0.14293772
+2021,Other,0.00030272,0.52852914
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03795493,47.56009075
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00074779,0.00001599
+2022,Iron and steel,0.00056044,1.25076263
+2022,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00019983,0.16983499
+2022,Copper and articles thereof,0.00015356,0.02096498
+2022,Other,0.00040846,0.48576393
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03346118,90.83053726
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00080168,0.00002389
+2023,Iron and steel,0.00054964,1.32049324
+2023,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00016385,0.27433393
+2023,Copper and articles thereof,0.00014116,0.02269504
+2023,Other,0.00026599,0.65323154

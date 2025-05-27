@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Pharmaceutical products,0.00111812,0.32326053
+1995,Food Related,0.00029167,0.12555353
+1995,Aluminium and articles thereof,0.00018847,0.10071049
+1995,"Food industries, residues and wastes thereof; prepared animal fodder",0.00010208,0.17743220
+1995,Iron and steel,0.00008090,0.11747998
+1995,Other,0.00026760,0.41056225
+1996,Pharmaceutical products,0.00120247,0.38234780
+1996,Food Related,0.00030849,0.17744844
+1996,Aluminium and articles thereof,0.00018084,0.10826293
+1996,"Food industries, residues and wastes thereof; prepared animal fodder",0.00016056,0.25571205
+1996,Iron and steel,0.00008843,0.11711266
+1996,Other,0.00030856,0.29993320
+1997,Pharmaceutical products,0.00105377,0.38394294
+1997,Food Related,0.00029969,0.17016724
+1997,Aluminium and articles thereof,0.00022300,0.13485398
+1997,"Food industries, residues and wastes thereof; prepared animal fodder",0.00017039,0.25718185
+1997,Iron and steel,0.00008617,0.14965341
+1997,Other,0.00031917,0.35597635
+1998,Pharmaceutical products,0.00118019,0.36005409
+1998,Food Related,0.00027971,0.11788980
+1998,Aluminium and articles thereof,0.00026169,0.16430076
+1998,"Food industries, residues and wastes thereof; prepared animal fodder",0.00017154,0.23888187
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006672,0.00433951
+1998,Other,0.00028376,0.42906009
+1999,Pharmaceutical products,0.00120981,0.31312613
+1999,Aluminium and articles thereof,0.00033059,0.23719526
+1999,Food Related,0.00023868,0.12843818
+1999,"Food industries, residues and wastes thereof; prepared animal fodder",0.00013224,0.26355004
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008032,0.00327359
+1999,Other,0.00030844,0.40841201
+2000,Pharmaceutical products,0.00114934,0.33666455
+2000,Aluminium and articles thereof,0.00049473,0.30132728
+2000,Food Related,0.00019462,0.10747385
+2000,"Food industries, residues and wastes thereof; prepared animal fodder",0.00012866,0.25672489
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008204,0.00446243
+2000,Other,0.00029695,0.55906355
+2001,Pharmaceutical products,0.00117228,0.34808073
+2001,Aluminium and articles thereof,0.00053785,0.33884102
+2001,Food Related,0.00022206,0.15176592
+2001,"Food industries, residues and wastes thereof; prepared animal fodder",0.00015068,0.26354436
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008488,0.00442586
+2001,Other,0.00032629,0.61532845
+2002,Pharmaceutical products,0.00119141,0.36043632
+2002,Aluminium and articles thereof,0.00054596,0.35739564
+2002,Food Related,0.00022735,0.12027956
+2002,"Food industries, residues and wastes thereof; prepared animal fodder",0.00021023,0.30367082
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009309,0.00593404
+2002,Other,0.00038586,0.65065240
+2003,Pharmaceutical products,0.00126462,0.37753279
+2003,Aluminium and articles thereof,0.00059661,0.38788482
+2003,Food Related,0.00029980,0.18297332
+2003,"Food industries, residues and wastes thereof; prepared animal fodder",0.00017561,0.23497497
+2003,Iron and steel,0.00010808,0.28556003
+2003,Other,0.00041249,0.42223693
+2004,Pharmaceutical products,0.00156016,0.44652334
+2004,Aluminium and articles thereof,0.00069611,0.38305362
+2004,Food Related,0.00026416,0.12327155
+2004,"Food industries, residues and wastes thereof; prepared animal fodder",0.00016544,0.23206126
+2004,Iron and steel,0.00012637,0.23761742
+2004,Other,0.00049560,0.38412661
+2005,Pharmaceutical products,0.00164732,0.44831167
+2005,Aluminium and articles thereof,0.00069091,0.32055427
+2005,Food Related,0.00021896,0.09005359
+2005,"Food industries, residues and wastes thereof; prepared animal fodder",0.00014900,0.20112725
+2005,"Aircraft, spacecraft, and parts thereof",0.00012540,0.00087785
+2005,Other,0.00058258,0.57432933
+2006,Pharmaceutical products,0.00177972,0.45584239
+2006,Aluminium and articles thereof,0.00084579,0.34495086
+2006,"Aircraft, spacecraft, and parts thereof",0.00021958,0.00101743
+2006,Food Related,0.00019653,0.07880345
+2006,"Food industries, residues and wastes thereof; prepared animal fodder",0.00015533,0.13252998
+2006,Other,0.00074822,0.63854569
+2007,Pharmaceutical products,0.00187598,0.43204275
+2007,Aluminium and articles thereof,0.00126775,0.49928860
+2007,"Aircraft, spacecraft, and parts thereof",0.00071576,0.00200858
+2007,Food Related,0.00022900,0.10380275
+2007,"Food industries, residues and wastes thereof; prepared animal fodder",0.00017440,0.12926291
+2007,Other,0.00080736,0.68592177
+2008,Pharmaceutical products,0.00189460,0.43213584
+2008,Aluminium and articles thereof,0.00159682,0.74615029
+2008,"Aircraft, spacecraft, and parts thereof",0.00034488,0.00156200
+2008,Food Related,0.00028999,0.09211954
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00021181,0.01742241
+2008,Other,0.00096614,0.84956026
+2009,Pharmaceutical products,0.00177299,0.45103478
+2009,Aluminium and articles thereof,0.00168766,0.82613091
+2009,Food Related,0.00023866,0.12345211
+2009,"Aircraft, spacecraft, and parts thereof",0.00020464,0.00126983
+2009,Iron and steel,0.00020078,0.18408146
+2009,Other,0.00080246,0.62408604
+2010,Aluminium and articles thereof,0.00236704,0.91447924
+2010,Pharmaceutical products,0.00182545,0.46170589
+2010,Food Related,0.00025800,0.10255218
+2010,Iron and steel,0.00023119,0.19777642
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00019135,0.03299215
+2010,Other,0.00069460,1.47436114
+2011,Pharmaceutical products,0.00203142,0.47628937
+2011,Aluminium and articles thereof,0.00201373,0.85988418
+2011,Iron and steel,0.00033002,0.21638210
+2011,Food Related,0.00031345,0.14134616
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00016510,0.00904859
+2011,Other,0.00091019,0.76739434
+2012,Aluminium and articles thereof,0.00208228,0.93994754
+2012,Pharmaceutical products,0.00201021,0.53444680
+2012,Food Related,0.00028458,0.11725494
+2012,Iron and steel,0.00025801,0.19906542
+2012,"Food industries, residues and wastes thereof; prepared animal fodder",0.00019657,0.12871765
+2012,Other,0.00096493,0.65651805
+2013,Aluminium and articles thereof,0.00228328,1.00735071
+2013,Pharmaceutical products,0.00212770,0.55424344
+2013,"Ships, boats and floating structures",0.00076537,0.07028563
+2013,Food Related,0.00031434,0.11140799
+2013,"Food industries, residues and wastes thereof; prepared animal fodder",0.00022104,0.12430797
+2013,Other,0.00088170,0.76650235
+2014,Aluminium and articles thereof,0.00238975,1.03233153
+2014,Pharmaceutical products,0.00206598,0.49791385
+2014,"Ships, boats and floating structures",0.00086038,0.07820099
+2014,Food Related,0.00029457,0.12350345
+2014,Iron and steel,0.00021089,0.18861071
+2014,Other,0.00089208,0.70704067
+2015,Aluminium and articles thereof,0.00226543,1.07080684
+2015,Pharmaceutical products,0.00188013,0.43588064
+2015,Food Related,0.00027093,0.08471826
+2015,"Food industries, residues and wastes thereof; prepared animal fodder",0.00023523,0.14701057
+2015,Iron and steel,0.00018867,0.18458674
+2015,Other,0.00081089,0.61079159
+2016,Pharmaceutical products,0.00192989,0.44496683
+2016,Aluminium and articles thereof,0.00180122,0.96069578
+2016,Food Related,0.00028461,0.09410775
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00017291,0.00054676
+2016,Iron and steel,0.00016303,0.19021887
+2016,Other,0.00074999,0.75287744
+2017,Aluminium and articles thereof,0.00230820,1.06596319
+2017,Pharmaceutical products,0.00177097,0.43615956
+2017,Food Related,0.00028596,0.13659588
+2017,"Ships, boats and floating structures",0.00020976,0.02417506
+2017,"Food industries, residues and wastes thereof; prepared animal fodder",0.00019854,0.13959810
+2017,Other,0.00101757,0.87856691
+2018,Aluminium and articles thereof,0.00252740,1.06866049
+2018,Pharmaceutical products,0.00200894,0.47801215
+2018,"Ships, boats and floating structures",0.00034606,0.93626795
+2018,Food Related,0.00034223,0.12868622
+2018,Iron and steel,0.00027102,0.27380415
+2018,Other,0.00109347,1.07483216
+2019,Aluminium and articles thereof,0.00216782,1.05046919
+2019,Pharmaceutical products,0.00206193,0.46689517
+2019,Food Related,0.00030021,0.09568262
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00021678,0.00716262
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00020161,0.00071861
+2019,Other,0.00103686,1.12713486
+2020,Aluminium and articles thereof,0.00216349,1.06254656
+2020,Pharmaceutical products,0.00172569,0.43145348
+2020,Food Related,0.00028217,0.09825795
+2020,Iron and steel,0.00017370,0.23052120
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00015470,0.00051342
+2020,Other,0.00069887,0.76778063
+2021,Aluminium and articles thereof,0.00321647,1.18210837
+2021,Pharmaceutical products,0.00213025,0.43793949
+2021,Food Related,0.00029685,0.07433165
+2021,Iron and steel,0.00026362,0.20694517
+2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00019687,0.00058449
+2021,Other,0.00087361,0.65319296
+2022,Aluminium and articles thereof,0.00302491,1.00623120
+2022,Pharmaceutical products,0.00222831,0.42449066
+2022,Food Related,0.00045782,0.12386389
+2022,Iron and steel,0.00037778,0.18435826
+2022,"Food industries, residues and wastes thereof; prepared animal fodder",0.00031382,0.16861639
+2022,Other,0.00118996,0.97031536
+2023,Aluminium and articles thereof,0.00266332,1.00532751
+2023,Pharmaceutical products,0.00220406,0.45008058
+2023,Food Related,0.00047258,0.09969167
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00044729,0.00082903
+2023,"Food industries, residues and wastes thereof; prepared animal fodder",0.00029555,0.14741470
+2023,Other,0.00122225,0.98682594

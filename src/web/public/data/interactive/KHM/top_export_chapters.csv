@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Wood and articles of wood; wood charcoal,0.00018226,0.50028612
+1995,Rubber and articles thereof,0.00004448,0.03976841
+1995,Apparel and clothing accessories; knitted or crocheted,0.00003313,0.00281089
+1995,Apparel and clothing accessories; not knitted or crocheted,0.00003010,0.00211479
+1995,Cotton,0.00000878,0.00425959
+1995,Other,0.00002264,0.03192543
+1996,Apparel and clothing accessories; knitted or crocheted,0.00008267,0.01179884
+1996,Wood and articles of wood; wood charcoal,0.00006523,0.12814634
+1996,Apparel and clothing accessories; not knitted or crocheted,0.00004559,0.00547610
+1996,Rubber and articles thereof,0.00003801,0.03146264
+1996,Pharmaceutical products,0.00001026,0.00238106
+1996,Other,0.00003576,0.05124862
+1997,Apparel and clothing accessories; knitted or crocheted,0.00016650,0.01197026
+1997,Wood and articles of wood; wood charcoal,0.00015540,0.36397264
+1997,Apparel and clothing accessories; not knitted or crocheted,0.00012039,0.00953223
+1997,Rubber and articles thereof,0.00006583,0.07439972
+1997,Pharmaceutical products,0.00002000,0.00477781
+1997,Other,0.00003729,0.04429064
+1998,Apparel and clothing accessories; knitted or crocheted,0.00033845,0.02316695
+1998,Apparel and clothing accessories; not knitted or crocheted,0.00024008,0.01899914
+1998,Wood and articles of wood; wood charcoal,0.00009631,0.31032393
+1998,Rubber and articles thereof,0.00004885,0.07919488
+1998,Pharmaceutical products,0.00002171,0.00589347
+1998,Other,0.00004203,0.02977048
+1999,Apparel and clothing accessories; knitted or crocheted,0.00049756,0.03144819
+1999,Apparel and clothing accessories; not knitted or crocheted,0.00046489,0.03449270
+1999,Wood and articles of wood; wood charcoal,0.00006221,0.14546092
+1999,Footwear; gaiters and the like; parts of such articles,0.00005980,0.00545947
+1999,Rubber and articles thereof,0.00003941,0.06943762
+1999,Other,0.00005274,0.06826420
+2000,Apparel and clothing accessories; knitted or crocheted,0.00086510,0.05309706
+2000,Apparel and clothing accessories; not knitted or crocheted,0.00064220,0.03285416
+2000,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00027242,0.00001207
+2000,Footwear; gaiters and the like; parts of such articles,0.00013831,0.01851880
+2000,Wood and articles of wood; wood charcoal,0.00007907,0.14351485
+2000,Other,0.00018464,0.22706475
+2001,Apparel and clothing accessories; knitted or crocheted,0.00117060,0.07602874
+2001,Apparel and clothing accessories; not knitted or crocheted,0.00068821,0.03868647
+2001,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00020428,0.00003822
+2001,Footwear; gaiters and the like; parts of such articles,0.00016660,0.02099008
+2001,Wood and articles of wood; wood charcoal,0.00005966,0.10797429
+2001,Other,0.00019289,0.18868786
+2002,Apparel and clothing accessories; knitted or crocheted,0.00140786,0.10287755
+2002,Apparel and clothing accessories; not knitted or crocheted,0.00082910,0.05235039
+2002,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00043275,0.00005946
+2002,Footwear; gaiters and the like; parts of such articles,0.00017818,0.02234321
+2002,Rubber and articles thereof,0.00007132,0.08476261
+2002,Other,0.00022214,0.22629298
+2003,Apparel and clothing accessories; knitted or crocheted,0.00160807,0.11484808
+2003,Apparel and clothing accessories; not knitted or crocheted,0.00100328,0.06127377
+2003,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00034279,0.00006059
+2003,Footwear; gaiters and the like; parts of such articles,0.00019239,0.01951887
+2003,Rubber and articles thereof,0.00006078,0.06424434
+2003,Other,0.00025926,0.22040751
+2004,Apparel and clothing accessories; knitted or crocheted,0.00201597,0.13542615
+2004,Apparel and clothing accessories; not knitted or crocheted,0.00115566,0.06618209
+2004,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00061073,0.00006181
+2004,Footwear; gaiters and the like; parts of such articles,0.00022849,0.02341713
+2004,Rubber and articles thereof,0.00007929,0.06661491
+2004,Other,0.00032215,0.38984110
+2005,Apparel and clothing accessories; knitted or crocheted,0.00236923,0.15820001
+2005,Apparel and clothing accessories; not knitted or crocheted,0.00115744,0.06875842
+2005,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00053867,0.00005388
+2005,Footwear; gaiters and the like; parts of such articles,0.00019813,0.02117345
+2005,Rubber and articles thereof,0.00008144,0.06657213
+2005,Other,0.00041207,0.31029613
+2006,Apparel and clothing accessories; knitted or crocheted,0.00301252,0.19801218
+2006,Apparel and clothing accessories; not knitted or crocheted,0.00117035,0.07004357
+2006,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00054041,0.00007188
+2006,Footwear; gaiters and the like; parts of such articles,0.00027249,0.02596261
+2006,Rubber and articles thereof,0.00014042,0.07554560
+2006,Other,0.00046050,0.32340230
+2007,Apparel and clothing accessories; knitted or crocheted,0.00363242,0.22540747
+2007,Apparel and clothing accessories; not knitted or crocheted,0.00119931,0.07232936
+2007,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00046213,0.00005471
+2007,Footwear; gaiters and the like; parts of such articles,0.00036509,0.02817699
+2007,Rubber and articles thereof,0.00014896,0.07530643
+2007,Other,0.00053631,1.57038912
+2008,Apparel and clothing accessories; knitted or crocheted,0.00375485,0.20008269
+2008,Apparel and clothing accessories; not knitted or crocheted,0.00116835,0.05131478
+2008,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00083572,0.00008878
+2008,Footwear; gaiters and the like; parts of such articles,0.00038389,0.02452245
+2008,Rubber and articles thereof,0.00010046,0.04305835
+2008,Other,0.00061065,9.06283320
+2009,Apparel and clothing accessories; knitted or crocheted,0.00331682,0.19926224
+2009,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00163691,0.00008162
+2009,Apparel and clothing accessories; not knitted or crocheted,0.00095512,0.05718043
+2009,Footwear; gaiters and the like; parts of such articles,0.00044576,0.02622505
+2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00022494,0.33424764
+2009,Other,0.00065435,18.53236212
+2010,Apparel and clothing accessories; knitted or crocheted,0.00395377,0.23475665
+2010,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00177752,0.00007612
+2010,Apparel and clothing accessories; not knitted or crocheted,0.00115632,0.06607066
+2010,Footwear; gaiters and the like; parts of such articles,0.00064939,0.04217807
+2010,Rubber and articles thereof,0.00022112,0.07094338
+2010,Other,0.00110721,5.06870131
+2011,Apparel and clothing accessories; knitted or crocheted,0.00510009,0.26102931
+2011,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00157569,0.00019814
+2011,Apparel and clothing accessories; not knitted or crocheted,0.00156789,0.07788000
+2011,Footwear; gaiters and the like; parts of such articles,0.00095391,0.05481890
+2011,Rubber and articles thereof,0.00037975,0.09480253
+2011,Other,0.00140527,8.16193792
+2012,Apparel and clothing accessories; knitted or crocheted,0.00540763,0.27359950
+2012,Apparel and clothing accessories; not knitted or crocheted,0.00193645,0.08631969
+2012,Footwear; gaiters and the like; parts of such articles,0.00102470,0.05144614
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00072008,0.79378701
+2012,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00046744,0.00030974
+2012,Other,0.00160148,7.16392290
+2013,Apparel and clothing accessories; knitted or crocheted,0.00610152,0.30318580
+2013,Apparel and clothing accessories; not knitted or crocheted,0.00228946,0.09851118
+2013,Footwear; gaiters and the like; parts of such articles,0.00119230,0.05782159
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00044574,0.03122582
+2013,Food Related,0.00043833,0.72343039
+2013,Other,0.00180386,10.43367967
+2014,Apparel and clothing accessories; knitted or crocheted,0.00697185,0.34045551
+2014,Apparel and clothing accessories; not knitted or crocheted,0.00250728,0.10400957
+2014,Footwear; gaiters and the like; parts of such articles,0.00146352,0.07686911
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00046428,0.01133667
+2014,Food Related,0.00043935,0.73664456
+2014,Other,0.00258472,17.22152300
+2015,Apparel and clothing accessories; knitted or crocheted,0.00725318,0.37347377
+2015,Apparel and clothing accessories; not knitted or crocheted,0.00283497,0.13085306
+2015,Footwear; gaiters and the like; parts of such articles,0.00181688,0.09114204
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00057413,0.01496238
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00049683,1.69223296
+2015,Other,0.00310422,12.42747411
+2016,Apparel and clothing accessories; knitted or crocheted,0.00776355,0.38367972
+2016,Apparel and clothing accessories; not knitted or crocheted,0.00318546,0.15050103
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00233765,2.20445265
+2016,Footwear; gaiters and the like; parts of such articles,0.00206711,0.10531802
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00050676,0.01846954
+2016,Other,0.00313097,8.52536288
+2017,Apparel and clothing accessories; knitted or crocheted,0.00801650,0.35786348
+2017,Apparel and clothing accessories; not knitted or crocheted,0.00334142,0.14983857
+2017,Footwear; gaiters and the like; parts of such articles,0.00224144,0.07679632
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00107719,2.37319309
+2017,Food Related,0.00053431,0.94648075
+2017,Other,0.00380802,1.93889321
+2018,Apparel and clothing accessories; knitted or crocheted,0.00936581,0.41415844
+2018,Apparel and clothing accessories; not knitted or crocheted,0.00404019,0.16380611
+2018,Footwear; gaiters and the like; parts of such articles,0.00243807,0.08617547
+2018,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00086421,0.03528447
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00067374,0.02513535
+2018,Other,0.00448526,4.65085883
+2019,Apparel and clothing accessories; knitted or crocheted,0.00914530,0.40034322
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00440871,1.65203451
+2019,Apparel and clothing accessories; not knitted or crocheted,0.00426932,0.17306315
+2019,Footwear; gaiters and the like; parts of such articles,0.00271571,0.11622194
+2019,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00153291,0.06259063
+2019,Other,0.00537625,3.08120624
+2020,Apparel and clothing accessories; knitted or crocheted,0.00778345,0.35670614
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00612075,2.01931402
+2020,Apparel and clothing accessories; not knitted or crocheted,0.00393353,0.17324964
+2020,Footwear; gaiters and the like; parts of such articles,0.00232692,0.09325073
+2020,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00152628,0.06583170
+2020,Other,0.00679369,4.12344000
+2021,Apparel and clothing accessories; knitted or crocheted,0.00879041,0.38365951
+2021,Apparel and clothing accessories; not knitted or crocheted,0.00392859,0.17815687
+2021,Footwear; gaiters and the like; parts of such articles,0.00257128,0.09803987
+2021,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00220054,0.09263739
+2021,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00131833,0.17120396
+2021,Other,0.00878052,7.21653912
+2022,Apparel and clothing accessories; knitted or crocheted,0.01070047,0.44179898
+2022,Apparel and clothing accessories; not knitted or crocheted,0.00490453,0.20343952
+2022,Footwear; gaiters and the like; parts of such articles,0.00352786,0.12453174
+2022,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00323123,0.13495563
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00219419,0.27332657
+2022,Other,0.01179008,13.05256342
+2023,Apparel and clothing accessories; knitted or crocheted,0.00886768,0.38114098
+2023,Apparel and clothing accessories; not knitted or crocheted,0.00492544,0.20343239
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00385385,0.59304625
+2023,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00286758,0.11719617
+2023,Footwear; gaiters and the like; parts of such articles,0.00280970,0.09657954
+2023,Other,0.01093547,28.05109688

@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00060848,0.23675053
+1995,Food Related,0.00019056,0.30566140
+1995,Fabrics; knitted or crocheted,0.00011215,0.02785581
+1995,Pharmaceutical products,0.00009089,0.04594872
+1995,Glass and glassware,0.00007812,0.11962489
+1995,Other,0.00055764,1.78233845
+1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00062744,0.29846506
+1996,Food Related,0.00021744,0.28500529
+1996,Pharmaceutical products,0.00012754,0.03665625
+1996,Fabrics; knitted or crocheted,0.00012176,0.03158901
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009563,0.11467045
+1996,Other,0.00062936,1.87278479
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00073311,0.27004213
+1997,Food Related,0.00026486,0.32781729
+1997,Pharmaceutical products,0.00012801,0.02890509
+1997,Fabrics; knitted or crocheted,0.00012021,0.03647426
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010793,0.55015983
+1997,Other,0.00083466,2.40107160
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00079017,0.31074260
+1998,Food Related,0.00026822,0.29820454
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00014911,0.60725125
+1998,Fabrics; knitted or crocheted,0.00012758,0.03632246
+1998,Pharmaceutical products,0.00010676,0.02455911
+1998,Other,0.00083085,2.75589315
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00064324,0.30655445
+1999,Food Related,0.00021978,0.22944857
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00016786,0.67559382
+1999,Fabrics; knitted or crocheted,0.00014820,0.04080705
+1999,Pharmaceutical products,0.00009302,0.02314078
+1999,Other,0.00077013,2.45034653
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00065961,0.30802507
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019313,0.40896083
+2000,Food Related,0.00017948,0.19886288
+2000,Fabrics; knitted or crocheted,0.00015285,0.03981102
+2000,Glass and glassware,0.00012015,0.05898570
+2000,Other,0.00069437,1.40362732
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00062008,0.34820866
+2001,Food Related,0.00018977,0.21733346
+2001,Fabrics; knitted or crocheted,0.00018481,0.05371316
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015883,0.14854446
+2001,Glass and glassware,0.00011636,0.06059063
+2001,Other,0.00080903,1.48816752
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00040370,0.25560233
+2002,Food Related,0.00023001,0.43533289
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022330,0.60658816
+2002,Fabrics; knitted or crocheted,0.00020398,0.05225628
+2002,Apparel and clothing accessories; not knitted or crocheted,0.00011315,0.00859415
+2002,Other,0.00085447,1.39258573
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00064722,0.37202810
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00029790,0.93585301
+2003,Food Related,0.00028160,0.32869068
+2003,Fabrics; knitted or crocheted,0.00027426,0.07227757
+2003,Glass and glassware,0.00015989,0.07999082
+2003,Other,0.00122856,2.13434707
+2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00063054,0.35371092
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00038186,0.99325865
+2004,Fabrics; knitted or crocheted,0.00034094,0.08965728
+2004,Food Related,0.00030498,0.29413684
+2004,Glass and glassware,0.00019095,0.08768705
+2004,Other,0.00137241,2.54054249
+2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00073985,0.40912263
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00044758,0.97100762
+2005,Fabrics; knitted or crocheted,0.00037836,0.09397082
+2005,Food Related,0.00035567,0.33316332
+2005,Apparel and clothing accessories; not knitted or crocheted,0.00026877,0.00947257
+2005,Other,0.00168934,2.44371705
+2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00084274,0.37960253
+2006,Fabrics; knitted or crocheted,0.00046792,0.10622204
+2006,Food Related,0.00035881,0.32283326
+2006,Apparel and clothing accessories; not knitted or crocheted,0.00026055,0.00952783
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022211,0.24096173
+2006,Other,0.00197218,2.40029879
+2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00090375,0.44094529
+2007,Fabrics; knitted or crocheted,0.00058658,0.09861819
+2007,Food Related,0.00045901,0.38202841
+2007,Apparel and clothing accessories; not knitted or crocheted,0.00024218,0.00861896
+2007,Glass and glassware,0.00023984,0.14082973
+2007,Other,0.00237726,2.80540830
+2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00116329,0.46728352
+2008,Fabrics; knitted or crocheted,0.00067655,0.10521074
+2008,Food Related,0.00059468,0.41582584
+2008,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00030001,1.11938185
+2008,Glass and glassware,0.00024047,0.11927125
+2008,Other,0.00286254,2.46838045
+2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00117528,0.41166077
+2009,Fabrics; knitted or crocheted,0.00049511,0.08831423
+2009,Food Related,0.00049158,0.32162006
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00023195,0.17650334
+2009,Glass and glassware,0.00021728,0.12662351
+2009,Other,0.00238246,2.71159942
+2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00145662,0.49058791
+2010,Fabrics; knitted or crocheted,0.00057615,0.11011947
+2010,Food Related,0.00057353,0.41507796
+2010,Glass and glassware,0.00023133,0.12464749
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00020298,0.20405746
+2010,Other,0.00258571,2.77871385
+2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00138657,0.41550009
+2011,Fabrics; knitted or crocheted,0.00069374,0.11134304
+2011,Food Related,0.00044731,0.24707916
+2011,Glass and glassware,0.00026844,0.09886693
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00023385,0.23384653
+2011,Other,0.00212487,2.45229226
+2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00137730,0.40458370
+2012,Fabrics; knitted or crocheted,0.00067865,0.11381864
+2012,Food Related,0.00042568,0.25347105
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00027610,0.20040775
+2012,Glass and glassware,0.00026307,0.09458877
+2012,Other,0.00254490,2.22530484
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00144033,0.49648554
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00076909,0.19962063
+2013,Fabrics; knitted or crocheted,0.00068040,0.12566845
+2013,Food Related,0.00057522,0.33101084
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00027689,0.08534437
+2013,Other,0.00323168,3.31048455
+2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00131203,0.43687882
+2014,Fabrics; knitted or crocheted,0.00080009,0.17055328
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00077067,0.41537748
+2014,Food Related,0.00044213,0.21038860
+2014,Glass and glassware,0.00025993,0.09625538
+2014,Other,0.00279143,2.75519121
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00158757,0.50460077
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00076238,0.69440303
+2015,Fabrics; knitted or crocheted,0.00067276,0.14925799
+2015,Food Related,0.00054605,0.42416545
+2015,Apparel and clothing accessories; knitted or crocheted,0.00023582,0.01076213
+2015,Other,0.00301559,3.52246274
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00157657,0.54278931
+2016,Fabrics; knitted or crocheted,0.00070446,0.16072032
+2016,Food Related,0.00057010,0.42147637
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00033189,0.75218011
+2016,Apparel and clothing accessories; not knitted or crocheted,0.00023946,0.01667897
+2016,Other,0.00291751,3.70171824
+2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00176620,0.56214628
+2017,Fabrics; knitted or crocheted,0.00074076,0.15831232
+2017,Food Related,0.00063510,0.48186670
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031792,0.66535813
+2017,Apparel and clothing accessories; not knitted or crocheted,0.00023681,0.01526004
+2017,Other,0.00278600,3.19308028
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00177319,0.59946476
+2018,Fabrics; knitted or crocheted,0.00078960,0.15613713
+2018,Food Related,0.00062317,0.56139812
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00037018,0.51061038
+2018,Apparel and clothing accessories; not knitted or crocheted,0.00028319,0.01932621
+2018,Other,0.00321801,3.28315491
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00151346,0.57487326
+2019,Fabrics; knitted or crocheted,0.00077064,0.16271086
+2019,Food Related,0.00068484,0.49082463
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00049686,0.04195305
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043189,0.67131098
+2019,Other,0.00323166,2.92902550
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00154974,0.63133242
+2020,Food Related,0.00085968,0.57965173
+2020,Fabrics; knitted or crocheted,0.00071700,0.14571905
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00058514,0.10949416
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00029415,0.54972125
+2020,Other,0.00306451,3.20974892
+2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00158869,0.61303504
+2021,Fabrics; knitted or crocheted,0.00097900,0.18425857
+2021,Food Related,0.00088035,0.54534976
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00040044,0.11045083
+2021,Tin; articles thereof,0.00034480,0.15599131
+2021,Other,0.00361751,5.28706887
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00182846,0.61459422
+2022,Food Related,0.00095238,0.50005110
+2022,Fabrics; knitted or crocheted,0.00085573,0.16836288
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00047150,0.06293506
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043168,0.43627063
+2022,Other,0.00424827,4.81759072
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00169973,0.61532197
+2023,Food Related,0.00106090,0.56787018
+2023,Fabrics; knitted or crocheted,0.00090811,0.17377345
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00050099,0.07892991
+2023,Tin; articles thereof,0.00039574,0.20991423
+2023,Other,0.00402566,6.00696301

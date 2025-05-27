@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Copper and articles thereof,0.00466210,1.61323582
+1995,"Ores, slag and ash",0.00272161,8.12437528
+1995,Tin; articles thereof,0.00119808,1.28890704
+1995,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00114389,1.67348269
+1995,Food Related,0.00112483,0.93318069
+1995,Other,0.00606109,12.40426711
+1996,Copper and articles thereof,0.00458873,1.91110809
+1996,"Ores, slag and ash",0.00236548,8.79681746
+1996,Tin; articles thereof,0.00143906,1.46181370
+1996,Food Related,0.00123237,0.90832821
+1996,Pharmaceutical products,0.00099248,0.24012537
+1996,Other,0.00690740,18.16824329
+1997,Copper and articles thereof,0.00530298,2.23350597
+1997,"Ores, slag and ash",0.00250372,10.84266478
+1997,Tin; articles thereof,0.00131712,1.34948082
+1997,Pharmaceutical products,0.00118311,0.29886587
+1997,Food Related,0.00115424,0.92783318
+1997,Other,0.00666776,18.51371998
+1998,Copper and articles thereof,0.00412445,2.49707510
+1998,"Ores, slag and ash",0.00193518,8.64058634
+1998,Tin; articles thereof,0.00137021,1.43650477
+1998,Pharmaceutical products,0.00125012,0.30815274
+1998,Food Related,0.00115868,0.78864523
+1998,Other,0.00612408,12.67352676
+1999,Copper and articles thereof,0.00419238,2.72959568
+1999,"Ores, slag and ash",0.00230525,8.50315231
+1999,Tin; articles thereof,0.00144744,1.46872657
+1999,Pharmaceutical products,0.00133480,0.29021610
+1999,Food Related,0.00117111,0.88418130
+1999,Other,0.00618879,15.28699795
+2000,Copper and articles thereof,0.00544854,2.87751701
+2000,"Ores, slag and ash",0.00298651,8.77908634
+2000,Pharmaceutical products,0.00152691,0.37158499
+2000,Tin; articles thereof,0.00136669,1.42584932
+2000,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00117113,1.92121281
+2000,Other,0.00717457,14.51753430
+2001,Copper and articles thereof,0.00475064,2.94610406
+2001,"Ores, slag and ash",0.00266673,10.90559277
+2001,Pharmaceutical products,0.00159791,0.54216749
+2001,Tin; articles thereof,0.00140614,1.42336665
+2001,Food Related,0.00130492,1.15768148
+2001,Other,0.00772687,13.27412256
+2002,Copper and articles thereof,0.00479534,2.98045215
+2002,"Ores, slag and ash",0.00227532,11.96158154
+2002,Tin; articles thereof,0.00171082,1.49541320
+2002,Pharmaceutical products,0.00163827,0.52614974
+2002,Wood and articles of wood; wood charcoal,0.00132278,2.91513468
+2002,Other,0.00729521,9.88681987
+2003,Copper and articles thereof,0.00576111,3.05829199
+2003,"Ores, slag and ash",0.00326461,7.64515065
+2003,Tin; articles thereof,0.00203828,1.86954872
+2003,Pharmaceutical products,0.00186251,0.70377211
+2003,Food Related,0.00147590,1.00217734
+2003,Other,0.00899415,21.07109414
+2004,Copper and articles thereof,0.01040508,3.53996291
+2004,"Ores, slag and ash",0.00726211,9.96712925
+2004,Tin; articles thereof,0.00228660,2.03531389
+2004,Pharmaceutical products,0.00224025,0.64468806
+2004,Wood and articles of wood; wood charcoal,0.00188182,5.27451085
+2004,Other,0.01108629,17.32404132
+2005,Copper and articles thereof,0.01223954,3.27361063
+2005,"Ores, slag and ash",0.01028948,10.06079867
+2005,Pharmaceutical products,0.00260580,0.70547618
+2005,Tin; articles thereof,0.00256080,2.05825721
+2005,Food Related,0.00210718,1.29898207
+2005,Other,0.01313435,23.40528515
+2006,Copper and articles thereof,0.02189602,3.27456057
+2006,"Ores, slag and ash",0.01566937,12.26402913
+2006,Pharmaceutical products,0.00297610,0.68167673
+2006,Tin; articles thereof,0.00284160,2.19063698
+2006,Food Related,0.00230455,1.35182685
+2006,Other,0.01545238,23.37095869
+2007,Copper and articles thereof,0.02565847,3.62216927
+2007,"Ores, slag and ash",0.01785968,11.93276103
+2007,Pharmaceutical products,0.00327461,0.76259557
+2007,Tin; articles thereof,0.00312485,2.26970074
+2007,Food Related,0.00269483,1.46159361
+2007,Other,0.01803120,21.94201688
+2008,Copper and articles thereof,0.02431466,3.54777211
+2008,"Ores, slag and ash",0.01461157,10.93657732
+2008,Tin; articles thereof,0.00374712,2.34805477
+2008,Pharmaceutical products,0.00348149,0.69706277
+2008,Food Related,0.00329968,1.48004883
+2008,Other,0.02064278,24.06082872
+2009,Copper and articles thereof,0.01979274,3.80116926
+2009,"Ores, slag and ash",0.01134570,14.54253271
+2009,Tin; articles thereof,0.00341978,2.32510975
+2009,Pharmaceutical products,0.00317337,0.60459369
+2009,Food Related,0.00316118,1.45755114
+2009,Other,0.01664354,24.08222998
+2010,Copper and articles thereof,0.02825562,3.70233031
+2010,"Ores, slag and ash",0.01662321,14.81384385
+2010,Tin; articles thereof,0.00380789,2.35413756
+2010,Food Related,0.00312945,1.47445010
+2010,Pharmaceutical products,0.00293130,0.49266821
+2010,Other,0.01882828,24.61289652
+2011,Copper and articles thereof,0.03138447,3.57241683
+2011,"Ores, slag and ash",0.01784259,13.50750271
+2011,Tin; articles thereof,0.00418730,2.49196180
+2011,Pharmaceutical products,0.00410141,0.65224635
+2011,Food Related,0.00378056,1.71111536
+2011,Other,0.02318899,28.10990777
+2012,Copper and articles thereof,0.02641288,3.36391476
+2012,"Ores, slag and ash",0.01901285,15.15081711
+2012,Pharmaceutical products,0.00417944,0.76824944
+2012,Tin; articles thereof,0.00417605,2.41524785
+2012,Food Related,0.00411809,1.68732409
+2012,Other,0.02263619,25.03579576
+2013,Copper and articles thereof,0.02425131,3.30494953
+2013,"Ores, slag and ash",0.02056159,18.01749461
+2013,Pharmaceutical products,0.00482337,0.83321242
+2013,Tin; articles thereof,0.00476421,2.54481602
+2013,Food Related,0.00437283,1.70058801
+2013,Other,0.02100313,26.87537916
+2014,Copper and articles thereof,0.02203512,3.25250171
+2014,"Ores, slag and ash",0.01946016,19.78384015
+2014,Pharmaceutical products,0.00572574,0.87149484
+2014,Tin; articles thereof,0.00482040,2.31127657
+2014,Food Related,0.00419886,1.71742869
+2014,Other,0.02125939,31.63652060
+2015,Copper and articles thereof,0.01813454,3.24803407
+2015,"Ores, slag and ash",0.01530340,23.72108363
+2015,Pharmaceutical products,0.00474795,0.94027752
+2015,Tin; articles thereof,0.00455615,2.29244947
+2015,Food Related,0.00394918,1.70161527
+2015,Other,0.01885676,30.30491889
+2016,Copper and articles thereof,0.01550638,3.11017147
+2016,"Ores, slag and ash",0.01459007,24.81310134
+2016,Tin; articles thereof,0.00534537,2.51785177
+2016,Pharmaceutical products,0.00505545,0.86101855
+2016,Food Related,0.00369212,1.65749853
+2016,Other,0.01846672,28.31715492
+2017,"Ores, slag and ash",0.01822180,24.28881297
+2017,Copper and articles thereof,0.01810190,2.91866352
+2017,Pharmaceutical products,0.00577466,0.82829902
+2017,Tin; articles thereof,0.00519614,2.49270623
+2017,Food Related,0.00378112,1.67868012
+2017,Other,0.01949743,29.37750563
+2018,"Ores, slag and ash",0.02076318,25.43198566
+2018,Copper and articles thereof,0.01833323,2.81809964
+2018,Pharmaceutical products,0.00646835,0.94514759
+2018,Tin; articles thereof,0.00608920,2.77473786
+2018,Food Related,0.00410512,1.77702184
+2018,Other,0.02217460,31.80913927
+2019,"Ores, slag and ash",0.01987238,21.73560244
+2019,Copper and articles thereof,0.01498154,2.54206812
+2019,Tin; articles thereof,0.00648366,2.68364546
+2019,Pharmaceutical products,0.00633573,0.95249376
+2019,Food Related,0.00423488,1.88106916
+2019,Other,0.01998292,29.90458911
+2020,"Ores, slag and ash",0.02383570,28.41276218
+2020,Copper and articles thereof,0.01660447,2.74897215
+2020,Tin; articles thereof,0.00608464,2.54991423
+2020,Pharmaceutical products,0.00567765,1.01972827
+2020,Food Related,0.00452573,1.96598565
+2020,Other,0.01912032,26.80880369
+2021,"Ores, slag and ash",0.03402057,20.98440066
+2021,Copper and articles thereof,0.02332533,2.63045879
+2021,Pharmaceutical products,0.00654719,0.89857532
+2021,Tin; articles thereof,0.00652543,2.64194980
+2021,Food Related,0.00472383,1.98621763
+2021,Other,0.02185259,26.47059957
+2022,"Ores, slag and ash",0.02749272,18.90548679
+2022,Copper and articles thereof,0.02228382,2.53416354
+2022,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.01154498,0.89163587
+2022,Pharmaceutical products,0.00821399,1.17907719
+2022,Tin; articles thereof,0.00690980,2.64040990
+2022,Other,0.02735946,29.47459608
+2023,"Ores, slag and ash",0.02861088,27.76357042
+2023,Copper and articles thereof,0.01991559,2.33687117
+2023,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.01037460,1.40269367
+2023,Pharmaceutical products,0.00828662,1.23844285
+2023,Tin; articles thereof,0.00675734,2.47442718
+2023,Other,0.02499356,20.39437478

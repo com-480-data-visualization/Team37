@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Cotton,0.00104841,0.52240535
+1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00018410,0.00007334
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007035,0.05775141
+1995,Zinc and articles thereof,0.00002902,0.02715813
+1995,Food Related,0.00002630,0.07137599
+1995,Other,0.00013010,0.37600898
+1996,Cotton,0.00165480,0.90325863
+1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00013745,0.00047393
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012913,0.18157663
+1996,Copper and articles thereof,0.00012032,0.05056414
+1996,Glass and glassware,0.00008375,0.11574819
+1996,Other,0.00054540,0.97224285
+1997,Cotton,0.00164688,0.95076580
+1997,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00022596,0.00125138
+1997,Copper and articles thereof,0.00011269,0.04714279
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010969,0.83732033
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010748,0.01147064
+1997,Other,0.00052434,0.59020322
+1998,Cotton,0.00122510,0.76021137
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010401,0.01098961
+1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00009307,0.00090540
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00008773,0.07806189
+1998,Copper and articles thereof,0.00006827,0.03505734
+1998,Other,0.00040199,0.44759408
+1999,Cotton,0.00101173,0.73797577
+1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00013936,0.00259638
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00008154,0.61105761
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005746,0.00927734
+1999,Food Related,0.00005395,0.06897055
+1999,Other,0.00032084,0.38261808
+2000,Cotton,0.00103412,0.80528820
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024089,1.98093662
+2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00017644,0.00490791
+2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006634,0.01146127
+2000,Tin; articles thereof,0.00006418,0.09293120
+2000,Other,0.00055104,0.85787320
+2001,Cotton,0.00093221,0.73964685
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00035776,2.61734491
+2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00027101,0.01062301
+2001,Copper and articles thereof,0.00007802,0.04997043
+2001,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00007320,0.02495669
+2001,Other,0.00048603,1.27576999
+2002,Cotton,0.00073062,0.66296606
+2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00060455,0.01290835
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015085,1.69544367
+2002,Copper and articles thereof,0.00007547,0.04754925
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006307,0.01428036
+2002,Other,0.00034782,1.09438860
+2003,Cotton,0.00098380,0.75403334
+2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00042804,0.03251047
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022749,2.86462314
+2003,Copper and articles thereof,0.00013545,0.07615279
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010395,0.02127367
+2003,Other,0.00050084,1.35499767
+2004,Cotton,0.00123942,0.79676779
+2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00047757,0.02262381
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031431,3.93305877
+2004,Copper and articles thereof,0.00019805,0.07060765
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00018738,0.03603792
+2004,Other,0.00083360,2.04583136
+2005,Cotton,0.00122523,0.97908046
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00061681,5.94455026
+2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00031564,0.05344179
+2005,Copper and articles thereof,0.00029086,0.08086418
+2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00028214,0.02077075
+2005,Other,0.00102843,2.07610665
+2006,Cotton,0.00144287,1.03942193
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00084552,4.98456445
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00049984,0.07503413
+2006,Copper and articles thereof,0.00040535,0.06086644
+2006,Tin; articles thereof,0.00030179,0.35008401
+2006,Other,0.00128190,1.99355612
+2007,Cotton,0.00144242,1.09808465
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00095002,5.38512228
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00079172,0.10921735
+2007,Copper and articles thereof,0.00050771,0.06972025
+2007,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00048292,0.11082497
+2007,Other,0.00164671,3.07215572
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00287962,10.92504028
+2008,Cotton,0.00146927,0.90109011
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00077013,0.10058275
+2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00071406,0.02666816
+2008,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00056361,0.07467079
+2008,Other,0.00193700,2.54993615
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00262139,7.19340206
+2009,Cotton,0.00085324,0.56632479
+2009,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00040358,0.05813429
+2009,Copper and articles thereof,0.00028658,0.05891575
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00023002,0.03646865
+2009,Other,0.00111726,1.73910252
+2010,Cotton,0.00157781,0.76053717
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00128163,3.49774079
+2010,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00065577,0.09384098
+2010,Copper and articles thereof,0.00053738,0.07078432
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00050902,0.08073944
+2010,Other,0.00191506,2.56728507
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00158710,3.59329694
+2011,Cotton,0.00134777,0.41149594
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00071318,0.10569192
+2011,Copper and articles thereof,0.00070036,0.07758436
+2011,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00044314,0.08622966
+2011,Other,0.00211087,2.71567494
+2012,Cotton,0.00144542,0.61444536
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00073106,0.09981040
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00073060,0.03070213
+2012,Copper and articles thereof,0.00062403,0.07614059
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00035310,1.83650456
+2012,Other,0.00191142,5.53415758
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00185660,0.03945050
+2013,Cotton,0.00143923,0.63248736
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00129556,3.90475466
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00067335,0.09499616
+2013,Copper and articles thereof,0.00062480,0.08345770
+2013,Other,0.00217878,2.49568846
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00151458,0.05511276
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00106326,3.47999114
+2014,Cotton,0.00095451,0.40789387
+2014,Copper and articles thereof,0.00064710,0.08996733
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00047267,0.06475706
+2014,Other,0.00188805,1.82222316
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00198872,0.05912029
+2015,Cotton,0.00113705,0.59409404
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00066432,3.27960680
+2015,Copper and articles thereof,0.00056891,0.09865370
+2015,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00046319,0.05120306
+2015,Other,0.00147578,1.64662971
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00296809,0.09229508
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00083536,3.07257100
+2016,Cotton,0.00079545,0.37667496
+2016,Copper and articles thereof,0.00045863,0.09091836
+2016,Plastics and articles thereof,0.00043197,0.35900813
+2016,Other,0.00201529,1.87696960
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00389171,0.14334583
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00163560,5.09724978
+2017,Cotton,0.00119222,0.55490596
+2017,Copper and articles thereof,0.00057022,0.09328336
+2017,Plastics and articles thereof,0.00051280,0.47707348
+2017,Other,0.00326721,5.11516524
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00275041,0.21782989
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00267806,7.21425284
+2018,Cotton,0.00104685,0.43268732
+2018,Copper and articles thereof,0.00064324,0.10070151
+2018,Plastics and articles thereof,0.00048726,0.43556795
+2018,Other,0.00313710,4.46968767
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00562737,0.20399353
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00250109,8.57376189
+2019,Cotton,0.00131265,0.59862776
+2019,Copper and articles thereof,0.00077341,0.13666071
+2019,Tin; articles thereof,0.00053576,0.47079206
+2019,Other,0.00353468,4.30299628
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00687688,0.21647294
+2020,Cotton,0.00121357,0.59137346
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00084834,4.29705075
+2020,Copper and articles thereof,0.00076346,0.12519031
+2020,Tin; articles thereof,0.00047044,0.55207123
+2020,Other,0.00375835,4.94037042
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00499275,0.24811854
+2021,Cotton,0.00195182,0.63064919
+2021,Copper and articles thereof,0.00120469,0.13956048
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00091100,1.98945399
+2021,Apparel and clothing accessories; knitted or crocheted,0.00058212,0.02558027
+2021,Other,0.00511457,4.68590535
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00581319,0.26134537
+2022,Cotton,0.00162592,0.46400436
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00125640,1.10056606
+2022,Copper and articles thereof,0.00112413,0.13078557
+2022,Apparel and clothing accessories; knitted or crocheted,0.00084435,0.03360551
+2022,Other,0.00629623,8.21881722
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01182522,0.31086400
+2023,Cotton,0.00163391,0.56409728
+2023,Copper and articles thereof,0.00125913,0.14818320
+2023,Apparel and clothing accessories; knitted or crocheted,0.00105912,0.04292875
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00098346,1.45793496
+2023,Other,0.00757417,8.36466833

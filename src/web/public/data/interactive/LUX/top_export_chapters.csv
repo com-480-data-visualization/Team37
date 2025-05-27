@@ -1,0 +1,151 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1999,Iron and steel,0.00141381,4.04533219
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00078614,0.04751173
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00063339,0.06195757
+1999,Plastics and articles thereof,0.00056482,0.22642115
+1999,Iron or steel articles,0.00041441,0.62094377
+1999,Other,0.00316903,3.90484202
+2000,Iron and steel,0.00150878,4.43573340
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00086624,0.05420518
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00070466,0.05061040
+2000,Plastics and articles thereof,0.00053638,0.26180653
+2000,Iron or steel articles,0.00040396,0.65503492
+2000,Other,0.00329146,4.10494316
+2001,Iron and steel,0.00146955,4.56496020
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00104209,0.05154160
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00093320,0.06358812
+2001,Plastics and articles thereof,0.00053544,0.26065793
+2001,Iron or steel articles,0.00045919,0.76709503
+2001,Other,0.00352118,4.97942171
+2002,Iron and steel,0.00152173,4.56393225
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00113800,0.05881455
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00077565,0.07071132
+2002,Plastics and articles thereof,0.00066739,0.31147339
+2002,Pharmaceutical products,0.00053892,0.00570164
+2002,Other,0.00414031,5.09249265
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00237555,0.05824668
+2003,Iron and steel,0.00171938,4.08064068
+2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00088773,0.07094156
+2003,Plastics and articles thereof,0.00070137,0.26209730
+2003,Rubber and articles thereof,0.00059923,0.34024587
+2003,Other,0.00537455,4.29548079
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00268084,0.06956711
+2004,Iron and steel,0.00261807,4.75654644
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00126121,0.06336781
+2004,Plastics and articles thereof,0.00086572,0.29681851
+2004,Rubber and articles thereof,0.00072447,0.31242905
+2004,Other,0.00669784,5.21596357
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00323818,0.07005443
+2005,Iron and steel,0.00252923,3.79631110
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00157912,0.05143209
+2005,Plastics and articles thereof,0.00085461,0.35677496
+2005,Rubber and articles thereof,0.00076660,0.30930997
+2005,Other,0.00736280,5.31884697
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00382983,0.07467888
+2006,Iron and steel,0.00310631,4.42553337
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00269673,0.04527661
+2006,Iron or steel articles,0.00098331,0.89742969
+2006,Plastics and articles thereof,0.00091345,0.31780769
+2006,Other,0.00770368,4.67950350
+2007,Iron and steel,0.00440602,5.15072629
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00436965,0.08209720
+2007,Iron or steel articles,0.00122025,0.88837837
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00111342,0.05786239
+2007,Plastics and articles thereof,0.00106268,0.33482532
+2007,Other,0.00880145,5.04378521
+2008,Iron and steel,0.00518511,4.82097921
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00483327,0.09549054
+2008,Iron or steel articles,0.00176436,0.98365442
+2008,Plastics and articles thereof,0.00129794,0.42241922
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00121735,0.05602680
+2008,Other,0.00929230,5.25223499
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00312016,0.07004115
+2009,Iron and steel,0.00237320,3.01787952
+2009,Plastics and articles thereof,0.00110440,0.36741305
+2009,Iron or steel articles,0.00102269,0.68364780
+2009,Rubber and articles thereof,0.00098495,0.40600418
+2009,Other,0.00741183,4.25120191
+2010,Iron and steel,0.00356102,4.55353797
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00188958,0.10087692
+2010,Rubber and articles thereof,0.00125230,0.42828167
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00122756,0.02992869
+2010,Plastics and articles thereof,0.00120124,0.40369670
+2010,Other,0.00782692,5.20170016
+2011,Iron and steel,0.00406809,4.39584533
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00265153,0.03852979
+2011,Rubber and articles thereof,0.00154891,0.46154704
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00149807,0.05833802
+2011,Plastics and articles thereof,0.00136141,0.42628095
+2011,Other,0.00959400,5.45837351
+2012,Iron and steel,0.00298876,3.51445195
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00180880,0.03609258
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00145861,0.05802157
+2012,Rubber and articles thereof,0.00133367,0.42602292
+2012,Plastics and articles thereof,0.00125930,0.41602777
+2012,Other,0.00860423,5.31638587
+2013,Iron and steel,0.00304092,3.67761244
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00162206,0.03260756
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00149008,0.05641072
+2013,Plastics and articles thereof,0.00140935,0.43602758
+2013,Rubber and articles thereof,0.00135792,0.41326230
+2013,Other,0.00918793,5.39789352
+2014,Iron and steel,0.00324927,3.91343094
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00158477,0.11750966
+2014,Plastics and articles thereof,0.00145923,0.43104166
+2014,Rubber and articles thereof,0.00127729,0.43513937
+2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00123872,0.01155000
+2014,Other,0.01001751,5.90722446
+2015,Iron and steel,0.00277284,4.17178391
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00163118,0.10042693
+2015,Plastics and articles thereof,0.00138659,0.46367995
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00127916,0.01063705
+2015,Rubber and articles thereof,0.00112116,0.54426587
+2015,Other,0.00885836,6.23242842
+2016,Iron and steel,0.00258983,4.16210221
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00162680,0.07962445
+2016,Plastics and articles thereof,0.00139193,0.46652625
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00116002,0.01177551
+2016,Rubber and articles thereof,0.00105035,0.53724869
+2016,Other,0.00839296,5.97400649
+2017,Iron and steel,0.00261636,3.63946129
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00138835,0.09165632
+2017,Plastics and articles thereof,0.00138587,0.47034258
+2017,Rubber and articles thereof,0.00105958,0.52364659
+2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00105885,0.01189127
+2017,Other,0.00878036,6.23685311
+2018,Iron and steel,0.00299739,3.63367826
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00195121,0.08225217
+2018,Plastics and articles thereof,0.00151522,0.48972052
+2018,Rubber and articles thereof,0.00107159,0.49120856
+2018,Iron or steel articles,0.00102930,0.84868524
+2018,Other,0.00884658,5.08631058
+2019,Iron and steel,0.00264390,3.51565567
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00218147,0.08086034
+2019,Plastics and articles thereof,0.00149155,0.58426472
+2019,Rubber and articles thereof,0.00110968,0.44326367
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00101155,0.03806702
+2019,Other,0.00784605,6.65885143
+2020,Iron and steel,0.00205200,2.98229614
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00190169,0.07756220
+2020,Plastics and articles thereof,0.00148039,0.56289873
+2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00101613,0.23970431
+2020,Rubber and articles thereof,0.00098952,0.36870155
+2020,Other,0.00796823,6.64068975
+2021,Iron and steel,0.00293824,3.16699320
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00222371,0.08322744
+2021,Plastics and articles thereof,0.00165469,0.57501380
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00121295,0.21472528
+2021,Rubber and articles thereof,0.00119119,0.39163057
+2021,Other,0.00966467,6.61479164
+2022,Iron and steel,0.00317432,2.67341940
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00236326,0.08328471
+2022,Plastics and articles thereof,0.00181478,0.54464601
+2022,Rubber and articles thereof,0.00133296,0.60581683
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00111498,0.26264930
+2022,Other,0.01007583,6.21791942
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00285520,0.09266388
+2023,Iron and steel,0.00247439,2.42445775
+2023,Plastics and articles thereof,0.00148735,0.48320143
+2023,Rubber and articles thereof,0.00142477,0.56953846
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00125660,0.27233327
+2023,Other,0.00940554,5.57365102

@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Iron and steel,0.00211260,7.57714211
+1995,Fertilizers,0.00071854,3.76605053
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00064357,5.65233863
+1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00039503,1.27575981
+1995,"Ores, slag and ash",0.00039168,17.28393226
+1995,Other,0.00216910,4.92517831
+1996,Iron and steel,0.00396032,14.08330514
+1996,Food Related,0.00236859,6.84994234
+1996,Iron or steel articles,0.00109777,1.68507837
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00102532,0.29768053
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00085336,7.59831463
+1996,Other,0.00700873,41.03109518
+1997,Iron and steel,0.00558637,20.87245178
+1997,Food Related,0.00152056,4.65094876
+1997,Iron or steel articles,0.00101578,1.85713710
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00099771,0.26020690
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00080904,7.06270032
+1997,Other,0.00639753,41.67037137
+1998,Iron and steel,0.00534684,24.15809318
+1998,Food Related,0.00129551,6.26732187
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00089713,0.21932583
+1998,Iron or steel articles,0.00070304,1.43634689
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00068041,5.70534549
+1998,Other,0.00597476,40.42080476
+1999,Iron and steel,0.00437991,28.62102389
+1999,Food Related,0.00136019,8.20311527
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00093348,9.05672269
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00065375,0.21846430
+1999,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00058189,4.15820049
+1999,Other,0.00509242,31.59562824
+2000,Iron and steel,0.00586939,31.85198258
+2000,Food Related,0.00109075,4.06803377
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00103472,9.25403589
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00089125,0.29415141
+2000,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00074561,3.32571812
+2000,Other,0.00672055,41.66592082
+2001,Iron and steel,0.00610107,29.48012719
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00158168,13.65730080
+2001,Food Related,0.00138259,7.72426729
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00121141,0.32559900
+2001,Iron or steel articles,0.00065454,1.43130239
+2001,Other,0.00733496,44.96315046
+2002,Iron and steel,0.00631065,32.85913664
+2002,Food Related,0.00214048,15.11492279
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00209905,17.05986554
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00135216,0.33896182
+2002,Iron or steel articles,0.00063120,1.50464299
+2002,Other,0.00782930,49.19690397
+2003,Iron and steel,0.00849356,32.20322452
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00319562,22.76341543
+2003,Food Related,0.00232053,7.92961407
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00151408,0.36975276
+2003,Iron or steel articles,0.00111351,1.92861861
+2003,Other,0.00972364,55.88973955
+2004,Iron and steel,0.01288869,33.82836880
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00364391,24.81643260
+2004,Food Related,0.00251968,10.20724927
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00185407,0.44285800
+2004,Iron or steel articles,0.00156333,2.09103666
+2004,Other,0.01370660,57.94011364
+2005,Iron and steel,0.01400457,32.35399903
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00361450,18.00359981
+2005,Food Related,0.00310557,15.59712072
+2005,Iron or steel articles,0.00209161,2.36326406
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00203986,0.42913357
+2005,Other,0.01419509,62.55893856
+2006,Iron and steel,0.01488427,34.03196862
+2006,Food Related,0.00370873,15.79628715
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00271479,11.45230197
+2006,Iron or steel articles,0.00254461,2.62892962
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00215527,0.41458132
+2006,Other,0.01636830,66.97453589
+2007,Iron and steel,0.01908541,34.43244103
+2007,Food Related,0.00480880,10.41007530
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00332276,10.89580002
+2007,Iron or steel articles,0.00310278,2.64420059
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00291279,0.48165427
+2007,Other,0.02164452,70.71928223
+2008,Iron and steel,0.02691512,32.94829015
+2008,Food Related,0.00979072,23.73920626
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00537321,11.64794373
+2008,Iron or steel articles,0.00377996,2.46422067
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00366543,0.47100981
+2008,Other,0.02660769,73.81921063
+2009,Iron and steel,0.01242791,27.17784905
+2009,Food Related,0.00826301,33.82244749
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00297612,0.32830004
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00264229,10.32803164
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00234694,0.21178001
+2009,Other,0.01650497,67.28750058
+2010,Iron and steel,0.01692881,30.01342806
+2010,Food Related,0.00825828,22.17503911
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00510352,13.63640512
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00331231,0.38504040
+2010,"Ores, slag and ash",0.00280077,34.59202736
+2010,Other,0.02140445,49.84754079
+2011,Iron and steel,0.02121844,30.81986950
+2011,Food Related,0.01103167,22.06816520
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00708738,15.40234847
+2011,"Ores, slag and ash",0.00416266,35.33537142
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00386907,0.40919658
+2011,Other,0.02838186,58.31766456
+2012,Iron and steel,0.01841754,28.26620441
+2012,Food Related,0.01649206,38.62522285
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00456697,12.14782733
+2012,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00414687,1.30913160
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00397756,0.40431540
+2012,Other,0.02849886,97.75776565
+2013,Food Related,0.01509337,38.06288396
+2013,Iron and steel,0.01504610,31.41531760
+2013,"Ores, slag and ash",0.00417352,39.36869412
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00402893,0.39731350
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00378465,13.13502309
+2013,Other,0.02541628,61.69235121
+2014,Food Related,0.01564490,45.31108273
+2014,Iron and steel,0.01561112,28.70680340
+2014,"Ores, slag and ash",0.00363443,42.06627032
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00313463,0.32216925
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00309184,10.43929268
+2014,Other,0.02016630,55.40191738
+2015,Food Related,0.01353259,50.46350941
+2015,Iron and steel,0.00921954,21.32125485
+2015,"Ores, slag and ash",0.00233508,46.68755263
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00216879,0.22141369
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00211304,0.25229742
+2015,Other,0.01354899,47.67160474
+2016,Food Related,0.01418545,55.10279747
+2016,Iron and steel,0.00844211,22.10705673
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00228402,0.16203166
+2016,"Ores, slag and ash",0.00207374,40.25332894
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00177112,0.23523559
+2016,Other,0.01198779,40.13715100
+2017,Food Related,0.01604980,57.40741725
+2017,Iron and steel,0.01025749,19.95002278
+2017,"Ores, slag and ash",0.00291862,38.60896324
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00285952,0.21176499
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00191095,0.26370142
+2017,Other,0.01471549,44.71369890
+2018,Food Related,0.01661570,56.85518710
+2018,Iron and steel,0.01241448,21.40771934
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00342500,0.22714695
+2018,"Ores, slag and ash",0.00327639,38.55750170
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00190266,0.26246847
+2018,Other,0.01597272,44.13602968
+2019,Food Related,0.02063419,74.25066688
+2019,Iron and steel,0.01059199,20.49283827
+2019,"Ores, slag and ash",0.00389407,41.72743953
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00315342,0.20170033
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00191039,0.25314992
+2019,Other,0.01595671,40.58571593
+2020,Food Related,0.02064890,70.40256028
+2020,Iron and steel,0.00887385,20.22982294
+2020,"Ores, slag and ash",0.00454011,47.67763819
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00279167,0.18222792
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00220910,0.27094823
+2020,Other,0.01488052,37.44618144
+2021,Food Related,0.02506085,63.00095053
+2021,Iron and steel,0.01486041,20.67204502
+2021,"Ores, slag and ash",0.00730572,46.08176256
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00339522,0.21417979
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00236409,0.28816671
+2021,Other,0.01842250,38.89988015
+2022,Food Related,0.02369675,54.84899901
+2022,Iron and steel,0.00530714,6.76506472
+2022,"Ores, slag and ash",0.00322661,24.80779073
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00285428,0.14634024
+2022,Wood and articles of wood; wood charcoal,0.00203396,3.60969469
+2022,Other,0.01277680,13.76877875
+2023,Food Related,0.02143056,60.83011195
+2023,Iron and steel,0.00288993,4.86812071
+2023,"Ores, slag and ash",0.00206696,17.97705722
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00195194,0.11855947
+2023,Wood and articles of wood; wood charcoal,0.00156092,3.62625104
+2023,Other,0.01044539,13.42832228

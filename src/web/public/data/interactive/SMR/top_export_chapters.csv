@@ -1,0 +1,145 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001343,0.00206267
+2000,Pharmaceutical products,0.00001130,0.00009233
+2000,Cotton,0.00000885,0.00043423
+2000,Plastics and articles thereof,0.00000516,0.00114208
+2000,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",0.00000320,0.00082498
+2000,Other,0.00001556,0.00296492
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001335,0.00158496
+2001,Cotton,0.00000819,0.00035722
+2001,Pharmaceutical products,0.00000550,0.00007098
+2001,Plastics and articles thereof,0.00000325,0.00079778
+2001,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",0.00000257,0.00057235
+2001,Other,0.00001393,0.00306645
+2002,Cotton,0.00001338,0.00050580
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001034,0.00092725
+2002,Pharmaceutical products,0.00000884,0.00018407
+2002,Plastics and articles thereof,0.00000336,0.00084783
+2002,Apparel and clothing accessories; not knitted or crocheted,0.00000327,0.00010181
+2002,Other,0.00001617,0.00402628
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001561,0.00105867
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000856,0.02640388
+2003,Pharmaceutical products,0.00000595,0.00003416
+2003,Aluminium and articles thereof,0.00000360,0.00058907
+2003,Plastics and articles thereof,0.00000318,0.00083153
+2003,Other,0.00002318,0.00393841
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002332,0.00160269
+2004,Pharmaceutical products,0.00000649,0.00002903
+2004,Plastics and articles thereof,0.00000356,0.00071113
+2004,Footwear; gaiters and the like; parts of such articles,0.00000246,0.00016050
+2004,Apparel and clothing accessories; not knitted or crocheted,0.00000238,0.00007283
+2004,Other,0.00002004,0.00334818
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002350,0.00184526
+2005,Pharmaceutical products,0.00000669,0.00003780
+2005,Plastics and articles thereof,0.00000458,0.00096119
+2005,Furskins and artificial fur; manufactures thereof,0.00000413,0.00000649
+2005,Footwear; gaiters and the like; parts of such articles,0.00000311,0.00018348
+2005,Other,0.00002330,0.00358800
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003392,0.00216781
+2006,Pharmaceutical products,0.00001242,0.00004403
+2006,Plastics and articles thereof,0.00000578,0.00129027
+2006,Furskins and artificial fur; manufactures thereof,0.00000339,0.00000783
+2006,Apparel and clothing accessories; not knitted or crocheted,0.00000325,0.00009019
+2006,Other,0.00002246,0.00329982
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006377,0.00328162
+2007,Cotton,0.00002422,0.00068443
+2007,Plastics and articles thereof,0.00001743,0.00445113
+2007,Pharmaceutical products,0.00001346,0.00006417
+2007,Glass and glassware,0.00001204,0.00301483
+2007,Other,0.00007517,0.00858592
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006932,0.00346204
+2008,Cotton,0.00002123,0.00059631
+2008,Pharmaceutical products,0.00001746,0.00006815
+2008,Plastics and articles thereof,0.00001492,0.00349492
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001408,0.00061848
+2008,Other,0.00009092,0.01237639
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003753,0.00177697
+2009,Pharmaceutical products,0.00001460,0.00008465
+2009,Cotton,0.00001445,0.00045316
+2009,Plastics and articles thereof,0.00001024,0.00271743
+2009,Glass and glassware,0.00000912,0.00216936
+2009,Other,0.00005744,0.00585857
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006040,0.00226477
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002580,0.00021202
+2010,Cotton,0.00001244,0.00040653
+2010,Pharmaceutical products,0.00001121,0.00007442
+2010,Apparel and clothing accessories; not knitted or crocheted,0.00000646,0.00014181
+2010,Other,0.00005516,0.01480726
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005796,0.00235846
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001568,0.00022860
+2011,Cotton,0.00001440,0.00040908
+2011,Pharmaceutical products,0.00000820,0.00004538
+2011,Apparel and clothing accessories; not knitted or crocheted,0.00000754,0.00015329
+2011,Other,0.00005476,0.01302246
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004313,0.00226014
+2012,Pharmaceutical products,0.00001467,0.00015435
+2012,Cotton,0.00000844,0.00024745
+2012,Apparel and clothing accessories; not knitted or crocheted,0.00000610,0.00012089
+2012,Rubber and articles thereof,0.00000547,0.00034438
+2012,Other,0.00005049,0.01473208
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004467,0.00236096
+2013,Pharmaceutical products,0.00001569,0.00012480
+2013,Cotton,0.00000913,0.00026082
+2013,Apparel and clothing accessories; not knitted or crocheted,0.00000583,0.00010856
+2013,Ceramic products,0.00000582,0.01180902
+2013,Other,0.00005308,0.00521031
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005073,0.00250959
+2014,Pharmaceutical products,0.00001419,0.00007939
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000896,0.00016786
+2014,Apparel and clothing accessories; not knitted or crocheted,0.00000855,0.00014738
+2014,Plastics and articles thereof,0.00000793,0.00103694
+2014,Other,0.00005944,0.02127845
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004584,0.00269480
+2015,Pharmaceutical products,0.00001312,0.00008400
+2015,Plastics and articles thereof,0.00000830,0.00120107
+2015,Apparel and clothing accessories; not knitted or crocheted,0.00000752,0.00015532
+2015,Ceramic products,0.00000693,0.01291315
+2015,Other,0.00006081,0.01940129
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005373,0.00422214
+2016,Pharmaceutical products,0.00001273,0.00007953
+2016,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000930,0.00183084
+2016,Plastics and articles thereof,0.00000707,0.00097381
+2016,Apparel and clothing accessories; not knitted or crocheted,0.00000558,0.00012227
+2016,Other,0.00005526,0.02009650
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005634,0.00332982
+2017,Pharmaceutical products,0.00001434,0.00009670
+2017,Food Related,0.00000586,0.00071089
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000489,0.00019308
+2017,Apparel and clothing accessories; not knitted or crocheted,0.00000482,0.00010195
+2017,Other,0.00005086,0.01407102
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006610,0.00338060
+2018,Pharmaceutical products,0.00001518,0.00010593
+2018,Food Related,0.00000912,0.00066979
+2018,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000677,0.00169789
+2018,Chemical products n.e.c.,0.00000518,0.00068013
+2018,Other,0.00005588,0.01680954
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006274,0.00365255
+2019,Pharmaceutical products,0.00001187,0.00014547
+2019,Food Related,0.00001140,0.00087212
+2019,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000559,0.00088701
+2019,"Aircraft, spacecraft, and parts thereof",0.00000536,0.00000745
+2019,Other,0.00005737,0.01705408
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006378,0.00362344
+2020,Food Related,0.00002027,0.00143070
+2020,Pharmaceutical products,0.00001050,0.00010122
+2020,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000742,0.00105034
+2020,Apparel and clothing accessories; not knitted or crocheted,0.00000540,0.00009731
+2020,Other,0.00005316,0.01817043
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008302,0.00473409
+2021,Chemical products n.e.c.,0.00002216,0.00052017
+2021,Food Related,0.00002176,0.00151832
+2021,Pharmaceutical products,0.00001446,0.00007779
+2021,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00001162,0.00193666
+2021,Other,0.00007120,0.01263333
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009075,0.00489537
+2022,Food Related,0.00001835,0.00142633
+2022,Pharmaceutical products,0.00001737,0.00016809
+2022,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00001290,0.00179923
+2022,Plastics and articles thereof,0.00000634,0.00080668
+2022,Other,0.00007765,0.01239901
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008124,0.00596417
+2023,Food Related,0.00002741,0.00112438
+2023,Pharmaceutical products,0.00001816,0.00015202
+2023,"Aircraft, spacecraft, and parts thereof",0.00001263,0.00012100
+2023,Plastics and articles thereof,0.00000951,0.00121540
+2023,Other,0.00007531,0.01201942

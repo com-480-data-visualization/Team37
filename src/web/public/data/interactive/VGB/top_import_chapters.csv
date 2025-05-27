@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Ships, boats and floating structures",0.00018146,0.12829139
+1995,"Aircraft, spacecraft, and parts thereof",0.00004252,0.00003498
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002213,0.00599630
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001172,0.00150520
+1995,Food Related,0.00001101,0.01658747
+1995,Other,0.00006147,0.08570152
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00161830,12.21899658
+1996,"Ships, boats and floating structures",0.00015483,0.06775226
+1996,Fertilizers,0.00004855,0.32320479
+1996,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00002439,0.14018009
+1996,Iron and steel,0.00002025,0.08996618
+1996,Other,0.00012133,0.12996840
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00086230,5.57243874
+1997,"Ships, boats and floating structures",0.00017474,0.03499544
+1997,Fertilizers,0.00007765,0.78446858
+1997,Iron and steel,0.00006326,0.29153237
+1997,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00004279,0.33173782
+1997,Other,0.00015986,0.36747991
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00096041,13.16192864
+1998,"Ships, boats and floating structures",0.00010945,0.12898925
+1998,Aluminium and articles thereof,0.00010189,0.10235592
+1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005504,0.00006932
+1998,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00004669,0.28878572
+1998,Other,0.00021486,1.28145511
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00172000,15.44517978
+1999,"Ships, boats and floating structures",0.00011326,0.50019022
+1999,"Aircraft, spacecraft, and parts thereof",0.00005904,0.00035340
+1999,Aluminium and articles thereof,0.00004162,0.04835443
+1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002453,0.00008530
+1999,Other,0.00014147,0.41603311
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00431935,24.56915049
+2000,"Ships, boats and floating structures",0.00015243,0.01776022
+2000,"Aircraft, spacecraft, and parts thereof",0.00011715,0.00038401
+2000,Aluminium and articles thereof,0.00008784,0.06645585
+2000,Iron and steel,0.00005225,0.41359760
+2000,Other,0.00022394,0.19585513
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00345636,22.80989222
+2001,"Ships, boats and floating structures",0.00016190,0.03233854
+2001,Iron and steel,0.00010833,0.71576342
+2001,"Aircraft, spacecraft, and parts thereof",0.00008600,0.00029336
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004411,0.01254716
+2001,Other,0.00019916,0.21927795
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00265679,17.46687909
+2002,"Ships, boats and floating structures",0.00027399,0.09718238
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009658,0.00257709
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007736,0.02477413
+2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006449,0.00017956
+2002,Other,0.00023830,0.35293898
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00307038,13.71866726
+2003,"Ships, boats and floating structures",0.00038362,0.24004652
+2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00011206,0.00026018
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005549,0.00183849
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00003981,0.01134881
+2003,Other,0.00023756,0.22004675
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00263580,12.26584052
+2004,"Ships, boats and floating structures",0.00107916,0.11314170
+2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010975,0.00022651
+2004,Aluminium and articles thereof,0.00004765,0.04615686
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003892,0.00166864
+2004,Other,0.00034077,1.13709854
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00344821,10.60458323
+2005,"Ships, boats and floating structures",0.00049383,0.09713331
+2005,Iron and steel,0.00034112,0.78661931
+2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00008064,0.00023237
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004078,0.00227350
+2005,Other,0.00028610,0.25147579
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00272347,6.82923366
+2006,"Ships, boats and floating structures",0.00047089,0.05667525
+2006,Iron and steel,0.00034383,0.98086471
+2006,"Aircraft, spacecraft, and parts thereof",0.00018875,0.00032677
+2006,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00011821,0.05062387
+2006,Other,0.00050566,0.32343923
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00170062,3.60687728
+2007,"Ships, boats and floating structures",0.00064355,0.02830484
+2007,Iron and steel,0.00045716,1.03829871
+2007,Copper and articles thereof,0.00013231,0.01914933
+2007,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00011378,0.04431929
+2007,Other,0.00080504,0.43609002
+2008,"Ships, boats and floating structures",0.00063488,0.04476614
+2008,Iron and steel,0.00056876,0.91677513
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00054513,1.10068394
+2008,"Aircraft, spacecraft, and parts thereof",0.00031032,0.00023758
+2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00016041,0.00244602
+2008,Other,0.00094765,0.60826437
+2009,"Ships, boats and floating structures",0.00144085,0.10372874
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00055114,2.60473903
+2009,Iron and steel,0.00030076,0.85723613
+2009,"Aircraft, spacecraft, and parts thereof",0.00011140,0.00008012
+2009,Copper and articles thereof,0.00007217,0.01496050
+2009,Other,0.00045736,0.35364564
+2010,"Ships, boats and floating structures",0.00231895,0.45864048
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00059561,3.63054584
+2010,"Aircraft, spacecraft, and parts thereof",0.00029046,0.00022987
+2010,Iron and steel,0.00021904,0.52046643
+2010,Iron or steel articles,0.00008608,0.00968295
+2010,Other,0.00050079,0.18852658
+2011,"Ships, boats and floating structures",0.00269559,0.32457406
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00063408,0.83381342
+2011,Copper and articles thereof,0.00020609,0.02445251
+2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00009708,0.00044097
+2011,"Aircraft, spacecraft, and parts thereof",0.00009231,0.00018535
+2011,Other,0.00044384,0.30412740
+2012,"Ships, boats and floating structures",0.00204420,0.18590497
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00038763,0.89320709
+2012,Copper and articles thereof,0.00017896,0.02453953
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00013104,0.00017600
+2012,"Aircraft, spacecraft, and parts thereof",0.00011308,0.00024857
+2012,Other,0.00041814,0.24512613
+2013,"Ships, boats and floating structures",0.00129473,0.24805615
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043490,0.83822507
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012904,0.00016189
+2013,Copper and articles thereof,0.00011995,0.01741238
+2013,Food Related,0.00006500,0.07029619
+2013,Other,0.00038374,0.17992287
+2014,"Ships, boats and floating structures",0.00140053,0.13566956
+2014,Iron and steel,0.00026148,0.03477962
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015396,0.17995281
+2014,"Aircraft, spacecraft, and parts thereof",0.00015104,0.00017589
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00007287,0.00010813
+2014,Other,0.00035574,0.16211484
+2015,"Ships, boats and floating structures",0.00153248,0.10843325
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00019598,0.00015707
+2015,"Aircraft, spacecraft, and parts thereof",0.00009737,0.00010268
+2015,Iron and steel,0.00004396,0.01072788
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003630,0.00223979
+2015,Other,0.00030464,1.24984732
+2016,"Ships, boats and floating structures",0.00078622,0.45794201
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012665,0.00108918
+2016,"Aircraft, spacecraft, and parts thereof",0.00011841,0.00008915
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005625,0.00289488
+2016,Works of art; collectors' pieces and antiques,0.00004636,0.00000434
+2016,Other,0.00030685,1.21607915
+2017,"Ships, boats and floating structures",0.00102137,0.18819990
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00014075,0.22839489
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006681,0.00179169
+2017,"Aircraft, spacecraft, and parts thereof",0.00004913,0.00009048
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003832,0.00227535
+2017,Other,0.00027120,0.38897226
+2018,"Ships, boats and floating structures",0.00055635,0.28975321
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00011272,0.13220090
+2018,"Aircraft, spacecraft, and parts thereof",0.00010151,0.00010988
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005998,0.00485846
+2018,Food Related,0.00004574,0.02083546
+2018,Other,0.00041915,0.67765917
+2019,"Ships, boats and floating structures",0.00093721,0.03162312
+2019,"Aircraft, spacecraft, and parts thereof",0.00016287,0.00010585
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009355,0.10089393
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003574,0.00232122
+2019,Food Related,0.00003196,0.04038486
+2019,Other,0.00032714,0.40534165
+2020,"Ships, boats and floating structures",0.00044196,0.01985819
+2020,"Aircraft, spacecraft, and parts thereof",0.00020614,0.00015091
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004396,0.11104188
+2020,Food Related,0.00003220,0.05734734
+2020,Copper and articles thereof,0.00002626,0.00396796
+2020,Other,0.00029091,0.63896720
+2021,"Ships, boats and floating structures",0.00161264,0.06093656
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012584,0.24291996
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006289,0.00047250
+2021,Clocks and watches and parts thereof,0.00003160,0.00004724
+2021,"Aircraft, spacecraft, and parts thereof",0.00002914,0.00002440
+2021,Other,0.00025486,0.19330677
+2022,"Ships, boats and floating structures",0.00033346,0.05666720
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015475,0.18230756
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012399,0.00017597
+2022,"Aircraft, spacecraft, and parts thereof",0.00004958,0.00004920
+2022,Food Related,0.00004117,0.01732549
+2022,Other,0.00028679,0.12125079
+2023,"Ships, boats and floating structures",0.00033574,0.03759913
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009396,0.11960993
+2023,"Aircraft, spacecraft, and parts thereof",0.00007319,0.00010009
+2023,Food Related,0.00004381,0.04227269
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003853,0.00031663
+2023,Other,0.00027171,0.11902813

@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002512,0.00106363
+1995,Food Related,0.00001543,0.01905929
+1995,Apparel and clothing accessories; knitted or crocheted,0.00000109,0.00004050
+1995,"Beverages, spirits and vinegar",0.00000094,0.00123765
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000075,0.00074776
+1995,Other,0.00000319,0.00898677
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002637,0.00114939
+1996,Food Related,0.00001563,0.02807247
+1996,Apparel and clothing accessories; not knitted or crocheted,0.00000091,0.00002167
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000082,0.00028367
+1996,"Beverages, spirits and vinegar",0.00000080,0.00097954
+1996,Other,0.00000322,0.00451017
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002871,0.00114489
+1997,Food Related,0.00002466,0.04421288
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000226,0.00024504
+1997,Apparel and clothing accessories; knitted or crocheted,0.00000101,0.00003922
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000093,0.00015000
+1997,Other,0.00000511,0.00905637
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002856,0.00056015
+1998,Food Related,0.00001276,0.02574015
+1998,Rubber and articles thereof,0.00000172,0.00216004
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000118,0.00002222
+1998,Apparel and clothing accessories; knitted or crocheted,0.00000111,0.00002801
+1998,Other,0.00000233,0.00861223
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003461,0.00213773
+1999,Food Related,0.00001120,0.02288690
+1999,Apparel and clothing accessories; not knitted or crocheted,0.00000135,0.00004282
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000083,0.00005476
+1999,"Beverages, spirits and vinegar",0.00000062,0.00096262
+1999,Other,0.00000459,0.01000978
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003738,0.00211245
+2000,"Ships, boats and floating structures",0.00002152,0.00125357
+2000,Food Related,0.00000957,0.01705325
+2000,Apparel and clothing accessories; not knitted or crocheted,0.00000242,0.00004995
+2000,"Beverages, spirits and vinegar",0.00000205,0.00217878
+2000,Other,0.00001012,0.00321804
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004150,0.00192441
+2001,Food Related,0.00001106,0.01982579
+2001,Apparel and clothing accessories; not knitted or crocheted,0.00000181,0.00003824
+2001,Iron and steel,0.00000147,0.00594471
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000139,0.00013319
+2001,Other,0.00000724,0.00471810
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005028,0.00127848
+2002,Food Related,0.00001117,0.03410104
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000374,0.00027595
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000234,0.00063163
+2002,Apparel and clothing accessories; not knitted or crocheted,0.00000157,0.00004378
+2002,Other,0.00000684,0.00437651
+2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005770,0.00164371
+2003,Food Related,0.00001056,0.01629602
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000248,0.00028672
+2003,Organic chemicals,0.00000109,0.00000549
+2003,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000089,0.00015988
+2003,Other,0.00000593,0.00258199
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005746,0.00201267
+2004,Food Related,0.00001764,0.02427269
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000183,0.00023921
+2004,"Beverages, spirits and vinegar",0.00000103,0.00218132
+2004,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000094,0.00014090
+2004,Other,0.00000679,0.00492669
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005955,0.00153870
+2005,Food Related,0.00000721,0.01093558
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000152,0.00009746
+2005,"Beverages, spirits and vinegar",0.00000129,0.00148076
+2005,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000077,0.00003168
+2005,Other,0.00000419,0.00394178
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006814,0.00173486
+2006,"Beverages, spirits and vinegar",0.00000246,0.00371130
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000241,0.00033717
+2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000129,0.00005648
+2006,"Ships, boats and floating structures",0.00000106,0.00460979
+2006,Other,0.00000522,0.00365598
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005863,0.00091512
+2007,"Ships, boats and floating structures",0.00000478,0.00083924
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000414,0.00125504
+2007,"Beverages, spirits and vinegar",0.00000319,0.00375114
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000059,0.00010406
+2007,Other,0.00000621,0.00182263
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00007950,0.00121844
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000494,0.00053909
+2008,"Beverages, spirits and vinegar",0.00000467,0.00588689
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000219,0.00009922
+2008,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000194,0.00001965
+2008,Other,0.00000717,0.00453464
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006556,0.00101165
+2009,Food Related,0.00000543,0.00476177
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000530,0.00066489
+2009,"Beverages, spirits and vinegar",0.00000349,0.00389107
+2009,"Ships, boats and floating structures",0.00000309,0.01594560
+2009,Other,0.00001025,0.00255928
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006621,0.00206484
+2010,"Beverages, spirits and vinegar",0.00000349,0.00448692
+2010,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000309,0.00004740
+2010,"Aircraft, spacecraft, and parts thereof",0.00000299,0.00000767
+2010,"Ships, boats and floating structures",0.00000276,0.00826928
+2010,Other,0.00000910,0.00175943
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006759,0.00204446
+2011,"Ships, boats and floating structures",0.00000841,0.00627522
+2011,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000711,0.00003357
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000463,0.00032360
+2011,"Beverages, spirits and vinegar",0.00000391,0.00494703
+2011,Other,0.00000970,0.00541921
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008423,0.00165200
+2012,"Beverages, spirits and vinegar",0.00000434,0.00448785
+2012,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000339,0.00003626
+2012,"Ships, boats and floating structures",0.00000321,0.00931988
+2012,Pharmaceutical products,0.00000236,0.00591811
+2012,Other,0.00001223,0.00684749
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006065,0.00172928
+2013,"Ships, boats and floating structures",0.00001612,0.01623555
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000484,0.00006290
+2013,"Beverages, spirits and vinegar",0.00000420,0.00434872
+2013,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000339,0.00003649
+2013,Other,0.00001078,0.00264240
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005434,0.00125519
+2014,"Ships, boats and floating structures",0.00002640,0.03424722
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000604,0.00562088
+2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000533,0.00007637
+2014,"Beverages, spirits and vinegar",0.00000512,0.00392913
+2014,Other,0.00001290,0.00249965
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005365,0.00237638
+2015,"Ships, boats and floating structures",0.00002094,0.01079714
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000723,0.00005516
+2015,"Beverages, spirits and vinegar",0.00000522,0.00341968
+2015,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000384,0.00005329
+2015,Other,0.00000778,0.00230321
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004259,0.00146374
+2016,"Ships, boats and floating structures",0.00001681,0.04644006
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000985,0.00004265
+2016,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000501,0.00004891
+2016,"Beverages, spirits and vinegar",0.00000311,0.00234444
+2016,Other,0.00000977,0.00307320
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004546,0.00119895
+2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001267,0.00006739
+2017,"Ships, boats and floating structures",0.00000755,0.02490173
+2017,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000386,0.00003572
+2017,"Beverages, spirits and vinegar",0.00000309,0.00223636
+2017,Other,0.00001214,0.00663640
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003689,0.00194838
+2018,"Ships, boats and floating structures",0.00001938,0.01162865
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001375,0.00010783
+2018,"Beverages, spirits and vinegar",0.00000550,0.00442513
+2018,Food Related,0.00000095,0.00006427
+2018,Other,0.00000619,0.00902413
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004024,0.01453276
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001055,0.00007261
+2019,"Beverages, spirits and vinegar",0.00000581,0.00501078
+2019,"Ships, boats and floating structures",0.00000352,0.00010200
+2019,Food Related,0.00000065,0.00006602
+2019,Other,0.00000364,0.00368968
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003712,0.01293791
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000930,0.00008358
+2020,"Beverages, spirits and vinegar",0.00000675,0.00492235
+2020,"Ships, boats and floating structures",0.00000198,0.00780000
+2020,Food Related,0.00000119,0.00009845
+2020,Other,0.00000308,0.00170487
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003135,0.01440867
+2021,"Ships, boats and floating structures",0.00001285,0.00014030
+2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000878,0.00002881
+2021,"Beverages, spirits and vinegar",0.00000622,0.00441304
+2021,Food Related,0.00000276,0.00042634
+2021,Other,0.00000574,0.00446373
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002074,0.00623087
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000938,0.00010172
+2022,"Beverages, spirits and vinegar",0.00000836,0.00425691
+2022,"Ships, boats and floating structures",0.00000344,0.01219287
+2022,Food Related,0.00000116,0.00014322
+2022,Other,0.00000502,0.00183408
+2023,"Ships, boats and floating structures",0.00004387,0.01180704
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000966,0.00029928
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000797,0.00005349
+2023,"Beverages, spirits and vinegar",0.00000779,0.00365887
+2023,Food Related,0.00000115,0.00004802
+2023,Other,0.00000724,0.00867349

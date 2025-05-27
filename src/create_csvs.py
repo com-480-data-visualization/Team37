@@ -24,11 +24,10 @@ def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df
     print(f"Creating CSVs for each country for the interactive section")
     for cc in tqdm(country_codes):
 
-        # Produce a (Year x Chapter x [total_imports, total_exports, balance] = 18 * 220 * 3 = 11800 rows
+        # Produce a (Year x Chapter  = 29 * 87 = 2523 rows) csv
         cc_import_view, cc_export_view = get_imports_exports_for_country_per_year_chapter(data_df, cc)
         cc_import_view.drop(columns=['quantity_mln_metric_tons'], inplace=True)
         cc_export_view.drop(columns=['quantity_mln_metric_tons'], inplace=True)
-
         cc_import_view.rename(columns={'value_trln_USD': 'imports_trln_USD'}, inplace=True)
         cc_export_view.rename(columns={'value_trln_USD': 'exports_trln_USD'}, inplace=True)
 
@@ -39,7 +38,15 @@ def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df
         country_name = get_country_name(cc, cc_df, 'country_iso3')
         save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/surplus_deficit_by_chapter.csv")
 
-        # Produce a  rows
+        # Produce the top N chapters in terms of imports and exports for each year:
+        # (29 * N) + 29 (other)  rows for each of the two CSVs
+        chapter_total_imports = get_totals_per_chapter(data_df[data_df["importer"] == cc])
+        chapter_total_exports = get_totals_per_chapter(data_df[data_df["exporter"] == cc])
+        keep_top_n = 5
+        to_csv = get_chapter_totals_all_years(chapter_total_imports, cc_df, epc22_df, keep_top_n)
+        save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_import_chapters.csv")
+        to_csv = get_chapter_totals_all_years(chapter_total_exports, cc_df, epc22_df, keep_top_n)
+        save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_export_chapters.csv")
 
 def produce_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
     # # Create Absulute $ deficit CSV

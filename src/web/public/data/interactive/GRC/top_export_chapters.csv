@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Food Related,0.00163469,1.74025008
+1995,Apparel and clothing accessories; knitted or crocheted,0.00120338,0.04462904
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00072415,5.17049492
+1995,Cotton,0.00066841,0.26954634
+1995,Aluminium and articles thereof,0.00051940,0.17736257
+1995,Other,0.00650930,15.61916062
+1996,Food Related,0.00182074,1.79704941
+1996,Apparel and clothing accessories; knitted or crocheted,0.00119320,0.04896633
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00089991,5.40074295
+1996,Cotton,0.00069154,0.32156353
+1996,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00051042,9.06804481
+1996,Other,0.00664190,6.66750400
+1997,Food Related,0.00143445,1.91601308
+1997,Apparel and clothing accessories; knitted or crocheted,0.00109436,0.04890093
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00075100,4.82182024
+1997,Cotton,0.00060367,0.35377049
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00053303,0.07071451
+1997,Other,0.00676537,14.76850425
+1998,Food Related,0.00126700,1.53350100
+1998,Apparel and clothing accessories; knitted or crocheted,0.00117952,0.05570999
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00070932,4.54689671
+1998,Cotton,0.00055454,0.56864173
+1998,Aluminium and articles thereof,0.00054908,0.21144329
+1998,Other,0.00662149,13.99493303
+1999,Food Related,0.00147292,1.73537221
+1999,Apparel and clothing accessories; knitted or crocheted,0.00110141,0.05481399
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00085691,4.52767861
+1999,Cotton,0.00059724,0.43316710
+1999,Aluminium and articles thereof,0.00054024,0.23260631
+1999,Other,0.00666094,14.06629034
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00112800,5.03387789
+2000,Food Related,0.00112760,1.70176256
+2000,Apparel and clothing accessories; knitted or crocheted,0.00109785,0.06503083
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00066543,0.08597492
+2000,Aluminium and articles thereof,0.00059332,0.27216569
+2000,Other,0.00665354,12.92139502
+2001,Food Related,0.00117758,2.00849381
+2001,Apparel and clothing accessories; knitted or crocheted,0.00105374,0.05425758
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00103576,4.19593888
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00063456,0.09355853
+2001,Pharmaceutical products,0.00061004,0.09316021
+2001,Other,0.00686643,13.09863977
+2002,Food Related,0.00127782,2.14264375
+2002,Apparel and clothing accessories; knitted or crocheted,0.00107530,0.07149037
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00088416,3.77460056
+2002,Pharmaceutical products,0.00080259,0.10143675
+2002,Aluminium and articles thereof,0.00061851,0.26596633
+2002,Other,0.00734556,11.01122092
+2003,Food Related,0.00152378,1.85440088
+2003,Apparel and clothing accessories; knitted or crocheted,0.00128084,0.06174884
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00113682,3.68882155
+2003,Pharmaceutical products,0.00099414,0.11079997
+2003,Aluminium and articles thereof,0.00081447,0.28424207
+2003,Other,0.00872539,12.47845560
+2004,Food Related,0.00131179,1.30667463
+2004,Pharmaceutical products,0.00129146,0.10312040
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00124249,3.53473589
+2004,Apparel and clothing accessories; knitted or crocheted,0.00122051,0.05785079
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00096827,0.10686275
+2004,Other,0.01030800,12.62550755
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00202346,3.68934020
+2005,Food Related,0.00192671,2.32189594
+2005,Pharmaceutical products,0.00144029,0.11333872
+2005,Apparel and clothing accessories; knitted or crocheted,0.00106598,0.05083604
+2005,Aluminium and articles thereof,0.00105058,0.34037132
+2005,Other,0.01135011,13.88337867
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00274833,4.91853579
+2006,Food Related,0.00237799,2.55013098
+2006,Pharmaceutical products,0.00157623,0.14008641
+2006,Aluminium and articles thereof,0.00124166,0.37698405
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00109484,0.11334955
+2006,Other,0.01303332,15.00469030
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00307870,4.86838079
+2007,Food Related,0.00232371,1.72822771
+2007,Pharmaceutical products,0.00175735,0.12512156
+2007,Aluminium and articles thereof,0.00150593,0.36339148
+2007,Iron and steel,0.00141236,1.07676371
+2007,Other,0.01509633,14.64812705
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00461130,6.22818955
+2008,Food Related,0.00265061,1.83244109
+2008,Pharmaceutical products,0.00187082,0.13296842
+2008,Iron and steel,0.00158941,1.25676613
+2008,Aluminium and articles thereof,0.00146091,0.34454048
+2008,Other,0.01696171,19.96549143
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00372097,7.52362935
+2009,Food Related,0.00285733,2.08790094
+2009,Pharmaceutical products,0.00191816,0.14493225
+2009,Aluminium and articles thereof,0.00105427,0.31290188
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00104141,0.13290863
+2009,Other,0.01325921,17.72949889
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00574685,9.06666435
+2010,Food Related,0.00239898,2.13632155
+2010,Pharmaceutical products,0.00201097,0.14829602
+2010,Aluminium and articles thereof,0.00135381,0.39904599
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00114282,0.11455905
+2010,Other,0.01387757,14.99672807
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00751201,8.90233846
+2011,Food Related,0.00270700,1.99729599
+2011,Pharmaceutical products,0.00217299,0.14239256
+2011,Iron and steel,0.00182251,1.81697656
+2011,Aluminium and articles thereof,0.00172591,0.45804471
+2011,Other,0.01555916,13.05725431
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00952366,10.60592896
+2012,Food Related,0.00264009,2.11872506
+2012,Pharmaceutical products,0.00196350,0.14815263
+2012,Aluminium and articles thereof,0.00151237,0.44274027
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00128531,0.13701169
+2012,Other,0.01461297,16.59329561
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01136872,13.00934432
+2013,Food Related,0.00297242,2.00127716
+2013,Pharmaceutical products,0.00210374,0.14900914
+2013,Aluminium and articles thereof,0.00161809,0.48196727
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00127968,0.12664095
+2013,Other,0.01459657,18.42613550
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01137394,13.77313173
+2014,Food Related,0.00266652,1.93984926
+2014,Pharmaceutical products,0.00210617,0.13977771
+2014,Aluminium and articles thereof,0.00172887,0.53290270
+2014,Plastics and articles thereof,0.00134109,0.54910658
+2014,Other,0.01452775,18.84220820
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00673901,15.26878712
+2015,Food Related,0.00280685,1.91076204
+2015,Pharmaceutical products,0.00179159,0.13660910
+2015,Aluminium and articles thereof,0.00164835,0.55393120
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00128288,0.11226319
+2015,Other,0.01306693,17.99387474
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00658482,16.68485290
+2016,Food Related,0.00290552,2.26556854
+2016,Pharmaceutical products,0.00195458,0.15398297
+2016,Aluminium and articles thereof,0.00158797,0.57310895
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00129982,0.11586251
+2016,Other,0.01297162,19.04200453
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00853167,19.09638505
+2017,Food Related,0.00283554,1.84819292
+2017,Pharmaceutical products,0.00218174,0.15323835
+2017,Aluminium and articles thereof,0.00182932,0.58673953
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00136645,0.11368357
+2017,Other,0.01379691,18.64504834
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01185851,20.36005784
+2018,Food Related,0.00328680,2.11416976
+2018,Pharmaceutical products,0.00278223,0.15999517
+2018,Aluminium and articles thereof,0.00194649,0.58217493
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00146414,0.12956379
+2018,Other,0.01561763,19.58670070
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01074160,19.25976980
+2019,Food Related,0.00296102,2.11280739
+2019,Pharmaceutical products,0.00290966,0.16808152
+2019,Aluminium and articles thereof,0.00176139,0.56126011
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00150006,0.12919419
+2019,Other,0.01586499,19.28701294
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00797077,19.84045877
+2020,Pharmaceutical products,0.00439896,0.19013707
+2020,Food Related,0.00330743,2.36224085
+2020,Aluminium and articles thereof,0.00170128,0.55973451
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00154125,0.13367618
+2020,Other,0.01611547,18.26617904
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01239987,21.53001986
+2021,Pharmaceutical products,0.00449359,0.19255757
+2021,Food Related,0.00397681,2.55935086
+2021,Aluminium and articles thereof,0.00230726,0.61499112
+2021,Plastics and articles thereof,0.00175169,0.70544163
+2021,Other,0.01947134,18.80060270
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01944734,20.84109565
+2022,Food Related,0.00459610,2.55692862
+2022,Pharmaceutical products,0.00398793,0.21361816
+2022,Aluminium and articles thereof,0.00297254,0.66128325
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00216872,0.28040671
+2022,Other,0.02126058,19.22890760
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01758147,22.49692968
+2023,Food Related,0.00534544,2.79007277
+2023,Pharmaceutical products,0.00415278,0.21476803
+2023,Aluminium and articles thereof,0.00257775,0.65647675
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00214845,0.30345546
+2023,Other,0.02150104,18.57072827

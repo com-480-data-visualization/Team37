@@ -1,0 +1,145 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031315,1.33598894
+2000,Pharmaceutical products,0.00004556,0.01086533
+2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00003770,0.00415279
+2000,Food Related,0.00001526,0.00864024
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001181,0.00128896
+2000,Other,0.00006950,0.13637160
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00033404,1.54186861
+2001,Pharmaceutical products,0.00004325,0.01209813
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004146,0.00453649
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002104,0.00062785
+2001,Food Related,0.00001522,0.01012153
+2001,Other,0.00009302,0.09709510
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022592,1.05884301
+2002,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00005758,0.00210738
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004288,0.00432821
+2002,Pharmaceutical products,0.00003284,0.00884675
+2002,Food Related,0.00002015,0.01427469
+2002,Other,0.00011034,0.10580758
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00023974,1.00539009
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005691,0.00502622
+2003,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00004877,0.00141835
+2003,Pharmaceutical products,0.00003395,0.00721940
+2003,Food Related,0.00001940,0.01100602
+2003,Other,0.00012653,0.11270609
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031565,1.05562736
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007083,0.00614293
+2004,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00007012,0.00160086
+2004,Pharmaceutical products,0.00004238,0.00866625
+2004,Food Related,0.00002401,0.01559178
+2004,Other,0.00016964,0.14065747
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00053198,1.21887058
+2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007791,0.00780108
+2005,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006760,0.00184417
+2005,Pharmaceutical products,0.00004420,0.00918618
+2005,Food Related,0.00002674,0.01595032
+2005,Other,0.00016306,0.12467836
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00069381,1.31413175
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008616,0.00738296
+2006,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006948,0.00187196
+2006,Pharmaceutical products,0.00004229,0.00989226
+2006,Food Related,0.00002541,0.01565634
+2006,Other,0.00019035,0.12899008
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00056091,1.00079327
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010025,0.00740346
+2007,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006363,0.00079579
+2007,Pharmaceutical products,0.00003871,0.00969424
+2007,Food Related,0.00003012,0.01751973
+2007,Other,0.00019895,0.15897741
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00047975,0.60770344
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00009503,0.00621998
+2008,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006788,0.00060819
+2008,Pharmaceutical products,0.00003970,0.00816870
+2008,Food Related,0.00003405,0.01925489
+2008,Other,0.00021428,0.20532282
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00045138,0.94486648
+2009,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00007766,0.00058483
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006326,0.00489350
+2009,Food Related,0.00003639,0.02063898
+2009,Pharmaceutical products,0.00003575,0.00696022
+2009,Other,0.00021645,0.20695200
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00046746,0.76137196
+2010,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00008863,0.00063656
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008024,0.00606803
+2010,Food Related,0.00004156,0.02231317
+2010,Clocks and watches and parts thereof,0.00003482,0.00002065
+2010,Other,0.00019867,0.18333411
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00059908,0.72629619
+2011,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00011058,0.00082797
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006266,0.00540927
+2011,Clocks and watches and parts thereof,0.00004957,0.00002594
+2011,Food Related,0.00004009,0.01741188
+2011,Other,0.00022186,0.18202049
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00068242,0.78499270
+2012,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00010734,0.00043077
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007072,0.00512496
+2012,Clocks and watches and parts thereof,0.00004917,0.00002897
+2012,Food Related,0.00004000,0.01631028
+2012,Other,0.00024324,0.21396512
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00049459,0.59000384
+2013,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00008754,0.00052036
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006675,0.00496614
+2013,Food Related,0.00003567,0.01449434
+2013,Clocks and watches and parts thereof,0.00003392,0.00001919
+2013,Other,0.00021634,0.15881288
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00074002,0.94626931
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007748,0.00636850
+2014,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006905,0.00031402
+2014,Food Related,0.00004177,0.01571706
+2014,Clocks and watches and parts thereof,0.00003498,0.00002605
+2014,Other,0.00021811,0.08063146
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00036207,0.78912522
+2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008369,0.00641644
+2015,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006012,0.00031585
+2015,Food Related,0.00004013,0.01693509
+2015,Clocks and watches and parts thereof,0.00002319,0.00001561
+2015,Other,0.00017495,0.06687332
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00032046,0.86520342
+2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007719,0.00638586
+2016,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006852,0.00038905
+2016,Food Related,0.00004558,0.01983505
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002695,0.00175669
+2016,Other,0.00018770,0.14424620
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00041082,0.00295346
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00037470,0.79712615
+2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007653,0.00555481
+2017,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00006842,0.00033970
+2017,Food Related,0.00004336,0.01794655
+2017,Other,0.00019861,0.11377133
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00061936,1.02517657
+2018,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00008514,0.00038707
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006251,0.00436245
+2018,Food Related,0.00004390,0.01640219
+2018,"Aircraft, spacecraft, and parts thereof",0.00003752,0.00005045
+2018,Other,0.00025144,0.16055718
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00057000,1.03772050
+2019,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00008892,0.00031157
+2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006557,0.00429577
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006549,0.00518528
+2019,Food Related,0.00004177,0.01855704
+2019,Other,0.00024536,0.16304803
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031886,0.88532329
+2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004924,0.00307995
+2020,Food Related,0.00003768,0.01627610
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002388,0.00187135
+2020,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00002263,0.00010521
+2020,Other,0.00015436,0.15193978
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00051500,0.94091644
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007009,0.00384277
+2021,Food Related,0.00004200,0.01423979
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002800,0.00127543
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002777,0.00155565
+2021,Other,0.00015032,0.18381028
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00086008,0.90794662
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008057,0.00471485
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005020,0.00153081
+2022,Food Related,0.00004300,0.01480159
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003917,0.00465943
+2022,Other,0.00020376,0.09487409
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00055982,0.68051320
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008008,0.00414720
+2023,Food Related,0.00003769,0.01242106
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003126,0.00111661
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003112,0.00116362
+2023,Other,0.00016746,0.15211042

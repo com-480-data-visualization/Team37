@@ -170,37 +170,110 @@ def adjust_for_inflation(nominal_df, cpi_df, target_year, nominal_col="world_nom
     return merged_df[['year', nominal_col, adjusted_column_name]]
 
 
-def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n):
-    # keep only #year and group smaller values
-    tmp = chapter_totals[chapter_totals["year"] == year][["product_chapter", "value_trln_USD", "quantity_mln_metric_tons"]].copy()
+# def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n):
+#     # keep only #year and group smaller values
+#     tmp = chapter_totals[chapter_totals["year"] == year][["product_chapter", "value_trln_USD", "quantity_mln_metric_tons"]].copy()
 
-    # Pre-group some categories with too much detail TODO: CHECK chapters one by one AND EXPAND
+#     # Pre-group some categories with too much detail TODO: CHECK chapters one by one AND EXPAND
+#     food_rows = tmp[tmp["product_chapter"].isin(FOOD_CHAPTERS)]
+#     food_row = {"product_chapter": "Food Related",
+#                   "value_trln_USD": food_rows["value_trln_USD"].sum(),
+#                   "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum()
+#                   }
+#     # drop food rows from tmp
+#     tmp = tmp[~tmp["product_chapter"].isin(FOOD_CHAPTERS)]
+
+#     # Convert chapters to human-readable names
+#     tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
+
+#     # Add food row to tmp to be considered for top_n
+#     tmp = pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
+#     tmp = tmp.sort_values(by=["value_trln_USD"], ascending=False)
+
+
+#     # Keep
+#     to_csv = tmp.iloc[:keep_top_n, :]
+#     other_row = {"product_chapter": "Other",
+#                   "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
+#                   "quantity_mln_metric_tons": tmp.iloc[keep_top_n:]["quantity_mln_metric_tons"].sum()
+#                   }
+#     # Add other row
+#     to_csv = pd.concat([to_csv, pd.DataFrame([other_row])], ignore_index=True)
+
+#     return to_csv
+
+
+def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
+                                year: int, keep_top_n: int) -> pd.DataFrame:
+    """
+    Build the Top-N+1 (“Other”) rows for one calendar year.
+    """
+    tmp = (
+        chapter_totals.loc[chapter_totals["year"] == year,
+                           ["product_chapter", "value_trln_USD",
+                            "quantity_mln_metric_tons"]]
+        .copy()
+    )
+
+    # collapse the very fine-grained food chapters
     food_rows = tmp[tmp["product_chapter"].isin(FOOD_CHAPTERS)]
-    food_row = {"product_chapter": "Food Related",
-                  "value_trln_USD": food_rows["value_trln_USD"].sum(),
-                  "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum()
-                  }
-    # drop food rows from tmp
+    food_row = {
+        "product_chapter": "Food Related",
+        "value_trln_USD": food_rows["value_trln_USD"].sum(),
+        "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum(),
+    }
     tmp = tmp[~tmp["product_chapter"].isin(FOOD_CHAPTERS)]
 
-    # Convert chapters to human-readable names
+    # convert chapters to human-readable names
     tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
 
-    # Add food row to tmp to be considered for top_n
-    tmp = pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
-    tmp = tmp.sort_values(by=["value_trln_USD"], ascending=False)
+    # include the aggregated food row, then rank by value
+    tmp = (
+        pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
+        .sort_values("value_trln_USD", ascending=False)
+    )
+
+    # keep top-N and aggregate everything else into “Other”
+    top_n = tmp.iloc[:keep_top_n, :]
+    other_row = {
+        "product_chapter": "Other",
+        "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
+        "quantity_mln_metric_tons": tmp.iloc[keep_top_n:]["quantity_mln_metric_tons"].sum(),
+    }
+
+    result = pd.concat([top_n, pd.DataFrame([other_row])], ignore_index=True)
+    result.insert(0, "year", year)          # add a year column for later filtering
+    return result
 
 
-    # Keep
-    to_csv = tmp.iloc[:keep_top_n, :]
-    other_row = {"product_chapter": "Other",
-                  "value_trln_USD": tmp.iloc[keep_top_n:]["value_trln_USD"].sum(),
-                  "quantity_mln_metric_tons": tmp.iloc[keep_top_n:]["quantity_mln_metric_tons"].sum()
-                  }
-    # Add other row
-    to_csv = pd.concat([to_csv, pd.DataFrame([other_row])], ignore_index=True)
+# --- new public API -----------------------------------------------------
 
-    return to_csv
+def get_chapter_totals_all_years(chapter_totals, cc_df, epc22_df,
+                                 keep_top_n: int) -> pd.DataFrame:
+    """
+    For every distinct year in *chapter_totals*, compute the Top-N+1 rows
+    (including the aggregated “Other” row) and return a single DataFrame
+    containing all years.
+    """
+    years = sorted(chapter_totals["year"].unique())
+    per_year_frames = [
+        _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
+                                    year, keep_top_n)
+        for year in years
+    ]
+    return pd.concat(per_year_frames, ignore_index=True)
+
+
+def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df,
+                                year: int, keep_top_n: int) -> pd.DataFrame:
+    """
+    Compatibility wrapper that delegates to *get_chapter_totals_all_years*
+    and then filters for the requested *year*.
+    """
+    all_years = get_chapter_totals_all_years(chapter_totals,
+                                             cc_df, epc22_df,
+                                             keep_top_n)
+    return all_years.loc[all_years["year"] == year].reset_index(drop=True)
 
 def standard_unit_and_name_conversions(df):
     df['value'] = df['value'].div(1000.0*1000.0*1000.0) # From thousands to USD trillions.

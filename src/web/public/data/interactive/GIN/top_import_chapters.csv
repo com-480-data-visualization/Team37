@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Food Related,0.00024268,0.56478790
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010431,0.65704911
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008615,0.01518258
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00007200,0.00700956
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005130,0.01521150
+1995,Other,0.00041378,0.69240228
+1996,Food Related,0.00017432,0.38821027
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012459,0.71542901
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008958,0.00956200
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00007814,0.01466024
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004646,0.01499231
+1996,Other,0.00036828,0.49949354
+1997,Food Related,0.00014702,0.40780533
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00013145,0.01110522
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00010866,0.01255304
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00006927,0.43238391
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006151,0.01490317
+1997,Other,0.00037311,0.55816254
+1998,Food Related,0.00012593,0.39297841
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00011677,0.02347294
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006013,0.00920598
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005451,0.40012897
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004750,0.01284554
+1998,Other,0.00038309,0.51965522
+1999,Food Related,0.00013787,0.49072005
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00010721,0.02790683
+1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00006400,0.00992080
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005801,0.45165132
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005108,0.01525055
+1999,Other,0.00038521,0.57423938
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012302,0.50836890
+2000,Food Related,0.00011589,0.43087678
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006985,0.01200064
+2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006090,0.01474529
+2000,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00005700,0.00994795
+2000,Other,0.00035440,0.75005809
+2001,Food Related,0.00012123,0.50174741
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009847,0.01460764
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00008543,0.40586328
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006484,0.01697731
+2001,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00006227,0.01204365
+2001,Other,0.00038519,0.80346613
+2002,Food Related,0.00014088,0.63365505
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00011901,0.46629888
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008987,0.01529048
+2002,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00007406,0.01404875
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007009,0.02156531
+2002,Other,0.00046662,0.76585122
+2003,Food Related,0.00012057,0.33593580
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010834,0.47041909
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008804,0.01080180
+2003,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00007115,0.00837887
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006470,0.01690050
+2003,Other,0.00039522,1.16239645
+2004,Food Related,0.00019252,0.60622183
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00016714,0.43612867
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00013611,0.01933119
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008655,0.01881593
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006574,0.02320839
+2004,Other,0.00055958,1.00217332
+2005,Food Related,0.00026373,0.83025582
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022178,0.57275699
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00012514,0.01743799
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008568,0.01585080
+2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008424,0.03120888
+2005,Other,0.00063202,1.26912949
+2006,Food Related,0.00034590,1.00455395
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022983,0.35214104
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00019393,0.03013407
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00011152,0.03553448
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00011041,0.02764338
+2006,Other,0.00064281,0.90219833
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00035896,1.11533713
+2007,Food Related,0.00030433,0.74660501
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00026179,0.02828797
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00019745,0.03486018
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010925,0.13862929
+2007,Other,0.00076432,0.95297442
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00067823,1.10363156
+2008,Food Related,0.00036519,0.71553570
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00030289,0.03203061
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00021190,0.03555251
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00019152,0.05696362
+2008,Other,0.00096058,1.27987183
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00048180,0.82119961
+2009,Food Related,0.00024625,0.48789312
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00020061,0.01520152
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00014481,0.02154962
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00012015,0.02148808
+2009,Other,0.00078629,0.81214257
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00035160,0.53513818
+2010,Food Related,0.00030496,0.56712675
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00018093,0.01617384
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00015086,0.02792024
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00013125,0.02516375
+2010,Other,0.00091711,1.32453673
+2011,Food Related,0.00050201,0.73601763
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00049650,0.57092748
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00030641,0.03112031
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00024480,0.05433831
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00019015,0.01462505
+2011,Other,0.00126519,1.30135497
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00058920,0.67692668
+2012,Food Related,0.00045424,0.76330436
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00031815,0.03665947
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00025490,0.05169979
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00025246,0.07856631
+2012,Other,0.00146505,1.68460079
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00081919,0.99700347
+2013,Food Related,0.00068054,1.19710353
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00028192,0.03559180
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00024388,0.03998281
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00017538,0.09211436
+2013,Other,0.00155586,3.97170961
+2014,Food Related,0.00081329,1.39947792
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00078865,0.98312343
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00028837,0.04033280
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00024604,0.03405001
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00022833,0.08699506
+2014,Other,0.00142821,2.38146557
+2015,Food Related,0.00068212,1.30361073
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00032207,0.05186289
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031742,0.65495406
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00030802,0.04251122
+2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00024866,0.11027220
+2015,Other,0.00159040,2.61962963
+2016,Food Related,0.00083355,1.63324983
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00064276,0.06568228
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00052334,1.22749378
+2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00046403,0.11598149
+2016,Tin; articles thereof,0.00033676,0.13414114
+2016,Other,0.00182521,2.68576838
+2017,Food Related,0.00064960,1.32556269
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043521,0.89150387
+2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00040393,0.13447744
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00036731,0.05568732
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00026305,0.02421548
+2017,Other,0.00180011,2.87314771
+2018,Food Related,0.00075117,1.69310875
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00042317,0.05481349
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00035327,0.14736417
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00032447,0.53220840
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00032150,0.02963800
+2018,Other,0.00208583,3.04305702
+2019,Food Related,0.00067487,1.44305648
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00054769,0.09217293
+2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00043972,0.18455891
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00036906,0.03458986
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00020447,0.45200423
+2019,Other,0.00216904,3.26844414
+2020,Food Related,0.00078579,1.59626275
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00052976,0.09732349
+2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00045729,0.18449241
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00038847,0.05578954
+2020,Iron or steel articles,0.00021803,0.14569260
+2020,Other,0.00237416,3.48300963
+2021,Food Related,0.00094996,1.83807261
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00059274,0.22328107
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00053931,0.09983282
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00044450,0.05512174
+2021,Iron and steel,0.00022113,0.24628708
+2021,Other,0.00257995,3.50524254
+2022,Food Related,0.00096266,1.67948605
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00081959,0.78921367
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00056651,0.17512932
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00056271,0.10583401
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00040847,0.04669403
+2022,Other,0.00286148,3.36538522
+2023,Food Related,0.00109584,1.93067729
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00080500,1.00079335
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00070284,0.11994761
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00063083,0.15682014
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00048860,0.05503265
+2023,Other,0.00301613,3.07140158

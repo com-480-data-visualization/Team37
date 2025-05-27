@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00019880,0.05917452
+1995,Pharmaceutical products,0.00009659,0.01621213
+1995,Food Related,0.00007618,0.05391308
+1995,Apparel and clothing accessories; not knitted or crocheted,0.00006649,0.00222874
+1995,"Metals; n.e.c., cermets and articles thereof",0.00005454,0.01464104
+1995,Other,0.00020648,0.41103012
+1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00014459,0.05831127
+1996,Food Related,0.00010458,0.06085168
+1996,Apparel and clothing accessories; not knitted or crocheted,0.00009818,0.00243878
+1996,Pharmaceutical products,0.00008982,0.01068013
+1996,Apparel and clothing accessories; knitted or crocheted,0.00006341,0.00187252
+1996,Other,0.00022059,0.35919626
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00013090,0.05601239
+1997,Pharmaceutical products,0.00010296,0.01641186
+1997,Apparel and clothing accessories; not knitted or crocheted,0.00010101,0.00376621
+1997,Apparel and clothing accessories; knitted or crocheted,0.00010018,0.00308477
+1997,Food Related,0.00008630,0.10093541
+1997,Other,0.00020778,0.42891682
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00013503,0.05093430
+1998,Apparel and clothing accessories; not knitted or crocheted,0.00012772,0.00521064
+1998,Apparel and clothing accessories; knitted or crocheted,0.00011281,0.00338742
+1998,Pharmaceutical products,0.00010454,0.01036804
+1998,Food Related,0.00007182,0.03483355
+1998,Other,0.00022907,0.53673820
+1999,Apparel and clothing accessories; knitted or crocheted,0.00014539,0.00418068
+1999,Apparel and clothing accessories; not knitted or crocheted,0.00014466,0.00634891
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00012895,0.04016239
+1999,Pharmaceutical products,0.00010212,0.01315900
+1999,Food Related,0.00007505,0.05350904
+1999,Other,0.00022911,0.36324292
+2000,Apparel and clothing accessories; knitted or crocheted,0.00021295,0.00757347
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00019228,0.04145409
+2000,Apparel and clothing accessories; not knitted or crocheted,0.00015811,0.00895889
+2000,Pharmaceutical products,0.00013004,0.01832329
+2000,Food Related,0.00006649,0.06262884
+2000,Other,0.00035718,0.35390809
+2001,Apparel and clothing accessories; knitted or crocheted,0.00025643,0.01113557
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00024592,0.03279901
+2001,Apparel and clothing accessories; not knitted or crocheted,0.00018437,0.01033514
+2001,Pharmaceutical products,0.00014635,0.02587749
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009383,0.17236131
+2001,Other,0.00025405,0.32744833
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00022971,0.01840360
+2002,Pharmaceutical products,0.00015724,0.02340098
+2002,Apparel and clothing accessories; knitted or crocheted,0.00013772,0.00447980
+2002,Apparel and clothing accessories; not knitted or crocheted,0.00011213,0.00466416
+2002,Food Related,0.00007761,0.05683369
+2002,Other,0.00019529,0.29102680
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00033012,0.02945204
+2003,Apparel and clothing accessories; knitted or crocheted,0.00020408,0.00860355
+2003,Pharmaceutical products,0.00017782,0.02397554
+2003,Apparel and clothing accessories; not knitted or crocheted,0.00017491,0.00773693
+2003,Food Related,0.00010615,0.05132093
+2003,Other,0.00031980,0.35173680
+2004,Apparel and clothing accessories; knitted or crocheted,0.00032637,0.01520763
+2004,Apparel and clothing accessories; not knitted or crocheted,0.00025254,0.01438659
+2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00025024,0.02503041
+2004,Pharmaceutical products,0.00018373,0.01783126
+2004,Food Related,0.00011641,0.05160188
+2004,Other,0.00033167,0.35979294
+2005,Apparel and clothing accessories; knitted or crocheted,0.00029794,0.01220234
+2005,Apparel and clothing accessories; not knitted or crocheted,0.00024298,0.01361880
+2005,Pharmaceutical products,0.00015159,0.01557387
+2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00011259,0.01821239
+2005,Food Related,0.00009672,0.03833099
+2005,Other,0.00032939,0.33474266
+2006,Apparel and clothing accessories; knitted or crocheted,0.00031503,0.01095143
+2006,Apparel and clothing accessories; not knitted or crocheted,0.00026145,0.01338042
+2006,Pharmaceutical products,0.00016139,0.01756960
+2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00012178,0.02788962
+2006,Food Related,0.00010372,0.05030129
+2006,Other,0.00032590,0.38544633
+2007,Apparel and clothing accessories; knitted or crocheted,0.00039038,0.01547402
+2007,Apparel and clothing accessories; not knitted or crocheted,0.00031489,0.01727833
+2007,Pharmaceutical products,0.00015739,0.01619267
+2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00014675,0.03220080
+2007,Food Related,0.00009841,0.04059170
+2007,Other,0.00037570,0.42338977
+2008,Apparel and clothing accessories; knitted or crocheted,0.00038934,0.01307031
+2008,Apparel and clothing accessories; not knitted or crocheted,0.00032934,0.01685347
+2008,Pharmaceutical products,0.00016369,0.01563798
+2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00014453,0.02419349
+2008,Food Related,0.00010754,0.04463328
+2008,Other,0.00052879,0.40536475
+2009,Apparel and clothing accessories; knitted or crocheted,0.00031663,0.01209750
+2009,Apparel and clothing accessories; not knitted or crocheted,0.00026356,0.01197952
+2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00014811,0.02589523
+2009,Food Related,0.00013128,0.07754961
+2009,Pharmaceutical products,0.00013044,0.01297297
+2009,Other,0.00037773,0.44941219
+2010,Apparel and clothing accessories; knitted or crocheted,0.00020811,0.00653882
+2010,Apparel and clothing accessories; not knitted or crocheted,0.00017645,0.00658728
+2010,Food Related,0.00012406,0.06605108
+2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00012101,0.02246488
+2010,Pharmaceutical products,0.00012007,0.01148289
+2010,Other,0.00052999,0.71632706
+2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00027984,0.04002607
+2011,Apparel and clothing accessories; knitted or crocheted,0.00025832,0.00727365
+2011,Apparel and clothing accessories; not knitted or crocheted,0.00021580,0.00647657
+2011,Pharmaceutical products,0.00014126,0.01395482
+2011,Food Related,0.00012790,0.06025880
+2011,Other,0.00063674,0.87419096
+2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00036862,0.03193822
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00026291,0.05310539
+2012,Apparel and clothing accessories; knitted or crocheted,0.00025577,0.00699470
+2012,Apparel and clothing accessories; not knitted or crocheted,0.00022745,0.00582933
+2012,Food Related,0.00015277,0.08671527
+2012,Other,0.00064399,0.89170244
+2013,Nickel and articles thereof,0.00037316,0.02442216
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00027868,0.02760577
+2013,Apparel and clothing accessories; knitted or crocheted,0.00027132,0.00711671
+2013,Apparel and clothing accessories; not knitted or crocheted,0.00027109,0.00793594
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00021814,0.05877784
+2013,Other,0.00088325,0.92183241
+2014,Nickel and articles thereof,0.00053263,0.03611600
+2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00037443,0.03091180
+2014,Apparel and clothing accessories; not knitted or crocheted,0.00028897,0.00951185
+2014,Apparel and clothing accessories; knitted or crocheted,0.00028269,0.00752776
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00023301,0.07643496
+2014,Other,0.00095504,0.87274864
+2015,Nickel and articles thereof,0.00060184,0.04798724
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00050149,0.03351313
+2015,Apparel and clothing accessories; knitted or crocheted,0.00029023,0.00728476
+2015,Apparel and clothing accessories; not knitted or crocheted,0.00028320,0.00989171
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00022903,0.08994766
+2015,Other,0.00075823,0.88612354
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00077471,0.03520706
+2016,Nickel and articles thereof,0.00041617,0.04436203
+2016,Apparel and clothing accessories; not knitted or crocheted,0.00032857,0.01304374
+2016,Apparel and clothing accessories; knitted or crocheted,0.00030329,0.00968639
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00025370,0.11003075
+2016,Other,0.00079273,0.88819952
+2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00124372,0.04522036
+2017,Nickel and articles thereof,0.00044634,0.04088506
+2017,Apparel and clothing accessories; not knitted or crocheted,0.00036279,0.01522306
+2017,Apparel and clothing accessories; knitted or crocheted,0.00034291,0.01011454
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00030880,0.09039333
+2017,Other,0.00098682,1.17860343
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00137926,0.03495389
+2018,Nickel and articles thereof,0.00043877,0.03278989
+2018,Apparel and clothing accessories; not knitted or crocheted,0.00042781,0.01663898
+2018,Apparel and clothing accessories; knitted or crocheted,0.00035591,0.01070911
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00031557,0.07790336
+2018,Other,0.00108417,1.04222550
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00093600,0.02362123
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00052441,0.08026060
+2019,Nickel and articles thereof,0.00049040,0.03557163
+2019,Apparel and clothing accessories; not knitted or crocheted,0.00041698,0.01404332
+2019,Apparel and clothing accessories; knitted or crocheted,0.00038759,0.01285045
+2019,Other,0.00100991,1.10167801
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00072960,0.02778112
+2020,Apparel and clothing accessories; not knitted or crocheted,0.00037826,0.01594642
+2020,Apparel and clothing accessories; knitted or crocheted,0.00031156,0.01029915
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00025388,0.07553466
+2020,Nickel and articles thereof,0.00023459,0.01517242
+2020,Other,0.00093668,1.04117187
+2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00079850,0.03163211
+2021,Apparel and clothing accessories; not knitted or crocheted,0.00044611,0.01965420
+2021,Nickel and articles thereof,0.00042104,0.02513287
+2021,Apparel and clothing accessories; knitted or crocheted,0.00036788,0.01490003
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00028636,0.09951939
+2021,Other,0.00111869,1.29798077
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00108673,0.06062243
+2022,Nickel and articles thereof,0.00091927,0.03653779
+2022,Apparel and clothing accessories; not knitted or crocheted,0.00056732,0.02147548
+2022,Apparel and clothing accessories; knitted or crocheted,0.00049227,0.01821788
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00024459,0.10926041
+2022,Other,0.00134434,1.22175561
+2023,Nickel and articles thereof,0.00081985,0.03832707
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00075281,0.05087852
+2023,Apparel and clothing accessories; not knitted or crocheted,0.00051735,0.01863607
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00048963,0.12329950
+2023,Apparel and clothing accessories; knitted or crocheted,0.00042813,0.01576842
+2023,Other,0.00129688,1.30023213

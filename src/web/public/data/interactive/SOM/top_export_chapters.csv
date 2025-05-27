@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Food Related,0.00010202,0.08869360
+1995,Tin; articles thereof,0.00001288,0.02362256
+1995,Pharmaceutical products,0.00001046,0.00469760
+1995,Raw hides and skins (other than furskins) and leather,0.00000150,0.00046318
+1995,Wood and articles of wood; wood charcoal,0.00000087,0.00548046
+1995,Other,0.00000334,0.00339203
+1996,Food Related,0.00009944,0.08757429
+1996,Tin; articles thereof,0.00001434,0.02596790
+1996,Fertilizers,0.00001159,0.05437500
+1996,Pharmaceutical products,0.00000760,0.00306991
+1996,Raw hides and skins (other than furskins) and leather,0.00000282,0.00068897
+1996,Other,0.00000504,0.01566588
+1997,Tin; articles thereof,0.00001435,0.02282193
+1997,Pharmaceutical products,0.00001263,0.00697847
+1997,Food Related,0.00000613,0.00292810
+1997,Raw hides and skins (other than furskins) and leather,0.00000292,0.00106257
+1997,Iron and steel,0.00000207,0.00754975
+1997,Other,0.00000185,0.00139874
+1998,Food Related,0.00003577,0.03422365
+1998,Pharmaceutical products,0.00000613,0.00257739
+1998,Wood and articles of wood; wood charcoal,0.00000591,0.04506336
+1998,Tin; articles thereof,0.00000550,0.00982903
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000230,0.00008532
+1998,Other,0.00000328,0.00430648
+1999,Food Related,0.00004135,0.03863777
+1999,Wood and articles of wood; wood charcoal,0.00000412,0.04398876
+1999,Organic chemicals,0.00000221,0.00548313
+1999,Raw hides and skins (other than furskins) and leather,0.00000093,0.00054228
+1999,Aluminium and articles thereof,0.00000068,0.00043762
+1999,Other,0.00000358,0.00598110
+2000,Food Related,0.00006763,0.08031478
+2000,Wood and articles of wood; wood charcoal,0.00001077,0.05421253
+2000,Raw hides and skins (other than furskins) and leather,0.00000260,0.00109748
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000085,0.00015415
+2000,Pharmaceutical products,0.00000084,0.00019780
+2000,Other,0.00000258,0.00196570
+2001,Food Related,0.00001594,0.02536111
+2001,Wood and articles of wood; wood charcoal,0.00001229,0.06527609
+2001,Raw hides and skins (other than furskins) and leather,0.00000547,0.00205550
+2001,Pharmaceutical products,0.00000468,0.00468999
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000122,0.00009433
+2001,Other,0.00000489,0.00855423
+2002,Food Related,0.00002917,0.04590149
+2002,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00001359,0.02551190
+2002,Wood and articles of wood; wood charcoal,0.00001330,0.07751431
+2002,Raw hides and skins (other than furskins) and leather,0.00000605,0.00206228
+2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000496,0.00000583
+2002,Other,0.00001099,0.01140831
+2003,Food Related,0.00003118,0.06683532
+2003,Wood and articles of wood; wood charcoal,0.00001816,0.11011669
+2003,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001683,0.20069962
+2003,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00001372,0.02172435
+2003,Pharmaceutical products,0.00000841,0.00445926
+2003,Other,0.00001933,0.01504788
+2004,Food Related,0.00005965,0.04473938
+2004,Pharmaceutical products,0.00001588,0.01501200
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001491,0.00151115
+2004,Wood and articles of wood; wood charcoal,0.00000978,0.07292089
+2004,Raw hides and skins (other than furskins) and leather,0.00000617,0.00332025
+2004,Other,0.00000831,0.02057538
+2005,Food Related,0.00014160,0.09810476
+2005,Wood and articles of wood; wood charcoal,0.00001533,0.12686024
+2005,Pharmaceutical products,0.00001363,0.01613518
+2005,Raw hides and skins (other than furskins) and leather,0.00000934,0.00721068
+2005,Iron and steel,0.00000747,0.02986705
+2005,Other,0.00001058,0.00857434
+2006,Food Related,0.00008918,0.04662679
+2006,Wood and articles of wood; wood charcoal,0.00002129,0.13224162
+2006,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000990,0.00004162
+2006,Raw hides and skins (other than furskins) and leather,0.00000946,0.00555174
+2006,Pharmaceutical products,0.00000784,0.00782165
+2006,Other,0.00001600,0.02812802
+2007,Food Related,0.00009845,0.07581533
+2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002655,0.00024769
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002560,0.00198609
+2007,Wood and articles of wood; wood charcoal,0.00002056,0.11000179
+2007,Pharmaceutical products,0.00001144,0.00857128
+2007,Other,0.00004998,0.02889054
+2008,Food Related,0.00009174,0.06983080
+2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003348,0.00001718
+2008,Wood and articles of wood; wood charcoal,0.00002911,0.19302502
+2008,Raw hides and skins (other than furskins) and leather,0.00001660,0.01142239
+2008,Pharmaceutical products,0.00000493,0.00338287
+2008,Other,0.00001297,0.01176503
+2009,Food Related,0.00013918,0.07998830
+2009,Wood and articles of wood; wood charcoal,0.00001715,0.09426285
+2009,Raw hides and skins (other than furskins) and leather,0.00000668,0.00458628
+2009,Pharmaceutical products,0.00000329,0.00410796
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000070,0.00027338
+2009,Other,0.00000512,0.00336340
+2010,Food Related,0.00025066,0.14011229
+2010,Wood and articles of wood; wood charcoal,0.00002948,0.13511649
+2010,Raw hides and skins (other than furskins) and leather,0.00000925,0.00465393
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000063,0.00005547
+2010,Pharmaceutical products,0.00000058,0.00045774
+2010,Other,0.00000314,0.00218913
+2011,Food Related,0.00033014,0.23338464
+2011,Wood and articles of wood; wood charcoal,0.00003753,0.18643021
+2011,Raw hides and skins (other than furskins) and leather,0.00001823,0.00719008
+2011,Plastics and articles thereof,0.00000205,0.00114780
+2011,Pharmaceutical products,0.00000158,0.00095539
+2011,Other,0.00000235,0.00252662
+2012,Food Related,0.00039075,0.20957817
+2012,Wood and articles of wood; wood charcoal,0.00004217,0.22971203
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002405,0.00009627
+2012,Raw hides and skins (other than furskins) and leather,0.00001451,0.00430999
+2012,Tin; articles thereof,0.00000566,0.00902892
+2012,Other,0.00001136,0.01061018
+2013,Food Related,0.00056245,0.21310124
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002435,0.00231533
+2013,Raw hides and skins (other than furskins) and leather,0.00001378,0.00392824
+2013,Tin; articles thereof,0.00000549,0.00831861
+2013,Plastics and articles thereof,0.00000509,0.00283284
+2013,Other,0.00001294,0.00927457
+2014,Food Related,0.00058147,0.22181676
+2014,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00007099,0.00010063
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002394,0.00031737
+2014,Raw hides and skins (other than furskins) and leather,0.00001500,0.00492468
+2014,Tin; articles thereof,0.00000702,0.01160783
+2014,Other,0.00001403,0.01599759
+2015,Food Related,0.00059297,0.21343295
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003816,0.00039904
+2015,Pharmaceutical products,0.00002654,0.01030214
+2015,Raw hides and skins (other than furskins) and leather,0.00000888,0.00332984
+2015,Tin; articles thereof,0.00000523,0.01292583
+2015,Other,0.00001089,0.01034413
+2016,Food Related,0.00051303,0.16852754
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005969,0.00100814
+2016,Pharmaceutical products,0.00002527,0.00981159
+2016,Tin; articles thereof,0.00001600,0.01911089
+2016,Raw hides and skins (other than furskins) and leather,0.00000475,0.00191493
+2016,Other,0.00001455,0.02792185
+2017,Food Related,0.00025863,0.08789407
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010032,0.00005794
+2017,Pharmaceutical products,0.00003073,0.00937759
+2017,Tin; articles thereof,0.00001828,0.02011635
+2017,Raw hides and skins (other than furskins) and leather,0.00000557,0.00295916
+2017,Other,0.00001338,0.00681839
+2018,Food Related,0.00028283,0.08695895
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012802,0.00019953
+2018,Pharmaceutical products,0.00003836,0.01069522
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000863,0.00040413
+2018,Tin; articles thereof,0.00000845,0.00682742
+2018,Other,0.00002391,0.02105380
+2019,Food Related,0.00035584,0.13427619
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00017449,0.00042854
+2019,Pharmaceutical products,0.00003592,0.00732252
+2019,Tin; articles thereof,0.00000971,0.00566917
+2019,Chemical products n.e.c.,0.00000402,0.00382655
+2019,Other,0.00001617,0.01374766
+2020,Food Related,0.00030509,0.11280509
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00011143,0.00027257
+2020,Pharmaceutical products,0.00002679,0.00589318
+2020,Tin; articles thereof,0.00001054,0.01413845
+2020,"Ships, boats and floating structures",0.00000331,0.00000000
+2020,Other,0.00001384,0.00975553
+2021,Food Related,0.00033831,0.11900095
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00009578,0.00034776
+2021,Pharmaceutical products,0.00002770,0.00563941
+2021,Tin; articles thereof,0.00001009,0.01366485
+2021,Iron and steel,0.00000862,0.01899154
+2021,Other,0.00003442,0.01578975
+2022,Food Related,0.00038769,0.10720343
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00024710,0.00026835
+2022,Pharmaceutical products,0.00004047,0.00605959
+2022,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00002379,0.00000153
+2022,Iron and steel,0.00000818,0.01829578
+2022,Other,0.00002456,0.01804899
+2023,Food Related,0.00052893,0.10679633
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00031592,0.00030775
+2023,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00008180,0.00000120
+2023,Pharmaceutical products,0.00005898,0.00636954
+2023,Iron and steel,0.00001224,0.03135323
+2023,Other,0.00003155,0.02050885

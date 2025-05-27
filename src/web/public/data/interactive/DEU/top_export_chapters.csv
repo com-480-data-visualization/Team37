@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.09843232,5.65502036
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.08063108,6.93435360
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.05305814,2.18664546
+1995,Plastics and articles thereof,0.02537964,9.68481662
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01958643,0.37624157
+1995,Other,0.21759669,203.68762929
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.10236924,6.12635224
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.08569554,7.75096121
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.05356356,2.33011299
+1996,Plastics and articles thereof,0.02478165,10.29204309
+1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02038572,0.39780469
+1996,Other,0.21261012,209.33405969
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.10137863,8.20907071
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.08606861,8.59065594
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.05498201,2.52558381
+1997,Plastics and articles thereof,0.02505608,11.21153274
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01979583,0.41685862
+1997,Other,0.21079919,218.99614512
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.10739839,7.35382524
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.09617267,9.73928641
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.05768710,2.64298633
+1998,Plastics and articles thereof,0.02534167,11.64568509
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02110575,0.43163078
+1998,Other,0.21744677,223.57551783
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.10448828,7.26567183
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.10191125,10.52360784
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.05947588,2.89670832
+1999,Plastics and articles thereof,0.02575701,12.88335136
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02128112,0.44123767
+1999,Other,0.21483954,232.25590007
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.10531924,7.64794130
+2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.10099337,11.82366182
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.06350941,3.03972079
+2000,Plastics and articles thereof,0.02676058,14.10647184
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02224791,0.48396904
+2000,Other,0.21633979,242.16129039
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.11002904,8.40558803
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.10965533,13.02386326
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.06461961,3.45632392
+2001,Plastics and articles thereof,0.02663904,14.52717031
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02343609,0.52915187
+2001,Other,0.22325045,249.41922258
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.12279908,13.92936243
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.11547723,8.53156730
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.06606358,3.27427440
+2002,Plastics and articles thereof,0.02940057,15.27534316
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02549195,0.59646725
+2002,Other,0.24521332,262.98105415
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.14804736,14.18116772
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.13581336,8.76995575
+2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.07921710,3.34844483
+2003,Plastics and articles thereof,0.03513172,15.86314254
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03038529,0.65899106
+2003,Other,0.28950986,257.14688193
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.16750480,15.93851149
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.16387102,10.17152906
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.09690915,3.83924632
+2004,Plastics and articles thereof,0.04298122,17.78683385
+2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.03638859,0.70586276
+2004,Other,0.35389385,284.05089698
+2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.17969661,16.21418374
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.17825435,10.71359902
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.10206040,3.74391918
+2005,Plastics and articles thereof,0.04741525,19.02988035
+2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.04050056,0.78974420
+2005,Other,0.39208976,320.41961638
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.20124594,12.11302961
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.19639916,18.26167818
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.11547243,4.08476439
+2006,Plastics and articles thereof,0.05337582,20.01919066
+2006,Pharmaceutical products,0.04688188,0.81490094
+2006,Other,0.45145285,350.25463068
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.23293986,13.77111627
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.22927041,19.51314980
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.12860778,4.55398606
+2007,Plastics and articles thereof,0.06141076,21.26308144
+2007,Pharmaceutical products,0.06005643,0.82206881
+2007,Other,0.51977765,331.66093970
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.25881284,13.67196191
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.23984890,19.15396972
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13599795,4.98612207
+2008,Pharmaceutical products,0.06832180,0.99312594
+2008,Plastics and articles thereof,0.06440452,19.70771513
+2008,Other,0.58914520,343.24711192
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.19338227,9.40911183
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.16729633,13.57811000
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.10510594,4.02234849
+2009,Pharmaceutical products,0.06395619,0.87727175
+2009,Plastics and articles thereof,0.04979862,17.74508203
+2009,Other,0.46902203,284.16033361
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.21054646,11.39425956
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.20553879,16.96604005
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.12410803,4.42993354
+2010,Plastics and articles thereof,0.05785843,19.66858977
+2010,Pharmaceutical products,0.05577285,0.99843030
+2010,Other,0.53170862,307.93207806
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.25309539,19.77339187
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.25110608,12.71200164
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13823107,4.78540391
+2011,Plastics and articles thereof,0.06785936,20.26643999
+2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.06357470,0.94510132
+2011,Other,0.61530303,318.72730890
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.23791338,18.48502194
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.23436524,12.11373384
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.12791042,4.71636170
+2012,Pharmaceutical products,0.06855314,1.06268798
+2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.06399738,0.97071621
+2012,Other,0.59528300,326.48126178
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.24525187,19.36038944
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.23956087,12.11760733
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13043013,4.60695185
+2013,Pharmaceutical products,0.07107530,1.04921257
+2013,Plastics and articles thereof,0.06737789,20.26995946
+2013,Other,0.60914634,323.46791151
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.26161117,19.79118372
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.24543388,12.31652410
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13328220,4.57490261
+2014,Pharmaceutical products,0.07910979,1.07100127
+2014,Plastics and articles thereof,0.06958177,20.65625764
+2014,Other,0.61345017,313.61942309
+2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.24221773,19.87081399
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.21434287,11.99776358
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.11996465,4.67580563
+2015,Pharmaceutical products,0.07217425,1.06681636
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.06238686,0.99458731
+2015,Other,0.53329773,333.65486197
+2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.24224188,19.96690751
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.21293128,12.01905349
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.12185705,4.67374435
+2016,Pharmaceutical products,0.07700027,1.08804051
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.06479757,1.05625663
+2016,Other,0.53024644,334.86517166
+2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.25502831,20.75781681
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.23675779,12.90297262
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13220522,4.69727390
+2017,Pharmaceutical products,0.08327180,1.11676086
+2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.07140239,1.08215161
+2017,Other,0.57160653,346.79363153
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.26601092,20.57680900
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.25691696,13.27673942
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.14532332,4.66263453
+2018,Pharmaceutical products,0.09550841,1.13718927
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.07629264,1.10629084
+2018,Other,0.61322463,339.24775831
+2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.25072269,19.81319220
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.24600132,12.63503439
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13953056,4.68864562
+2019,Pharmaceutical products,0.09475035,1.18526628
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.07536507,1.13041757
+2019,Other,0.58210271,333.01721155
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.22483116,11.41864121
+2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.21282066,15.80938238
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.13762993,4.64756718
+2020,Pharmaceutical products,0.10141421,1.20828100
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.07296109,1.10875847
+2020,Other,0.55064833,325.47780306
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.25299235,12.56320887
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.24609329,17.65401957
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.16174331,5.09022569
+2021,Pharmaceutical products,0.11808478,1.14677971
+2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.08250955,1.18384358
+2021,Other,0.66471534,351.13934351
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.25311638,17.96973217
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.24217332,11.94940448
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.15827257,4.87216555
+2022,Pharmaceutical products,0.12192497,1.14396120
+2022,Plastics and articles thereof,0.08718939,20.60206814
+2022,Other,0.68447645,304.64476450
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.29295737,19.05103620
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.26035893,11.79758180
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.16950111,4.72187610
+2023,Pharmaceutical products,0.11662452,1.15487329
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.08116911,1.10467999
+2023,Other,0.65253176,298.13682247

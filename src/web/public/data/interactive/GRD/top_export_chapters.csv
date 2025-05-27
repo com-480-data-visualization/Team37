@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Food Related,0.00000786,0.00930125
+1995,Pharmaceutical products,0.00000680,0.00112490
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000535,0.00206450
+1995,Tin; articles thereof,0.00000330,0.00532735
+1995,"Beverages, spirits and vinegar",0.00000203,0.00231833
+1995,Other,0.00000914,0.00785791
+1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000728,0.00244666
+1996,Pharmaceutical products,0.00000611,0.00096975
+1996,Food Related,0.00000541,0.00566161
+1996,Tin; articles thereof,0.00000208,0.00255660
+1996,"Beverages, spirits and vinegar",0.00000143,0.00163535
+1996,Other,0.00000739,0.00473586
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000948,0.00326413
+1997,Pharmaceutical products,0.00000650,0.00133727
+1997,Food Related,0.00000564,0.00718672
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000453,0.00006629
+1997,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000174,0.00242916
+1997,Other,0.00001334,0.00714589
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001373,0.00031117
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001279,0.00278111
+1998,"Aircraft, spacecraft, and parts thereof",0.00000789,0.00126050
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000684,0.00029755
+1998,Food Related,0.00000671,0.00624379
+1998,Other,0.00001658,0.01694688
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002027,0.00339845
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001155,0.00000959
+1999,Food Related,0.00000561,0.02512223
+1999,Pharmaceutical products,0.00000556,0.00221794
+1999,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000221,0.00145256
+1999,Other,0.00001138,0.02295374
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004553,0.00199353
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001854,0.00123387
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001596,0.00220507
+2000,Food Related,0.00000753,0.01331064
+2000,Pharmaceutical products,0.00000428,0.00155697
+2000,Other,0.00001254,0.01233335
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002532,0.00274957
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001904,0.00307494
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001275,0.00081922
+2001,Pharmaceutical products,0.00000662,0.00097424
+2001,Food Related,0.00000648,0.01172504
+2001,Other,0.00001319,0.00979888
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001775,0.00282594
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000739,0.02669219
+2002,Food Related,0.00000629,0.00938034
+2002,Pharmaceutical products,0.00000620,0.00076856
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000480,0.00060950
+2002,Other,0.00001811,0.01131168
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001674,0.00240047
+2003,Food Related,0.00000999,0.00803379
+2003,Pharmaceutical products,0.00000822,0.00200835
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000542,0.00065275
+2003,"Ships, boats and floating structures",0.00000374,0.00042245
+2003,Other,0.00002183,0.01155791
+2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001306,0.00228628
+2004,Food Related,0.00000709,0.00704330
+2004,Pharmaceutical products,0.00000509,0.00061926
+2004,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000230,0.00151359
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000169,0.00026712
+2004,Other,0.00001206,0.00875029
+2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001305,0.00197807
+2005,Pharmaceutical products,0.00000572,0.00068656
+2005,Food Related,0.00000398,0.00757607
+2005,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000269,0.00162869
+2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000230,0.00027262
+2005,Other,0.00001305,0.01168669
+2006,Pharmaceutical products,0.00000682,0.00073266
+2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000566,0.00093013
+2006,Food Related,0.00000468,0.00885278
+2006,"Ships, boats and floating structures",0.00000467,0.00069037
+2006,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000236,0.00127560
+2006,Other,0.00001384,0.01021415
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002045,0.02352807
+2007,Pharmaceutical products,0.00000955,0.00110791
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000872,0.00008452
+2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000662,0.00098956
+2007,Food Related,0.00000563,0.00847249
+2007,Other,0.00001995,0.06211938
+2008,"Ships, boats and floating structures",0.00001077,0.00017190
+2008,Food Related,0.00000885,0.00963599
+2008,Pharmaceutical products,0.00000843,0.00100343
+2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000564,0.00057347
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000396,0.00035194
+2008,Other,0.00001461,0.01009825
+2009,Iron or steel articles,0.00000940,0.00571112
+2009,Food Related,0.00000750,0.00809928
+2009,Pharmaceutical products,0.00000695,0.00378204
+2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000372,0.00044243
+2009,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000232,0.00099441
+2009,Other,0.00000906,0.01118621
+2010,Pharmaceutical products,0.00001224,0.00134305
+2010,Food Related,0.00000858,0.00830335
+2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000564,0.00060066
+2010,"Beverages, spirits and vinegar",0.00000327,0.00050240
+2010,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000200,0.00092479
+2010,Other,0.00000900,0.00788692
+2011,Pharmaceutical products,0.00001128,0.00124559
+2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000968,0.00066271
+2011,Food Related,0.00000964,0.00946915
+2011,"Ships, boats and floating structures",0.00000491,0.01624459
+2011,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000202,0.00088939
+2011,Other,0.00001223,0.01009095
+2012,Food Related,0.00001479,0.00910321
+2012,Pharmaceutical products,0.00001223,0.00120363
+2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001041,0.00052740
+2012,Iron and steel,0.00000212,0.00460367
+2012,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000202,0.00387420
+2012,Other,0.00001311,0.00799176
+2013,Pharmaceutical products,0.00001174,0.00123772
+2013,Food Related,0.00001112,0.00819409
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001021,0.00048953
+2013,Copper and articles thereof,0.00000785,0.00102138
+2013,"Beverages, spirits and vinegar",0.00000240,0.00243321
+2013,Other,0.00001929,0.01622707
+2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001047,0.00104415
+2014,Pharmaceutical products,0.00000868,0.00097820
+2014,Food Related,0.00000589,0.00420608
+2014,"Ships, boats and floating structures",0.00000357,0.00088299
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000256,0.00010602
+2014,Other,0.00001363,0.01539082
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001423,0.00125365
+2015,Food Related,0.00001108,0.01060220
+2015,Pharmaceutical products,0.00000678,0.00091063
+2015,Copper and articles thereof,0.00000282,0.00052036
+2015,"Metals; n.e.c., cermets and articles thereof",0.00000225,0.00062487
+2015,Other,0.00001594,0.01457990
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001393,0.00130528
+2016,Food Related,0.00000939,0.01199352
+2016,Pharmaceutical products,0.00000839,0.00125807
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000270,0.00007107
+2016,"Metals; n.e.c., cermets and articles thereof",0.00000260,0.00064270
+2016,Other,0.00001266,0.00836304
+2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001433,0.00150696
+2017,Food Related,0.00000870,0.00964692
+2017,Pharmaceutical products,0.00000688,0.00087537
+2017,"Metals; n.e.c., cermets and articles thereof",0.00000395,0.00085202
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000275,0.00030798
+2017,Other,0.00001537,0.01193219
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001028,0.00116330
+2018,Pharmaceutical products,0.00000840,0.00098265
+2018,Food Related,0.00000656,0.00652919
+2018,"Metals; n.e.c., cermets and articles thereof",0.00000446,0.00084655
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000375,0.00047503
+2018,Other,0.00001829,0.01393086
+2019,Pharmaceutical products,0.00000910,0.00107521
+2019,Food Related,0.00000709,0.00562250
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000697,0.00073694
+2019,"Metals; n.e.c., cermets and articles thereof",0.00000424,0.00078796
+2019,"Beverages, spirits and vinegar",0.00000346,0.00445327
+2019,Other,0.00001571,0.00982104
+2020,Pharmaceutical products,0.00000697,0.00070274
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000675,0.00106296
+2020,Food Related,0.00000529,0.00447634
+2020,"Metals; n.e.c., cermets and articles thereof",0.00000310,0.00083716
+2020,"Beverages, spirits and vinegar",0.00000266,0.00298605
+2020,Other,0.00001043,0.00758543
+2021,Pharmaceutical products,0.00000874,0.00088765
+2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000783,0.00085212
+2021,Food Related,0.00000542,0.00344701
+2021,"Beverages, spirits and vinegar",0.00000452,0.00440790
+2021,"Metals; n.e.c., cermets and articles thereof",0.00000369,0.00067661
+2021,Other,0.00001100,0.00665936
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000905,0.00080362
+2022,Pharmaceutical products,0.00000822,0.00080440
+2022,"Metals; n.e.c., cermets and articles thereof",0.00000524,0.00111815
+2022,Food Related,0.00000478,0.00341202
+2022,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000269,0.00396403
+2022,Other,0.00001422,0.00844669
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000802,0.00070602
+2023,Pharmaceutical products,0.00000723,0.00074346
+2023,Food Related,0.00000659,0.00436967
+2023,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",0.00000508,0.00122393
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000417,0.00045271
+2023,Other,0.00002723,0.01249610
