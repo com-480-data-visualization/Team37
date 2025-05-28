@@ -228,11 +228,61 @@ interface TradeData {
     value_bln_USD: number;
 }
 
+interface ProductTradeData {
+    year: string;
+    product_chapter: string;
+    imports_trln_USD: string;
+    exports_trln_USD: string;
+}
+
+interface ProductChapterMapping {
+    product_chapter: string;
+    description: string;
+}
+
 export const WorldTradeMapAnimated: React.FC = () => {
     const chartRef = useRef<HTMLDivElement>(null);
-    const { data: allData, loading } = useData<TradeData[]>('absolute_deficit_all_years.csv');
+    const { data: allData, loading: deficitLoading } = useData<TradeData[]>('absolute_deficit_all_years.csv');
+    const { data: rawChapterMappings, loading: chaptersLoading } = useData<any[]>('interactive/prod_chap_to_description.csv');
     const [year, setYear] = useState<string>('2023');
     const [playing, setPlaying] = useState(false);
+    const [selectedProduct, setSelectedProduct] = useState<string>('84'); // Default to a common product chapter
+    const [productData, setProductData] = useState<Record<string, Record<string, ProductTradeData[]>>>({});
+    const [loadingProductData, setLoadingProductData] = useState(false);
+    const [productChapters, setProductChapters] = useState<ProductChapterMapping[]>([]);
+    const [currentView, setCurrentView] = useState<'total' | 'product'>('total');
+
+    // Process the raw chapter mappings when they load
+    useEffect(() => {
+        if (!rawChapterMappings) return;
+        
+        const processedChapters: ProductChapterMapping[] = [];
+        
+        rawChapterMappings.forEach(row => {
+            const descStr = row['0'] || '';
+            
+            try {
+                const cleanStr = descStr.replace(/{|}/g, '');
+                const parts = cleanStr.split(':');
+                if (parts.length === 2) {
+                    const chapterCode = parts[0].trim().replace(/'/g, '');
+                    const chapterDesc = parts[1].trim().replace(/'/g, '');
+                    
+                    if (chapterCode && chapterDesc) {
+                        processedChapters.push({
+                            product_chapter: chapterCode,
+                            description: chapterDesc
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error('Error parsing chapter description:', error);
+            }
+        });
+
+        processedChapters.sort((a, b) => a.product_chapter.localeCompare(b.product_chapter));
+        setProductChapters(processedChapters);
+    }, [rawChapterMappings]);
 
     const years = React.useMemo(() => {
         if (!allData) return [];
@@ -240,6 +290,51 @@ export const WorldTradeMapAnimated: React.FC = () => {
         allData.forEach(item => set.add(item.year));
         return Array.from(set).sort();
     }, [allData]);
+
+    const loadProductData = async (countryCode: string) => {
+        if (!countryCode) return;
+        
+        setLoadingProductData(true);
+        try {
+            // Check if we already have data for this country
+            if (productData[countryCode]?.[selectedProduct]) {
+                setLoadingProductData(false);
+                return;
+            }
+
+            const response = await fetch(`/data/interactive/${countryCode}/surplus_deficit_by_chapter.csv`);
+            const text = await response.text();
+            const lines = text.split('\n');
+            const headers = lines[0].split(',');
+            
+            const data: ProductTradeData[] = lines.slice(1).map(line => {
+                const values = line.split(',');
+                const entry: any = {};
+                headers.forEach((header, i) => {
+                    entry[header] = values[i];
+                });
+                return entry as ProductTradeData;
+            });
+
+            // Organize data by product chapter
+            const productChapterData: Record<string, ProductTradeData[]> = {};
+            data.forEach(item => {
+                if (!productChapterData[item.product_chapter]) {
+                    productChapterData[item.product_chapter] = [];
+                }
+                productChapterData[item.product_chapter].push(item);
+            });
+
+            setProductData(prev => ({
+                ...prev,
+                [countryCode]: productChapterData
+            }));
+        } catch (error) {
+            console.error(`Failed to load data for ${countryCode}:`, error);
+        } finally {
+            setLoadingProductData(false);
+        }
+    };
 
     useEffect(() => {
         if (!playing || years.length === 0) return;
@@ -252,12 +347,11 @@ export const WorldTradeMapAnimated: React.FC = () => {
     }, [playing, year, years]);
 
     useEffect(() => {
-        if (!chartRef.current || !allData) return;
+        if (!chartRef.current || !allData || chaptersLoading || !productChapters) return;
+        
         const chart = echarts.init(chartRef.current);
         worldJson.features.forEach(f => f.properties.name = f.properties.NAME);
         echarts.registerMap('world', worldJson as any);
-
-        const yearData = allData.filter(item => String(item.year) === String(year));
 
         const codeToName: Record<string, string> = {};
         worldJson.features.forEach(f => {
@@ -284,64 +378,132 @@ export const WorldTradeMapAnimated: React.FC = () => {
             return possibleMatches.length === 1 ? possibleMatches[0] : countryName;
         };
 
-        const mapData = yearData.map(item => {
-            let name = matchCountryName(item.country, item.country);
-            const geoName = geoNameMap[name.toLowerCase()];
-            return { name: geoName || name, value: Number(item.value_bln_USD) || 0 };
-        });
+        // Function to get trade data for a country based on current view
+        const getTradeData = (countryCode: string, countryName: string) => {
+            if (currentView === 'total') {
+                // Use total deficit data
+                const item = allData.find(d => String(d.year) === String(year) && d.country === countryCode);
+                return {
+                    name: matchCountryName(countryCode, countryName),
+                    value: item ? Number(item.value_bln_USD) || 0 : 0
+                };
+            } else {
+                // Use product-specific data
+                const countryProductData = productData[countryCode]?.[selectedProduct];
+                if (!countryProductData) return null;
+                
+                const yearData = countryProductData.find(d => d.year === year);
+                if (!yearData) return null;
+                
+                const imports = parseFloat(yearData.imports_trln_USD || '0') * 1000; // Convert to billions
+                const exports = parseFloat(yearData.exports_trln_USD || '0') * 1000; // Convert to billions
+                const balance = exports - imports;
+                
+                return {
+                    name: matchCountryName(countryCode, countryName),
+                    value: balance,
+                    imports,
+                    exports
+                };
+            }
+        };
 
-        const geoNames = worldJson.features.map(f => f.properties?.NAME).filter(Boolean);
-        const geoNamesSet = new Set(geoNames.map(n => n.toLowerCase()));
-        const filteredMapData = mapData.filter(item => geoNamesSet.has(item.name.toLowerCase()));
+        // Prepare map data
+        const countryCodes = new Set<string>();
+        allData.forEach(item => countryCodes.add(item.country));
 
-        const finalMapData = filteredMapData.length > 0 ? filteredMapData : mapData;
-        const values = finalMapData.map(item => item.value).filter(v => !isNaN(v));
+        const mapData = Array.from(countryCodes)
+            .map(code => {
+                const name = codeToName[code] || code;
+                return getTradeData(code, name);
+            })
+            .filter(item => item !== null) as any[];
+
+        // Calculate value range
+        const values = mapData.map(item => item.value).filter(v => !isNaN(v));
         const minValue = Math.min(...values);
         const maxValue = Math.max(...values);
-        const maxRange = Math.max(minValue, maxValue)
+        const maxRange = Math.max(Math.abs(minValue), Math.abs(maxValue));
+
+        const selectedProductDesc = productChapters.find(c => c.product_chapter === selectedProduct)?.description || selectedProduct;
 
         const option = {
             backgroundColor: '#fff',
             title: {
-                text: `Trade Balance in Nominal USD (${year})`,
-                // subtext: 'Unit: Billion USD',
+                text: currentView === 'total' 
+                    ? `Total Trade Balance in Nominal USD (${year})`
+                    : `Trade Balance for ${selectedProductDesc} (${year})`,
                 left: 'center',
                 top: 20,
                 textStyle: { color: '#333', fontSize: 20 }
             },
             tooltip: {
                 trigger: 'item',
-                formatter: params => `${params.name}<br/>Trade ${params.value >= 0 ? 'Surplus' : 'Deficit'}: ${params.value.toFixed(2)} Billion USD`
+                formatter: (params: any) => {
+                    if (!params.data) return params.name;
+                    
+                    if (currentView === 'total') {
+                        return `${params.name}<br/>Trade ${params.value >= 0 ? 'Surplus' : 'Deficit'}: ${params.value.toFixed(2)} Billion USD`;
+                    } else {
+                        return `
+                            ${params.name}<br/>
+                            Product Chapter ${selectedProductDesc}<br/>
+                            Imports: ${params.data.imports?.toFixed(2) || '0.00'} Billion USD<br/>
+                            Exports: ${params.data.exports?.toFixed(2) || '0.00'} Billion USD<br/>
+                            Balance: ${params.value.toFixed(2)} Billion USD
+                        `;
+                    }
+                }
             },
             visualMap: {
                 left: 'left',
-                min: maxRange,
-                max: -maxRange,
-                text: ['Surplus', 'Deficit'],
+                min: -maxRange,
+                max: maxRange,
+                text: ['Deficit', 'Surplus'],
                 realtime: false,
                 calculable: true,
                 inRange: { color: ['#ff0000', '#ffffff', '#0000ff'] }
             },
             series: [{
-                name: 'Trade Balance',
+                name: currentView === 'total' ? 'Total Trade Balance' : 'Product Trade Balance',
                 type: 'map',
                 map: 'world',
                 roam: false,
                 emphasis: { label: { show: true } },
-                data: finalMapData
+                data: mapData
             }]
         };
 
         chart.setOption(option);
+
+        // Add click handler
+        chart.on('click', async (params: any) => {
+            if (!params.data || !params.data.name) return;
+            
+            const countryFeature = worldJson.features.find(f => 
+                f.properties?.NAME?.toLowerCase() === params.data.name.toLowerCase()
+            );
+            
+            if (!countryFeature || !countryFeature.properties?.ISO_A3) return;
+            
+            const countryCode = countryFeature.properties.ISO_A3;
+            
+            if (currentView === 'product') {
+                await loadProductData(countryCode);
+                // Refresh the chart to show updated data
+                chart.setOption(option);
+            }
+        });
+
         const handleResize = () => chart.resize();
         window.addEventListener('resize', handleResize);
         return () => {
             window.removeEventListener('resize', handleResize);
             chart.dispose();
         };
-    }, [allData, year]);
+    }, [allData, year, selectedProduct, productData, productChapters, chaptersLoading, currentView]);
 
-    if (loading) return <div>Loading...</div>;
+    if (deficitLoading || chaptersLoading) return <div>Loading...</div>;
 
     return (
         <div style={{ width: '100%', margin: '20px 0' }}>
@@ -358,11 +520,36 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     style={{ flex: 1 }}
                 />
                 <span style={{ marginLeft: 10, fontWeight: 'bold' }}>{year}</span>
+                
+                <select 
+                    value={selectedProduct}
+                    onChange={(e) => {
+                        setSelectedProduct(e.target.value);
+                        setCurrentView('product');
+                    }}
+                    style={{ marginLeft: 20, padding: '5px 10px', minWidth: '300px' }}
+                >
+                    <option value="">-- Show Total Trade Balance --</option>
+                    {productChapters.map(chapter => (
+                        <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                            {chapter.description}
+                        </option>
+                    ))}
+                </select>
+
+                <button 
+                    onClick={() => setCurrentView('total')}
+                    style={{ marginLeft: 10, padding: '5px 10px' }}
+                    disabled={currentView === 'total'}
+                >
+                    Show Total Trade
+                </button>
             </div>
             <div ref={chartRef} style={{
                 width: '100%', height: '600px', backgroundColor: '#fff', borderRadius: '8px',
                 boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
             }} />
+            {loadingProductData && <div>Loading product data...</div>}
         </div>
     );
 };
