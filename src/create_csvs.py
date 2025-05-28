@@ -3,6 +3,7 @@ from util import *
 from data_manip import *
 from params import *
 from tqdm import tqdm
+from country_specific_data import *
 
 import os, pathlib, multiprocessing as mp
 from functools import partial
@@ -59,10 +60,13 @@ def _process_country(cc: str, keep_top_n: int, output_dir: str):
 
     largest_imports = get_top_partners_all_years(tmp_imp, actor="exporter",
                                                  keep_top_n=keep_top_n)
+    # drop weight column to save space
+    largest_imports.drop(columns=['quantity_mln_metric_tons'], inplace=True)
     save_dataframe_to_csv(largest_imports, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_import_srcs.csv")
 
     largest_exports = get_top_partners_all_years(tmp_exp, actor="importer",
                                                  keep_top_n=keep_top_n)
+    largest_exports.drop(columns=['quantity_mln_metric_tons'], inplace=True)
     save_dataframe_to_csv(largest_exports, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_export_dsts.csv")
 
 
@@ -72,10 +76,10 @@ def _process_country(cc: str, keep_top_n: int, output_dir: str):
 def produce_interactive_map_csvs_parallel(
     data_df: pd.DataFrame,
     epc22_df: pd.DataFrame,
-    pc_df: pd.DataFrame,          # unused here, but kept for signature parity
+    pc_df: pd.DataFrame,
     cc_df: pd.DataFrame,
-    gdp_df: pd.DataFrame,         # unused here
-    cpi_df: pd.DataFrame,         # unused here
+    gdp_df: pd.DataFrame,
+    cpi_df: pd.DataFrame,
     keep_top_n: int = 5,
     n_processes: Optional[int] = None,
 ) -> None:
@@ -232,8 +236,11 @@ def produce_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
     # to_csv = get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n)
     # save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR}/chapter_totals_{year}.csv")
 
-    produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
-    # produce_interactive_map_csvs_parallel(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df, n_processes=6)
+    # produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
+    produce_interactive_map_csvs_parallel(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df, n_processes=6)
+
+
+    produce_country_specific_csvs(ata_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
 
 
 if __name__ == "__main__":
