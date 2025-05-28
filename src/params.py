@@ -6,6 +6,7 @@ OUTPUT_DIR_INTERACTIVE = os.path.join(OUTPUT_DIR, "interactive")
 OUTPUT_DIR_COUNTRY = os.path.join(OUTPUT_DIR, "country_specific")
 DATA_DIR = os.path.join(PARENT_DIR, "data/BACI_HS92_V202501")
 OTHER_DATA_DIR = os.path.join(PARENT_DIR, "data")
+CS_DATA_DIR = os.path.join(PARENT_DIR, "data/country-specific")
 datayears = [str(y) for y in list(range(1995, 2024))]
 
 datafile_prefix = "BACI_HS92_Y"

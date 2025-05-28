@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { scroll, animate } from 'framer-motion'; // or wherever your helpers live
 import { GlobalMapSlide } from './FoodMapSlide';
 import { SaudiGrainTrade } from './SaudiGrainTrade';
+import { YemenFoodVsGdp } from './YemenFoodVsGdp';
 import { CountrySlide, CountrySlideProps } from '../CountrySlide';
 import placeholder_yemen from '../../assets/yemen.png';
 import placeholder_saudi from '../../assets/saudi_water.avif';
@@ -30,7 +31,9 @@ export const FoodSection: React.FC = () => {
       imageSrc: placeholder_yemen,
       imageAlt: 'Yemen Food Dependency',
       description:
-        "PLACEHOLDER: Food Dependence and civil war (shock) - Famine. Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people.",
+        "PLACEHOLDER: Food Dependence and civil war (shock) - Famine. Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people. TODO: Add civil war start event, Make y axis percentage",
+      plot: <YemenFoodVsGdp />, 
+
     },
     {
       id: 'saudi',

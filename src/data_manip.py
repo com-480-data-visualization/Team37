@@ -184,7 +184,7 @@ def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
         .copy()
     )
     # convert chapters to human-readable names
-    tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
+    
 
     if merge_food:
         # collapse the very fine-grained food chapters
@@ -195,11 +195,13 @@ def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
             "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum(),
         }
         tmp = tmp[~tmp["product_chapter"].isin(FOOD_CHAPTERS)]
-
+        tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
         # include the aggregated food row
         tmp = (
             pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
         )
+    else:
+        tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
     
     # Rank by value
     tmp = tmp.sort_values("value_trln_USD", ascending=False)
