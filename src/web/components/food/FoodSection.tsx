@@ -3,9 +3,11 @@ import { scroll, animate } from 'framer-motion'; // or wherever your helpers liv
 import { GlobalMapSlide } from './FoodMapSlide';
 import { SaudiGrainTrade } from './SaudiGrainTrade';
 import { YemenFoodVsGdp } from './YemenFoodVsGdp';
+import { UkraineGrainExporter } from './UkraineGrainExporter';
 import { CountrySlide, CountrySlideProps } from '../CountrySlide';
 import placeholder_yemen from '../../assets/yemen.png';
 import placeholder_saudi from '../../assets/saudi_water.avif';
+import ukraine_img from '../../assets/ukraine.jpg';
 
 export const FoodSection: React.FC = () => {
   const containerRef = useRef<HTMLElement>(null);
@@ -46,6 +48,15 @@ export const FoodSection: React.FC = () => {
         "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
         "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
       plot: <SaudiGrainTrade />, 
+    },
+    {
+      id: 'ukraine',
+      title: "Ukraine the Bread Basket",
+      imageSrc: ukraine_img,
+      imageAlt: 'Ukraine Fields',
+      description:
+        "PLACEHOLDER (Bread Basket and War): TODO: why is y axis broken? Fix events, fix seeing value when hovering",
+      plot: <UkraineGrainExporter />, 
     }
   ];
 
@@ -58,10 +69,10 @@ export const FoodSection: React.FC = () => {
       <section className="img-group-container" ref={containerRef}>
         <div>
           <ul className="img-group" ref={imgGroupRef}>
-            <GlobalMapSlide />
             {countryData.map((c) => (
               <CountrySlide key={c.id} {...c} />
             ))}
+            <GlobalMapSlide />
           </ul>
         </div>
       </section>
