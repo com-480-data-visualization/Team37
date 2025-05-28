@@ -36,7 +36,7 @@ const eventData = {
 };
 
 interface TradeFlowData {
-  year: string;
+  year: number;
   imports_pcnt_gdp: number;
 }
 

@@ -36,7 +36,7 @@ const eventData = {
 };
 
 interface TradeFlowData {
-  year: string;
+  year: number;
   ratio_total_exp_usd: number;
   ratio_total_exp_weight: number;
   value_trln_USD: number;

@@ -56,3 +56,9 @@ def produce_country_specific_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_d
     ukraine(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
     yemen(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
     saudi_arabia(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
+
+    # Oil: USA (shale revolution - energy independence)
+    # Iran: sanctions , exports close to 0 (shadow fleet?)
+    # China: dependence? Massive growth? 20% of imports.
+    
+    # What vizualizations beyond timeseries with events?

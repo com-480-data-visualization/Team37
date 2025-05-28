@@ -20,6 +20,12 @@ def get_food_totals_by_country(in_df: pd.DataFrame):
     df = df[df["product_chapter"].isin(FOOD_CHAPTERS)]
     return get_totals_by_country(df)
 
+def get_fuel_totals_by_country(in_df: pd.DataFrame):
+    df = in_df.copy()
+    # only keep fuel related rows
+    df = df[df["product_chapter"] == "27"]
+    return get_totals_by_country(df)
+
 def get_total_trade(in_df: pd.DataFrame):
     df = in_df.copy()
     return df.groupby(["year"]).agg({'value_trln_USD': 'sum', 'quantity_mln_metric_tons':'sum'}).reset_index()

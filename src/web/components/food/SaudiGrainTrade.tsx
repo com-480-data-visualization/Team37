@@ -36,7 +36,7 @@ const eventData = {
 };
 
 interface TradeFlowData {
-  year: string;
+  year: number;
   imports_mln_metric_tons: number;
   exports_mln_metric_tons: number;
 }
