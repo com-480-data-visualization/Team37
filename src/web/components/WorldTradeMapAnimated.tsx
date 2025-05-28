@@ -437,6 +437,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
             };
         } else {
             const countryProductData = productData[countryCode]?.[selectedProduct];
+            console.log('getTradeData', { countryCode, countryName, year, countryProductData });
             if (!countryProductData) {
                 return {
                     name: matchCountryName(countryCode, countryName),
@@ -445,7 +446,9 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     exports: 0
                 };
             }
-            const yearData = countryProductData.find(d => d.year === year);
+            // 强制字符串比较
+            const yearData = countryProductData.find(d => String(d.year) === String(year));
+            console.log('yearData', { year, yearType: typeof year, yearData, allYears: countryProductData.map(d => d.year) });
             if (!yearData) {
                 return {
                     name: matchCountryName(countryCode, countryName),
