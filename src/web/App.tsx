@@ -11,15 +11,23 @@ import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
 import { ZoomScroll } from './components/ZoomScroll'
+import { CountrySankey } from './components/CountrySankey';
 
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
 import { FoodTradeMap } from "./components/food/FoodTradeMap";
 
-/* TODO: TMP */
-import placeholder_cars from './assets/tmp_cars_world.png';
-
 const App: React.FC = () => {
+  // 新增状态用于存储选中的国家
+  const [selectedCountry, setSelectedCountry] = React.useState<string>('');
+  const [selectedYear, setSelectedYear] = React.useState<string>('2023');
+  const [selectedProduct, setSelectedProduct] = React.useState<string>('84');
+
+  // 地图点击事件处理
+  const handleCountryClick = (countryCode: string) => {
+    setSelectedCountry(countryCode);
+  };
+
   return (
     <div className="app">
         <ScrollAnimationWrapper style={fullPageStyle}>
@@ -43,57 +51,33 @@ const App: React.FC = () => {
         ]} />
 
         <ScrollAnimationWrapper style={fullPageStyle}>
-        <section className="image-text-section"> {/* Container for the row */}
-          <div className="image-column"> {/* Left column for image */}
-            <img
-              src={placeholder_cars}
-              alt="Descriptive text"
-              className="section-image" // Class for specific image styling
-            />
-          </div>
-          <div className="text-column"> {/* Right column for text */}
-            {/* <h2>Title</h2> */}
+        <section className="image-text-section">
+          <div className="text-column">
             <p className="description-text">
               Moving 15 Billion metric tonnes per year is equivalent to shipping all 1.2 Billion active cars in the world <i>7 times!</i>.
               <br />
               <br />
               (Placeholder Figure)
-
             </p>
-
           </div>
         </section>
         </ScrollAnimationWrapper>
 
-        {/*<ScrollAnimationWrapper style={fullPageStyle}>
-        <section>
-          <p className="description-text"> In Dollar terms, some countries consume more material
-            goods than they create.
-            <br />
-            <br />
-
-            Others produce the differrence but do not consume it themselves.
-          </p>
-          <WorldTradeMap />
-        </section>
-        </ScrollAnimationWrapper> */}
-
         <ScrollAnimationWrapper style={fullPageStyle}>
-          <section style={{ 
-            width: '100%', 
-            height: '100vh', 
-            display: 'flex', 
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            padding: '2rem'
-          }}>
+          <section style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
             <ZoomScroll items={[
-              { title: "In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.", content: <WorldTradeMap /> },
+              {
+                title: "In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.",
+                content: <WorldTradeMap onCountryClick={handleCountryClick} />
+              },
             ]} />
           </section>
         </ScrollAnimationWrapper>
 
+        {/* Sankey 图集成在地图下方 */}
+        {selectedCountry && (
+          <CountrySankey countryCode={selectedCountry} year={selectedYear} productChapter={selectedProduct} />
+        )}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
         <section>
@@ -105,31 +89,13 @@ const App: React.FC = () => {
         </section>
         </ScrollAnimationWrapper>
 
-        {/* <section>
-          <h2>Trade Balance Distribution</h2>
-          <TradeBalanceDistribution />
-        </section> */}
-
-        {/*<section>
-          <h1>  FOOD </h1>
-          <p className="description-text"> 
-          </p>
-          <FoodTradeMap />
-        </section> */}
-
         <FoodSection />
-
-        {/* <section>
-          <h2>Trade Balance Trends</h2>
-          <TradeTrendChart />
-        </section> */}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
         <section>
           <p className="description-text"> Freely explore the location of deficits and surpluces for
             specific goods categories for any year after 1995.
           </p>
-          {/* <h2>World Trade Balance Map (Animated)</h2> */}
           <WorldTradeMapAnimated />
         </section>
         </ScrollAnimationWrapper>
