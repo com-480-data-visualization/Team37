@@ -27,8 +27,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00012416,0.01871179
 1999,Cotton,0.00011885,0.02168141
 1999,Fabrics; knitted or crocheted,0.00010042,0.02163966
-1999,Food Related,0.00008363,0.23109022
-1999,Other,0.00082217,1.37212685
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008248,0.07463605
+1999,Other,0.00082332,1.52858102
 2000,Man-made staple fibres,0.00027492,0.06130996
 2000,Fabrics; knitted or crocheted,0.00025238,0.04284752
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022023,1.40587674
@@ -86,33 +86,33 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00110417,1.55210352
 2009,Fabrics; knitted or crocheted,0.00076983,0.11288901
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00050871,0.01338745
-2009,Food Related,0.00047081,0.60246509
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00036518,0.05069989
-2009,Other,0.00389574,4.14358660
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00035494,0.09735227
+2009,Other,0.00401160,4.64869942
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00188347,0.00840348
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00140806,1.64141934
 2010,Fabrics; knitted or crocheted,0.00128231,0.21188664
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00058267,0.07705265
-2010,Food Related,0.00058045,0.62324970
-2010,Other,0.00529351,4.48530704
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00046592,0.07849444
+2010,Other,0.00540804,5.03006230
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00295636,0.00766939
 2011,Fabrics; knitted or crocheted,0.00170039,0.22904489
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00153749,1.88048903
-2011,Food Related,0.00080002,0.70979135
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00078526,0.10073817
-2011,Other,0.00677742,5.44197728
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00072727,0.04418868
+2011,Other,0.00685017,6.10757995
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00168047,1.82039348
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00145114,0.01577133
 2012,Fabrics; knitted or crocheted,0.00140175,0.18092070
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00096488,0.15995667
-2012,Food Related,0.00095616,0.89031326
-2012,Other,0.00813220,7.17073178
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00094002,0.15737470
+2012,Other,0.00814834,7.90367035
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00577655,0.01975661
 2013,Fabrics; knitted or crocheted,0.00193371,0.24259440
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00179068,1.90931252
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00109976,0.12136094
-2013,Food Related,0.00098748,1.04776078
-2013,Other,0.00898899,7.11981854
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00094173,0.14002267
+2013,Other,0.00903474,8.02755665
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00323004,0.00535495
 2014,Fabrics; knitted or crocheted,0.00217913,0.24450112
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00144366,2.22613690

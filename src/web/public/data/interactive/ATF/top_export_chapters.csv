@@ -13,10 +13,10 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,Other,0.00000002,0.00000088
 1997,"Ships, boats and floating structures",0.00002389,0.26477400
 1997,Silk,0.00000003,0.00000113
-1997,Food Related,0.00000002,0.00000975
 1997,Apparel and clothing accessories; not knitted or crocheted,0.00000002,0.00000000
+1997,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000001,0.00000156
 1997,Aluminium and articles thereof,0.00000001,0.00000055
-1997,Other,0.00000003,0.00000942
+1997,Other,0.00000004,0.00001760
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000095,0.00710004
 1998,Works of art; collectors' pieces and antiques,0.00000015,0.00000000
 1998,Cotton,0.00000007,0.00004900
@@ -24,7 +24,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000001,0.00000017
 1998,Other,0.00000001,0.00000010
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000263,0.00000148
-1999,Food Related,0.00000018,0.00001032
+1999,Miscellaneous edible preparations,0.00000018,0.00001032
 1999,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000016,0.00001936
 1999,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",0.00000016,0.00001144
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000009,0.00000600
@@ -35,7 +35,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000001,0.00000001
 2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000001,0.00002914
 2000,Other,0.00000002,0.00000517
-2001,Food Related,0.00000098,0.00600000
+2001,Cereals,0.00000098,0.00600000
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000046,0.00000372
 2001,"Beverages, spirits and vinegar",0.00000027,0.00057038
 2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000018,0.00004865
@@ -87,8 +87,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,Apparel and clothing accessories; knitted or crocheted,0.00000069,0.00001255
 2009,Footwear; gaiters and the like; parts of such articles,0.00000035,0.00000635
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000021,0.00001303
-2009,Food Related,0.00000015,0.00008796
-2009,Other,0.00000061,0.00026617
+2009,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",0.00000011,0.00002313
+2009,Other,0.00000065,0.00033100
 2010,"Aircraft, spacecraft, and parts thereof",0.00000260,0.00000100
 2010,Pharmaceutical products,0.00000249,0.00049560
 2010,Plastics and articles thereof,0.00000032,0.00013792
@@ -121,10 +121,10 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,Other,0.00000051,0.00014315
 2015,Pharmaceutical products,0.00000519,0.00059916
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000034,0.00000527
-2015,Food Related,0.00000032,0.00050004
+2015,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00000032,0.00050000
 2015,"Toys, games and sports requisites; parts and accessories thereof",0.00000031,0.00002014
 2015,Organic chemicals,0.00000023,0.00014276
-2015,Other,0.00000073,0.00016743
+2015,Other,0.00000073,0.00016747
 2016,Pharmaceutical products,0.00000876,0.00089900
 2016,"Toys, games and sports requisites; parts and accessories thereof",0.00000031,0.00001962
 2016,"Ships, boats and floating structures",0.00000027,0.00000305
@@ -141,8 +141,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000056,0.00004620
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000056,0.00003672
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000032,0.00000840
-2018,Food Related,0.00000017,0.00000654
-2018,Other,0.00000061,0.00011937
+2018,Cereals,0.00000015,0.00000411
+2018,Other,0.00000063,0.00012180
 2019,Pharmaceutical products,0.00000798,0.00059481
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000048,0.00000875
 2019,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",0.00000042,0.00020510
@@ -172,4 +172,4 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2023,Organic chemicals,0.00000112,0.00000006
 2023,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000069,0.00001004
 2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000026,0.00001895
-2023,Other,0.00000108,0.00051349
+2023,Other,0.00000108,0.00051348

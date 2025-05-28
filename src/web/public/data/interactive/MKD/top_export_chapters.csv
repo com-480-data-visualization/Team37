@@ -9,8 +9,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,Iron and steel,0.00019443,0.28262919
 1996,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00011544,0.02801766
 1996,Footwear; gaiters and the like; parts of such articles,0.00007339,0.00437846
-1996,Food Related,0.00006062,0.09314369
-1996,Other,0.00078659,0.88658908
+1996,Zinc and articles thereof,0.00005872,0.06412655
+1996,Other,0.00078849,0.91560621
 1997,Iron and steel,0.00026608,0.41942725
 1997,Apparel and clothing accessories; not knitted or crocheted,0.00024628,0.00999965
 1997,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00011182,0.02346430
@@ -44,15 +44,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00026499,0.01419176
 2002,Iron and steel,0.00016783,0.40666974
 2002,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00007891,0.02011814
-2002,Food Related,0.00005258,0.05617307
 2002,Footwear; gaiters and the like; parts of such articles,0.00005177,0.00297408
-2002,Other,0.00058376,1.39073604
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005131,0.02541816
+2002,Other,0.00058503,1.42149095
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00033181,0.01489103
 2003,Iron and steel,0.00028751,0.57239738
 2003,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00008444,0.02310998
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007734,0.34620164
-2003,Food Related,0.00006276,0.05123486
-2003,Other,0.00069376,1.18556080
+2003,Footwear; gaiters and the like; parts of such articles,0.00006190,0.00301592
+2003,Other,0.00069463,1.23377973
 2004,Iron and steel,0.00048800,0.68209982
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00038900,0.01671413
 2004,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00008830,0.02326042
@@ -63,8 +63,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00040342,0.01674337
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00016805,0.33473618
 2005,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00011509,0.02471354
-2005,Food Related,0.00011357,0.07344129
-2005,Other,0.00091721,1.55933263
+2005,Iron or steel articles,0.00010756,0.12383849
+2005,Other,0.00092321,1.50893543
 2006,Iron and steel,0.00075503,0.93243210
 2006,Apparel and clothing accessories; not knitted or crocheted,0.00045502,0.01776267
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022544,0.32102106
@@ -85,34 +85,34 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,Other,0.00177849,1.99297198
 2009,Iron and steel,0.00056579,0.63656631
 2009,Apparel and clothing accessories; not knitted or crocheted,0.00051371,0.01520456
-2009,Food Related,0.00018736,0.08713682
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00016073,0.33083285
 2009,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00015427,0.02458133
-2009,Other,0.00140656,1.83780747
+2009,Iron or steel articles,0.00013561,0.11194653
+2009,Other,0.00145830,1.81299775
 2010,Iron and steel,0.00077584,0.71442300
 2010,Apparel and clothing accessories; not knitted or crocheted,0.00050129,0.01528758
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00037918,0.33011623
 2010,Chemical products n.e.c.,0.00023680,0.03201169
-2010,Food Related,0.00020472,0.11019161
-2010,Other,0.00167958,2.10076223
+2010,"Ores, slag and ash",0.00020239,0.43164455
+2010,Other,0.00168190,1.77930930
 2011,Iron and steel,0.00103357,0.84486753
 2011,Chemical products n.e.c.,0.00063602,0.02596620
 2011,Apparel and clothing accessories; not knitted or crocheted,0.00059375,0.01564930
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00050313,0.36548542
-2011,Food Related,0.00023819,0.11807858
-2011,Other,0.00212202,2.15444755
+2011,"Ores, slag and ash",0.00022351,0.44897203
+2011,Other,0.00213670,1.82355411
 2012,Iron and steel,0.00079351,0.61584827
 2012,Chemical products n.e.c.,0.00066026,0.02186419
 2012,Apparel and clothing accessories; not knitted or crocheted,0.00056811,0.01446736
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00029200,0.23848529
-2012,Food Related,0.00022464,0.11288630
-2012,Other,0.00203783,2.02478413
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00022434,0.00741072
+2012,Other,0.00203814,2.13025972
 2013,Chemical products n.e.c.,0.00083442,0.01104944
 2013,Iron and steel,0.00072012,0.55087041
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00058428,0.01440642
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00031702,0.00823646
-2013,Food Related,0.00022983,0.11687013
-2013,Other,0.00215823,1.92932912
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00022164,0.02004936
+2013,Other,0.00216642,2.02614989
 2014,Chemical products n.e.c.,0.00110091,0.02175190
 2014,Iron and steel,0.00068182,0.55131463
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00060395,0.01460911

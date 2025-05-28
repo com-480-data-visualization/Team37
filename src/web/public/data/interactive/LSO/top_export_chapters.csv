@@ -9,8 +9,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00015848,0.00617726
 2001,Footwear; gaiters and the like; parts of such articles,0.00003242,0.00078463
 2001,"Beverages, spirits and vinegar",0.00002542,0.10557253
-2001,Food Related,0.00001161,0.04816915
-2001,Other,0.00004857,0.01796314
+2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000892,0.00000438
+2001,Other,0.00005125,0.06612790
 2002,Apparel and clothing accessories; knitted or crocheted,0.00026260,0.01717095
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00019535,0.01010656
 2002,Footwear; gaiters and the like; parts of such articles,0.00002240,0.00072063
@@ -21,14 +21,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,Apparel and clothing accessories; knitted or crocheted,0.00027938,0.02321079
 2003,"Beverages, spirits and vinegar",0.00002729,0.00003315
 2003,Footwear; gaiters and the like; parts of such articles,0.00001467,0.00005566
-2003,Food Related,0.00001297,0.02589268
-2003,Other,0.00003460,0.01319858
+2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000960,0.00003441
+2003,Other,0.00003796,0.03905686
 2004,Apparel and clothing accessories; knitted or crocheted,0.00055582,0.02719784
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00023897,0.01577776
 2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00009172,0.00000063
 2004,"Beverages, spirits and vinegar",0.00002954,0.00023445
-2004,Food Related,0.00002634,0.08048659
-2004,Other,0.00007794,0.02864830
+2004,Footwear; gaiters and the like; parts of such articles,0.00002462,0.00019465
+2004,Other,0.00007966,0.10894023
 2005,Apparel and clothing accessories; knitted or crocheted,0.00027421,0.01830825
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00016351,0.00700868
 2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00007550,0.00002258
@@ -69,26 +69,26 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,Apparel and clothing accessories; knitted or crocheted,0.00021221,0.01270829
 2011,Apparel and clothing accessories; not knitted or crocheted,0.00020371,0.01496517
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00012670,0.00258537
-2011,Food Related,0.00003269,0.03729359
-2011,Other,0.00011500,0.08584521
+2011,Footwear; gaiters and the like; parts of such articles,0.00003177,0.00076787
+2011,Other,0.00011592,0.12237094
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00031608,0.00024606
 2012,Apparel and clothing accessories; knitted or crocheted,0.00023891,0.01004428
 2012,Apparel and clothing accessories; not knitted or crocheted,0.00017931,0.01050604
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00010034,0.00611088
-2012,Food Related,0.00003539,0.03407315
-2012,Other,0.00011068,0.07211790
+2012,Footwear; gaiters and the like; parts of such articles,0.00003135,0.00121636
+2012,Other,0.00011472,0.10497469
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00030335,0.00059129
 2013,Apparel and clothing accessories; knitted or crocheted,0.00023549,0.01116259
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00015074,0.01052468
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00007540,0.00621443
-2013,Food Related,0.00003094,0.03563473
-2013,Other,0.00011557,0.10754535
+2013,Footwear; gaiters and the like; parts of such articles,0.00002781,0.00104041
+2013,Other,0.00011871,0.14213967
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00078422,0.00039523
 2014,Apparel and clothing accessories; knitted or crocheted,0.00026307,0.01458393
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00016266,0.01284358
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006540,0.00501828
-2014,Food Related,0.00003364,0.05147132
-2014,Other,0.00011399,0.11874375
+2014,Cotton,0.00003036,0.00708530
+2014,Other,0.00011728,0.16312976
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00051967,0.00006612
 2015,Apparel and clothing accessories; knitted or crocheted,0.00025519,0.01157364
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00014906,0.00974943

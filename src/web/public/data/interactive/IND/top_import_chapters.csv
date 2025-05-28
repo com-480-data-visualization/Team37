@@ -20,21 +20,21 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00908400,0.74313363
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00864675,110.41217640
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00527552,0.36531730
-1998,Food Related,0.00293833,5.98003269
 1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00240666,0.17502789
-1998,Other,0.01675822,35.12304522
+1998,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00220443,3.14951750
+1998,Other,0.01749212,37.95356040
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01494748,930.38587384
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01043977,0.52693682
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00493763,2.99863356
-1999,Food Related,0.00301584,8.83355707
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00261476,0.39300232
-1999,Other,0.01868048,171.44533268
+1999,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00231125,5.44948330
+1999,Other,0.01938507,174.82940645
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01002355,0.58179511
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00785214,71.64345620
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00554311,0.34478718
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00314126,0.22027267
-2000,Food Related,0.00201286,5.99551168
-2000,Other,0.01767461,37.08787531
+2000,Organic chemicals,0.00194168,1.85604605
+2000,Other,0.01774580,41.22734094
 2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01036252,2.04549243
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00646735,47.96617220
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00519523,0.33288968
@@ -45,8 +45,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00726186,74.41188792
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00578907,0.37931711
 2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00467430,0.29752479
-2002,Food Related,0.00247307,5.74387598
-2002,Other,0.01958995,35.55072274
+2002,Organic chemicals,0.00226932,2.23145923
+2002,Other,0.01979369,39.06313949
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01386015,2.02044932
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00809178,61.26105173
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00750130,0.46356760

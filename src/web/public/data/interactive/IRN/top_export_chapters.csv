@@ -8,33 +8,33 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01664312,110.01988781
 1996,Carpets and other textile floor coverings,0.00060116,0.02207581
 1996,Tin; articles thereof,0.00055036,0.46598102
-1996,Food Related,0.00018389,0.26011055
 1996,Organic chemicals,0.00012110,0.29609139
-1996,Other,0.00084055,2.10215296
+1996,Raw hides and skins (other than furskins) and leather,0.00011635,0.01974456
+1996,Other,0.00090808,2.34251896
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01494799,106.37307827
 1997,Tin; articles thereof,0.00062520,0.62640941
 1997,Carpets and other textile floor coverings,0.00060015,0.04463301
-1997,Food Related,0.00034632,0.42542850
 1997,Organic chemicals,0.00025420,0.66585525
-1997,Other,0.00183376,5.27133574
+1997,Iron and steel,0.00024926,0.77883539
+1997,Other,0.00193082,4.91792885
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01068848,113.75099246
 1998,Carpets and other textile floor coverings,0.00055506,0.05981727
 1998,Tin; articles thereof,0.00048415,0.61416000
 1998,Iron and steel,0.00025632,0.98505992
-1998,Food Related,0.00024828,0.27590179
-1998,Other,0.00145864,5.51107517
+1998,Organic chemicals,0.00016863,0.63454658
+1998,Other,0.00153829,5.15243037
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01458960,144.22271703
 1999,Carpets and other textile floor coverings,0.00061316,0.04417329
 1999,Tin; articles thereof,0.00057443,0.83644040
 1999,Iron and steel,0.00032923,1.38892518
-1999,Food Related,0.00028684,0.40631459
-1999,Other,0.00176928,7.23654279
+1999,Organic chemicals,0.00017898,0.61626375
+1999,Other,0.00187713,7.02659364
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02160055,117.16850136
 2000,Carpets and other textile floor coverings,0.00064287,0.04840504
 2000,Tin; articles thereof,0.00055211,0.72303597
 2000,Iron and steel,0.00042880,1.76981638
-2000,Food Related,0.00030108,0.43428876
-2000,Other,0.00238652,8.65322132
+2000,Organic chemicals,0.00027397,0.71054673
+2000,Other,0.00241363,8.37696334
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01860939,110.55814860
 2001,Tin; articles thereof,0.00059103,0.75639684
 2001,Carpets and other textile floor coverings,0.00056722,0.05166849
@@ -51,8 +51,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,Tin; articles thereof,0.00099689,0.89823980
 2003,Carpets and other textile floor coverings,0.00062998,0.07324171
 2003,Organic chemicals,0.00050471,1.16340078
-2003,Food Related,0.00035030,0.55899202
-2003,Other,0.00354420,10.50573493
+2003,Iron and steel,0.00033136,0.93056631
+2003,Other,0.00356314,10.13416064
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02905135,115.01497189
 2004,Iron and steel,0.00105121,2.32586383
 2004,Tin; articles thereof,0.00096165,0.89106682
@@ -141,8 +141,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,Iron and steel,0.00515725,10.82645549
 2018,Plastics and articles thereof,0.00499120,3.77292739
 2018,Organic chemicals,0.00333090,6.87455999
-2018,Food Related,0.00205301,1.68804826
-2018,Other,0.01557410,56.44712680
+2018,"Ores, slag and ash",0.00178748,16.83345208
+2018,Other,0.01583963,41.30172298
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01647441,32.64750794
 2019,Plastics and articles thereof,0.00417022,4.31304399
 2019,Iron and steel,0.00391884,10.12467506

@@ -1,46 +1,46 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2000,Pharmaceutical products,0.00032791,0.18618230
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00023343,0.00194788
-2000,Food Related,0.00012012,0.14231742
 2000,"Ores, slag and ash",0.00011908,0.04922159
+2000,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00006581,0.08244696
 2000,"Beverages, spirits and vinegar",0.00005902,0.06191796
-2000,Other,0.00030838,1.08302418
+2000,Other,0.00036268,1.14289463
 2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00046855,0.00293051
 2001,Pharmaceutical products,0.00036699,0.23174163
-2001,Food Related,0.00017303,0.21237446
 2001,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00015000,0.00024441
 2001,"Ores, slag and ash",0.00010357,0.04727222
-2001,Other,0.00034230,0.99748617
+2001,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00008803,0.11756632
+2001,Other,0.00042731,1.09229431
 2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00041901,0.00205878
 2002,Pharmaceutical products,0.00030866,0.27970143
-2002,Food Related,0.00016486,0.18111693
 2002,"Ores, slag and ash",0.00012129,0.03472546
 2002,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00009172,0.00346920
-2002,Other,0.00044520,1.11393251
+2002,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00008273,0.05192540
+2002,Other,0.00052733,1.24312404
 2003,Pharmaceutical products,0.00042574,0.28297778
-2003,Food Related,0.00017968,0.10915273
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00016788,0.00200464
 2003,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00014594,0.00017740
 2003,"Beverages, spirits and vinegar",0.00013709,0.06976295
-2003,Other,0.00066897,0.99772009
+2003,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00008942,0.00313794
+2003,Other,0.00075922,1.10373487
 2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00057291,0.00251987
 2004,Pharmaceutical products,0.00043140,0.17353705
 2004,Zinc and articles thereof,0.00022738,0.16633608
-2004,Food Related,0.00021811,0.09284284
 2004,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00013388,0.00541869
-2004,Other,0.00080373,0.72103581
+2004,Apparel and clothing accessories; knitted or crocheted,0.00012726,0.00726459
+2004,Other,0.00089458,0.80661406
 2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00078437,0.00105449
 2005,Pharmaceutical products,0.00046594,0.20734160
-2005,Food Related,0.00036356,0.14951783
 2005,Zinc and articles thereof,0.00028288,0.18027679
 2005,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00025359,0.00762360
-2005,Other,0.00088332,0.77670159
+2005,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00021541,0.00008073
+2005,Other,0.00103147,0.92613868
 2006,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00117901,0.00551831
 2006,Pharmaceutical products,0.00048492,0.39842396
 2006,Zinc and articles thereof,0.00048082,0.26923860
-2006,Food Related,0.00029834,0.15502089
 2006,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00029332,0.00044218
-2006,Other,0.00124169,1.28513126
+2006,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00026392,0.00649056
+2006,Other,0.00127611,1.43366159
 2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00068180,0.00959393
 2007,"Ores, slag and ash",0.00060833,0.64018591
 2007,Zinc and articles thereof,0.00057802,0.16629480
@@ -123,8 +123,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,Copper and articles thereof,0.00064685,0.08456518
 2020,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00063460,0.02808918
 2020,Pharmaceutical products,0.00061095,0.30454798
-2020,Food Related,0.00020876,0.11266956
-2020,Other,0.00106549,1.70413281
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00020111,0.18802879
+2020,Other,0.00107314,1.62877358
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00175677,0.00837898
 2021,Pharmaceutical products,0.00075262,0.34381804
 2021,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00068325,0.01718203

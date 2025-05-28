@@ -1,10 +1,10 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2000,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000288,0.01177406
-2000,Food Related,0.00000261,0.02032846
+2000,Cereals,0.00000234,0.02007245
 2000,Cotton,0.00000195,0.00159278
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000124,0.00016590
 2000,"Ships, boats and floating structures",0.00000100,0.00026400
-2000,Other,0.00000627,0.01263460
+2000,Other,0.00000655,0.01289062
 2001,Cotton,0.00000318,0.00262486
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000316,0.00026899
 2001,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000249,0.00713895
@@ -18,11 +18,11 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000220,0.00051248
 2002,Other,0.00000859,0.00490702
 2003,Cotton,0.00001142,0.00934307
-2003,Food Related,0.00000561,0.02279772
+2003,Cereals,0.00000427,0.02200393
 2003,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000398,0.00882255
 2003,Fertilizers,0.00000135,0.00684938
 2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000130,0.00016930
-2003,Other,0.00001025,0.01560947
+2003,Other,0.00001159,0.01640326
 2004,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000399,0.00809433
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000322,0.00039439
 2004,Organic chemicals,0.00000296,0.00210006
@@ -57,8 +57,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000576,0.00996475
 2009,Iron and steel,0.00000259,0.01020850
 2009,Organic chemicals,0.00000229,0.00013092
-2009,Food Related,0.00000218,0.00090818
-2009,Other,0.00001317,0.00677086
+2009,Pharmaceutical products,0.00000204,0.00152928
+2009,Other,0.00001331,0.00614976
 2010,Plastics and articles thereof,0.00000810,0.00628032
 2010,Pharmaceutical products,0.00000738,0.00878434
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000581,0.00508235
@@ -81,8 +81,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2013,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000735,0.00707722
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000365,0.00008975
 2013,Iron and steel,0.00000208,0.00642020
-2013,Food Related,0.00000184,0.00095077
-2013,Other,0.00000790,0.00304124
+2013,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00000153,0.00053569
+2013,Other,0.00000821,0.00345631
 2014,Pharmaceutical products,0.00002309,0.01064457
 2014,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001067,0.01041972
 2014,Cotton,0.00000634,0.00295779
@@ -114,11 +114,11 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000225,0.00014124
 2018,Other,0.00000877,0.00444354
 2019,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001201,0.01138829
-2019,Food Related,0.00000359,0.00113446
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000332,0.00545908
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000189,0.00008873
+2019,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00000189,0.00000018
 2019,Iron and steel,0.00000176,0.00273064
-2019,Other,0.00000506,0.00207328
+2019,Other,0.00000676,0.00320755
 2020,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001191,0.01078799
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000198,0.00010767
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000116,0.00005020

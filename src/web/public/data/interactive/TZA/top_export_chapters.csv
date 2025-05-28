@@ -27,14 +27,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,Tin; articles thereof,0.00011113,0.12501167
 1999,Pharmaceutical products,0.00010944,0.03977516
 1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00009939,0.04037737
-1999,Food Related,0.00007218,0.13818137
-1999,Other,0.00032417,0.50238511
+1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006503,0.03376544
+1999,Other,0.00033132,0.60680104
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00022947,0.01031139
 2000,Pharmaceutical products,0.00018342,0.04894329
 2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00012845,0.06575221
 2000,Tin; articles thereof,0.00007833,0.05133465
-2000,Food Related,0.00007434,0.13408456
-2000,Other,0.00029335,0.32015885
+2000,Cotton,0.00006415,0.04203617
+2000,Other,0.00030354,0.41220724
 2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00030163,0.06428854
 2001,Pharmaceutical products,0.00020576,0.06378705
 2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00012232,0.07746599
@@ -44,15 +44,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00035365,0.08056408
 2002,Pharmaceutical products,0.00019687,0.05245013
 2002,"Ores, slag and ash",0.00011811,0.03534896
-2002,Food Related,0.00009163,0.24742319
 2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00007832,0.06315518
-2002,Other,0.00032794,0.45621037
+2002,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00006877,0.02744443
+2002,Other,0.00035080,0.67618913
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00061171,0.09521653
 2003,Pharmaceutical products,0.00022300,0.08032731
-2003,Food Related,0.00011962,0.29611949
 2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00010377,0.08019016
 2003,"Ores, slag and ash",0.00010085,0.02976991
-2003,Other,0.00046646,0.63777070
+2003,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00008320,0.02998009
+2003,Other,0.00050288,0.90391009
 2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00066514,0.06718268
 2004,Pharmaceutical products,0.00021626,0.06458005
 2004,"Ores, slag and ash",0.00016321,0.05285530
@@ -68,108 +68,108 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2006,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00081722,0.05834511
 2006,"Ores, slag and ash",0.00025658,0.05504130
 2006,Pharmaceutical products,0.00022568,0.05166371
-2006,Food Related,0.00017456,0.38505149
 2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00014398,0.07205258
-2006,Other,0.00093825,0.97571342
+2006,Cotton,0.00013571,0.08473445
+2006,Other,0.00097711,1.27603047
 2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00082000,0.13643248
-2007,Food Related,0.00024881,0.59156711
 2007,Pharmaceutical products,0.00023067,0.05522676
 2007,"Ores, slag and ash",0.00020923,0.04598386
 2007,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00016668,0.05221632
-2007,Other,0.00111250,1.03158600
+2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00016371,0.07161672
+2007,Other,0.00119760,1.55153639
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00111447,0.14991532
-2008,Food Related,0.00029693,0.39017033
 2008,Pharmaceutical products,0.00024227,0.06199834
 2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00020213,0.08246662
 2008,"Ores, slag and ash",0.00019453,0.05111561
-2008,Other,0.00154481,1.19422757
+2008,Cotton,0.00018547,0.11824615
+2008,Other,0.00165627,1.46615175
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00100777,0.18389661
 2009,"Ores, slag and ash",0.00025124,0.06614119
 2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00024236,0.09293367
-2009,Food Related,0.00023681,0.33464237
 2009,Pharmaceutical products,0.00020649,0.04809290
-2009,Other,0.00132042,1.14484389
+2009,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00020315,0.05222757
+2009,Other,0.00135408,1.42725868
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00114403,0.18432456
 2010,"Ores, slag and ash",0.00056825,0.12118682
-2010,Food Related,0.00031466,0.47042256
 2010,Copper and articles thereof,0.00031310,0.02988698
 2010,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00024487,0.05939026
-2010,Other,0.00184490,1.41674029
+2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00020712,0.06870840
+2010,Other,0.00195244,1.81845445
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00188312,0.14898789
 2011,"Ores, slag and ash",0.00071801,0.08066359
-2011,Food Related,0.00044772,0.42731408
 2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00039133,0.08779326
 2011,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00036261,0.07445015
-2011,Other,0.00172582,1.66814375
+2011,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00023822,0.12767441
+2011,Other,0.00193532,1.96778343
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00325572,0.19271709
 2012,"Ores, slag and ash",0.00049731,0.06913789
 2012,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00047333,0.14290567
-2012,Food Related,0.00043809,0.64790098
 2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00032406,0.07985294
-2012,Other,0.00194552,1.75045395
+2012,Cotton,0.00021787,0.12730833
+2012,Other,0.00216574,2.27104660
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00280562,0.24426713
-2013,Food Related,0.00053799,0.66430654
 2013,"Ores, slag and ash",0.00050086,0.11620881
 2013,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00040046,0.09246776
 2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00025774,0.08987183
-2013,Other,0.00221894,1.82874760
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00025522,0.23856568
+2013,Other,0.00250171,2.25448847
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00272987,0.29385544
-2014,Food Related,0.00105186,1.14116183
 2014,"Ores, slag and ash",0.00060508,0.10999866
 2014,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00050522,0.08992224
-2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00028939,0.08877985
-2014,Other,0.00209993,1.66108319
+2014,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00031998,0.19692825
+2014,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00029348,0.20717355
+2014,Other,0.00282772,2.48692306
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00269685,0.33272047
-2015,Food Related,0.00080224,0.67563958
 2015,"Ores, slag and ash",0.00046330,0.11130286
 2015,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00041496,0.08062011
+2015,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00034928,0.13154703
 2015,Tin; articles thereof,0.00033058,0.21612502
-2015,Other,0.00191983,1.65841350
+2015,Other,0.00237279,2.20250605
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00286794,0.43754392
 2016,"Ores, slag and ash",0.00048245,0.08520687
 2016,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00036892,0.07313872
-2016,Food Related,0.00036351,0.43199473
 2016,Tin; articles thereof,0.00035856,0.25253282
-2016,Other,0.00166306,1.64758872
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00028031,0.08168552
+2016,Other,0.00174626,1.99789793
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00282005,0.28765546
 2017,Tin; articles thereof,0.00069715,0.37899564
-2017,Food Related,0.00030968,0.36966264
 2017,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00030674,0.06504429
 2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00025369,0.07562222
-2017,Other,0.00184699,2.14350799
+2017,Pharmaceutical products,0.00021947,0.04918097
+2017,Other,0.00193720,2.46398965
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00152620,0.17089211
 2018,Tin; articles thereof,0.00050366,0.12270598
 2018,Copper and articles thereof,0.00042453,0.06970826
-2018,Food Related,0.00040083,0.51920138
 2018,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00032646,0.06126163
-2018,Other,0.00289775,2.26072983
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00027561,0.07310791
+2018,Other,0.00302297,2.70682330
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00310388,0.46858462
-2019,Food Related,0.00049785,0.74190517
 2019,Tin; articles thereof,0.00027646,0.25481693
+2019,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00026291,0.19876672
 2019,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00024812,0.05778407
 2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00023191,0.09549590
-2019,Other,0.00197221,2.83316382
+2019,Other,0.00220714,3.37630227
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00416730,0.59033349
-2020,Food Related,0.00063874,0.99412861
 2020,"Ores, slag and ash",0.00048175,0.11342133
 2020,Copper and articles thereof,0.00046952,0.07363237
 2020,Tin; articles thereof,0.00041808,0.30494517
-2020,Other,0.00194640,2.84772684
+2020,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00028633,0.25218780
+2020,Other,0.00229881,3.58966765
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00461827,0.68323540
 2021,Copper and articles thereof,0.00125009,0.12555232
-2021,Food Related,0.00113810,1.98743106
+2021,Cereals,0.00058919,1.50898766
+2021,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00038760,0.34575737
 2021,Tin; articles thereof,0.00032906,0.21086289
-2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00031630,0.11217153
-2021,Other,0.00214799,3.12691338
+2021,Other,0.00262562,3.37177093
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00428064,0.66697384
 2022,Copper and articles thereof,0.00178331,0.19649204
-2022,Food Related,0.00099382,1.73211657
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00060449,1.76119632
 2022,"Ores, slag and ash",0.00048694,0.16551040
-2022,Other,0.00298017,3.62083221
+2022,Cereals,0.00046236,1.31678990
+2022,Other,0.00351162,4.03615887
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00561115,0.58898044
-2023,Food Related,0.00102383,1.30006872
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00089351,3.14381106
+2023,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00052094,0.48939365
 2023,Copper and articles thereof,0.00051616,0.06102414
 2023,"Ores, slag and ash",0.00041316,0.11870928
-2023,Other,0.00288995,3.78823282
+2023,Other,0.00339284,4.59890789

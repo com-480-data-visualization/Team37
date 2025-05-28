@@ -2,9 +2,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000046,0.00001243
 1995,Glass and glassware,0.00000013,0.00011512
 1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000012,0.00004111
-1995,Food Related,0.00000009,0.00019056
+1995,Sugars and sugar confectionery,0.00000008,0.00016000
 1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000005,0.00002111
-1995,Other,0.00000011,0.00000885
+1995,Other,0.00000012,0.00003941
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000014,0.00004159
 1996,Plastics and articles thereof,0.00000012,0.00001975
 1996,Apparel and clothing accessories; not knitted or crocheted,0.00000005,0.00000126
@@ -80,15 +80,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,"Ships, boats and floating structures",0.00001768,0.00126817
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000018,0.00000537
 2008,Wood and articles of wood; wood charcoal,0.00000010,0.00013202
-2008,Food Related,0.00000008,0.00002849
 2008,Ceramic products,0.00000008,0.00040059
-2008,Other,0.00000062,0.00035834
+2008,"Preparations of cereals, flour, starch or milk; pastrycooks' products",0.00000007,0.00002800
+2008,Other,0.00000063,0.00035883
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000019,0.00000567
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000019,0.00001885
-2009,Food Related,0.00000009,0.00001839
 2009,Pharmaceutical products,0.00000008,0.00000208
 2009,Iron or steel articles,0.00000007,0.00002500
-2009,Other,0.00000025,0.00006052
+2009,Plastics and articles thereof,0.00000005,0.00001463
+2009,Other,0.00000029,0.00006428
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000093,0.00007237
 2010,Plastics and articles thereof,0.00000037,0.00029708
 2010,Iron and steel,0.00000036,0.00037791
@@ -170,6 +170,6 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2023,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000074,0.00000265
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000068,0.00000233
 2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000019,0.00001244
-2023,Food Related,0.00000016,0.00001357
+2023,Miscellaneous edible preparations,0.00000014,0.00001109
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000011,0.00000038
-2023,Other,0.00000021,0.00005480
+2023,Other,0.00000022,0.00005728

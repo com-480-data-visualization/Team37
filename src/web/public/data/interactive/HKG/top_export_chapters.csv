@@ -86,9 +86,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02190321,1.17465942
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01521841,0.02905877
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00824057,0.45624662
-2009,Food Related,0.00235407,1.69420313
 2009,Plastics and articles thereof,0.00209862,1.99751408
-2009,Other,0.02901726,8.73452829
+2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00208787,0.05787540
+2009,Other,0.02928346,10.37085602
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02400494,0.94349772
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02165583,0.03848368
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00926132,0.58714115
@@ -122,27 +122,27 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02902225,0.06170752
 2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02216722,1.11281935
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00998464,0.61295269
-2015,Food Related,0.00357153,1.66887395
 2015,Clocks and watches and parts thereof,0.00324522,0.03121700
-2015,Other,0.03872984,14.55205157
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00291738,0.43697879
+2015,Other,0.03938399,15.78394672
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.05141168,0.03877776
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01970394,2.63000488
 2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00905393,0.65980846
-2016,Food Related,0.00345618,1.78203263
 2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00295028,1.04385511
-2016,Other,0.03222762,12.16043961
+2016,Clocks and watches and parts thereof,0.00270237,0.02937026
+2016,Other,0.03298143,13.91310198
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.03975473,0.09020993
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02115947,0.65356366
 2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01060669,0.51423731
-2017,Food Related,0.00445437,1.83877584
+2017,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00323063,1.43684516
 2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00303756,0.06587869
-2017,Other,0.03197655,11.31683196
+2017,Other,0.03320029,11.71876264
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02901943,0.69483552
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02703572,0.07394673
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01215260,0.42153449
-2018,Food Related,0.00372654,1.57492110
 2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00361164,0.09683796
-2018,Other,0.03299203,10.16308735
+2018,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00258571,1.22416546
+2018,Other,0.03413286,10.51384298
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.03065022,0.68083321
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02977423,0.01384896
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01364815,0.39870116
@@ -171,5 +171,5 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.03319824,0.67743769
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01735328,0.45135297
 2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00384355,0.09448634
-2023,Food Related,0.00226558,0.59042199
-2023,Other,0.02648488,6.52679801
+2023,Clocks and watches and parts thereof,0.00168611,0.00998855
+2023,Other,0.02706435,7.10723144

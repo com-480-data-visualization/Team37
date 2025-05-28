@@ -34,7 +34,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2000,Iron and steel,0.00109198,3.34698640
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00107072,0.14886931
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00079458,3.01738891
-2000,Other,0.00568505,12.82976034
+2000,Other,0.00568505,12.82976033
 2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00261773,0.37342806
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00141139,0.32014164
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00128828,0.15698243
@@ -142,7 +142,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01084312,1.03677598
 2018,Iron and steel,0.00429877,5.62097466
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00320907,3.71227809
-2018,Other,0.02687380,23.51587591
+2018,Other,0.02687380,23.51587592
 2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03152845,2.50288960
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01292232,0.50202526
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01035348,1.01397838
@@ -153,8 +153,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01176649,0.44265044
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00970982,0.97045804
 2020,Iron and steel,0.00279073,4.11860687
-2020,Food Related,0.00252631,3.98086403
-2020,Other,0.02334145,23.11601809
+2020,Rubber and articles thereof,0.00234897,0.69899596
+2020,Other,0.02351880,26.39788616
 2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03353731,2.46309062
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01316186,0.48413163
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01198647,1.07333586

@@ -4,13 +4,13 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004756,0.08635229
 2006,"Beverages, spirits and vinegar",0.00002963,0.02822432
 2006,"Ships, boats and floating structures",0.00002644,0.05969991
-2006,Other,0.00018439,0.85053154
+2006,Other,0.00018439,0.85053155
 2007,Aluminium and articles thereof,0.00037168,0.12669651
 2007,Iron and steel,0.00009702,0.12026658
 2007,"Beverages, spirits and vinegar",0.00003254,0.02698406
 2007,Iron or steel articles,0.00002952,0.02616838
 2007,Wood and articles of wood; wood charcoal,0.00002607,0.11136524
-2007,Other,0.00014780,0.48835782
+2007,Other,0.00014780,0.48835783
 2008,Aluminium and articles thereof,0.00027513,0.09574545
 2008,Iron and steel,0.00014795,0.14585006
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007771,0.05308424
@@ -50,9 +50,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,Aluminium and articles thereof,0.00011358,0.04149084
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009050,0.07216823
 2014,"Ships, boats and floating structures",0.00008023,0.00158974
-2014,Food Related,0.00005342,0.02592949
 2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004725,0.00422462
-2014,Other,0.00028134,0.55784970
+2014,"Ores, slag and ash",0.00004524,0.10336186
+2014,Other,0.00028952,0.48041733
 2015,Aluminium and articles thereof,0.00008449,0.04131109
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004544,0.05145664
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003728,0.03722524

@@ -9,14 +9,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",0.00002026,0.01486782
 1996,Iron and steel,0.00001802,0.00770169
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000516,0.00033909
-1996,Food Related,0.00000274,0.00156926
-1996,Other,0.00002677,0.17081761
+1996,Footwear; gaiters and the like; parts of such articles,0.00000244,0.00007595
+1996,Other,0.00002707,0.17231091
 1997,Tin; articles thereof,0.00002797,0.04272215
 1997,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",0.00001976,0.01407453
-1997,Food Related,0.00000455,0.00584058
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000405,0.00023290
 1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000378,0.00049610
-1997,Other,0.00003455,0.17588634
+1997,Footwear; gaiters and the like; parts of such articles,0.00000364,0.00014341
+1997,Other,0.00003546,0.18158350
 1998,Tin; articles thereof,0.00002369,0.03070515
 1998,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",0.00002058,0.01402311
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000801,0.00075362
@@ -88,7 +88,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",0.00001435,0.00628383
 2009,Iron or steel articles,0.00000862,0.00180660
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000530,0.00067227
-2009,Other,0.00004161,0.33131994
+2009,Other,0.00004161,0.33131995
 2010,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",0.00001453,0.00392498
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000671,0.00043090
 2010,Iron and steel,0.00000528,0.01888684
@@ -126,17 +126,17 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000465,0.00012880
 2015,Other,0.00002521,0.01230757
 2016,"Ships, boats and floating structures",0.00001980,0.00266600
-2016,Food Related,0.00000670,0.00190016
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000616,0.00035928
 2016,Tin; articles thereof,0.00000429,0.00331623
 2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000412,0.00007376
-2016,Other,0.00003050,0.17577938
+2016,Cocoa and cocoa preparations,0.00000367,0.00115311
+2016,Other,0.00003353,0.17652644
 2017,"Ships, boats and floating structures",0.00001408,0.00838234
 2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001313,0.00012317
-2017,Food Related,0.00000662,0.00224856
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000577,0.00027805
 2017,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000474,0.00056156
-2017,Other,0.00003173,0.08249604
+2017,Plastics and articles thereof,0.00000335,0.00052047
+2017,Other,0.00003500,0.08422413
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004208,0.05442757
 2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002013,0.00015196
 2018,"Ships, boats and floating structures",0.00000940,0.00475216
@@ -153,8 +153,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000685,0.00008050
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000483,0.01762466
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000391,0.00019058
-2020,Food Related,0.00000296,0.00140455
-2020,Other,0.00002332,0.10339741
+2020,Pharmaceutical products,0.00000261,0.00004466
+2020,Other,0.00002366,0.10475731
 2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000645,0.00005978
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000431,0.00055364
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000429,0.00041041
@@ -163,13 +163,13 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2021,Other,0.00002679,0.10261608
 2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000470,0.00004481
 2022,Tin; articles thereof,0.00000442,0.00302830
-2022,Food Related,0.00000365,0.00155943
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000339,0.00029036
 2022,Pharmaceutical products,0.00000273,0.00003803
-2022,Other,0.00002412,0.06333582
+2022,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",0.00000268,0.00106657
+2022,Other,0.00002509,0.06382869
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000644,0.00193084
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000478,0.00040758
 2023,Iron and steel,0.00000418,0.00304272
 2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000410,0.00002572
-2023,Food Related,0.00000359,0.00118187
-2023,Other,0.00002454,0.04669757
+2023,Tin; articles thereof,0.00000354,0.00224030
+2023,Other,0.00002459,0.04563914

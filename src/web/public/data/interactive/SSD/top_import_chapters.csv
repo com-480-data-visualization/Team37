@@ -1,73 +1,73 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002691,0.00287192
-2012,Food Related,0.00001767,0.02658737
 2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001698,0.00281891
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001378,0.00050827
+2012,Sugars and sugar confectionery,0.00001038,0.01825384
 2012,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000815,0.00379124
-2012,Other,0.00003981,0.04997800
-2013,Food Related,0.00010388,0.17202470
+2012,Other,0.00004711,0.05831152
+2013,Sugars and sugar confectionery,0.00005826,0.10952092
 2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004664,0.00959485
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004619,0.00535791
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004454,0.00154773
 2013,Pharmaceutical products,0.00002713,0.00145082
-2013,Other,0.00014787,0.14948229
-2014,Food Related,0.00018787,0.34558601
+2013,Other,0.00019350,0.21198607
 2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007328,0.01216110
+2014,Cereals,0.00005728,0.15573600
+2014,Sugars and sugar confectionery,0.00005227,0.09223793
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004045,0.00388774
-2014,"Beverages, spirits and vinegar",0.00002743,0.03330153
-2014,Pharmaceutical products,0.00002378,0.00148359
-2014,Other,0.00019259,0.21749539
-2015,Food Related,0.00018144,0.32082738
+2014,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00003791,0.06802387
+2014,Other,0.00028420,0.28186873
 2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00011513,0.01543149
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005178,0.00472094
+2015,Sugars and sugar confectionery,0.00004208,0.07756716
 2015,"Beverages, spirits and vinegar",0.00004064,0.05206997
-2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003904,0.00250220
-2015,Other,0.00033150,0.39696167
-2016,Food Related,0.00017047,0.34349883
+2015,Cereals,0.00003951,0.09670966
+2015,Other,0.00047039,0.54601443
+2016,Sugars and sugar confectionery,0.00005507,0.09592731
 2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00003678,0.00514129
+2016,Cereals,0.00003220,0.07474402
 2016,"Beverages, spirits and vinegar",0.00002723,0.03175557
 2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002612,0.00276435
-2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002521,0.00183993
-2016,Other,0.00024426,0.26583436
-2017,Food Related,0.00018875,0.28700294
+2016,Other,0.00035267,0.44050179
+2017,Sugars and sugar confectionery,0.00004415,0.06304880
+2017,Cereals,0.00004250,0.10245303
 2017,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00003409,0.00107388
 2017,"Beverages, spirits and vinegar",0.00003246,0.04082709
-2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00002593,0.00629031
-2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002466,0.00250820
-2017,Other,0.00024184,0.24059697
-2018,Food Related,0.00023585,0.45673635
+2017,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00003086,0.06556674
+2017,Other,0.00036367,0.30532985
 2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00014270,0.03730230
+2018,Sugars and sugar confectionery,0.00005768,0.08432577
+2018,Cereals,0.00005649,0.22739077
+2018,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00005116,0.09007603
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004274,0.00560563
-2018,"Beverages, spirits and vinegar",0.00004054,0.05508558
-2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003780,0.00453453
-2018,Other,0.00033056,0.33506693
-2019,Food Related,0.00024185,0.33766118
+2018,Other,0.00047943,0.44963081
 2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00020128,0.05331217
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008379,0.00823102
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005650,0.00526152
-2019,"Beverages, spirits and vinegar",0.00004336,0.05834612
-2019,Other,0.00038698,0.41888721
-2020,Food Related,0.00028282,0.45065692
+2019,Cereals,0.00005487,0.09886121
+2019,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00005423,0.10288652
+2019,Other,0.00056308,0.61314679
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00017839,0.05247925
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00007816,0.00543612
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00007538,0.00799700
+2020,Cereals,0.00005934,0.18493580
 2020,"Beverages, spirits and vinegar",0.00005463,0.07323667
-2020,Other,0.00044766,0.54907190
-2021,Food Related,0.00030581,0.39410026
+2020,Other,0.00067113,0.81479302
 2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00020001,0.05549001
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00010376,0.01378248
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008451,0.00761661
 2021,"Beverages, spirits and vinegar",0.00007372,0.09895810
-2021,Other,0.00060343,0.68843124
-2022,Food Related,0.00039486,0.44596117
+2021,Apparel and clothing accessories; knitted or crocheted,0.00006722,0.00516534
+2021,Other,0.00084202,1.07736615
 2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00013306,0.02921205
 2022,Apparel and clothing accessories; knitted or crocheted,0.00011181,0.00924576
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00010839,0.01507175
+2022,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00009654,0.15222120
 2022,"Beverages, spirits and vinegar",0.00008158,0.10989216
-2022,Other,0.00074605,0.93360878
-2023,Food Related,0.00037252,0.40183472
+2022,Other,0.00104438,1.22734875
 2023,Apparel and clothing accessories; knitted or crocheted,0.00018292,0.00688749
 2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00012271,0.02373700
+2023,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00008911,0.16864590
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008809,0.00964231
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008793,0.00521972
-2023,Other,0.00076325,1.02187667
+2023,Other,0.00104666,1.25506549

@@ -14,27 +14,27 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00058034,3.54760074
 1997,Wood and articles of wood; wood charcoal,0.00040223,3.33692964
 1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00022965,0.06038740
-1997,Food Related,0.00021395,0.36226678
 1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00020501,0.05225839
-1997,Other,0.00185236,3.35736986
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00019708,0.03258295
+1997,Other,0.00186923,3.68705369
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043973,3.99325269
 1998,Wood and articles of wood; wood charcoal,0.00043913,4.24879965
 1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00036900,0.03407845
-1998,Food Related,0.00022598,0.40402048
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00020370,0.04182976
-1998,Other,0.00200217,3.43772827
+1998,Iron and steel,0.00018302,0.89487092
+1998,Other,0.00204513,2.94687782
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00059014,4.13716699
 1999,Wood and articles of wood; wood charcoal,0.00043648,4.10091879
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00035298,0.03930750
 1999,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00019523,0.10944885
-1999,Food Related,0.00018697,0.26376701
-1999,Other,0.00181319,3.29731311
+1999,Apparel and clothing accessories; not knitted or crocheted,0.00017021,0.00668004
+1999,Other,0.00182995,3.55440008
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00134658,0.03018809
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00101067,4.55001685
 2000,Wood and articles of wood; wood charcoal,0.00050250,5.30131801
 2000,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00020866,0.12700412
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00016107,0.00675172
-2000,Other,0.00192265,3.63384188
+2000,Other,0.00192265,3.63384189
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00096883,0.03918751
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00078711,4.46250439
 2001,Wood and articles of wood; wood charcoal,0.00049730,4.89698195
@@ -45,20 +45,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00073586,0.03187383
 2002,Wood and articles of wood; wood charcoal,0.00057021,5.00374005
 2002,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00033473,0.17119459
-2002,Food Related,0.00027002,0.30866322
-2002,Other,0.00219421,3.33390871
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00020270,0.04447753
+2002,Other,0.00226154,3.59809440
 2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00110456,0.03941377
 2003,Wood and articles of wood; wood charcoal,0.00075238,4.88142033
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00066239,3.28976118
 2003,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00044694,0.19494823
-2003,Food Related,0.00030717,0.29681488
-2003,Other,0.00292508,4.00567137
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00028683,0.04574031
+2003,Other,0.00294542,4.25674594
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00117515,3.60189777
 2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00117043,0.04996343
 2004,Wood and articles of wood; wood charcoal,0.00075901,4.13830017
 2004,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00047361,0.17174053
 2004,Iron and steel,0.00045000,0.86213214
-2004,Other,0.00354335,3.58850121
+2004,Other,0.00354335,3.58850122
 2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00176210,0.05486683
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00165838,3.99932752
 2005,Wood and articles of wood; wood charcoal,0.00079046,3.63705069
@@ -99,26 +99,26 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00236260,3.60365525
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00135001,0.14779070
 2011,Wood and articles of wood; wood charcoal,0.00118834,4.42175226
-2011,Food Related,0.00089883,0.79491933
-2011,Other,0.00791668,5.48390835
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00086929,0.09429384
+2011,Other,0.00794622,6.18453385
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00380820,0.10967418
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00172784,2.72062515
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00149299,0.16123556
 2012,Wood and articles of wood; wood charcoal,0.00109896,3.23964839
-2012,Food Related,0.00089841,0.78667636
-2012,Other,0.00773849,5.67323139
+2012,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00079406,0.20600077
+2012,Other,0.00784284,6.25390698
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00376019,0.12277082
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00142524,0.15031496
 2013,Wood and articles of wood; wood charcoal,0.00129024,4.79130260
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00128221,1.92003471
-2013,Food Related,0.00097196,0.92927420
-2013,Other,0.00820504,5.26878128
+2013,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00085930,0.21599386
+2013,Other,0.00831770,5.98206163
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00461340,0.12162998
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00216937,3.39095050
 2014,Wood and articles of wood; wood charcoal,0.00139879,4.86894100
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00139688,0.14077976
-2014,Food Related,0.00098395,1.04127291
-2014,Other,0.00763852,5.51062790
+2014,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00093137,0.23798097
+2014,Other,0.00769110,6.31391984
 2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00359778,0.12077179
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00125354,2.79741737
 2015,Wood and articles of wood; wood charcoal,0.00121780,4.83222478
@@ -153,8 +153,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,Wood and articles of wood; wood charcoal,0.00159610,4.83533562
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00144604,0.14805190
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00136899,4.39473646
-2020,Food Related,0.00115677,1.84412103
-2020,Other,0.00779631,4.60765803
+2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00109700,0.13701403
+2020,Other,0.00785609,6.31476503
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00351601,0.11309387
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00319723,6.14726386
 2021,Wood and articles of wood; wood charcoal,0.00208520,5.47927395
@@ -164,12 +164,12 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00452662,5.16498556
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00304838,0.11833076
 2022,Wood and articles of wood; wood charcoal,0.00231795,5.00678771
-2022,Food Related,0.00188878,1.86821990
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00184200,0.18094845
-2022,Other,0.01021476,5.05518819
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00138477,0.14817691
+2022,Other,0.01071877,6.77523117
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00295158,0.11268620
 2023,Wood and articles of wood; wood charcoal,0.00200496,5.04666412
-2023,Food Related,0.00187342,1.73461702
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00180078,0.14928398
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00174906,2.99055921
-2023,Other,0.00962348,3.97657848
+2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00172509,0.15926283
+2023,Other,0.00977181,5.55193267

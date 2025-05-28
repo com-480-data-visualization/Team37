@@ -68,21 +68,21 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005399,0.05747821
 2011,Iron and steel,0.00001150,0.02796441
 2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000375,0.00009052
-2011,Food Related,0.00000339,0.00177845
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000317,0.00018469
-2011,Other,0.00002618,0.00853123
+2011,Pharmaceutical products,0.00000289,0.00084963
+2011,Other,0.00002667,0.00946006
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007714,0.06073738
 2012,Iron and steel,0.00001145,0.03243500
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000658,0.00105661
 2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000428,0.00057886
-2012,Food Related,0.00000405,0.00221085
-2012,Other,0.00002572,0.00909682
+2012,Pharmaceutical products,0.00000378,0.00110514
+2012,Other,0.00002598,0.01020252
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004530,0.03435354
 2013,Iron and steel,0.00000951,0.02877132
-2013,Food Related,0.00000365,0.00262570
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000331,0.00054698
 2013,Pharmaceutical products,0.00000320,0.00109179
-2013,Other,0.00002403,0.00652514
+2013,Clocks and watches and parts thereof,0.00000301,0.00000727
+2013,Other,0.00002468,0.00914357
 2014,Iron and steel,0.00000692,0.00208362
 2014,Copper and articles thereof,0.00000233,0.00037867
 2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000213,0.00022896
@@ -96,11 +96,11 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000109,0.00016334
 2015,Other,0.00000921,0.00273191
 2016,Clocks and watches and parts thereof,0.00000359,0.00000175
-2016,Food Related,0.00000203,0.00129869
 2016,"Ships, boats and floating structures",0.00000181,0.01518006
 2016,Pharmaceutical products,0.00000153,0.00014279
 2016,Copper and articles thereof,0.00000153,0.00035830
-2016,Other,0.00001134,0.01268763
+2016,Iron and steel,0.00000150,0.00949656
+2016,Other,0.00001187,0.00448976
 2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000407,0.00063108
 2017,Iron and steel,0.00000377,0.01690972
 2017,Clocks and watches and parts thereof,0.00000230,0.00000113
@@ -112,7 +112,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,Copper and articles thereof,0.00000222,0.00048585
 2018,Clocks and watches and parts thereof,0.00000220,0.00000043
 2018,Pharmaceutical products,0.00000193,0.00010403
-2018,Other,0.00001374,0.00681703
+2018,Other,0.00001374,0.00681702
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000529,0.00014875
 2019,Iron and steel,0.00000417,0.01531977
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000401,0.00007490

@@ -46,7 +46,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Ships, boats and floating structures",0.00010975,0.00008935
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00008581,0.00776376
 2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003125,0.00022043
-2002,Other,0.00009893,0.15097239
+2002,Other,0.00009893,0.15097238
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00387677,16.67412428
 2003,Apparel and clothing accessories; knitted or crocheted,0.00040118,0.02139409
 2003,"Ships, boats and floating structures",0.00015751,0.00009683
@@ -130,7 +130,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00010656,0.00604841
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005683,0.00093585
 2016,"Aircraft, spacecraft, and parts thereof",0.00004906,0.00007423
-2016,Other,0.00015977,0.13761943
+2016,Other,0.00015977,0.13761944
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00490321,12.07008549
 2017,Organic chemicals,0.00017209,0.50053705
 2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00013497,0.00053980

@@ -15,8 +15,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00209817,35.40751296
 1997,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00192946,0.89108017
 1997,Apparel and clothing accessories; not knitted or crocheted,0.00188284,0.06065976
-1997,Food Related,0.00179906,2.16503714
-1997,Other,0.01701111,29.80260807
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00172529,0.44516137
+1997,Other,0.01708488,31.52248385
 1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00284898,0.43843451
 1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00211041,0.42611202
 1998,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00209493,0.95678452
@@ -69,107 +69,107 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01360069,1.57732843
 2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01272310,1.11627253
 2006,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00652942,2.25669641
-2006,Food Related,0.00636261,5.16637450
-2006,Other,0.05376940,69.70891127
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00537168,29.53078958
+2006,Other,0.05476033,45.34449620
 2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01779353,2.17969524
 2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01737819,1.88598707
 2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01613393,1.35213805
 2007,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00795887,2.48044249
-2007,Food Related,0.00774952,4.72230317
-2007,Other,0.06518221,65.28561905
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00514685,23.88865798
+2007,Other,0.06778489,46.11926424
 2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02195409,2.00659863
 2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02160624,2.35643864
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01986004,1.34747906
-2008,Food Related,0.00966317,4.85785537
 2008,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00927686,2.43596231
-2008,Other,0.07951076,62.50936005
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00685557,19.55380063
+2008,Other,0.08231836,47.81341480
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01808312,1.60277483
 2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01714724,1.91720522
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01485372,1.00283715
-2009,Food Related,0.00917756,7.68730649
 2009,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00766132,2.23004857
-2009,Other,0.06127944,54.12958100
+2009,Plastics and articles thereof,0.00488321,2.23066412
+2009,Other,0.06557378,59.58622336
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02129920,1.93086566
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01911139,1.23000922
 2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01796764,2.12074366
-2010,Food Related,0.00997091,6.98502593
 2010,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00814276,2.46550174
-2010,Other,0.07454799,66.17553504
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00631235,23.18321004
+2010,Other,0.07820655,49.97735093
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02482999,2.20860240
 2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02076044,2.40830598
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01963684,1.27740846
-2011,Food Related,0.01194085,6.33068081
 2011,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00950145,2.69905340
-2011,Other,0.09489879,66.37675533
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00852795,19.44458807
+2011,Other,0.09831169,53.26284807
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02465280,2.30874234
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01960872,1.22947231
 2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01869421,2.30851109
-2012,Food Related,0.01291359,8.34218782
 2012,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00926332,2.64410807
-2012,Other,0.09176941,69.78581802
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00805362,19.80249604
+2012,Other,0.09662938,58.32550980
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02743026,2.47387752
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02136432,1.28449662
 2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02097183,2.53070570
-2013,Food Related,0.01520335,10.69855946
 2013,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01032306,2.85195363
-2013,Other,0.10218445,80.60141219
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00875955,25.86126915
+2013,Other,0.10862825,65.43870250
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02941825,2.59341822
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02384339,1.36229893
 2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02207624,2.57846401
-2014,Food Related,0.01585546,12.45521748
 2014,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01183038,3.16012433
-2014,Other,0.10483705,79.71817387
+2014,Plastics and articles thereof,0.00880130,3.15452540
+2014,Other,0.11189122,89.01886596
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02661095,2.67179030
 2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02236340,1.42027667
 2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02100677,2.77787371
-2015,Food Related,0.01552901,14.53485797
 2015,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01109741,3.31340516
-2015,Other,0.09360255,82.34252263
+2015,Plastics and articles thereof,0.00793061,3.47457797
+2015,Other,0.10120095,93.40280263
 2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02679546,2.74232914
 2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02366406,3.04954877
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02248694,1.47415347
-2016,Food Related,0.01600627,14.67404663
 2016,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01188708,3.63752377
-2016,Other,0.09510749,84.17717310
+2016,Plastics and articles thereof,0.00836737,3.68259333
+2016,Other,0.10274639,95.16862640
 2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03054931,2.91258028
 2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02580649,3.31659618
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02449866,1.53577118
-2017,Food Related,0.01752278,13.82881142
 2017,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01322362,3.85602070
-2017,Other,0.10867254,83.97394760
+2017,Plastics and articles thereof,0.00961331,3.98313133
+2017,Other,0.11658202,93.81962770
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03519091,3.01392878
 2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02889228,3.49524377
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02686704,1.56240646
-2018,Food Related,0.01954774,13.38061232
 2018,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01460506,4.05266532
-2018,Other,0.12122080,86.11600357
+2018,Plastics and articles thereof,0.01112317,4.15162500
+2018,Other,0.12964537,95.34499089
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03640468,3.15484439
 2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02885492,3.72085071
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02700433,1.74948772
-2019,Food Related,0.01931204,13.94057008
 2019,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01462979,4.25138648
-2019,Other,0.12041385,83.39531520
+2019,Plastics and articles thereof,0.01096510,4.24200851
+2019,Other,0.12876078,93.09387677
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03635523,3.10872096
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.03017252,1.74928110
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02562380,3.14252304
-2020,Food Related,0.02092269,18.50764166
 2020,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01394141,4.09350721
-2020,Other,0.12075728,80.70734771
+2020,Plastics and articles thereof,0.01116023,4.34783944
+2020,Other,0.13051974,94.86714994
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.04254013,3.45677320
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.03922056,2.05304734
 2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02940465,3.55145635
-2021,Food Related,0.02391155,18.76223416
 2021,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01640758,4.44683050
-2021,Other,0.15185495,99.97022429
+2021,Plastics and articles thereof,0.01424822,4.76637626
+2021,Other,0.16151827,113.96608219
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.04684701,3.49247794
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.03983459,2.00548725
 2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03157386,3.82186558
-2022,Food Related,0.02904413,20.01765395
 2022,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01601541,4.08094222
-2022,Other,0.16176394,88.16401555
+2022,Plastics and articles thereof,0.01569911,4.92595853
+2022,Other,0.17510896,103.25571097
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.04903687,3.38605720
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.04354103,1.98343409
 2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.04040413,4.32119031
-2023,Food Related,0.03274394,25.33428801
 2023,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.01619993,3.75829792
-2023,Other,0.15703351,82.21445474
+2023,Plastics and articles thereof,0.01440272,4.45525497
+2023,Other,0.17537473,103.09348779

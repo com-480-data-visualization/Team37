@@ -16,7 +16,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1997,Organic chemicals,0.00785036,0.47611388
 1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00737728,0.27538522
 1997,Pharmaceutical products,0.00670860,0.06730851
-1997,Other,0.03760136,17.24589118
+1997,Other,0.03760136,17.24589119
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01621466,1.16644741
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01459495,0.01039392
 1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00772718,0.28165715
@@ -46,7 +46,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,Pharmaceutical products,0.00998497,0.11012671
 2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00790893,0.28526944
 2002,Organic chemicals,0.00783101,0.40361495
-2002,Other,0.04380490,20.64335201
+2002,Other,0.04380490,20.64335202
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01715023,0.68988764
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01417292,0.02458428
 2003,Pharmaceutical products,0.01211166,0.09857944
@@ -88,7 +88,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02155193,0.73822199
 2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01458473,0.09080771
 2009,Organic chemicals,0.01391901,0.33649653
-2009,Other,0.07564480,25.15240499
+2009,Other,0.07564480,25.15240498
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.04956855,0.00909027
 2010,Pharmaceutical products,0.03752738,0.36343656
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02439157,0.80991234
@@ -100,7 +100,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03026994,0.79457860
 2011,Clocks and watches and parts thereof,0.02218136,0.01329292
 2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01853310,0.10629277
-2011,Other,0.09509665,27.09794502
+2011,Other,0.09509665,27.09794503
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.08282712,0.01047436
 2012,Pharmaceutical products,0.04495701,0.10830925
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02515210,0.71408805
@@ -112,7 +112,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02575956,0.77448123
 2013,Clocks and watches and parts thereof,0.02368246,0.01161887
 2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01901829,0.13375926
-2013,Other,0.08934922,26.23266088
+2013,Other,0.08934922,26.23266087
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.08774548,0.01289675
 2014,Pharmaceutical products,0.05154368,0.11066320
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02626631,0.71013326
@@ -166,7 +166,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,Organic chemicals,0.03013364,0.48254856
 2022,Clocks and watches and parts thereof,0.02939284,0.00535327
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02481951,0.62436109
-2022,Other,0.10983753,28.17693837
+2022,Other,0.10983753,28.17693836
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.12411265,0.00861797
 2023,Pharmaceutical products,0.08070144,0.11636216
 2023,Organic chemicals,0.03381644,0.39389694

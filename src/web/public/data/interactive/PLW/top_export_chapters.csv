@@ -4,7 +4,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Silk,0.00000074,0.00015292
 1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000071,0.00001521
 1995,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000068,0.00128188
-1995,Other,0.00000107,0.00052460
+1995,Other,0.00000107,0.00052461
 1996,Pharmaceutical products,0.00001970,0.01567458
 1996,Apparel and clothing accessories; knitted or crocheted,0.00000921,0.00055365
 1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000242,0.00004709
@@ -27,8 +27,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,Apparel and clothing accessories; knitted or crocheted,0.00001577,0.00097827
 1999,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000267,0.00457219
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000090,0.00001592
-1999,Food Related,0.00000037,0.00052742
-1999,Other,0.00000086,0.00035021
+1999,Apparel and clothing accessories; not knitted or crocheted,0.00000027,0.00001628
+1999,Other,0.00000096,0.00086134
 2000,Pharmaceutical products,0.00001828,0.00212996
 2000,Apparel and clothing accessories; knitted or crocheted,0.00001330,0.00061953
 2000,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000013,0.00025700
@@ -57,14 +57,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,Iron and steel,0.00000371,0.00189986
 2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000043,0.00000082
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000024,0.00017032
-2004,Food Related,0.00000008,0.00003197
-2004,Other,0.00000031,0.00106192
+2004,Aluminium and articles thereof,0.00000005,0.00005249
+2004,Other,0.00000033,0.00104141
 2005,Pharmaceutical products,0.00002999,0.00348943
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000053,0.00098875
 2005,Silk,0.00000041,0.00011510
-2005,Food Related,0.00000041,0.00010897
 2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000039,0.00002005
-2005,Other,0.00000074,0.00429209
+2005,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00000030,0.00003210
+2005,Other,0.00000085,0.00436896
 2006,Pharmaceutical products,0.00004035,0.00487454
 2006,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000044,0.00054579
 2006,Iron and steel,0.00000035,0.00185916
@@ -104,15 +104,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2012,Pharmaceutical products,0.00002377,0.00204153
 2012,Iron and steel,0.00000047,0.00201262
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000035,0.00000005
-2012,Food Related,0.00000033,0.00006804
 2012,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000026,0.00001226
-2012,Other,0.00000194,0.00064934
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000023,0.00001473
+2012,Other,0.00000205,0.00070265
 2013,Pharmaceutical products,0.00001502,0.00163208
 2013,Iron and steel,0.00000030,0.00111557
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000016,0.00001053
-2013,Food Related,0.00000016,0.00003212
 2013,Aluminium and articles thereof,0.00000015,0.00015246
-2013,Other,0.00000073,0.00022693
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000015,0.00001635
+2013,Other,0.00000074,0.00024269
 2014,Pharmaceutical products,0.00001399,0.00141669
 2014,"Ships, boats and floating structures",0.00000289,0.00685329
 2014,Iron or steel articles,0.00000117,0.00010790

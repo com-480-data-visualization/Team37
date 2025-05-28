@@ -5,12 +5,12 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000035,0.00019194
 1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000032,0.00000704
 1995,Other,0.00000143,0.00484926
-1996,Food Related,0.00000167,0.00589416
+1996,Cereals,0.00000135,0.00573436
 1996,Organic chemicals,0.00000075,0.00105730
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000049,0.00003245
 1996,Works of art; collectors' pieces and antiques,0.00000049,0.00000000
 1996,Nickel and articles thereof,0.00000040,0.00000950
-1996,Other,0.00000229,0.00121405
+1996,Other,0.00000261,0.00137385
 1997,Iron or steel articles,0.00000175,0.00156549
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000057,0.00017955
 1997,"Beverages, spirits and vinegar",0.00000043,0.00011839
@@ -27,8 +27,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000088,0.00314775
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000040,0.00000402
 1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000037,0.00025556
-1999,Food Related,0.00000023,0.00051697
-1999,Other,0.00000135,0.00049891
+1999,Pharmaceutical products,0.00000019,0.00013200
+1999,Other,0.00000139,0.00088389
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000193,0.00021173
 2000,"Beverages, spirits and vinegar",0.00000105,0.00015000
 2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000065,0.00012151
@@ -47,12 +47,12 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000063,0.00006609
 2002,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",0.00000055,0.00007144
 2002,Other,0.00000259,0.00588597
-2003,Food Related,0.00000276,0.01445982
+2003,Sugars and sugar confectionery,0.00000255,0.01333245
 2003,"Beverages, spirits and vinegar",0.00000192,0.00051477
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000187,0.00013360
 2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000166,0.00024104
 2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000051,0.00001482
-2003,Other,0.00000280,0.00367880
+2003,Other,0.00000301,0.00480616
 2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000211,0.00028129
 2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000199,0.00001754
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000168,0.00034006
@@ -61,16 +61,16 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,Other,0.00000279,0.00231317
 2005,Pharmaceutical products,0.00000321,0.00001381
 2005,"Beverages, spirits and vinegar",0.00000286,0.00038300
-2005,Food Related,0.00000124,0.00161383
+2005,Sugars and sugar confectionery,0.00000118,0.00158400
 2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000083,0.00010727
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000074,0.00006007
-2005,Other,0.00000409,0.00236394
+2005,Other,0.00000415,0.00239377
 2006,"Beverages, spirits and vinegar",0.00000830,0.00075372
-2006,Food Related,0.00000539,0.00985579
+2006,Sugars and sugar confectionery,0.00000536,0.00985080
 2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000291,0.00050912
 2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000158,0.00017283
 2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000121,0.00004700
-2006,Other,0.00000292,0.00154684
+2006,Other,0.00000295,0.00155182
 2007,"Beverages, spirits and vinegar",0.00000799,0.00082157
 2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000455,0.00032390
 2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000332,0.00049570
@@ -123,8 +123,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000136,0.00303275
 2015,Cotton,0.00000120,0.00015512
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000103,0.00002561
-2015,Food Related,0.00000082,0.00233186
-2015,Other,0.00000413,0.00245879
+2015,Sugars and sugar confectionery,0.00000066,0.00230900
+2015,Other,0.00000429,0.00248165
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000499,0.00042498
 2016,"Beverages, spirits and vinegar",0.00000249,0.00014106
 2016,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000189,0.00359737
@@ -165,8 +165,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000351,0.00010759
 2022,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000286,0.00342794
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000110,0.00002018
-2022,Food Related,0.00000086,0.00040400
-2022,Other,0.00000359,0.00088222
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000077,0.00000599
+2022,Other,0.00000368,0.00128024
 2023,Pharmaceutical products,0.00000792,0.00004544
 2023,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000389,0.00431345
 2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000353,0.00009681

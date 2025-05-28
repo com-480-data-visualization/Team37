@@ -76,13 +76,13 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01952232,33.56003889
 2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01749792,0.84180501
 2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00757720,0.18254559
-2007,Other,0.07057483,39.66284332
+2007,Other,0.07057483,39.66284331
 2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02961438,1.90303658
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02831964,35.18254405
 2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02423400,2.10945331
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01913713,0.84054948
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01103867,0.15224584
-2008,Other,0.08367626,43.71633314
+2008,Other,0.08367626,43.71633313
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02452249,1.49073428
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01841450,35.40724805
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01796561,0.74906109
@@ -154,7 +154,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02411732,1.16690494
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01700469,48.89229309
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01157132,0.14089045
-2020,Other,0.10167945,43.71379876
+2020,Other,0.10167945,43.71379877
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03853090,2.45176222
 2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03440243,2.86943903
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02776978,1.23946382

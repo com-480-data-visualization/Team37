@@ -9,8 +9,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,Aluminium and articles thereof,0.00047622,0.26456627
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00046985,0.05330015
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00041665,0.00628732
-1996,Food Related,0.00039766,0.57885051
-1996,Other,0.00287068,4.58457036
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00028943,0.06827867
+1996,Other,0.00297891,5.09514220
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02026706,124.36151670
 1997,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00088258,0.01031669
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00087611,0.13521142
@@ -21,26 +21,26 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00098153,0.08241733
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00097422,0.00772641
 1998,Aluminium and articles thereof,0.00067667,0.41312876
-1998,Food Related,0.00047217,0.65412716
-1998,Other,0.00397152,6.08260309
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00035263,0.05351652
+1998,Other,0.00409106,6.68321373
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01659009,290.38662672
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00095630,0.08558045
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00078167,0.01990273
 1999,Aluminium and articles thereof,0.00069524,0.49958435
-1999,Food Related,0.00066632,1.36116370
-1999,Other,0.00433973,6.42332644
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00036867,0.06446254
+1999,Other,0.00463737,7.72002760
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02707665,124.78105662
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00102954,0.09476509
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00101745,0.02793237
 2000,Aluminium and articles thereof,0.00098630,0.56590409
-2000,Food Related,0.00064492,1.43681269
-2000,Other,0.00505630,14.65669427
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00052706,0.08758789
+2000,Other,0.00517415,16.00591907
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02474827,119.59292586
 2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00153043,0.03907506
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00111134,0.12962114
 2001,Aluminium and articles thereof,0.00100006,0.58226540
-2001,Food Related,0.00072882,1.37836262
-2001,Other,0.00563782,15.49796844
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00069834,0.09622055
+2001,Other,0.00566831,16.78011051
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02192169,110.96839411
 2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00187824,0.03340870
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00141638,0.20226886
@@ -93,14 +93,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02779036,0.18971735
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00679121,0.91623046
 2010,Iron and steel,0.00498108,11.04992223
-2010,Food Related,0.00480796,6.61154260
-2010,Other,0.02934128,59.66605247
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00417947,0.38466877
+2010,Other,0.02996977,65.89292630
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.13031347,156.22665191
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.03178569,0.23992623
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00795704,0.78370056
 2011,Iron and steel,0.00599689,8.44825470
-2011,Food Related,0.00542729,6.22510505
-2011,Other,0.03771995,47.58203374
+2011,Aluminium and articles thereof,0.00527205,1.94050922
+2011,Other,0.03787519,51.86662957
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.14396101,164.65838932
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.05621829,0.17881290
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01343498,0.64542439
@@ -154,7 +154,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01382063,0.61426810
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01025458,1.01313567
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00737255,1.30359997
-2020,Other,0.06051022,122.92219185
+2020,Other,0.06051022,122.92219184
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.13150596,238.87063444
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.05438208,0.52288082
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01738240,0.63574792

@@ -1,40 +1,40 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Fertilizers,0.00056783,1.76397784
-1995,Food Related,0.00027407,0.25026823
 1995,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00026078,3.96629608
+1995,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00021246,0.20636038
 1995,Pharmaceutical products,0.00015605,0.00823323
 1995,Glass and glassware,0.00006872,0.26967691
-1995,Other,0.00048410,0.58243907
+1995,Other,0.00054571,0.62634692
 1996,Fertilizers,0.00026198,1.68966733
 1996,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00021047,3.66459884
-1996,Food Related,0.00006524,0.03211059
+1996,Cereals,0.00005393,0.02123338
 1996,Pharmaceutical products,0.00004459,0.00217052
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003677,0.00134096
-1996,Other,0.00021404,0.41558942
+1996,Other,0.00022535,0.42646663
 1997,Fertilizers,0.00049670,1.52868191
 1997,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00033610,4.82533641
-1997,Food Related,0.00026095,0.18168843
+1997,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00012986,0.14655011
+1997,Cereals,0.00010252,0.00484038
 1997,Glass and glassware,0.00008198,0.30218587
-1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008000,0.00701795
-1997,Other,0.00054686,0.78680226
+1997,Other,0.00065542,0.82411816
 1998,Fertilizers,0.00059422,2.04812403
 1998,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00028167,4.37619205
 1998,Pharmaceutical products,0.00017945,0.01124122
-1998,Food Related,0.00014266,0.12139811
 1998,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00008406,0.34115277
-1998,Other,0.00045178,0.56558329
+1998,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00008331,0.09482959
+1998,Other,0.00051113,0.59215181
 1999,Fertilizers,0.00056919,1.83332846
 1999,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00026794,4.07678435
 1999,Pharmaceutical products,0.00017514,0.01202622
-1999,Food Related,0.00014116,0.14506925
 1999,Glass and glassware,0.00008972,0.31471664
-1999,Other,0.00061843,0.91260017
+1999,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00008558,0.36389433
+1999,Other,0.00067402,0.69377508
 2000,Fertilizers,0.00062773,2.51850046
 2000,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00021029,3.97304984
 2000,Pharmaceutical products,0.00019252,0.01167114
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00011484,0.00687489
-2000,Food Related,0.00011021,0.12961770
-2000,Other,0.00079327,1.38926315
+2000,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00010017,0.44708670
+2000,Other,0.00080330,1.07179414
 2001,Fertilizers,0.00053660,2.09092650
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00028346,0.01953500
 2001,Pharmaceutical products,0.00023950,0.01341189
@@ -111,14 +111,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2013,Apparel and clothing accessories; knitted or crocheted,0.00105791,0.03985070
 2013,Pharmaceutical products,0.00084195,0.02301595
 2013,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00066029,4.77790786
-2013,Food Related,0.00055056,0.25798829
-2013,Other,0.00443212,3.89633650
+2013,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00045236,0.87273467
+2013,Other,0.00453032,3.28159012
 2014,Fertilizers,0.00187519,3.74143190
 2014,Apparel and clothing accessories; knitted or crocheted,0.00100201,0.03683935
 2014,Pharmaceutical products,0.00085910,0.02437792
 2014,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00063141,5.40939066
-2014,Food Related,0.00060229,0.30362262
-2014,Other,0.00489777,3.98425589
+2014,Glass and glassware,0.00054969,0.74214072
+2014,Other,0.00495037,3.54573779
 2015,Apparel and clothing accessories; knitted or crocheted,0.00152633,0.05518497
 2015,Fertilizers,0.00147157,2.53731507
 2015,Pharmaceutical products,0.00076844,0.02132081

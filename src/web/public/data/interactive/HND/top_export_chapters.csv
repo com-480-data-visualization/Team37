@@ -51,8 +51,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00069889,0.03712092
 2003,Tin; articles thereof,0.00031880,0.68465475
 2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00021642,0.15667613
-2003,Food Related,0.00018535,0.32947641
-2003,Other,0.00107866,0.80823313
+2003,Pharmaceutical products,0.00018433,0.02028935
+2003,Other,0.00107969,1.11742018
 2004,Apparel and clothing accessories; knitted or crocheted,0.00206956,0.22105114
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00076022,0.04481203
 2004,Tin; articles thereof,0.00035397,0.60050221
@@ -81,95 +81,95 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,Apparel and clothing accessories; not knitted or crocheted,0.00061834,0.04041096
 2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00058667,0.20130696
 2008,Tin; articles thereof,0.00040096,0.61404696
-2008,Food Related,0.00039330,0.46024663
-2008,Other,0.00200957,1.17275198
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00037924,0.02044669
+2008,Other,0.00202362,1.61255192
 2009,Apparel and clothing accessories; knitted or crocheted,0.00195308,0.21936445
 2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00057357,0.20167025
 2009,Apparel and clothing accessories; not knitted or crocheted,0.00049089,0.02543184
 2009,Tin; articles thereof,0.00039181,0.87024286
-2009,Food Related,0.00037284,0.49177378
-2009,Other,0.00189468,1.36593325
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00029345,0.01909380
+2009,Other,0.00197408,1.83861323
 2010,Apparel and clothing accessories; knitted or crocheted,0.00229305,0.20240469
 2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00067930,0.21042587
 2010,Apparel and clothing accessories; not knitted or crocheted,0.00053066,0.03242238
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00044443,0.02586357
-2010,Food Related,0.00043739,0.55419957
-2010,Other,0.00249670,3.05480947
+2010,Tin; articles thereof,0.00038899,0.89389196
+2010,Other,0.00254510,2.71511709
 2011,Apparel and clothing accessories; knitted or crocheted,0.00251758,0.21891489
 2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00124604,0.24456338
 2011,Apparel and clothing accessories; not knitted or crocheted,0.00056911,0.03172373
-2011,Food Related,0.00056582,0.55224682
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00055399,0.02456552
-2011,Other,0.00280278,4.16129317
+2011,Tin; articles thereof,0.00045251,0.93632746
+2011,Other,0.00291608,3.77721253
 2012,Apparel and clothing accessories; knitted or crocheted,0.00248398,0.21961293
 2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00132097,0.32201983
-2012,Food Related,0.00070317,0.66704926
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00065588,0.03032620
 2012,Apparel and clothing accessories; not knitted or crocheted,0.00063231,0.03009659
-2012,Other,0.00323666,5.76944652
+2012,Tin; articles thereof,0.00046893,0.85588172
+2012,Other,0.00347090,5.58061406
 2013,Apparel and clothing accessories; knitted or crocheted,0.00249307,0.25604279
 2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00083013,0.24682667
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00078901,0.03007540
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00066458,0.03784288
-2013,Food Related,0.00061030,0.61464340
-2013,Other,0.00274429,4.71427181
+2013,Tin; articles thereof,0.00050484,1.07545397
+2013,Other,0.00284976,4.25346124
 2014,Apparel and clothing accessories; knitted or crocheted,0.00252528,0.23347207
 2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00089438,0.25725625
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00074710,0.03106152
-2014,Food Related,0.00073976,0.81559089
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00065160,0.03474240
-2014,Other,0.00336705,6.16724113
+2014,Tin; articles thereof,0.00050815,1.03055627
+2014,Other,0.00359866,5.95227575
 2015,Apparel and clothing accessories; knitted or crocheted,0.00262556,0.24054143
 2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00104251,0.29492136
 2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00079321,0.03272904
-2015,Food Related,0.00067361,0.81605086
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00061180,0.02966940
-2015,Other,0.00290601,4.02906226
+2015,Tin; articles thereof,0.00052105,1.09665725
+2015,Other,0.00305857,3.74845587
 2016,Apparel and clothing accessories; knitted or crocheted,0.00276447,0.29859698
 2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00095605,0.32543708
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00074820,0.02880786
-2016,Food Related,0.00074696,0.90817547
 2016,Apparel and clothing accessories; not knitted or crocheted,0.00059192,0.03220049
-2016,Other,0.00292953,3.95839250
+2016,Tin; articles thereof,0.00058043,1.11779321
+2016,Other,0.00309606,3.74877477
 2017,Apparel and clothing accessories; knitted or crocheted,0.00288397,0.29782224
 2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00115385,0.39803960
-2017,Food Related,0.00088144,1.10147932
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00070113,0.02422688
 2017,Tin; articles thereof,0.00059951,1.09683545
-2017,Other,0.00309815,2.65268339
+2017,Apparel and clothing accessories; not knitted or crocheted,0.00057515,0.02251477
+2017,Other,0.00340444,3.73164795
 2018,Apparel and clothing accessories; knitted or crocheted,0.00309561,0.24177029
 2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00106883,0.39630855
-2018,Food Related,0.00087576,1.04974640
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00070962,0.02304482
 2018,Apparel and clothing accessories; not knitted or crocheted,0.00060776,0.02049240
-2018,Other,0.00303137,3.79879664
+2018,Tin; articles thereof,0.00059459,1.06875880
+2018,Other,0.00331254,3.77978423
 2019,Apparel and clothing accessories; knitted or crocheted,0.00356262,0.20941042
 2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00108651,0.38435673
-2019,Food Related,0.00077392,0.96054489
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00061625,0.02023748
 2019,Apparel and clothing accessories; not knitted or crocheted,0.00061616,0.03098022
-2019,Other,0.00301121,4.02929982
+2019,Tin; articles thereof,0.00061394,1.02338930
+2019,Other,0.00317119,3.96645541
 2020,Apparel and clothing accessories; knitted or crocheted,0.00237816,0.21941498
 2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00105873,0.35168715
-2020,Food Related,0.00093990,1.52911035
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00054504,0.01581427
 2020,Tin; articles thereof,0.00052837,0.99945022
-2020,Other,0.00303814,3.27630084
+2020,Apparel and clothing accessories; not knitted or crocheted,0.00047907,0.01979468
+2020,Other,0.00349897,4.78561651
 2021,Apparel and clothing accessories; knitted or crocheted,0.00348981,0.31816323
 2021,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00129474,0.39260567
-2021,Food Related,0.00097869,0.85136690
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00095233,0.03518473
 2021,Apparel and clothing accessories; not knitted or crocheted,0.00058126,0.03188298
-2021,Other,0.00340647,3.99393530
+2021,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00046448,0.43806644
+2021,Other,0.00392068,4.40723576
 2022,Apparel and clothing accessories; knitted or crocheted,0.00439440,0.43686076
 2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00154459,0.29442040
-2022,Food Related,0.00127746,0.94764071
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00124338,0.06631745
+2022,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00065647,0.46584323
 2022,Apparel and clothing accessories; not knitted or crocheted,0.00060809,0.03598523
-2022,Other,0.00351416,5.16846399
+2022,Other,0.00413514,5.65026148
 2023,Apparel and clothing accessories; knitted or crocheted,0.00335444,0.25859791
 2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00155876,0.35023934
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00150946,0.06305253
-2023,Food Related,0.00124795,1.14839629
 2023,Apparel and clothing accessories; not knitted or crocheted,0.00057007,0.02765380
-2023,Other,0.00368438,6.84832409
+2023,Tin; articles thereof,0.00055360,0.88950966
+2023,Other,0.00437873,7.10721072

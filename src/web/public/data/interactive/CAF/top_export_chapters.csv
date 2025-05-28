@@ -8,15 +8,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00011351,0.00005124
 1996,Wood and articles of wood; wood charcoal,0.00001544,0.03955854
 1996,Cotton,0.00001471,0.00727891
-1996,Food Related,0.00001300,0.03014568
 1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001078,0.00599479
-1996,Other,0.00001739,0.00814487
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001037,0.00068524
+1996,Other,0.00002003,0.03760531
 1997,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010738,0.00000779
 1997,Cotton,0.00002627,0.01523354
 1997,Wood and articles of wood; wood charcoal,0.00001737,0.03792060
-1997,Food Related,0.00001621,0.03054868
 1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001227,0.00677711
-1997,Other,0.00001236,0.00399016
+1997,Sugars and sugar confectionery,0.00000717,0.02503931
+1997,Other,0.00002141,0.00949953
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00016842,0.00011133
 1998,Wood and articles of wood; wood charcoal,0.00003912,0.08447387
 1998,Cotton,0.00003217,0.01964324
@@ -51,8 +51,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,Wood and articles of wood; wood charcoal,0.00005983,0.10898434
 2003,Cotton,0.00001800,0.01515349
 2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000348,0.00440171
-2003,Food Related,0.00000107,0.00228131
-2003,Other,0.00000502,0.00403602
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000085,0.00005956
+2003,Other,0.00000524,0.00625778
 2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010554,0.00181029
 2004,Wood and articles of wood; wood charcoal,0.00009866,0.20755441
 2004,Cotton,0.00001354,0.00948855
@@ -87,8 +87,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005009,0.00011191
 2009,Cotton,0.00000562,0.00484247
 2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000260,0.00028548
-2009,Food Related,0.00000206,0.00208478
-2009,Other,0.00001035,0.00407409
+2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000198,0.00075749
+2009,Other,0.00001042,0.00540139
 2010,Wood and articles of wood; wood charcoal,0.00005940,0.10796994
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005449,0.00011524
 2010,Cotton,0.00002179,0.01127432
@@ -117,8 +117,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,Cotton,0.00001776,0.00921454
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000543,0.00019541
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000227,0.00006660
-2014,Food Related,0.00000134,0.00038912
-2014,Other,0.00001306,0.00517206
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000129,0.00084486
+2014,Other,0.00001311,0.00471632
 2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007372,0.00456515
 2015,Wood and articles of wood; wood charcoal,0.00005900,0.13408310
 2015,Cotton,0.00000727,0.00466442
@@ -129,8 +129,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00004620,0.00188254
 2016,Tin; articles thereof,0.00002575,0.02486386
 2016,Glass and glassware,0.00000692,0.00531255
-2016,Food Related,0.00000505,0.01056308
-2016,Other,0.00002874,0.00923196
+2016,Cotton,0.00000471,0.00302861
+2016,Other,0.00002908,0.01676644
 2017,Wood and articles of wood; wood charcoal,0.00009231,0.14223675
 2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008510,0.00169962
 2017,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00002374,0.00027219
@@ -146,9 +146,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2019,"Aircraft, spacecraft, and parts thereof",0.00008769,0.00002551
 2019,Wood and articles of wood; wood charcoal,0.00006071,0.23629140
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003195,0.00040428
-2019,Food Related,0.00000265,0.00149335
 2019,"Ships, boats and floating structures",0.00000210,0.00029870
-2019,Other,0.00000908,0.00475756
+2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000206,0.00039927
+2019,Other,0.00000968,0.00585164
 2020,Wood and articles of wood; wood charcoal,0.00007349,0.26102706
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006473,0.00005082
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001127,0.00192322

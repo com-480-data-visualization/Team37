@@ -39,20 +39,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00004702,0.00225285
 2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000802,0.00578635
 2001,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000510,0.00026067
-2001,Food Related,0.00000439,0.00473321
-2001,Other,0.00004101,0.01075317
+2001,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000433,0.00011258
+2001,Other,0.00004107,0.01537380
 2002,Apparel and clothing accessories; knitted or crocheted,0.00018810,0.01990251
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00004173,0.00377328
 2002,Tin; articles thereof,0.00000822,0.00753659
-2002,Food Related,0.00000702,0.00453828
+2002,Cocoa and cocoa preparations,0.00000566,0.00365869
 2002,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000556,0.00013513
-2002,Other,0.00003939,0.07424385
+2002,Other,0.00004075,0.07512344
 2003,Apparel and clothing accessories; knitted or crocheted,0.00027102,0.03202143
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00003960,0.00376336
 2003,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000823,0.00058263
 2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000723,0.00033674
-2003,Food Related,0.00000703,0.00362497
-2003,Other,0.00004215,0.02507330
+2003,Tin; articles thereof,0.00000618,0.00471532
+2003,Other,0.00004300,0.02398295
 2004,Apparel and clothing accessories; knitted or crocheted,0.00032541,0.07667799
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00003423,0.00370158
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001219,0.00010615
@@ -81,20 +81,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,Apparel and clothing accessories; not knitted or crocheted,0.00013006,0.01038832
 2008,Iron and steel,0.00004402,0.09880683
 2008,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00002144,0.00086984
-2008,Food Related,0.00001161,0.00638692
-2008,Other,0.00006271,0.04644579
+2008,Tin; articles thereof,0.00001114,0.00650266
+2008,Other,0.00006318,0.04633006
 2009,Apparel and clothing accessories; knitted or crocheted,0.00045905,0.06787891
 2009,Apparel and clothing accessories; not knitted or crocheted,0.00010895,0.00755494
 2009,Tin; articles thereof,0.00001280,0.00957817
-2009,Food Related,0.00001119,0.00434086
 2009,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00001023,0.00013093
-2009,Other,0.00003925,0.04048872
+2009,Iron and steel,0.00000901,0.02823944
+2009,Other,0.00004143,0.01659014
 2010,Apparel and clothing accessories; knitted or crocheted,0.00047243,0.06175650
 2010,Apparel and clothing accessories; not knitted or crocheted,0.00010404,0.00660948
 2010,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00002149,0.00021919
-2010,Food Related,0.00001837,0.00578031
 2010,Iron and steel,0.00001795,0.05434437
-2010,Other,0.00005654,0.02623644
+2010,Cocoa and cocoa preparations,0.00001581,0.00485810
+2010,Other,0.00005910,0.02715866
 2011,Apparel and clothing accessories; knitted or crocheted,0.00061432,0.06943903
 2011,Apparel and clothing accessories; not knitted or crocheted,0.00014845,0.00799740
 2011,Iron and steel,0.00004409,0.11442372
@@ -117,8 +117,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00022799,0.01270619
 2014,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00002302,0.00018654
 2014,Iron and steel,0.00002161,0.05464584
-2014,Food Related,0.00001923,0.00654988
-2014,Other,0.00008310,0.02902661
+2014,Tin; articles thereof,0.00001596,0.01048245
+2014,Other,0.00008637,0.02509404
 2015,Apparel and clothing accessories; knitted or crocheted,0.00078636,0.07479610
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00023833,0.01546863
 2015,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00002602,0.00019161
@@ -128,15 +128,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,Apparel and clothing accessories; knitted or crocheted,0.00077124,0.07355719
 2016,Apparel and clothing accessories; not knitted or crocheted,0.00022050,0.01444305
 2016,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00003172,0.00019290
-2016,Food Related,0.00001893,0.00587895
+2016,Cocoa and cocoa preparations,0.00001427,0.00467040
 2016,Pharmaceutical products,0.00001182,0.00029220
-2016,Other,0.00005893,0.06425200
+2016,Other,0.00006360,0.06546056
 2017,Apparel and clothing accessories; knitted or crocheted,0.00077474,0.06616102
 2017,Apparel and clothing accessories; not knitted or crocheted,0.00020609,0.01305454
 2017,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00004904,0.00023798
 2017,Tin; articles thereof,0.00001486,0.00963587
-2017,Food Related,0.00001191,0.00470245
-2017,Other,0.00007403,0.06657352
+2017,Iron and steel,0.00001058,0.04222899
+2017,Other,0.00007536,0.02904698
 2018,Apparel and clothing accessories; knitted or crocheted,0.00084914,0.07388070
 2018,Apparel and clothing accessories; not knitted or crocheted,0.00017574,0.01175545
 2018,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00006992,0.00078164
@@ -147,8 +147,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2019,Apparel and clothing accessories; not knitted or crocheted,0.00013716,0.00475420
 2019,Pharmaceutical products,0.00006073,0.00021291
 2019,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00005311,0.00084574
-2019,Food Related,0.00001638,0.00744343
-2019,Other,0.00011344,0.08503816
+2019,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00001611,0.00149419
+2019,Other,0.00011371,0.09098740
 2020,Apparel and clothing accessories; knitted or crocheted,0.00071481,0.05890303
 2020,Apparel and clothing accessories; not knitted or crocheted,0.00011998,0.00748732
 2020,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00003457,0.00057312

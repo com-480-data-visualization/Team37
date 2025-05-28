@@ -1,16 +1,16 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Wood and articles of wood; wood charcoal,0.00046389,0.85995192
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00023208,0.35447656
-1995,Food Related,0.00018641,0.58531511
 1995,Pharmaceutical products,0.00017264,0.08825884
+1995,Cereals,0.00012567,0.45790244
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00007354,0.00432393
-1995,Other,0.00016181,0.56928509
+1995,Other,0.00022255,0.69669777
 1996,Wood and articles of wood; wood charcoal,0.00034373,0.79306128
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00026613,0.46442051
 1996,Pharmaceutical products,0.00019542,0.03706971
-1996,Food Related,0.00013263,0.38368113
 1996,Apparel and clothing accessories; not knitted or crocheted,0.00009115,0.00489218
-1996,Other,0.00019399,0.59697120
+1996,Cereals,0.00007938,0.27023641
+1996,Other,0.00024724,0.71041592
 1997,Wood and articles of wood; wood charcoal,0.00027235,0.73119232
 1997,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00025248,0.60904656
 1997,Pharmaceutical products,0.00019290,0.03827776
@@ -81,14 +81,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,Wood and articles of wood; wood charcoal,0.00101345,0.94866440
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00078927,1.24040096
 2008,Apparel and clothing accessories; not knitted or crocheted,0.00040763,0.02176160
-2008,Food Related,0.00032682,1.16840402
-2008,Other,0.00080506,1.99574079
+2008,Pharmaceutical products,0.00029314,0.26809283
+2008,Other,0.00083874,2.89605199
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00261610,8.64628790
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00106235,1.39353885
 2009,Wood and articles of wood; wood charcoal,0.00073211,0.69244112
 2009,Apparel and clothing accessories; not knitted or crocheted,0.00042827,0.02281123
-2009,Food Related,0.00029337,1.17766882
-2009,Other,0.00087432,6.92293416
+2009,Pharmaceutical products,0.00028295,0.25221410
+2009,Other,0.00088474,7.84838888
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00242833,8.89954973
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00116124,1.01487769
 2010,Wood and articles of wood; wood charcoal,0.00088197,1.23981727
@@ -99,77 +99,77 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00169541,0.99576827
 2011,Wood and articles of wood; wood charcoal,0.00114115,2.70012917
 2011,Apparel and clothing accessories; not knitted or crocheted,0.00091156,0.03616910
-2011,Food Related,0.00067298,1.49584020
-2011,Other,0.00167542,7.75270811
+2011,Pharmaceutical products,0.00049826,0.20594223
+2011,Other,0.00185013,9.04260608
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00350252,8.00053533
 2012,Wood and articles of wood; wood charcoal,0.00141156,2.16566340
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00123119,1.28162330
 2012,Apparel and clothing accessories; not knitted or crocheted,0.00096179,0.03427698
-2012,Food Related,0.00070749,1.18863589
-2012,Other,0.00196829,6.76215111
+2012,Pharmaceutical products,0.00062656,0.20251748
+2012,Other,0.00204922,7.74826953
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00395268,9.42085267
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00215582,1.01481505
 2013,Wood and articles of wood; wood charcoal,0.00148572,6.41038130
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00114617,0.04097527
-2013,Food Related,0.00071083,1.63878637
-2013,Other,0.00237726,9.75069834
+2013,Pharmaceutical products,0.00066876,0.19199441
+2013,Other,0.00241933,11.19749030
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01315072,1.38868676
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00888153,20.33494064
 2014,Wood and articles of wood; wood charcoal,0.00153236,2.44531703
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00140479,0.05717004
-2014,Food Related,0.00068170,1.26437976
-2014,Other,0.00248559,8.43890894
+2014,Pharmaceutical products,0.00066356,0.26555794
+2014,Other,0.00250373,9.43773076
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00958270,28.65395092
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00299369,1.17103360
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00151173,0.05882080
-2015,Food Related,0.00072528,1.48498464
 2015,Pharmaceutical products,0.00050898,0.28073377
-2015,Other,0.00264578,4.78183664
+2015,Wood and articles of wood; wood charcoal,0.00050815,0.90132601
+2015,Other,0.00286291,5.36549526
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00660277,361.70561647
 2016,Apparel and clothing accessories; not knitted or crocheted,0.00184727,0.08120898
-2016,Food Related,0.00164807,2.09335176
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00145035,0.97343090
+2016,Sugars and sugar confectionery,0.00107173,1.13179127
 2016,Apparel and clothing accessories; knitted or crocheted,0.00059821,0.03338096
-2016,Other,0.00388771,3.69248252
+2016,Other,0.00446404,4.65404301
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00618832,27.22227614
 2017,Apparel and clothing accessories; not knitted or crocheted,0.00256844,0.11516869
-2017,Food Related,0.00167472,3.26593187
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00119272,1.14248428
 2017,Apparel and clothing accessories; knitted or crocheted,0.00108445,0.05485709
-2017,Other,0.00475730,5.37777595
+2017,Cereals,0.00102656,2.51085470
+2017,Other,0.00540546,6.13285313
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00698052,18.78226876
 2018,Apparel and clothing accessories; not knitted or crocheted,0.00368372,0.14997076
-2018,Food Related,0.00221575,3.13684797
 2018,Apparel and clothing accessories; knitted or crocheted,0.00161825,0.08849239
+2018,Cereals,0.00128542,2.27068479
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00104643,1.06040023
-2018,Other,0.00578111,6.69223430
+2018,Other,0.00671144,7.55839748
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00667629,20.09784467
 2019,Apparel and clothing accessories; not knitted or crocheted,0.00436461,0.17924055
-2019,Food Related,0.00228602,5.22426521
 2019,Apparel and clothing accessories; knitted or crocheted,0.00217358,0.12204494
+2019,Cereals,0.00187504,4.71914478
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00101990,1.08023639
-2019,Other,0.00623408,10.26232621
+2019,Other,0.00664506,10.76744664
 2020,Apparel and clothing accessories; not knitted or crocheted,0.00410296,0.16942635
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00349804,14.95742817
 2020,Apparel and clothing accessories; knitted or crocheted,0.00227730,0.12749115
-2020,Food Related,0.00221916,6.17904369
+2020,Cereals,0.00172415,5.36812955
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00111115,1.02973007
-2020,Other,0.00642391,7.19301439
+2020,Other,0.00691892,8.00392853
 2021,Apparel and clothing accessories; not knitted or crocheted,0.00365299,0.14241416
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00290164,10.69995823
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00248568,1.37367832
 2021,Apparel and clothing accessories; knitted or crocheted,0.00220130,0.12102453
-2021,Food Related,0.00195270,5.21563756
-2021,Other,0.00686085,4.52948412
+2021,Cereals,0.00135205,4.43747197
+2021,Other,0.00746150,5.30764971
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00589876,1.90788853
 2022,Apparel and clothing accessories; not knitted or crocheted,0.00500119,0.19729557
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00351218,8.09676915
 2022,Apparel and clothing accessories; knitted or crocheted,0.00298469,0.15435939
-2022,Food Related,0.00269927,5.89972119
-2022,Other,0.00715737,4.74240173
+2022,Cereals,0.00194330,5.03558219
+2022,Other,0.00791334,5.60654072
 2023,Apparel and clothing accessories; not knitted or crocheted,0.00447849,0.19266594
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00321734,7.89860510
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00248420,1.64825160
 2023,Apparel and clothing accessories; knitted or crocheted,0.00230164,0.11757617
-2023,Food Related,0.00196766,4.10681077
-2023,Other,0.00762158,6.66070532
+2023,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00144553,0.07564251
+2023,Other,0.00814372,10.69187358

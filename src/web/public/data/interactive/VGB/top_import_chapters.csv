@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Aircraft, spacecraft, and parts thereof",0.00004252,0.00003498
 1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002213,0.00599630
 1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001172,0.00150520
-1995,Food Related,0.00001101,0.01658747
-1995,Other,0.00006147,0.08570152
+1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000837,0.00001081
+1995,Other,0.00006411,0.10227818
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00161830,12.21899658
 1996,"Ships, boats and floating structures",0.00015483,0.06775226
 1996,Fertilizers,0.00004855,0.32320479
@@ -94,7 +94,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,"Aircraft, spacecraft, and parts thereof",0.00029046,0.00022987
 2010,Iron and steel,0.00021904,0.52046643
 2010,Iron or steel articles,0.00008608,0.00968295
-2010,Other,0.00050079,0.18852658
+2010,Other,0.00050079,0.18852657
 2011,"Ships, boats and floating structures",0.00269559,0.32457406
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00063408,0.83381342
 2011,Copper and articles thereof,0.00020609,0.02445251
@@ -111,8 +111,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043490,0.83822507
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012904,0.00016189
 2013,Copper and articles thereof,0.00011995,0.01741238
-2013,Food Related,0.00006500,0.07029619
-2013,Other,0.00038374,0.17992287
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006108,0.00342190
+2013,Other,0.00038766,0.24679717
 2014,"Ships, boats and floating structures",0.00140053,0.13566956
 2014,Iron and steel,0.00026148,0.03477962
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015396,0.17995281
@@ -141,20 +141,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00011272,0.13220090
 2018,"Aircraft, spacecraft, and parts thereof",0.00010151,0.00010988
 2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005998,0.00485846
-2018,Food Related,0.00004574,0.02083546
-2018,Other,0.00041915,0.67765917
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004536,0.00247754
+2018,Other,0.00041953,0.69601709
 2019,"Ships, boats and floating structures",0.00093721,0.03162312
 2019,"Aircraft, spacecraft, and parts thereof",0.00016287,0.00010585
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009355,0.10089393
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003574,0.00232122
-2019,Food Related,0.00003196,0.04038486
-2019,Other,0.00032714,0.40534165
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003083,0.00115856
+2019,Other,0.00032826,0.44456795
 2020,"Ships, boats and floating structures",0.00044196,0.01985819
 2020,"Aircraft, spacecraft, and parts thereof",0.00020614,0.00015091
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004396,0.11104188
-2020,Food Related,0.00003220,0.05734734
 2020,Copper and articles thereof,0.00002626,0.00396796
-2020,Other,0.00029091,0.63896720
+2020,Iron and steel,0.00002571,0.05597711
+2020,Other,0.00029739,0.64033743
 2021,"Ships, boats and floating structures",0.00161264,0.06093656
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012584,0.24291996
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006289,0.00047250
@@ -165,11 +165,11 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015475,0.18230756
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012399,0.00017597
 2022,"Aircraft, spacecraft, and parts thereof",0.00004958,0.00004920
-2022,Food Related,0.00004117,0.01732549
-2022,Other,0.00028679,0.12125079
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003125,0.00131104
+2022,Other,0.00029672,0.13726524
 2023,"Ships, boats and floating structures",0.00033574,0.03759913
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00009396,0.11960993
 2023,"Aircraft, spacecraft, and parts thereof",0.00007319,0.00010009
-2023,Food Related,0.00004381,0.04227269
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003853,0.00031663
-2023,Other,0.00027171,0.11902813
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003772,0.00186979
+2023,Other,0.00027780,0.15943103

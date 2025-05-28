@@ -117,8 +117,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,"Aircraft, spacecraft, and parts thereof",0.00008144,0.00005843
 2014,"Ships, boats and floating structures",0.00005169,0.00588411
 2014,Works of art; collectors' pieces and antiques,0.00003764,0.00000659
-2014,Food Related,0.00001852,0.02309300
-2014,Other,0.00012094,0.12961356
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001427,0.00969637
+2014,Other,0.00012519,0.14301019
 2015,"Ships, boats and floating structures",0.00027107,0.00877308
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00017608,0.00000081
 2015,"Aircraft, spacecraft, and parts thereof",0.00005164,0.00011073
@@ -166,10 +166,10 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001541,0.00000005
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000435,0.00012761
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000405,0.00022793
-2022,Other,0.00002817,0.01133268
+2022,Other,0.00002817,0.01133267
 2023,"Ships, boats and floating structures",0.00012426,0.01351127
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005268,0.09057245
 2023,"Aircraft, spacecraft, and parts thereof",0.00003952,0.00002932
-2023,Food Related,0.00001633,0.04342719
+2023,Sugars and sugar confectionery,0.00001547,0.04314237
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001412,0.00000026
-2023,Other,0.00003414,0.01135885
+2023,Other,0.00003499,0.01164368

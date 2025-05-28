@@ -76,7 +76,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2007,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00034715,0.75850666
 2007,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00013276,2.75468751
 2007,Organic chemicals,0.00010989,0.17136423
-2007,Other,0.00062198,0.49068577
+2007,Other,0.00062198,0.49068576
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.08244405,125.18701672
 2008,Iron and steel,0.00060900,1.17986927
 2008,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00056187,0.79206435
@@ -87,74 +87,74 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00032767,0.17167822
 2009,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00032760,0.72646768
 2009,Iron and steel,0.00025492,1.05623830
-2009,Food Related,0.00015549,0.25085709
-2009,Other,0.00078599,2.14272657
+2009,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00015333,1.55474307
+2009,Other,0.00078815,0.83884060
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.05892847,128.47073827
 2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00050487,0.02841643
 2010,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00049136,0.84557592
-2010,Food Related,0.00033182,0.52038020
+2010,Sugars and sugar confectionery,0.00028724,0.46991845
 2010,Iron and steel,0.00021383,0.59940722
-2010,Other,0.00099557,2.59647943
+2010,Other,0.00104015,2.64694118
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.07515029,114.25179895
 2011,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00062737,0.86808903
-2011,Food Related,0.00039485,0.42566462
+2011,Sugars and sugar confectionery,0.00028153,0.37804939
 2011,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00023895,1.94590635
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00013638,0.00800373
-2011,Other,0.00060686,0.72188915
+2011,Other,0.00072018,0.76950439
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.07474984,94.15951468
 2012,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00077487,0.95471304
-2012,Food Related,0.00037243,0.53230544
 2012,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00027834,1.83919001
-2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008965,0.00915791
-2012,Other,0.00051649,0.64193821
+2012,Sugars and sugar confectionery,0.00022012,0.34400675
+2012,Cereals,0.00009690,0.12767692
+2012,Other,0.00066155,0.71171790
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.06885570,100.17847897
 2013,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00044415,0.62403347
-2013,Food Related,0.00035043,0.58566311
+2013,Sugars and sugar confectionery,0.00029769,0.51859876
 2013,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00016497,1.57110617
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006729,0.00607197
-2013,Other,0.00047924,0.65335793
+2013,Other,0.00053199,0.72042228
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.06217265,83.33619797
 2014,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00078027,1.15347672
-2014,Food Related,0.00030397,0.56323638
 2014,Fertilizers,0.00029872,0.86642664
+2014,Sugars and sugar confectionery,0.00026031,0.51394584
 2014,Organic chemicals,0.00022115,0.24702534
-2014,Other,0.00050696,2.57253760
+2014,Other,0.00055063,2.62182814
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03745633,86.08368190
 2015,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00083558,1.55683208
 2015,Fertilizers,0.00043465,1.44108384
-2015,Food Related,0.00020210,0.44022429
 2015,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00016824,1.99107252
-2015,Other,0.00039993,0.47920879
+2015,Sugars and sugar confectionery,0.00016573,0.39608488
+2015,Other,0.00043630,0.52334819
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03055378,91.64911771
 2016,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00056324,1.52437111
 2016,Fertilizers,0.00044705,2.03527360
-2016,Food Related,0.00033259,0.62361810
+2016,Sugars and sugar confectionery,0.00027555,0.55181070
 2016,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00011173,1.60992625
-2016,Other,0.00044158,2.03090195
+2016,Other,0.00049862,2.10270935
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03774237,90.45289742
 2017,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00057792,1.38528720
-2017,Food Related,0.00033628,0.65263205
 2017,Fertilizers,0.00033406,1.29001121
+2017,Sugars and sugar confectionery,0.00026443,0.56331484
 2017,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00009942,1.60187937
-2017,Other,0.00050930,0.71631426
+2017,Other,0.00058114,0.80563147
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03954998,76.15036110
 2018,Fertilizers,0.00092636,3.23871631
 2018,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00062080,1.52261366
-2018,Food Related,0.00025186,0.61332283
+2018,Sugars and sugar confectionery,0.00016381,0.50911864
 2018,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00011914,1.64367252
-2018,Other,0.00059957,0.60218263
+2018,Other,0.00068763,0.70638682
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03368240,69.53847309
 2019,Fertilizers,0.00087765,2.98187244
 2019,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00054720,1.26485475
-2019,Food Related,0.00029839,0.68784274
 2019,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00019736,3.14399684
-2019,Other,0.00065765,0.81106699
+2019,Sugars and sugar confectionery,0.00019716,0.55433408
+2019,Other,0.00075888,0.94457565
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01964301,57.08934433
 2020,Fertilizers,0.00092500,3.55152868
 2020,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00039590,0.93207706
-2020,Food Related,0.00031369,0.63984576
+2020,Sugars and sugar confectionery,0.00024825,0.57280227
 2020,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00017605,2.96528146
-2020,Other,0.00051864,0.68571853
+2020,Other,0.00058408,0.75276202
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03383578,69.87190590
 2021,Fertilizers,0.00138239,3.17136503
 2021,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00093938,1.42472541

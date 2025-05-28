@@ -1,22 +1,22 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Pharmaceutical products,0.00000649,0.00067318
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000376,0.00000001
-1995,Food Related,0.00000209,0.00295092
+1995,Cereals,0.00000207,0.00294436
 1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00000022,0.00065794
 1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000018,0.00108638
-1995,Other,0.00000045,0.00024750
+1995,Other,0.00000047,0.00025406
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000795,0.07814318
-1996,Food Related,0.00000554,0.00762093
+1996,Cereals,0.00000548,0.00758350
 1996,Pharmaceutical products,0.00000436,0.00051544
 1996,Cotton,0.00000049,0.00029988
 1996,Apparel and clothing accessories; knitted or crocheted,0.00000028,0.00003411
-1996,Other,0.00000123,0.00116361
+1996,Other,0.00000129,0.00120104
 1997,Pharmaceutical products,0.00000422,0.00079937
-1997,Food Related,0.00000120,0.00161900
 1997,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000111,0.00099088
+1997,Cereals,0.00000101,0.00140463
 1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000077,0.00002921
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000032,0.00007219
-1997,Other,0.00000202,0.00296709
+1997,Other,0.00000220,0.00318147
 1998,Pharmaceutical products,0.00000383,0.00044238
 1998,Plastics and articles thereof,0.00000057,0.00005211
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000057,0.00011985
@@ -24,23 +24,23 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000041,0.00039760
 1998,Other,0.00000246,0.00134152
 1999,Pharmaceutical products,0.00000517,0.00034290
-1999,Food Related,0.00000251,0.00149311
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000190,0.00016257
+1999,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00000151,0.00000000
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000086,0.00000676
 1999,Clocks and watches and parts thereof,0.00000068,0.00000000
-1999,Other,0.00000607,0.00298211
+1999,Other,0.00000707,0.00447522
 2000,Pharmaceutical products,0.00000415,0.00069045
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000103,0.00009613
 2000,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000102,0.00284326
-2000,Food Related,0.00000073,0.00079811
-2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000018,0.00002301
-2000,Other,0.00000126,0.00055294
+2000,Cereals,0.00000036,0.00054102
+2000,Miscellaneous edible preparations,0.00000027,0.00020538
+2000,Other,0.00000155,0.00062765
 2001,Pharmaceutical products,0.00000382,0.00069292
 2001,Iron and steel,0.00000204,0.00831776
-2001,Food Related,0.00000103,0.00518760
+2001,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00000081,0.00500000
 2001,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000063,0.00129289
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000043,0.00009350
-2001,Other,0.00000291,0.00180927
+2001,Other,0.00000314,0.00199687
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000670,0.00108900
 2002,Pharmaceutical products,0.00000487,0.00080856
 2002,Apparel and clothing accessories; knitted or crocheted,0.00000182,0.00007975
@@ -54,35 +54,35 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,"Metals; n.e.c., cermets and articles thereof",0.00000197,0.00113146
 2003,Other,0.00001119,0.01319845
 2004,Pharmaceutical products,0.00000649,0.00051440
-2004,Food Related,0.00000597,0.00705202
+2004,Sugars and sugar confectionery,0.00000508,0.00644983
 2004,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000486,0.02011038
 2004,Copper and articles thereof,0.00000180,0.00085426
 2004,Iron and steel,0.00000178,0.00372228
-2004,Other,0.00000948,0.00496212
+2004,Other,0.00001037,0.00556431
 2005,Pharmaceutical products,0.00000892,0.00066474
-2005,Food Related,0.00000653,0.00780574
 2005,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000577,0.02860443
+2005,Sugars and sugar confectionery,0.00000544,0.00691400
 2005,Apparel and clothing accessories; knitted or crocheted,0.00000126,0.00003348
 2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000098,0.00010542
-2005,Other,0.00000677,0.00428111
+2005,Other,0.00000786,0.00517285
 2006,Pharmaceutical products,0.00000886,0.00055874
-2006,Food Related,0.00000842,0.00811411
 2006,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000533,0.02760610
+2006,"Preparations of cereals, flour, starch or milk; pastrycooks' products",0.00000402,0.00525627
 2006,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000367,0.00049046
 2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000334,0.00037743
-2006,Other,0.00002146,0.01538220
+2006,Other,0.00002586,0.01824004
 2007,"Aircraft, spacecraft, and parts thereof",0.00002279,0.00000524
 2007,Iron or steel articles,0.00001087,0.00668182
-2007,Food Related,0.00000824,0.00554127
 2007,Pharmaceutical products,0.00000787,0.00052241
 2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000754,0.00087194
-2007,Other,0.00003183,0.06487219
-2008,Food Related,0.00001225,0.01019039
+2007,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00000540,0.01650192
+2007,Other,0.00003467,0.05391155
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000733,0.00370911
 2008,Iron and steel,0.00000655,0.00596452
+2008,"Preparations of cereals, flour, starch or milk; pastrycooks' products",0.00000652,0.00618978
 2008,Pharmaceutical products,0.00000617,0.00071063
 2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000613,0.00068031
-2008,Other,0.00002881,0.03194212
+2008,Other,0.00003454,0.03594273
 2009,Pharmaceutical products,0.00000485,0.00040574
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000421,0.00044744
 2009,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000292,0.00025792
@@ -93,50 +93,50 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000328,0.03220733
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000305,0.00044828
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000269,0.00024653
-2010,Food Related,0.00000257,0.00270511
-2010,Other,0.00001100,0.00523002
+2010,Carpets and other textile floor coverings,0.00000171,0.00001586
+2010,Other,0.00001185,0.00791927
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000843,0.00158145
 2011,Organic chemicals,0.00000824,0.00012674
-2011,Food Related,0.00000646,0.00943269
 2011,Pharmaceutical products,0.00000465,0.00040165
 2011,Iron and steel,0.00000367,0.00587768
-2011,Other,0.00001869,0.00800150
+2011,Cereals,0.00000335,0.00520530
+2011,Other,0.00002180,0.01222889
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005560,0.05604838
-2012,Food Related,0.00000921,0.01214340
 2012,"Ships, boats and floating structures",0.00000844,0.00016508
 2012,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00000732,0.00001511
 2012,Iron and steel,0.00000671,0.01078969
-2012,Other,0.00001897,0.01945879
+2012,Cereals,0.00000459,0.00642498
+2012,Other,0.00002360,0.02517721
 2013,Iron and steel,0.00001485,0.01901818
-2013,Food Related,0.00000688,0.00898287
 2013,"Ships, boats and floating structures",0.00000544,0.00295600
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000349,0.00027667
+2013,Cereals,0.00000342,0.00484277
 2013,Pharmaceutical products,0.00000320,0.00021075
-2013,Other,0.00001804,0.01578017
+2013,Other,0.00002150,0.01992028
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000444,0.00550766
 2014,Pharmaceutical products,0.00000421,0.00026909
 2014,Iron and steel,0.00000391,0.00634922
-2014,Food Related,0.00000376,0.27878117
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000242,0.00032605
-2014,Other,0.00001203,0.00602684
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000224,0.00019207
+2014,Other,0.00001354,0.28461594
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001464,0.01820245
-2015,Food Related,0.00000482,0.00796292
 2015,Iron or steel articles,0.00000422,0.00179779
 2015,Pharmaceutical products,0.00000422,0.00023711
 2015,Iron and steel,0.00000284,0.00460646
-2015,Other,0.00001458,0.03397553
-2016,Food Related,0.00001045,0.01879964
+2015,Cereals,0.00000272,0.00478713
+2015,Other,0.00001667,0.03715132
+2016,Cereals,0.00000852,0.01568998
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000606,0.00076496
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000586,0.00667433
 2016,"Ships, boats and floating structures",0.00000554,0.00063508
 2016,Pharmaceutical products,0.00000392,0.00022202
-2016,Other,0.00001301,0.00830151
+2016,Other,0.00001494,0.01141117
 2017,"Ships, boats and floating structures",0.00000845,0.00067406
 2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000396,0.01291568
-2017,Food Related,0.00000248,0.00305729
 2017,Pharmaceutical products,0.00000247,0.00015499
 2017,"Beverages, spirits and vinegar",0.00000210,0.00023769
-2017,Other,0.00000913,0.00623842
+2017,Iron or steel articles,0.00000153,0.00061643
+2017,Other,0.00001008,0.00867928
 2018,"Ships, boats and floating structures",0.00001221,0.00205573
 2018,Iron and steel,0.00000432,0.00799172
 2018,Plastics and articles thereof,0.00000331,0.00071224
@@ -156,20 +156,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000185,0.00046968
 2020,Other,0.00001032,0.00709474
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00003133,0.06943676
-2021,Food Related,0.00000217,0.00249371
 2021,Pharmaceutical products,0.00000207,0.00009244
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000182,0.00030369
 2021,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000103,0.02119567
-2021,Other,0.00000919,0.00888045
+2021,"Ships, boats and floating structures",0.00000101,0.00311838
+2021,Other,0.00001036,0.00825578
 2022,Fertilizers,0.00002918,0.02949020
 2022,Pharmaceutical products,0.00000462,0.00019593
 2022,Plastics and articles thereof,0.00000384,0.00191729
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000278,0.00030781
-2022,Food Related,0.00000260,0.00250751
-2022,Other,0.00001049,0.02766111
+2022,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000169,0.02065662
+2022,Other,0.00001140,0.00951199
 2023,Plastics and articles thereof,0.00000430,0.00295910
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000328,0.00019675
 2023,Pharmaceutical products,0.00000324,0.00016235
-2023,Food Related,0.00000162,0.00160280
 2023,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00000160,0.00479956
-2023,Other,0.00000785,0.00462617
+2023,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000139,0.00010390
+2023,Other,0.00000808,0.00612507

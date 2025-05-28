@@ -1,34 +1,34 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Ores, slag and ash",0.00000297,0.00030721
-1995,Food Related,0.00000158,0.00071908
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00000139,0.00007235
+1995,Cocoa and cocoa preparations,0.00000070,0.00046294
+1995,Cereals,0.00000060,0.00001246
 1995,Wood and articles of wood; wood charcoal,0.00000049,0.00066763
-1995,Apparel and clothing accessories; knitted or crocheted,0.00000048,0.00002962
-1995,Other,0.00000164,0.00048275
+1995,Other,0.00000240,0.00075605
 1996,Iron or steel articles,0.00000116,0.00055031
-1996,Food Related,0.00000095,0.00126517
 1996,Glass and glassware,0.00000072,0.00159678
+1996,Cocoa and cocoa preparations,0.00000067,0.00049219
 1996,Cotton,0.00000041,0.00015784
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000037,0.00000000
-1996,Other,0.00000142,0.00229812
-1997,Food Related,0.00000196,0.00002026
+1996,Other,0.00000170,0.00307110
+1997,Cereals,0.00000185,0.00000000
 1997,Glass and glassware,0.00000184,0.00353546
 1997,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000167,0.01900600
 1997,Iron or steel articles,0.00000057,0.00032529
 1997,Pharmaceutical products,0.00000027,0.00000019
-1997,Other,0.00000147,0.00082679
+1997,Other,0.00000159,0.00084705
 1998,Iron and steel,0.00000251,0.00000000
 1998,Iron or steel articles,0.00000063,0.00027330
-1998,Food Related,0.00000048,0.00005407
+1998,Miscellaneous edible preparations,0.00000038,0.00004301
 1998,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000036,0.00009002
 1998,Footwear; gaiters and the like; parts of such articles,0.00000015,0.00002062
-1998,Other,0.00000105,0.00082864
+1998,Other,0.00000114,0.00083970
 1999,Iron and steel,0.00000210,0.00002000
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000084,0.00013514
 1999,"Toys, games and sports requisites; parts and accessories thereof",0.00000031,0.00003398
-1999,Food Related,0.00000023,0.00031174
+1999,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00000015,0.00003510
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000015,0.00001894
-1999,Other,0.00000112,0.00066952
+1999,Other,0.00000120,0.00094617
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000021,0.00001479
 2000,Plastics and articles thereof,0.00000017,0.00018041
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000016,0.00002940
@@ -46,7 +46,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000037,0.00001240
 2002,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000015,0.00004605
 2002,Pharmaceutical products,0.00000014,0.00012413
-2002,Other,0.00000078,0.00036865
+2002,Other,0.00000078,0.00036866
 2003,"Aircraft, spacecraft, and parts thereof",0.00000029,0.00000447
 2003,"Toys, games and sports requisites; parts and accessories thereof",0.00000015,0.00001822
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000009,0.00003534
@@ -63,8 +63,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000024,0.00003596
 2005,Metal; miscellaneous products of base metal,0.00000023,0.00001552
 2005,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000023,0.00001831
-2005,Food Related,0.00000018,0.00013302
-2005,Other,0.00000092,0.00663836
+2005,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000014,0.00012027
+2005,Other,0.00000095,0.00665111
 2006,Iron or steel articles,0.00000253,0.00049775
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000102,0.00441521
 2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000092,0.00015286
@@ -81,14 +81,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000539,0.00032742
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000489,0.00005311
 2008,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000352,0.00006658
-2008,Food Related,0.00000307,0.00091947
-2008,Other,0.00000358,0.00110389
+2008,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00000272,0.00040711
+2008,Other,0.00000394,0.00161625
 2009,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000244,0.00010835
 2009,Aluminium and articles thereof,0.00000085,0.00010552
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000071,0.00004701
-2009,Food Related,0.00000030,0.00002423
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000028,0.00009730
-2009,Other,0.00000089,0.00047940
+2009,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00000017,0.00000792
+2009,Other,0.00000102,0.00049571
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000365,0.00403087
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000180,0.00018548
 2010,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000159,0.00003205

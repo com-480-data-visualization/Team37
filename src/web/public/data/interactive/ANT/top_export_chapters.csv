@@ -1,40 +1,40 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00082187,6.12007205
-1995,Food Related,0.00013759,0.18832959
+1995,Cereals,0.00012806,0.18409930
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00009787,0.00018007
 1995,"Ships, boats and floating structures",0.00006419,0.02355927
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00001301,0.00171335
-1995,Other,0.00008886,0.30974058
+1995,Other,0.00009839,0.31397087
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00109788,6.76169158
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00015935,0.00020207
-1996,Food Related,0.00015442,0.22463191
+1996,Cereals,0.00014351,0.21578374
 1996,"Ships, boats and floating structures",0.00003607,0.02059092
 1996,Pharmaceutical products,0.00002517,0.01350070
-1996,Other,0.00007894,0.35888069
+1996,Other,0.00008985,0.36772886
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00097529,6.11712409
 1997,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010769,0.00026416
-1997,Food Related,0.00007141,0.11316566
 1997,Pharmaceutical products,0.00006040,0.03124396
+1997,Cereals,0.00005933,0.10441875
 1997,"Ships, boats and floating structures",0.00004482,0.03523268
-1997,Other,0.00009758,0.45356831
+1997,Other,0.00010966,0.46231522
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00152738,12.08017303
-1998,Food Related,0.00007347,0.12380446
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006460,0.00017211
 1998,Pharmaceutical products,0.00004656,0.02426348
 1998,Aluminium and articles thereof,0.00003005,0.02312126
-1998,Other,0.00019174,4.41230376
+1998,Cereals,0.00002793,0.07870090
+1998,Other,0.00023728,4.45740732
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00085528,5.54472911
 1999,Pharmaceutical products,0.00004127,0.03311926
 1999,"Ships, boats and floating structures",0.00003596,0.01833250
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003437,0.00445836
-1999,Food Related,0.00002960,0.05714773
-1999,Other,0.00013173,0.34374081
+1999,Organic chemicals,0.00002879,0.00523515
+1999,Other,0.00013254,0.39565340
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00143688,6.11322169
 2000,"Ships, boats and floating structures",0.00004618,0.02607322
 2000,Pharmaceutical products,0.00004354,0.03392193
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002582,0.00010731
-2000,Food Related,0.00002210,0.03977269
-2000,Other,0.00014822,0.23505047
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001661,0.00352696
+2000,Other,0.00015371,0.27129619
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00122778,7.09174007
 2001,"Ships, boats and floating structures",0.00011703,0.02709777
 2001,Pharmaceutical products,0.00002884,0.02970612
@@ -49,22 +49,22 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,Other,0.00012883,0.27829660
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00112531,4.17682707
 2003,Pharmaceutical products,0.00005712,0.33796380
-2003,Food Related,0.00002638,0.03589398
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002199,0.00013941
 2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001983,0.00007428
-2003,Other,0.00012057,0.26041229
+2003,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00001388,0.01601784
+2003,Other,0.00013307,0.28028843
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00131944,3.83738905
 2004,"Ships, boats and floating structures",0.00008181,0.27609558
 2004,Pharmaceutical products,0.00002178,0.01739075
-2004,Food Related,0.00002172,0.03180224
 2004,Chemical products n.e.c.,0.00001942,0.00212597
-2004,Other,0.00014393,0.24002251
+2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001888,0.00008877
+2004,Other,0.00014676,0.27173598
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00273868,5.70967627
 2005,"Ships, boats and floating structures",0.00012603,0.34960771
-2005,Food Related,0.00003250,0.04566878
 2005,Chemical products n.e.c.,0.00003096,0.00335104
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002621,0.00288990
-2005,Other,0.00018321,0.30638254
+2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002276,0.00060658
+2005,Other,0.00019296,0.35144474
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00329516,6.34280505
 2006,"Ships, boats and floating structures",0.00015406,0.11572770
 2006,Rubber and articles thereof,0.00006387,0.11130115
@@ -81,8 +81,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00019696,0.00044040
 2008,"Ships, boats and floating structures",0.00007395,0.01874956
 2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005563,0.00390209
-2008,Food Related,0.00004179,0.03756761
-2008,Other,0.00026430,0.41872450
+2008,Pharmaceutical products,0.00002984,0.01402759
+2008,Other,0.00027626,0.44226452
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00269723,4.92701141
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012816,0.00007966
 2009,Organic chemicals,0.00008190,0.11123375
@@ -92,6 +92,6 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00143154,2.42937221
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010326,0.00006842
 2010,Pharmaceutical products,0.00004379,0.02363953
-2010,Food Related,0.00002044,0.01667613
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001896,0.00128707
-2010,Other,0.00012114,0.18133172
+2010,Apparel and clothing accessories; not knitted or crocheted,0.00000973,0.00172307
+2010,Other,0.00013184,0.19628478

@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002218,0.11506198
 1995,"Ores, slag and ash",0.00000859,0.00016682
 1995,Iron or steel articles,0.00000678,0.00282401
-1995,Food Related,0.00000456,0.00608705
-1995,Other,0.00002836,0.02584460
+1995,Copper and articles thereof,0.00000412,0.00391840
+1995,Other,0.00002881,0.02801325
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00042540,2.62484036
 1996,Cotton,0.00007397,0.05001080
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003965,0.00980388
@@ -14,9 +14,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00044846,3.10477189
 1997,Cotton,0.00017216,0.13385256
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003998,0.00970857
-1997,Food Related,0.00002334,0.04376893
 1997,Plastics and articles thereof,0.00002261,0.05043795
-1997,Other,0.00021665,0.34379552
+1997,"Beverages, spirits and vinegar",0.00002245,0.04917951
+1997,Other,0.00021754,0.33838494
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00035659,4.22699885
 1998,Cotton,0.00007451,0.05946274
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003193,0.00643177
@@ -39,8 +39,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,Cotton,0.00004096,0.04690717
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003820,0.01452363
 2001,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00002547,0.01618842
-2001,Food Related,0.00001510,0.06194339
-2001,Other,0.00017499,0.33943082
+2001,Plastics and articles thereof,0.00001462,0.02750337
+2001,Other,0.00017547,0.37387084
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00175094,12.58536191
 2002,Cotton,0.00004256,0.03881212
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002791,0.00943138
@@ -48,83 +48,83 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,Plastics and articles thereof,0.00002265,0.09956005
 2002,Other,0.00018933,0.43549446
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00196070,12.00819966
-2003,Food Related,0.00006111,0.17254218
 2003,Iron and steel,0.00005144,0.22145030
 2003,Cotton,0.00004140,0.04024772
+2003,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00004042,0.04286673
 2003,Plastics and articles thereof,0.00003503,0.10535117
-2003,Other,0.00027663,0.55987035
+2003,Other,0.00029731,0.68954580
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00341366,11.49957693
 2004,"Ships, boats and floating structures",0.00013947,0.01317146
 2004,Iron and steel,0.00008294,0.27039459
-2004,Food Related,0.00007609,0.19628601
 2004,Aluminium and articles thereof,0.00007440,0.04723067
-2004,Other,0.00043003,0.84796950
+2004,Plastics and articles thereof,0.00007002,0.12664476
+2004,Other,0.00043611,0.91761075
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00419828,11.52437198
 2005,"Ships, boats and floating structures",0.00026570,0.03060394
 2005,Tin; articles thereof,0.00010926,0.08708970
 2005,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00010826,0.32794907
-2005,Food Related,0.00010533,0.16249425
-2005,Other,0.00059404,0.92013754
+2005,Plastics and articles thereof,0.00007643,0.12164672
+2005,Other,0.00062294,0.96098507
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00747277,16.04666403
 2006,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00016672,0.39246746
-2006,Food Related,0.00013038,0.20824537
 2006,Plastics and articles thereof,0.00011126,0.16766102
 2006,Aluminium and articles thereof,0.00008479,0.03737172
-2006,Other,0.00068061,0.86884031
+2006,Tin; articles thereof,0.00007513,0.07679545
+2006,Other,0.00073587,1.00029023
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01292338,19.33652121
-2007,Food Related,0.00029420,0.47420244
+2007,Sugars and sugar confectionery,0.00015084,0.29393872
 2007,Aluminium and articles thereof,0.00011858,0.05097976
 2007,"Ships, boats and floating structures",0.00009202,0.02546340
 2007,Tin; articles thereof,0.00008813,0.10441885
-2007,Other,0.00071762,1.12223865
+2007,Other,0.00086099,1.30250237
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03220867,74.92574132
-2008,Food Related,0.00027077,0.35518277
 2008,Iron or steel articles,0.00019251,0.03441279
 2008,Aluminium and articles thereof,0.00016070,0.07087011
 2008,"Ships, boats and floating structures",0.00013560,0.04698137
-2008,Other,0.00092620,1.42968831
+2008,Plastics and articles thereof,0.00013269,0.13191330
+2008,Other,0.00106429,1.65295778
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01747985,35.64021749
-2009,Food Related,0.00028239,0.32418717
 2009,"Ships, boats and floating structures",0.00016865,0.02854595
+2009,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00012159,0.05451641
+2009,Sugars and sugar confectionery,0.00010881,0.20278829
 2009,Tin; articles thereof,0.00009515,0.12540350
-2009,Aluminium and articles thereof,0.00009010,0.05779535
-2009,Other,0.00060118,0.87416193
+2009,Other,0.00074326,0.99883975
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02349600,42.63052043
-2010,Food Related,0.00039183,0.37464169
+2010,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00019204,0.08198711
 2010,"Ships, boats and floating structures",0.00018849,0.01557667
+2010,Sugars and sugar confectionery,0.00015552,0.23023129
 2010,Plastics and articles thereof,0.00009206,0.11524235
-2010,Iron and steel,0.00008924,0.18259989
-2010,Other,0.00073430,1.06437847
+2010,Other,0.00086781,1.30940164
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03086694,36.53252077
-2011,Food Related,0.00041011,0.37309304
+2011,Sugars and sugar confectionery,0.00020163,0.23918461
+2011,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00015806,0.06738218
 2011,Iron or steel articles,0.00014455,0.14170639
 2011,Plastics and articles thereof,0.00013700,0.13726800
-2011,Iron and steel,0.00010024,0.21381959
-2011,Other,0.00094517,1.37838349
+2011,Other,0.00109584,1.65872933
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02953009,31.65385173
-2012,Food Related,0.00049893,0.38620254
+2012,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00022389,0.08190270
+2012,Sugars and sugar confectionery,0.00021330,0.22422788
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00016161,0.00027241
 2012,Aluminium and articles thereof,0.00015240,0.06495307
-2012,Plastics and articles thereof,0.00012661,0.12816364
-2012,Other,0.00111310,1.56859778
+2012,Other,0.00130145,1.77683340
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02820414,31.57652016
-2013,Food Related,0.00053894,0.39469741
+2013,Sugars and sugar confectionery,0.00024316,0.24949358
+2013,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00022801,0.08780350
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00019307,0.00055842
 2013,Plastics and articles thereof,0.00013682,0.12687185
-2013,"Metals; n.e.c., cermets and articles thereof",0.00010872,0.10346179
-2013,Other,0.00118670,1.25061438
+2013,Other,0.00136319,1.41147652
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02571850,29.53812010
-2014,Food Related,0.00047257,0.35596907
+2014,Sugars and sugar confectionery,0.00022291,0.23126254
+2014,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00019025,0.07804540
 2014,Plastics and articles thereof,0.00017233,0.17402692
 2014,Tin; articles thereof,0.00012547,0.08347275
-2014,Aluminium and articles thereof,0.00010761,0.05842975
-2014,Other,0.00086530,0.97060886
+2014,Other,0.00103232,1.07569973
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01557618,33.21982293
-2015,Food Related,0.00040265,0.32464499
+2015,Sugars and sugar confectionery,0.00021135,0.22049536
+2015,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00015430,0.07666082
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00014938,0.00005756
 2015,Tin; articles thereof,0.00013538,0.07083304
-2015,Plastics and articles thereof,0.00013148,0.16108724
-2015,Other,0.00086076,1.11324031
+2015,Other,0.00102923,1.30181636
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01230817,40.94102849
 2016,Tin; articles thereof,0.00015216,0.11236426
 2016,Aluminium and articles thereof,0.00012905,0.08506825

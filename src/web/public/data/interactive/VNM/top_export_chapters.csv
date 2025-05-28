@@ -2,51 +2,51 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00114753,9.44031137
 1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00079131,0.28423495
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00064142,0.02973993
-1995,Food Related,0.00058328,1.50319481
 1995,Pharmaceutical products,0.00053816,0.09343927
-1995,Other,0.00171270,1.03488120
+1995,Footwear; gaiters and the like; parts of such articles,0.00052459,0.04560064
+1995,Other,0.00177139,2.49247536
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00150130,11.34726596
 1996,Footwear; gaiters and the like; parts of such articles,0.00094095,0.07386173
 1996,Apparel and clothing accessories; not knitted or crocheted,0.00085746,0.03983256
-1996,Food Related,0.00085272,2.22156324
 1996,Pharmaceutical products,0.00056032,0.10183504
-1996,Other,0.00219904,1.51485953
+1996,Cereals,0.00055525,1.87387529
+1996,Other,0.00249651,1.86254748
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00167182,12.55772584
 1997,Footwear; gaiters and the like; parts of such articles,0.00146157,0.11512823
 1997,Apparel and clothing accessories; not knitted or crocheted,0.00102021,0.04676681
-1997,Food Related,0.00087381,2.21671953
 1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00069567,0.43702193
-1997,Other,0.00337116,2.07234241
+1997,Pharmaceutical products,0.00066987,0.12458470
+1997,Other,0.00357510,4.16447724
 1998,Footwear; gaiters and the like; parts of such articles,0.00158413,0.12629277
 1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00135322,14.28241121
-1998,Food Related,0.00103551,3.58554047
 1998,Apparel and clothing accessories; not knitted or crocheted,0.00103496,0.04944563
 1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00084648,0.46521204
-1998,Other,0.00352081,2.12339891
+1998,Cereals,0.00077730,3.32693953
+1998,Other,0.00377903,2.38199985
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00201496,17.42364619
 1999,Footwear; gaiters and the like; parts of such articles,0.00196885,0.14398929
-1999,Food Related,0.00119982,3.78762958
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00110137,0.05907995
+1999,Cereals,0.00090186,3.50884061
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00084990,0.49675723
-1999,Other,0.00387908,4.00110374
+1999,Other,0.00417704,4.27989270
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00364766,21.43349091
 2000,Footwear; gaiters and the like; parts of such articles,0.00245754,0.21755439
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00155346,0.07041337
-2000,Food Related,0.00134652,4.06227755
 2000,Pharmaceutical products,0.00126611,0.27255631
-2000,Other,0.00603204,4.86227536
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00096934,0.08216845
+2000,Other,0.00640922,8.84238446
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00351999,19.87469168
 2001,Footwear; gaiters and the like; parts of such articles,0.00278982,0.30801815
 2001,Pharmaceutical products,0.00163302,0.37109666
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00156373,0.07384708
-2001,Food Related,0.00130531,3.57456111
-2001,Other,0.00640514,5.44219268
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00094441,0.07113137
+2001,Other,0.00676604,8.94562242
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00321034,22.09247775
 2002,Footwear; gaiters and the like; parts of such articles,0.00320356,0.27137643
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00200111,0.10386379
 2002,Pharmaceutical products,0.00167083,0.40554587
-2002,Food Related,0.00144559,3.37406464
-2002,Other,0.00763595,6.49585539
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00100017,0.08853604
+2002,Other,0.00808138,9.78138399
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00422222,22.95412808
 2003,Footwear; gaiters and the like; parts of such articles,0.00387978,0.29091748
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00264544,0.14627117
@@ -57,14 +57,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,Footwear; gaiters and the like; parts of such articles,0.00469504,0.32280256
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00306913,0.15429726
 2004,Pharmaceutical products,0.00202272,0.44845856
-2004,Food Related,0.00195538,4.10702883
-2004,Other,0.01366565,10.44518142
+2004,Apparel and clothing accessories; knitted or crocheted,0.00182150,0.12258938
+2004,Other,0.01379953,14.42962086
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00793252,31.68036599
 2005,Footwear; gaiters and the like; parts of such articles,0.00507922,0.31313255
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00329363,0.16259538
-2005,Food Related,0.00255283,5.30398074
 2005,Pharmaceutical products,0.00231750,0.53079181
-2005,Other,0.01641550,11.02252490
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00211561,0.14459426
+2005,Other,0.01685272,16.18191138
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00896178,37.97672257
 2006,Footwear; gaiters and the like; parts of such articles,0.00574915,0.34888405
 2006,Apparel and clothing accessories; not knitted or crocheted,0.00411767,0.22306112
@@ -80,9 +80,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01291548,36.45747070
 2008,Footwear; gaiters and the like; parts of such articles,0.00796750,0.40602958
 2008,Apparel and clothing accessories; not knitted or crocheted,0.00568584,0.20380687
-2008,Food Related,0.00488865,5.65717780
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00459423,0.34191486
-2008,Other,0.03717753,26.87868457
+2008,Apparel and clothing accessories; knitted or crocheted,0.00443230,0.19485047
+2008,Other,0.03763388,32.34101191
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00843107,42.40677469
 2009,Footwear; gaiters and the like; parts of such articles,0.00696093,0.30728898
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00564912,0.35521948
@@ -154,7 +154,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,Footwear; gaiters and the like; parts of such articles,0.02170556,0.69280547
 2020,Apparel and clothing accessories; not knitted or crocheted,0.01544833,0.45302815
 2020,Apparel and clothing accessories; knitted or crocheted,0.01492408,0.51399228
-2020,Other,0.11882390,128.85437308
+2020,Other,0.11882390,128.85437309
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.16235633,2.06315010
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.03318712,1.41113157
 2021,Footwear; gaiters and the like; parts of such articles,0.02349541,0.73291804

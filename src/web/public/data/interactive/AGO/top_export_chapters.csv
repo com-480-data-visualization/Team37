@@ -26,9 +26,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00417418,30.44368618
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00055114,0.00000000
 1999,Pharmaceutical products,0.00002416,0.00607680
-1999,Food Related,0.00000781,0.01168155
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000774,0.00334770
-1999,Other,0.00001696,0.02144781
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000625,0.00100550
+1999,Other,0.00001852,0.03212385
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00727816,34.10470431
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00062953,0.00040387
 2000,Pharmaceutical products,0.00003649,0.01140300
@@ -100,7 +100,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Ships, boats and floating structures",0.00083807,0.03991861
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00007715,0.00689766
 2011,Iron and steel,0.00006414,0.15946259
-2011,Other,0.00019026,0.16929456
+2011,Other,0.00019026,0.16929455
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.06924596,90.05934765
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00317012,0.00000625
 2012,"Ships, boats and floating structures",0.00183934,0.07438663

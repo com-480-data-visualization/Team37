@@ -52,7 +52,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,Apparel and clothing accessories; knitted or crocheted,0.00000278,0.00012874
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000249,0.00011975
 2003,Fabrics; knitted or crocheted,0.00000150,0.00029282
-2003,Other,0.00000460,0.00203116
+2003,Other,0.00000460,0.00203115
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00000774,0.00041950
 2004,Footwear; gaiters and the like; parts of such articles,0.00000500,0.00009676
 2004,Apparel and clothing accessories; knitted or crocheted,0.00000288,0.00013423
@@ -87,89 +87,89 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,Pharmaceutical products,0.00001815,0.01328880
 2009,"Ships, boats and floating structures",0.00001697,0.00385751
 2009,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00001444,0.01893358
-2009,Food Related,0.00001296,0.00298203
-2009,Other,0.00003764,0.00721445
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001282,0.00049548
+2009,Other,0.00003779,0.00970099
 2010,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00007326,0.04810272
 2010,Pharmaceutical products,0.00003942,0.02316868
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002609,0.04782130
-2010,Food Related,0.00001827,0.00294292
+2010,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00001786,0.00281426
 2010,"Ships, boats and floating structures",0.00000654,0.00128196
-2010,Other,0.00003198,0.01146634
+2010,Other,0.00003239,0.01159500
 2011,Pharmaceutical products,0.00005680,0.02676231
 2011,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00004315,0.02987964
-2011,Food Related,0.00003852,0.01274285
+2011,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00003101,0.00439690
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001986,0.02395256
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001253,0.00126095
-2011,Other,0.00003505,0.02265056
+2011,Other,0.00004256,0.03099651
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00003773,0.04924033
 2012,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",0.00003733,0.00001813
 2012,Pharmaceutical products,0.00003120,0.01381030
-2012,Food Related,0.00002570,0.00805280
+2012,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00002286,0.00365742
 2012,"Ships, boats and floating structures",0.00001309,0.00171700
-2012,Other,0.00004627,0.03793567
+2012,Other,0.00004911,0.04233106
 2013,"Ships, boats and floating structures",0.00005169,0.00136908
 2013,Pharmaceutical products,0.00003321,0.01396020
-2013,Food Related,0.00002591,0.00364584
+2013,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00002534,0.00339016
 2013,Footwear; gaiters and the like; parts of such articles,0.00000540,0.00008558
 2013,Apparel and clothing accessories; knitted or crocheted,0.00000396,0.00021308
-2013,Other,0.00001440,0.01205385
+2013,Other,0.00001497,0.01230952
 2014,Pharmaceutical products,0.00004716,0.02703230
-2014,Food Related,0.00003525,0.00749492
+2014,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00003372,0.00448862
 2014,Footwear; gaiters and the like; parts of such articles,0.00000576,0.00012659
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00000343,0.00011978
 2014,Apparel and clothing accessories; knitted or crocheted,0.00000275,0.00010940
-2014,Other,0.00001203,0.01017750
+2014,Other,0.00001355,0.01318380
 2015,Pharmaceutical products,0.00003447,0.02517936
-2015,Food Related,0.00002746,0.00530485
+2015,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00002645,0.00476484
 2015,Footwear; gaiters and the like; parts of such articles,0.00000385,0.00006393
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00000302,0.00012427
 2015,Fertilizers,0.00000289,0.02000000
-2015,Other,0.00001376,0.01101630
-2016,Food Related,0.00003785,0.00779278
+2015,Other,0.00001478,0.01155631
+2016,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00003743,0.00760967
 2016,Pharmaceutical products,0.00003574,0.01989470
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000626,0.00038231
 2016,Apparel and clothing accessories; not knitted or crocheted,0.00000397,0.00016722
 2016,Footwear; gaiters and the like; parts of such articles,0.00000393,0.00009019
-2016,Other,0.00001452,0.01061806
-2017,Food Related,0.00003659,0.00667463
+2016,Other,0.00001493,0.01080117
+2017,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00003595,0.00640625
 2017,Pharmaceutical products,0.00003176,0.01227118
 2017,"Aircraft, spacecraft, and parts thereof",0.00000602,0.00001196
 2017,Footwear; gaiters and the like; parts of such articles,0.00000382,0.00006309
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000357,0.00004263
-2017,Other,0.00002266,0.01303214
-2018,Food Related,0.00006369,0.01010336
+2017,Other,0.00002330,0.01330053
+2018,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00006229,0.00940035
 2018,Pharmaceutical products,0.00003352,0.01513522
 2018,Apparel and clothing accessories; not knitted or crocheted,0.00000461,0.00018586
 2018,Footwear; gaiters and the like; parts of such articles,0.00000433,0.00006828
 2018,Apparel and clothing accessories; knitted or crocheted,0.00000402,0.00015490
-2018,Other,0.00001647,0.01155147
+2018,Other,0.00001787,0.01225448
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007092,0.12837889
-2019,Food Related,0.00005258,0.00989401
+2019,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00005130,0.00917708
 2019,Pharmaceutical products,0.00004663,0.02468665
 2019,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00001646,0.02681676
 2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000503,0.00005711
-2019,Other,0.00003845,0.02224425
-2020,Food Related,0.00004901,0.00827600
+2019,Other,0.00003973,0.02296118
+2020,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00004802,0.00773378
 2020,Pharmaceutical products,0.00002663,0.01261407
 2020,Apparel and clothing accessories; knitted or crocheted,0.00000300,0.00009979
 2020,Footwear; gaiters and the like; parts of such articles,0.00000262,0.00004779
 2020,"Toys, games and sports requisites; parts and accessories thereof",0.00000248,0.00022274
-2020,Other,0.00001589,0.01070842
-2021,Food Related,0.00005500,0.00947199
+2020,Other,0.00001689,0.01125064
+2021,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00005349,0.00893108
 2021,Pharmaceutical products,0.00003095,0.01477448
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002217,0.03899257
 2021,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00002026,0.02188631
 2021,"Aircraft, spacecraft, and parts thereof",0.00001603,0.00006922
-2021,Other,0.00004815,0.02123742
-2022,Food Related,0.00005372,0.00927986
+2021,Other,0.00004966,0.02177833
+2022,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00005190,0.00857767
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004740,0.05163320
 2022,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00002559,0.04590364
 2022,Pharmaceutical products,0.00001805,0.00749349
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000619,0.00110354
-2022,Other,0.00003916,0.01670675
-2023,Food Related,0.00005775,0.00790799
+2022,Other,0.00004098,0.01740894
+2023,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00005612,0.00740400
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00003838,0.04323971
 2023,Pharmaceutical products,0.00001643,0.00365166
 2023,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",0.00001281,0.33792857
 2023,Iron and steel,0.00000399,0.01341401
-2023,Other,0.00003382,0.00484998
+2023,Other,0.00003546,0.00535396

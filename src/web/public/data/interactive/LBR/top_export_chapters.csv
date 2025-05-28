@@ -40,7 +40,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,Rubber and articles thereof,0.00006919,0.10156770
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002277,0.10372349
 2001,Fertilizers,0.00001595,0.15614700
-2001,Other,0.00003276,0.04711698
+2001,Other,0.00003276,0.04711699
 2002,"Ships, boats and floating structures",0.00052870,0.44392505
 2002,Wood and articles of wood; wood charcoal,0.00014841,0.36767998
 2002,Rubber and articles thereof,0.00007462,0.11256315
@@ -51,8 +51,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2003,Wood and articles of wood; wood charcoal,0.00010284,0.19841975
 2003,Rubber and articles thereof,0.00009344,0.09615117
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002716,0.12431050
-2003,Food Related,0.00000795,0.00863634
-2003,Other,0.00002070,0.06187932
+2003,Cocoa and cocoa preparations,0.00000671,0.00270501
+2003,Other,0.00002194,0.06781065
 2004,"Ships, boats and floating structures",0.00085866,0.56959324
 2004,Rubber and articles thereof,0.00015935,0.12897441
 2004,"Ores, slag and ash",0.00002283,0.36618773
@@ -75,8 +75,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2007,Rubber and articles thereof,0.00023421,0.12090058
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004502,0.09105472
 2007,Iron and steel,0.00001162,0.03806974
-2007,Food Related,0.00000463,0.00494341
-2007,Other,0.00002489,0.02314831
+2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000372,0.00001870
+2007,Other,0.00002579,0.02807302
 2008,"Ships, boats and floating structures",0.00053246,0.20681298
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00033114,0.54019078
 2008,Rubber and articles thereof,0.00026578,0.10615610
@@ -86,9 +86,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Ships, boats and floating structures",0.00096627,0.48931783
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019862,0.42431960
 2009,Rubber and articles thereof,0.00016284,0.09375998
-2009,Food Related,0.00001431,0.01312576
+2009,Cocoa and cocoa preparations,0.00001160,0.00470464
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001130,0.00000234
-2009,Other,0.00005066,0.11656131
+2009,Other,0.00005337,0.12498242
 2010,"Ships, boats and floating structures",0.00037756,0.21525489
 2010,Rubber and articles thereof,0.00026272,0.09569133
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024209,0.37010200
@@ -99,8 +99,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Ships, boats and floating structures",0.00031114,0.29330629
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00014492,0.21661055
 2011,Wood and articles of wood; wood charcoal,0.00003887,0.28355795
-2011,Food Related,0.00002638,0.01042401
-2011,Other,0.00009130,0.11093643
+2011,Cocoa and cocoa preparations,0.00002411,0.00790625
+2011,Other,0.00009356,0.11345420
 2012,"Ships, boats and floating structures",0.00034328,0.27540540
 2012,Rubber and articles thereof,0.00028083,0.08733386
 2012,"Ores, slag and ash",0.00023644,2.09787416
@@ -123,14 +123,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Ores, slag and ash",0.00022983,5.48864346
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00014046,0.00000512
 2015,Rubber and articles thereof,0.00010799,0.05919090
-2015,Food Related,0.00004621,0.03925425
-2015,Other,0.00011133,0.20941172
+2015,Wood and articles of wood; wood charcoal,0.00004613,0.11754621
+2015,Other,0.00011141,0.13111975
 2016,"Ships, boats and floating structures",0.00029078,0.21299764
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00023823,0.00002608
-2016,Food Related,0.00010661,0.04340908
 2016,Rubber and articles thereof,0.00010459,0.06504657
+2016,Cocoa and cocoa preparations,0.00010319,0.03447737
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010285,0.28288775
-2016,Other,0.00021778,2.39377977
+2016,Other,0.00022120,2.40271148
 2017,"Ships, boats and floating structures",0.00054218,0.24589183
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00032187,0.00002939
 2017,Rubber and articles thereof,0.00013410,0.06718881
@@ -153,20 +153,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00024738,0.00008100
 2020,"Ships, boats and floating structures",0.00017905,0.18312360
 2020,Rubber and articles thereof,0.00014164,0.07782698
-2020,Food Related,0.00009470,0.13076132
-2020,Other,0.00008121,0.20589281
+2020,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00004034,0.05642733
+2020,Other,0.00013557,0.28022680
 2021,"Ships, boats and floating structures",0.00049894,0.15694781
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00044487,0.00001312
 2021,"Ores, slag and ash",0.00044168,3.60771748
 2021,Rubber and articles thereof,0.00023327,0.12685445
-2021,Food Related,0.00013663,0.11675791
-2021,Other,0.00013403,0.25157112
+2021,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00008258,0.06829784
+2021,Other,0.00018807,0.30003119
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00071271,0.00002931
 2022,"Ships, boats and floating structures",0.00043569,0.22316189
 2022,"Ores, slag and ash",0.00040349,4.56443202
 2022,Rubber and articles thereof,0.00025635,0.15210206
-2022,Food Related,0.00018070,0.11701858
-2022,Other,0.00021283,0.21272350
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00013077,0.16787144
+2022,Other,0.00026277,0.16187064
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00089088,0.00005634
 2023,"Ships, boats and floating structures",0.00048563,0.16832399
 2023,"Ores, slag and ash",0.00041386,4.15596746

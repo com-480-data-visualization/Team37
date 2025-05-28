@@ -15,14 +15,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1997,Cotton,0.00000294,0.00199120
 1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000197,0.00078111
 1997,"Ores, slag and ash",0.00000073,0.00007686
-1997,Food Related,0.00000060,0.00071236
-1997,Other,0.00000313,0.01151544
+1997,Raw hides and skins (other than furskins) and leather,0.00000048,0.00026378
+1997,Other,0.00000325,0.01196403
 1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00006908,0.02363214
 1998,"Ores, slag and ash",0.00000157,0.00006853
 1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000064,0.00025487
 1998,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000060,0.00021465
-1998,Food Related,0.00000044,0.00062603
-1998,Other,0.00000244,0.00183210
+1998,Pharmaceutical products,0.00000031,0.00005011
+1998,Other,0.00000257,0.00240801
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00005143,0.02856584
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001127,0.00004223
 1999,"Ores, slag and ash",0.00000197,0.00009374
@@ -32,9 +32,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00004943,0.03083220
 2000,Raw hides and skins (other than furskins) and leather,0.00000303,0.00194486
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000258,0.00011434
-2000,Food Related,0.00000230,0.00543787
+2000,Sugars and sugar confectionery,0.00000209,0.00523592
 2000,"Ores, slag and ash",0.00000173,0.00005946
-2000,Other,0.00000260,0.00174509
+2000,Other,0.00000281,0.00194703
 2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00003358,0.02667759
 2001,"Ores, slag and ash",0.00000681,0.00041119
 2001,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00000191,0.00336738
@@ -57,8 +57,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002935,0.02332709
 2004,"Beverages, spirits and vinegar",0.00000182,0.00032128
 2004,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000113,0.00014335
-2004,Food Related,0.00000098,0.00103339
-2004,Other,0.00000715,0.00497102
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000086,0.00015863
+2004,Other,0.00000727,0.00584578
 2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00007871,0.04541806
 2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003061,0.00000691
 2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000293,0.00044514
@@ -160,13 +160,13 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2021,"Ores, slag and ash",0.00001996,0.00112218
 2021,Iron and steel,0.00000892,0.01031839
 2021,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000540,0.00077247
-2021,Other,0.00002099,0.03717141
+2021,Other,0.00002099,0.03717142
 2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00006429,0.02300364
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005357,0.00021547
 2022,"Ores, slag and ash",0.00001646,0.00066344
 2022,Iron and steel,0.00000941,0.01047762
 2022,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000929,0.00133404
-2022,Other,0.00003258,0.04321702
+2022,Other,0.00003258,0.04321701
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00013216,0.00002884
 2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00005631,0.01487474
 2023,"Ores, slag and ash",0.00000269,0.00042808

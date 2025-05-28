@@ -87,26 +87,26 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,Organic chemicals,0.00826767,16.07855696
 2009,Plastics and articles thereof,0.00823249,7.33445953
 2009,"Ships, boats and floating structures",0.00170638,0.19013932
-2009,Food Related,0.00151783,1.45318679
-2009,Other,0.01547004,19.53258222
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00139061,0.23659832
+2009,Other,0.01559727,20.74917069
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.20702061,351.38699293
 2010,Plastics and articles thereof,0.01440119,11.02110652
 2010,Organic chemicals,0.01307322,18.20791978
-2010,Food Related,0.00161132,1.65264688
 2010,Fertilizers,0.00132255,4.32469629
-2010,Other,0.01639386,17.00406020
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00128357,0.15224172
+2010,Other,0.01672160,18.50446536
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.30614148,389.67288446
 2011,Organic chemicals,0.01871670,19.47341677
 2011,Plastics and articles thereof,0.01820165,12.09179214
 2011,Fertilizers,0.00197002,4.35181054
-2011,Food Related,0.00190729,1.64107840
-2011,Other,0.01958610,17.78034100
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00155835,0.16269884
+2011,Other,0.01993504,19.25872056
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.33346414,402.48620584
 2012,Plastics and articles thereof,0.01984736,13.89889243
 2012,Organic chemicals,0.01897531,20.30317330
 2012,Fertilizers,0.00229881,4.85816033
-2012,Food Related,0.00197887,1.67914636
-2012,Other,0.01974391,17.19556232
+2012,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00187708,3.68405454
+2012,Other,0.01984570,15.19065414
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.32406907,403.54291329
 2013,Plastics and articles thereof,0.02087375,13.91629538
 2013,Organic chemicals,0.02080413,21.24332458
@@ -117,8 +117,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,Plastics and articles thereof,0.02284380,14.61156791
 2014,Organic chemicals,0.01886735,21.18821192
 2014,Fertilizers,0.00217071,5.48125220
-2014,Food Related,0.00209646,1.66568640
-2014,Other,0.02132755,19.37217875
+2014,"Ships, boats and floating structures",0.00203804,1.36317257
+2014,Other,0.02138598,19.67469259
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.14286929,324.63779078
 2015,Plastics and articles thereof,0.01925883,14.62188739
 2015,Organic chemicals,0.01620914,20.51845377
@@ -128,9 +128,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.13117209,406.88335753
 2016,Plastics and articles thereof,0.01849962,15.29435227
 2016,Organic chemicals,0.01379993,21.67895325
-2016,Food Related,0.00202050,1.90992904
 2016,"Ships, boats and floating structures",0.00193695,0.24757770
-2016,Other,0.01986538,24.17079501
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00181085,0.01412192
+2016,Other,0.02007503,26.06660214
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.16327021,404.92946732
 2017,Plastics and articles thereof,0.02134180,17.50961785
 2017,Organic chemicals,0.01475612,17.69585440

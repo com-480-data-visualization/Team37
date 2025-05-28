@@ -44,15 +44,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,Pharmaceutical products,0.00001379,0.01439901
 2002,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000953,0.18802900
 2002,Fertilizers,0.00000312,0.05950000
-2002,Food Related,0.00000290,0.01787550
+2002,Cereals,0.00000285,0.01785100
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000265,0.01041486
-2002,Other,0.00000377,0.00646718
+2002,Other,0.00000381,0.00649168
 2003,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001148,0.12179450
 2003,Pharmaceutical products,0.00000353,0.00371858
 2003,Fertilizers,0.00000298,0.00091003
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000104,0.00005111
 2003,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000069,0.00012612
-2003,Other,0.00000167,0.00089144
+2003,Other,0.00000167,0.00089143
 2004,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001053,0.18922231
 2004,Fertilizers,0.00000340,0.04945000
 2004,Pharmaceutical products,0.00000039,0.00000808
@@ -166,7 +166,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000268,0.00000806
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000209,0.00011739
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000097,0.00005379
-2022,Other,0.00000199,0.00035303
+2022,Other,0.00000199,0.00035304
 2023,Fertilizers,0.00000371,0.02787500
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000124,0.00004047
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000102,0.00001524

@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Ores, slag and ash",0.00096762,7.61878018
 1995,"Food industries, residues and wastes thereof; prepared animal fodder",0.00080007,1.90283955
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00078677,0.03299816
-1995,Food Related,0.00035130,0.49439868
-1995,Other,0.00197896,3.97811194
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00031237,0.10879807
+1995,Other,0.00201789,4.36371256
 1996,Copper and articles thereof,0.00098880,0.43852307
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00096378,0.02776171
 1996,"Food industries, residues and wastes thereof; prepared animal fodder",0.00093042,1.66429128
@@ -81,8 +81,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00654777,0.08715913
 2008,Copper and articles thereof,0.00321081,0.46079328
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00260495,3.94159970
-2008,Food Related,0.00161855,0.95153858
-2008,Other,0.00999198,7.12915344
+2008,"Food industries, residues and wastes thereof; prepared animal fodder",0.00158242,1.75905359
+2008,Other,0.01002811,6.32163843
 2009,"Ores, slag and ash",0.00714152,12.79471211
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00707575,0.06992745
 2009,Copper and articles thereof,0.00224822,0.45747541
@@ -105,68 +105,68 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01088435,0.09069600
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00607140,9.97379967
 2012,Copper and articles thereof,0.00292220,0.36050208
-2012,Food Related,0.00248384,1.36874022
-2012,Other,0.01626389,12.40622591
+2012,"Food industries, residues and wastes thereof; prepared animal fodder",0.00215933,1.68152004
+2012,Other,0.01658840,12.09344608
 2013,"Ores, slag and ash",0.01172433,16.90086984
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00994662,0.08325118
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00623853,10.65579973
 2013,Copper and articles thereof,0.00274563,0.37396152
-2013,Food Related,0.00239470,1.15247256
-2013,Other,0.01503944,12.55388969
+2013,Tin; articles thereof,0.00228166,0.77303737
+2013,Other,0.01515248,12.93332488
 2014,"Ores, slag and ash",0.01072611,17.37604588
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00660359,0.06910352
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00474765,9.48114143
-2014,Food Related,0.00266159,1.14913181
 2014,Copper and articles thereof,0.00244830,0.35270411
-2014,Other,0.01342068,12.61392023
+2014,Tin; articles thereof,0.00228698,0.96930042
+2014,Other,0.01379529,12.79375162
 2015,"Ores, slag and ash",0.00999493,19.12828637
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00637522,0.08195300
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00273707,9.99104463
-2015,Food Related,0.00265761,1.16360964
 2015,Tin; articles thereof,0.00236430,1.27527711
-2015,Other,0.01339229,12.92333601
+2015,Copper and articles thereof,0.00206415,0.37632569
+2015,Other,0.01398574,13.71061996
 2016,"Ores, slag and ash",0.01264789,22.13906590
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00751899,0.08448828
-2016,Food Related,0.00232732,1.02654930
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00229411,9.57208294
 2016,Tin; articles thereof,0.00225933,1.11487826
-2016,Other,0.01145756,11.41693736
+2016,Copper and articles thereof,0.00173477,0.35492883
+2016,Other,0.01205011,12.08855783
 2017,"Ores, slag and ash",0.01705413,24.01486060
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00766743,0.07137749
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00375547,10.78442114
 2017,Tin; articles thereof,0.00258500,1.19173710
-2017,Food Related,0.00246431,1.11442082
-2017,Other,0.01272120,11.79079893
+2017,Copper and articles thereof,0.00215467,0.35323183
+2017,Other,0.01303083,12.55198792
 2018,"Ores, slag and ash",0.01747343,25.86579909
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00785048,0.09109059
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00413096,8.04236104
 2018,Tin; articles thereof,0.00308848,1.52277175
-2018,Food Related,0.00267212,1.15334547
-2018,Other,0.01398968,10.70368728
+2018,Copper and articles thereof,0.00234181,0.35112767
+2018,Other,0.01431999,11.50590507
 2019,"Ores, slag and ash",0.01707960,27.38315288
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00751930,0.09498510
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00382431,9.18929227
 2019,Tin; articles thereof,0.00319735,1.48374731
-2019,Food Related,0.00290222,1.39719447
-2019,Other,0.01399157,10.98210814
+2019,Copper and articles thereof,0.00208628,0.34330980
+2019,Other,0.01480751,12.03599280
 2020,"Ores, slag and ash",0.01387982,21.77893019
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00711813,0.09544305
 2020,Tin; articles thereof,0.00341420,1.70354955
-2020,Food Related,0.00278474,1.33154071
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00238083,6.37943895
-2020,Other,0.01273005,10.91803901
+2020,Copper and articles thereof,0.00225644,0.35463421
+2020,Other,0.01325835,11.89494552
 2021,"Ores, slag and ash",0.02248325,22.24944043
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00867727,0.12031255
 2021,Tin; articles thereof,0.00449077,1.92977349
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00343682,7.03763390
-2021,Food Related,0.00327463,1.42832837
-2021,Other,0.01649739,13.20582021
+2021,Copper and articles thereof,0.00303635,0.32977207
+2021,Other,0.01673566,14.30437651
 2022,"Ores, slag and ash",0.02040784,26.29904487
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00845328,0.12372237
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00678031,8.10845327
 2022,Tin; articles thereof,0.00445040,1.95873815
-2022,Food Related,0.00352645,1.44764776
-2022,Other,0.01955215,13.00651174
+2022,Copper and articles thereof,0.00344904,0.39286856
+2022,Other,0.01962955,14.06129095
 2023,"Ores, slag and ash",0.02634671,32.57285468
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00962333,0.09759672
 2023,Tin; articles thereof,0.00482288,2.02498944

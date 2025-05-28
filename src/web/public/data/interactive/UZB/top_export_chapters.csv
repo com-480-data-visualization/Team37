@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00018410,0.00007334
 1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007035,0.05775141
 1995,Zinc and articles thereof,0.00002902,0.02715813
-1995,Food Related,0.00002630,0.07137599
-1995,Other,0.00013010,0.37600898
+1995,Copper and articles thereof,0.00002303,0.00882674
+1995,Other,0.00013338,0.43855823
 1996,Cotton,0.00165480,0.90325863
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00013745,0.00047393
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012913,0.18157663
@@ -27,8 +27,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00013936,0.00259638
 1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00008154,0.61105761
 1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005746,0.00927734
-1999,Food Related,0.00005395,0.06897055
-1999,Other,0.00032084,0.38261808
+1999,Copper and articles thereof,0.00004569,0.02923403
+1999,Other,0.00032910,0.42235460
 2000,Cotton,0.00103412,0.80528820
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024089,1.98093662
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00017644,0.00490791
@@ -142,7 +142,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2018,Cotton,0.00104685,0.43268732
 2018,Copper and articles thereof,0.00064324,0.10070151
 2018,Plastics and articles thereof,0.00048726,0.43556795
-2018,Other,0.00313710,4.46968767
+2018,Other,0.00313710,4.46968768
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00562737,0.20399353
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00250109,8.57376189
 2019,Cotton,0.00131265,0.59862776

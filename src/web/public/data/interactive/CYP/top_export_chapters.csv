@@ -105,20 +105,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00044580,0.02123427
 2012,Pharmaceutical products,0.00044265,0.02627649
 2012,Organic chemicals,0.00024447,0.11302638
-2012,Food Related,0.00024416,0.22420498
-2012,Other,0.00197285,1.74376151
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00022001,0.01529117
+2012,Other,0.00199699,1.95267532
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00203281,2.29359356
 2013,Pharmaceutical products,0.00045108,0.01444674
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00035511,0.00942936
 2013,Iron and steel,0.00025450,0.42740303
-2013,Food Related,0.00024056,0.32438925
-2013,Other,0.00253359,2.48438176
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00023236,0.01690889
+2013,Other,0.00254179,2.79186212
 2014,"Ships, boats and floating structures",0.00155427,0.49255304
 2014,Pharmaceutical products,0.00052372,0.01305916
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00044164,0.57897382
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00037827,0.00780367
-2014,Food Related,0.00029037,0.38408176
-2014,Other,0.00232808,3.00004658
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00021495,0.01410899
+2014,Other,0.00240350,3.37001935
 2015,"Ships, boats and floating structures",0.00157812,0.22936883
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00083749,1.64556464
 2015,Pharmaceutical products,0.00043832,0.02561460
@@ -171,5 +171,5 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00143202,1.72984850
 2023,Pharmaceutical products,0.00054343,0.01407185
 2023,Rubber and articles thereof,0.00043978,0.06103615
-2023,Food Related,0.00025969,0.15456399
-2023,Other,0.00156291,2.03424630
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00021565,0.01054964
+2023,Other,0.00160694,2.17826065

@@ -1,175 +1,175 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
-1995,Food Related,0.00815283,14.48009842
 1995,Iron and steel,0.00454566,13.50469238
 1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00424590,0.76414303
 1995,"Ores, slag and ash",0.00352883,138.44414505
 1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00293242,0.54321752
-1995,Other,0.02895765,36.29500558
-1996,Food Related,0.00857118,14.45048047
+1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00280619,0.81964476
+1995,Other,0.03430429,49.95545924
 1996,Iron and steel,0.00463354,14.68975770
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00458046,0.73043770
 1996,"Food industries, residues and wastes thereof; prepared animal fodder",0.00387264,14.62136395
 1996,"Ores, slag and ash",0.00360594,135.76657090
-1996,Other,0.02883191,23.47799695
-1997,Food Related,0.00975139,20.18460939
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00333428,0.56011893
+1996,Other,0.03406880,37.36835849
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00491394,0.88366284
 1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00467214,0.77801060
 1997,Iron and steel,0.00392579,11.93665950
 1997,"Ores, slag and ash",0.00370232,141.99169202
-1997,Other,0.03152774,35.31855303
-1998,Food Related,0.01002524,23.34898908
+1997,"Food industries, residues and wastes thereof; prepared animal fodder",0.00334530,11.57695489
+1997,Other,0.03793383,43.92620753
 1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00518544,0.85956005
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00472044,0.80351063
 1998,"Ores, slag and ash",0.00398218,153.87894414
 1998,Iron and steel,0.00379577,12.20990554
-1998,Other,0.02908574,37.00562202
-1999,Food Related,0.00940630,26.90358257
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00311806,1.06375186
+1998,Other,0.03599293,59.29085925
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00437117,0.78909697
 1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00369037,0.76648887
 1999,"Ores, slag and ash",0.00351630,146.53987462
+1999,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00335576,2.58809933
 1999,Iron and steel,0.00326680,13.41656450
-1999,Other,0.02838540,40.47199608
-2000,Food Related,0.00886882,23.71755962
+1999,Other,0.03443594,64.78747932
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00468279,0.73307223
 2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00457458,0.73859353
 2000,"Ores, slag and ash",0.00401355,163.73216621
 2000,Iron and steel,0.00380214,13.85482868
-2000,Other,0.03461440,41.22188666
-2001,Food Related,0.01230278,40.47130038
+2000,"Aircraft, spacecraft, and parts thereof",0.00349967,0.00411689
+2000,Other,0.03998354,64.93532940
 2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00465381,0.80769013
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00464010,0.78181787
 2001,"Ores, slag and ash",0.00390659,161.78129344
+2001,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00376476,3.62900210
 2001,"Aircraft, spacecraft, and parts thereof",0.00368938,0.00233016
-2001,Other,0.03510823,68.73113917
-2002,Food Related,0.01314453,42.56265217
+2001,Other,0.04364625,105.57343745
 2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00479623,0.82845981
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00458975,0.89650481
+2002,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00431855,4.27848626
 2002,Iron and steel,0.00393247,16.51836812
 2002,"Ores, slag and ash",0.00388826,170.32651879
-2002,Other,0.03656488,64.08542021
-2003,Food Related,0.01647040,48.82321879
+2002,Other,0.04539085,102.36958612
 2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00637299,1.03044634
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00609230,1.12578368
+2003,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00545535,5.09324762
 2003,Iron and steel,0.00531898,17.96598426
 2003,"Ores, slag and ash",0.00457855,180.64716492
-2003,Other,0.04280572,71.76952009
-2004,Food Related,0.02134544,53.31868655
+2003,Other,0.05382077,115.49949126
 2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00880427,1.55255182
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00852759,1.48679941
 2004,Iron and steel,0.00793444,18.27047741
+2004,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00710678,5.93642011
 2004,"Ores, slag and ash",0.00694087,216.23786718
-2004,Other,0.05390593,78.57185599
-2005,Food Related,0.02403635,54.88963064
+2004,Other,0.06814458,125.95412244
 2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01219444,1.83557876
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01074471,1.55638754
 2005,"Ores, slag and ash",0.01021666,230.94848893
 2005,Iron and steel,0.00969246,15.23656791
-2005,Other,0.06473845,83.08388410
-2006,Food Related,0.02730063,59.98212297
+2005,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00884966,6.32355389
+2005,Other,0.07992514,131.64996084
 2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01309695,1.81263816
 2006,"Ores, slag and ash",0.01275148,251.00104907
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01181042,28.92298332
 2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01166248,1.68977581
-2006,Other,0.07376627,80.93614033
-2007,Food Related,0.03444279,67.33242831
+2006,Iron and steel,0.00970776,19.31653532
+2006,Other,0.09135914,121.60172798
 2007,"Ores, slag and ash",0.02117146,279.02407885
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01420813,30.86166284
 2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01369040,1.85907014
 2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01224252,1.64866107
-2007,Other,0.08466575,80.34274318
-2008,Food Related,0.04489714,65.56057579
+2007,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01186736,6.81031977
+2007,Other,0.10724118,140.86485171
 2008,"Ores, slag and ash",0.02594494,292.35782940
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02078888,31.47047312
 2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01526353,1.78916992
+2008,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01518713,7.48565259
 2008,Iron and steel,0.01505161,17.78344291
-2008,Other,0.09460170,62.88074640
-2009,Food Related,0.04216127,74.88592678
+2008,Other,0.12431170,120.95566961
 2009,"Ores, slag and ash",0.01856750,277.13120844
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01556401,36.48539775
-2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00907355,1.07708171
-2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00865350,0.87101610
-2009,Other,0.07297998,70.99265229
-2010,Food Related,0.04888066,82.07425657
+2009,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.01251358,29.44358287
+2009,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01208851,7.33527636
+2009,Sugars and sugar confectionery,0.00945171,25.08326615
+2009,Other,0.09881450,85.96455149
 2010,"Ores, slag and ash",0.03473827,322.35090498
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02274232,40.64198906
+2010,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01384763,7.39389998
+2010,Sugars and sugar confectionery,0.01370120,28.58370300
 2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01260675,1.38074068
-2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01129217,1.26181048
-2010,Other,0.08567457,73.67366105
-2011,Food Related,0.06223876,85.05216783
+2010,Other,0.11829856,121.03212512
 2011,"Ores, slag and ash",0.04720889,339.37330702
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02966188,39.43283328
-2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01443764,1.48343202
-2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01399443,1.49099475
-2011,Other,0.10097191,76.70433246
-2012,Food Related,0.06341332,92.40190991
+2011,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.01679472,33.14789919
+2011,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01659907,7.57147968
+2011,Sugars and sugar confectionery,0.01639945,26.46196520
+2011,Other,0.14184952,97.54958300
 2012,"Ores, slag and ash",0.03665633,341.09544308
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02827597,38.13005711
+2012,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.01804120,32.86081931
+2012,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01675062,7.67695861
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01433571,1.36355068
-2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01352887,1.47131405
-2012,Other,0.09972550,76.59827178
-2013,Food Related,0.06895816,113.40412495
+2012,Other,0.14187587,129.93371781
 2013,"Ores, slag and ash",0.03732328,343.96817754
+2013,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.02369973,42.88799524
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01897722,27.93296196
+2013,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01714558,7.93315239
 2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01432375,1.41732646
-2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01250196,1.18613088
-2013,Other,0.09332799,73.67738925
-2014,Food Related,0.06409864,105.03248909
+2013,Other,0.13394281,137.44649744
 2014,"Ores, slag and ash",0.03145180,351.62663560
+2014,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.02427001,46.12397867
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02234542,33.69422633
+2014,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01791835,7.76495988
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01180434,1.15415329
-2014,Iron and steel,0.01068687,13.85370426
-2014,Other,0.09251014,64.99320971
-2015,Food Related,0.05829538,124.68016499
+2014,Other,0.12510729,129.99046453
+2015,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.02170497,54.83958176
 2015,"Ores, slag and ash",0.02057233,381.95139677
+2015,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01596432,8.34236674
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01545420,43.50149649
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01042015,1.03369135
-2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01028484,1.10872368
-2015,Other,0.08728964,87.54962681
-2016,Food Related,0.05744289,118.05272617
+2015,Other,0.11820058,150.15656698
+2016,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.02005628,51.87713940
 2016,"Ores, slag and ash",0.01860501,394.40585499
+2016,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01543711,8.76470249
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01276300,43.93315708
-2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01144359,1.26038777
-2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01031329,1.08463678
-2016,Other,0.08425809,88.12925391
-2017,Food Related,0.06672400,141.41298673
+2016,Sugars and sugar confectionery,0.01151627,28.94222063
+2016,Other,0.11644820,118.94294211
+2017,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.02602528,68.39237501
 2017,"Ores, slag and ash",0.02572511,405.53959244
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02105345,59.71363956
+2017,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01688198,8.82050701
 2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01518622,1.66283557
-2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01227579,1.23879340
-2017,Other,0.08922126,91.60854678
-2018,Food Related,0.06805476,142.41788306
+2017,Other,0.12531379,157.04744489
+2018,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.03346554,83.53800308
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03037259,65.86916142
 2018,"Ores, slag and ash",0.02733891,412.41153119
+2018,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01649114,8.84603571
 2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01392228,1.54767969
-2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01311640,1.25194415
-2018,Other,0.09402578,89.98023498
-2019,Food Related,0.06385054,149.35497978
+2018,Other,0.12524025,141.26602340
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03073071,71.94158642
 2019,"Ores, slag and ash",0.03028184,376.24231282
+2019,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.02693912,74.58625027
+2019,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01805841,9.03568622
 2019,Iron and steel,0.01166807,16.54110220
-2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01160353,1.19070378
-2019,Other,0.08872394,76.21896553
-2020,Food Related,0.06932302,164.45143926
+2019,Other,0.11918047,143.14271260
 2020,"Ores, slag and ash",0.03290307,367.94654322
+2020,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.03005021,84.13879984
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02513340,86.29772676
-2020,Iron and steel,0.00913872,15.48672453
-2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00870273,1.00502825
-2020,Other,0.07938542,80.71542491
-2021,Food Related,0.08448752,151.28088960
+2020,"Preparations of vegetables, fruit, nuts or other parts of plants",0.01797741,9.19622836
+2020,Sugars and sugar confectionery,0.00930888,30.88695631
+2020,Other,0.10921339,137.43663243
 2021,"Ores, slag and ash",0.05254618,384.87098588
+2021,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.04089469,86.60971773
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03847896,82.50235360
+2021,"Preparations of vegetables, fruit, nuts or other parts of plants",0.02027209,9.73548504
 2021,Iron and steel,0.01359523,14.94213653
-2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01126972,1.28904593
-2021,Other,0.09801453,84.17436804
-2022,Food Related,0.11243335,172.52045637
+2021,Other,0.13260499,140.39910080
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.05852018,86.98642657
+2022,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.04851951,80.38726842
 2022,"Ores, slag and ash",0.03727608,363.49433380
+2022,"Preparations of vegetables, fruit, nuts or other parts of plants",0.02689014,10.87748165
 2022,Iron and steel,0.01510638,13.82569156
-2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01344722,1.41974051
-2022,Other,0.11907102,92.51448847
-2023,Food Related,0.12026378,209.66457164
+2022,Other,0.16954194,175.18993528
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.05686865,101.80191104
+2023,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.05389620,101.64826426
 2023,"Ores, slag and ash",0.03871003,398.70897824
-2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01398208,1.29380712
-2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01338999,1.32456530
-2023,Other,0.11223965,101.18971932
+2023,"Preparations of vegetables, fruit, nuts or other parts of plants",0.02489881,11.23302163
+2023,Cereals,0.01670444,60.62709079
+2023,Other,0.16437606,139.96428669

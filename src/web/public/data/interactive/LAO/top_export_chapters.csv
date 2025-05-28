@@ -21,14 +21,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,Wood and articles of wood; wood charcoal,0.00005183,0.32953621
 1998,Apparel and clothing accessories; knitted or crocheted,0.00004746,0.00279419
 1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002582,0.01410274
-1998,Food Related,0.00000321,0.00749091
-1998,Other,0.00001301,0.09667521
+1998,"Ores, slag and ash",0.00000237,0.00075600
+1998,Other,0.00001384,0.10341013
 1999,Wood and articles of wood; wood charcoal,0.00006734,0.26886709
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00006243,0.00416684
 1999,Apparel and clothing accessories; knitted or crocheted,0.00005456,0.00285327
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002435,0.01672395
-1999,Food Related,0.00000871,0.01743650
-1999,Other,0.00001590,0.21707800
+1999,Cereals,0.00000531,0.01157887
+1999,Other,0.00001930,0.22293562
 2000,Wood and articles of wood; wood charcoal,0.00011574,0.01813574
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00007091,0.00437371
 2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006255,0.00577094
@@ -39,26 +39,26 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00007856,0.00586744
 2001,Apparel and clothing accessories; knitted or crocheted,0.00005572,0.00340039
 2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00002873,0.00292255
-2001,Food Related,0.00001424,0.06569405
-2001,Other,0.00003556,0.30194661
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001201,0.01442689
+2001,Other,0.00003779,0.35321377
 2002,Wood and articles of wood; wood charcoal,0.00012665,0.01725092
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00007764,0.00453333
 2002,Apparel and clothing accessories; knitted or crocheted,0.00005978,0.00378077
 2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00002228,0.00222256
-2002,Food Related,0.00001312,0.07976614
-2002,Other,0.00003598,0.23302004
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001253,0.01822371
+2002,Other,0.00003658,0.29456247
 2003,Wood and articles of wood; wood charcoal,0.00015062,0.03662319
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00008542,0.00430742
 2003,Apparel and clothing accessories; knitted or crocheted,0.00006753,0.00383120
 2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001377,0.01531151
-2003,Food Related,0.00001243,0.08306183
-2003,Other,0.00003514,0.29677430
+2003,Footwear; gaiters and the like; parts of such articles,0.00000630,0.00085114
+2003,Other,0.00004127,0.37898499
 2004,Wood and articles of wood; wood charcoal,0.00016535,0.06407477
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00009223,0.00469810
 2004,Apparel and clothing accessories; knitted or crocheted,0.00008503,0.00539937
-2004,Food Related,0.00001792,0.12344119
 2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001652,0.01728428
-2004,Other,0.00006125,0.53690898
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001253,0.36160039
+2004,Other,0.00006664,0.29874979
 2005,Wood and articles of wood; wood charcoal,0.00017039,0.15137022
 2005,Apparel and clothing accessories; knitted or crocheted,0.00009712,0.00667495
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00008440,0.00423317
@@ -147,14 +147,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00068968,0.00928225
 2019,Copper and articles thereof,0.00061182,0.10053753
 2019,"Ores, slag and ash",0.00056339,1.12324963
-2019,Food Related,0.00044938,0.87046384
-2019,Other,0.00312323,9.62909508
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00043275,0.87172590
+2019,Other,0.00313986,9.62783301
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00191332,0.30725152
 2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00108892,1.36674172
 2020,"Ores, slag and ash",0.00055416,1.58726504
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00048485,0.00701242
-2020,Food Related,0.00042941,1.64418637
-2020,Other,0.00245992,8.53895371
+2020,Copper and articles thereof,0.00034053,0.06421321
+2020,Other,0.00254881,10.11892687
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00227057,1.45320457
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00220940,0.70292066
 2021,"Ores, slag and ash",0.00076619,2.45642685

@@ -27,56 +27,56 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000081,0.00007161
 1999,Pharmaceutical products,0.00000055,0.00001243
 1999,Tin; articles thereof,0.00000052,0.00046965
-1999,Food Related,0.00000039,0.00054745
-1999,Other,0.00000188,0.00049221
+1999,Apparel and clothing accessories; not knitted or crocheted,0.00000036,0.00001149
+1999,Other,0.00000191,0.00102817
 2000,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000637,0.00000096
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000028,0.00002177
 2000,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000027,0.00050531
-2000,Food Related,0.00000026,0.00008976
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00000025,0.00001095
-2000,Other,0.00000164,0.00054937
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000024,0.00004868
+2000,Other,0.00000166,0.00059045
 2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000386,0.00002856
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000110,0.00004829
 2001,Tin; articles thereof,0.00000030,0.00025878
-2001,Food Related,0.00000027,0.00012847
+2001,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000025,0.00010792
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00000017,0.00000746
-2001,Other,0.00000079,0.00056168
+2001,Other,0.00000081,0.00058223
 2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000382,0.00000282
 2002,Pharmaceutical products,0.00000184,0.00073048
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000070,0.00005448
-2002,Food Related,0.00000051,0.00017680
+2002,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000051,0.00017680
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00000021,0.00001451
 2002,Other,0.00000163,0.00059228
 2003,Pharmaceutical products,0.00000308,0.00074911
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000129,0.00000598
-2003,Food Related,0.00000128,0.00049796
+2003,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000103,0.00029586
 2003,Organic chemicals,0.00000096,0.00003992
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000064,0.00007561
-2003,Other,0.00000269,0.00087978
+2003,Other,0.00000294,0.00108188
 2004,Pharmaceutical products,0.00000784,0.00300120
-2004,Food Related,0.00000251,0.00057913
+2004,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000223,0.00056219
 2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000140,0.00000078
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000111,0.00001588
 2004,Organic chemicals,0.00000101,0.00000160
-2004,Other,0.00000268,0.00121950
+2004,Other,0.00000296,0.00123644
 2005,Pharmaceutical products,0.00000738,0.00357538
 2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000200,0.00000823
-2005,Food Related,0.00000152,0.00039004
+2005,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000151,0.00038994
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000106,0.00005035
 2005,"Ships, boats and floating structures",0.00000083,0.00122070
-2005,Other,0.00000326,0.00140150
+2005,Other,0.00000326,0.00140160
 2006,Pharmaceutical products,0.00000478,0.00157955
 2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000453,0.00151814
-2006,Food Related,0.00000207,0.00221678
+2006,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000163,0.00048656
 2006,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000129,0.00000175
 2006,Works of art; collectors' pieces and antiques,0.00000100,0.00000007
-2006,Other,0.00000387,0.00140641
+2006,Other,0.00000431,0.00313663
 2007,Pharmaceutical products,0.00000537,0.00220587
 2007,"Ships, boats and floating structures",0.00000392,0.00139600
-2007,Food Related,0.00000178,0.00465449
 2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000136,0.00000691
+2007,Cereals,0.00000097,0.00445977
 2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000096,0.00011546
-2007,Other,0.00000237,0.00138986
+2007,Other,0.00000318,0.00158458
 2008,Pharmaceutical products,0.00000896,0.00276333
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000792,0.00497821
 2008,"Ships, boats and floating structures",0.00000706,0.00000242
@@ -92,21 +92,21 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,Pharmaceutical products,0.00001886,0.00428365
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000120,0.00000268
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000094,0.00001007
-2010,Food Related,0.00000081,0.00020335
+2010,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000080,0.00017995
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000044,0.00001532
-2010,Other,0.00000272,0.00090015
+2010,Other,0.00000273,0.00092355
 2011,Pharmaceutical products,0.00001631,0.00335170
 2011,"Ships, boats and floating structures",0.00001496,0.00667549
-2011,Food Related,0.00000053,0.00015259
+2011,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000053,0.00015244
 2011,Organic chemicals,0.00000043,0.00001546
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000036,0.00001135
-2011,Other,0.00000231,0.00131875
+2011,Other,0.00000231,0.00131891
 2012,"Ships, boats and floating structures",0.00002498,0.00729549
 2012,Pharmaceutical products,0.00002278,0.00386225
 2012,Iron and steel,0.00000038,0.00261048
-2012,Food Related,0.00000036,0.00010947
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000034,0.00003183
-2012,Other,0.00000229,0.00037849
+2012,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000033,0.00010904
+2012,Other,0.00000232,0.00037892
 2013,Pharmaceutical products,0.00001531,0.00311142
 2013,"Ships, boats and floating structures",0.00000631,0.01140433
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000139,0.00004952
@@ -124,31 +124,31 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000217,0.00000472
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000106,0.00001611
 2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000042,0.00001065
-2015,Other,0.00000192,0.00091019
+2015,Other,0.00000192,0.00091018
 2016,Pharmaceutical products,0.00002209,0.00494580
 2016,"Ships, boats and floating structures",0.00000907,0.00482223
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000414,0.00000697
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000049,0.00000942
-2016,Food Related,0.00000048,0.00013569
-2016,Other,0.00000218,0.00054941
+2016,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000047,0.00013458
+2016,Other,0.00000219,0.00055053
 2017,Pharmaceutical products,0.00003045,0.00446486
 2017,"Ships, boats and floating structures",0.00000740,0.01211344
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000373,0.00000611
 2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000216,0.00003902
-2017,Food Related,0.00000080,0.00023974
-2017,Other,0.00000301,0.00036778
+2017,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000079,0.00023809
+2017,Other,0.00000302,0.00036943
 2018,Pharmaceutical products,0.00002285,0.00351907
 2018,"Ships, boats and floating structures",0.00001625,0.00139151
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000170,0.00001182
-2018,Food Related,0.00000110,0.00033053
+2018,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000103,0.00032438
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000068,0.00007808
-2018,Other,0.00000132,0.00084716
+2018,Other,0.00000139,0.00085332
 2019,Pharmaceutical products,0.00001898,0.00293450
 2019,"Ships, boats and floating structures",0.00000699,0.00013024
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000256,0.00000007
-2019,Food Related,0.00000106,0.00038498
+2019,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000103,0.00031870
 2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000070,0.00000130
-2019,Other,0.00000190,0.00091951
+2019,Other,0.00000193,0.00098578
 2020,Pharmaceutical products,0.00002228,0.00323470
 2020,"Ships, boats and floating structures",0.00000384,0.00017372
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000030,0.00000614

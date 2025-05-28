@@ -2,9 +2,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Cotton,0.00013837,0.06844648
 1995,Aluminium and articles thereof,0.00007053,0.04165413
 1995,Works of art; collectors' pieces and antiques,0.00001551,0.00000000
-1995,Food Related,0.00000562,0.01519488
+1995,Vegetable plaiting materials; vegetable products not elsewhere specified or included,0.00000315,0.01263723
 1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00000301,0.00032700
-1995,Other,0.00002373,0.02547694
+1995,Other,0.00002621,0.02803458
 1996,Cotton,0.00018596,0.09207783
 1996,Aluminium and articles thereof,0.00006170,0.03974521
 1996,Glass and glassware,0.00001072,0.01311207
@@ -15,50 +15,50 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1997,Aluminium and articles thereof,0.00003173,0.02008233
 1997,"Metals; n.e.c., cermets and articles thereof",0.00002200,0.01845059
 1997,Tin; articles thereof,0.00001132,0.00930384
-1997,Food Related,0.00001039,0.01475672
-1997,Other,0.00004400,0.03781985
+1997,Glass and glassware,0.00000871,0.01560617
+1997,Other,0.00004568,0.03697040
 1998,Cotton,0.00013791,0.07585305
 1998,Aluminium and articles thereof,0.00006282,0.04282850
 1998,"Metals; n.e.c., cermets and articles thereof",0.00001246,0.01186423
-1998,Food Related,0.00000916,0.01870705
 1998,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000756,0.00435855
-1998,Other,0.00004223,0.03523997
+1998,Tin; articles thereof,0.00000701,0.00600132
+1998,Other,0.00004438,0.04794571
 1999,Aluminium and articles thereof,0.00012667,0.09408866
 1999,Cotton,0.00008786,0.05786154
 1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00001160,0.00834052
-1999,Food Related,0.00001042,0.03049389
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00000652,0.00094475
-1999,Other,0.00003109,0.05145098
+1999,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000552,0.01374448
+1999,Other,0.00003599,0.06820039
 2000,Aluminium and articles thereof,0.00021740,0.13552674
 2000,Cotton,0.00012969,0.08358736
 2000,"Metals; n.e.c., cermets and articles thereof",0.00001924,0.03929093
-2000,Food Related,0.00001241,0.04036047
 2000,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000829,0.00777658
-2000,Other,0.00003682,0.07615408
+2000,Tin; articles thereof,0.00000747,0.01855762
+2000,Other,0.00004176,0.09795693
 2001,Aluminium and articles thereof,0.00016395,0.10409120
 2001,Cotton,0.00011481,0.07835624
 2001,"Metals; n.e.c., cermets and articles thereof",0.00001482,0.05558894
-2001,Food Related,0.00001310,0.04897490
+2001,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000819,0.03508419
 2001,Tin; articles thereof,0.00000692,0.01973564
-2001,Other,0.00004022,0.04475656
+2001,Other,0.00004513,0.05864727
 2002,Aluminium and articles thereof,0.00025669,0.18419479
 2002,Cotton,0.00011457,0.09952215
-2002,Food Related,0.00001721,0.06871626
 2002,"Metals; n.e.c., cermets and articles thereof",0.00001532,0.05707918
+2002,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000900,0.03886928
 2002,Tin; articles thereof,0.00000771,0.01590377
-2002,Other,0.00004555,0.11163020
+2002,Other,0.00005376,0.14147718
 2003,Aluminium and articles thereof,0.00030558,0.20394606
 2003,Cotton,0.00017522,0.13345552
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00001347,0.00215087
 2003,"Metals; n.e.c., cermets and articles thereof",0.00001281,0.04942285
-2003,Food Related,0.00001186,0.04278814
-2003,Other,0.00004810,0.09664463
+2003,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000813,0.03236924
+2003,Other,0.00005183,0.10706354
 2004,Aluminium and articles thereof,0.00030028,0.17015560
 2004,Cotton,0.00021821,0.14880352
 2004,"Metals; n.e.c., cermets and articles thereof",0.00001538,0.03720849
-2004,Food Related,0.00001352,0.04149229
 2004,Iron and steel,0.00001325,0.00155423
-2004,Other,0.00007921,0.12699478
+2004,Apparel and clothing accessories; not knitted or crocheted,0.00001156,0.00157526
+2004,Other,0.00008117,0.16691182
 2005,Aluminium and articles thereof,0.00047748,0.25392208
 2005,Cotton,0.00017774,0.14270557
 2005,"Metals; n.e.c., cermets and articles thereof",0.00002194,0.04968142
@@ -79,16 +79,16 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2007,Other,0.00008802,0.07240961
 2008,Aluminium and articles thereof,0.00059188,0.21479869
 2008,Cotton,0.00014294,0.09929605
-2008,Food Related,0.00008982,0.20538903
+2008,Cereals,0.00007141,0.15776146
 2008,"Metals; n.e.c., cermets and articles thereof",0.00006295,0.07314490
 2008,Tin; articles thereof,0.00002711,0.01889936
-2008,Other,0.00013583,0.12823493
+2008,Other,0.00015424,0.17586250
 2009,Aluminium and articles thereof,0.00050510,0.29405981
 2009,"Metals; n.e.c., cermets and articles thereof",0.00009660,0.08204575
 2009,Cotton,0.00008923,0.06795795
-2009,Food Related,0.00005091,0.11567540
+2009,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00003128,0.09088650
 2009,Tin; articles thereof,0.00002790,0.02064851
-2009,Other,0.00011615,0.14249109
+2009,Other,0.00013578,0.16727999
 2010,Aluminium and articles thereof,0.00067220,0.30094755
 2010,Cotton,0.00016371,0.08310871
 2010,"Metals; n.e.c., cermets and articles thereof",0.00008921,0.07585049

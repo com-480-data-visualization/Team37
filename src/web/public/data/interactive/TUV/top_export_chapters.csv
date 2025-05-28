@@ -12,35 +12,35 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,Footwear; gaiters and the like; parts of such articles,0.00000006,0.00000436
 1996,Other,0.00000032,0.00017231
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000042,0.00002869
-1997,Food Related,0.00000006,0.00003775
 1997,Pharmaceutical products,0.00000006,0.00000861
+1997,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00000004,0.00001587
 1997,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",0.00000003,0.00001409
 1997,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",0.00000003,0.00001070
-1997,Other,0.00000010,0.00001058
+1997,Other,0.00000013,0.00003246
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000016,0.00000913
-1998,Food Related,0.00000008,0.00002550
 1998,Rubber and articles thereof,0.00000008,0.00003810
+1998,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000005,0.00002450
+1998,Miscellaneous edible preparations,0.00000003,0.00000100
 1998,Cotton,0.00000003,0.00000538
-1998,Glass and glassware,0.00000002,0.00000912
-1998,Other,0.00000008,0.00000781
+1998,Other,0.00000009,0.00001694
 1999,Footwear; gaiters and the like; parts of such articles,0.00000048,0.00002723
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000039,0.00000170
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000022,0.00003586
 1999,Apparel and clothing accessories; knitted or crocheted,0.00000021,0.00001718
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00000011,0.00000578
 1999,Other,0.00000027,0.00008402
-2000,Food Related,0.00000026,0.00004300
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000022,0.00001157
+2000,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000019,0.00004000
 2000,Iron and steel,0.00000010,0.00036630
 2000,Rubber and articles thereof,0.00000006,0.00001098
 2000,Plastics and articles thereof,0.00000006,0.00004502
-2000,Other,0.00000044,0.00012523
+2000,Other,0.00000051,0.00012823
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008859,0.00385643
 2001,Apparel and clothing accessories; knitted or crocheted,0.00006419,0.00415389
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00003189,0.00157258
 2001,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00002131,0.00394845
-2001,Food Related,0.00001436,0.00847777
-2001,Other,0.00008000,0.05270122
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001371,0.00150595
+2001,Other,0.00008066,0.05967305
 2002,Apparel and clothing accessories; knitted or crocheted,0.00008258,0.00491822
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00004646,0.00207394
 2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00003314,0.00395633
@@ -87,8 +87,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000038,0.00001375
 2009,"Ships, boats and floating structures",0.00000036,0.00087200
 2009,Aluminium and articles thereof,0.00000032,0.00007377
-2009,Food Related,0.00000013,0.00007258
-2009,Other,0.00000071,0.00029878
+2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000012,0.00000013
+2009,Other,0.00000072,0.00037123
 2010,Pharmaceutical products,0.00001284,0.00865664
 2010,"Ships, boats and floating structures",0.00000106,0.00136900
 2010,Apparel and clothing accessories; not knitted or crocheted,0.00000027,0.00000763
@@ -97,10 +97,10 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,Other,0.00000087,0.00028310
 2011,Pharmaceutical products,0.00001124,0.00487949
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000072,0.00001107
-2011,Food Related,0.00000032,0.00027609
+2011,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00000032,0.00027501
 2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000018,0.00001231
 2011,Iron and steel,0.00000016,0.00028133
-2011,Other,0.00000063,0.00028744
+2011,Other,0.00000063,0.00028852
 2012,Pharmaceutical products,0.00002260,0.00530909
 2012,"Ships, boats and floating structures",0.00000577,0.01224800
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000077,0.00024446
@@ -138,11 +138,11 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000024,0.00000277
 2017,Other,0.00000097,0.00169696
 2018,Pharmaceutical products,0.00002850,0.01694112
-2018,Food Related,0.00000056,0.00075170
+2018,Sugars and sugar confectionery,0.00000056,0.00075120
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000021,0.00000030
 2018,"Ships, boats and floating structures",0.00000020,0.00070690
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000018,0.00000428
-2018,Other,0.00000051,0.00272251
+2018,Other,0.00000052,0.00272301
 2019,Pharmaceutical products,0.00001293,0.00894991
 2019,"Ships, boats and floating structures",0.00000750,0.00000483
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000022,0.00000019

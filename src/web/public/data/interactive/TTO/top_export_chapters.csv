@@ -9,8 +9,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1996,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00038926,1.98981446
 1996,Iron and steel,0.00035493,1.25041904
 1996,Organic chemicals,0.00016757,0.95041292
-1996,Food Related,0.00013050,0.13581381
-1996,Other,0.00069839,1.31777112
+1996,Fertilizers,0.00011538,0.58036858
+1996,Other,0.00071351,0.87321635
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00114685,6.98045775
 1997,Iron and steel,0.00041633,1.66078340
 1997,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00034870,1.90865628
@@ -27,14 +27,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1999,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00033102,2.67593544
 1999,Iron and steel,0.00028724,0.84299278
 1999,Organic chemicals,0.00019143,1.76036457
-1999,Food Related,0.00013586,0.09535001
-1999,Other,0.00067828,1.50792002
+1999,"Beverages, spirits and vinegar",0.00007608,0.07638539
+1999,Other,0.00073806,1.52688463
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00271602,11.54352432
 2000,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00039453,1.61673453
 2000,Iron and steel,0.00037697,1.51677942
 2000,Organic chemicals,0.00032460,1.91367908
-2000,Food Related,0.00013255,0.16793839
-2000,Other,0.00061519,1.21041332
+2000,"Beverages, spirits and vinegar",0.00007517,0.09986067
+2000,Other,0.00067256,1.27849104
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00284851,15.19019985
 2001,"Ships, boats and floating structures",0.00066962,2.09145925
 2001,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00045084,1.99978246
@@ -45,20 +45,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00042549,2.09829281
 2002,Iron and steel,0.00039063,1.91474347
 2002,Organic chemicals,0.00032245,1.73885235
-2002,Food Related,0.00012892,0.11169014
-2002,Other,0.00078907,1.28955635
+2002,"Ships, boats and floating structures",0.00011607,0.00967349
+2002,Other,0.00080192,1.39157300
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00488606,16.77842458
 2003,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00076927,1.67394158
 2003,Iron and steel,0.00049301,2.25917797
 2003,Organic chemicals,0.00049233,2.02253959
-2003,Food Related,0.00014733,0.11628068
-2003,Other,0.00069579,1.10914495
+2003,Fertilizers,0.00009956,0.36550362
+2003,Other,0.00074356,0.85992202
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00512953,15.72583841
 2004,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00110064,2.46940885
 2004,Iron and steel,0.00080326,2.45264629
 2004,Organic chemicals,0.00067587,2.66976865
-2004,Food Related,0.00015315,0.13243748
-2004,Other,0.00075737,1.52572877
+2004,Fertilizers,0.00012166,0.41798791
+2004,Other,0.00078886,1.24017834
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00805487,20.77353890
 2005,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00138787,2.26798654
 2005,Organic chemicals,0.00093495,3.69059634
@@ -69,8 +69,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2006,Organic chemicals,0.00139094,4.34944703
 2006,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00134288,3.87259195
 2006,Iron and steel,0.00079694,2.56300380
-2006,Food Related,0.00018368,0.14679753
-2006,Other,0.00098526,2.34065807
+2006,Fertilizers,0.00017325,0.70394437
+2006,Other,0.00099569,1.78351124
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01053141,20.06433795
 2007,Organic chemicals,0.00184661,4.25336734
 2007,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00156131,4.45841361

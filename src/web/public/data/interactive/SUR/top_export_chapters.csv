@@ -2,21 +2,21 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00030225,1.34448203
 1995,Aluminium and articles thereof,0.00010775,0.05758290
 1995,Pharmaceutical products,0.00008384,0.01130355
-1995,Food Related,0.00004469,0.09146181
+1995,Cereals,0.00004418,0.09106712
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003853,0.00067749
-1995,Other,0.00007271,0.19742843
+1995,Other,0.00007323,0.19782313
 1996,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00032608,1.08889387
 1996,Pharmaceutical products,0.00010894,0.01346258
-1996,Food Related,0.00005749,0.11766978
+1996,Cereals,0.00005477,0.11212398
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005027,0.00028775
 1996,Aluminium and articles thereof,0.00004667,0.04118387
-1996,Other,0.00009270,0.39833694
+1996,Other,0.00009543,0.40388274
 1997,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00030725,1.22361400
 1997,Pharmaceutical products,0.00005747,0.00881519
 1997,Aluminium and articles thereof,0.00004445,0.02591422
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00003780,0.33330075
-1997,Food Related,0.00002780,0.05705496
-1997,Other,0.00007368,0.07416551
+1997,Cereals,0.00002697,0.05671688
+1997,Other,0.00007451,0.07450360
 1998,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00032445,1.55415720
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00005923,0.00008358
 1998,Pharmaceutical products,0.00005398,0.00946135
@@ -39,50 +39,50 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,Pharmaceutical products,0.00006155,0.01263062
 2001,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003389,0.00461554
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002764,0.20285449
-2001,Food Related,0.00002437,0.07636710
-2001,Other,0.00005322,0.04445616
+2001,Tin; articles thereof,0.00001803,0.02926871
+2001,Other,0.00005955,0.09155455
 2002,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00031124,1.24037017
 2002,Pharmaceutical products,0.00006362,0.01481066
 2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003752,0.00107316
-2002,Food Related,0.00003336,0.10325207
+2002,Cereals,0.00002675,0.09696056
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002047,0.13461351
-2002,Other,0.00004655,0.03991919
+2002,Other,0.00005316,0.04621070
 2003,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00035094,1.34316378
 2003,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00007747,0.00043689
 2003,Pharmaceutical products,0.00005914,0.01327607
-2003,Food Related,0.00002918,0.06804859
 2003,"Ships, boats and floating structures",0.00002493,0.02433794
-2003,Other,0.00005837,0.08866007
+2003,Cereals,0.00001848,0.05817425
+2003,Other,0.00006908,0.09853441
 2004,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00053768,1.95560747
 2004,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00020056,0.00041821
 2004,Pharmaceutical products,0.00006377,0.01445226
-2004,Food Related,0.00003009,0.07487377
+2004,Cereals,0.00001934,0.06299098
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001598,0.08195710
-2004,Other,0.00006065,0.10878607
+2004,Other,0.00007140,0.12066887
 2005,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00049568,1.55484441
 2005,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00030809,0.00054502
 2005,Pharmaceutical products,0.00006321,0.01376408
-2005,Food Related,0.00002875,0.06782318
 2005,Tin; articles thereof,0.00002181,0.04442289
-2005,Other,0.00009583,0.13060064
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001995,0.09921178
+2005,Other,0.00010463,0.09921203
 2006,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00065630,2.03554751
 2006,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00032357,0.00041828
 2006,Pharmaceutical products,0.00006514,0.01539943
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004505,0.19092919
-2006,Food Related,0.00003343,0.07166977
-2006,Other,0.00014762,0.12430971
+2006,Organic chemicals,0.00003051,0.00009785
+2006,Other,0.00015053,0.19588163
 2007,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00076516,2.08910429
 2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00031687,0.00271021
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00008732,0.22286796
 2007,Pharmaceutical products,0.00007195,0.01596893
-2007,Food Related,0.00005156,0.07986483
-2007,Other,0.00016497,0.17445221
+2007,Tin; articles thereof,0.00003478,0.07050479
+2007,Other,0.00018175,0.18381225
 2008,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00075149,1.96814195
 2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00051578,0.00037398
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019222,0.33611175
 2008,Pharmaceutical products,0.00006943,0.01640061
-2008,Food Related,0.00006589,0.08044750
-2008,Other,0.00016266,0.15155702
+2008,Tin; articles thereof,0.00005090,0.09184111
+2008,Other,0.00017765,0.14016341
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00058670,0.00093470
 2009,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00043582,1.46563475
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012880,0.39135957
@@ -99,14 +99,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00042164,0.00115692
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022446,0.33706855
 2011,Pharmaceutical products,0.00007795,0.01724620
-2011,Food Related,0.00007203,0.09652778
-2011,Other,0.00025239,0.37889743
+2011,Tin; articles thereof,0.00005699,0.08335996
+2011,Other,0.00026742,0.39206525
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00188640,0.00067758
 2012,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00040767,1.22238902
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024420,0.31971718
 2012,Pharmaceutical products,0.00008943,0.01843408
-2012,Food Related,0.00008566,0.10495412
-2012,Other,0.00026528,0.46194154
+2012,Tin; articles thereof,0.00007903,0.11499068
+2012,Other,0.00027191,0.45190498
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00156334,0.00079698
 2013,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00035367,1.08550871
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00026058,0.38610583
@@ -129,20 +129,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,Pharmaceutical products,0.00011323,0.02709563
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010847,0.36716187
 2016,Wood and articles of wood; wood charcoal,0.00009776,0.51164040
-2016,Food Related,0.00003991,0.08693015
-2016,Other,0.00010300,0.20090322
+2016,Cereals,0.00003324,0.08071669
+2016,Other,0.00010967,0.20711668
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00213447,0.00068178
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00013061,0.27737346
 2017,Pharmaceutical products,0.00012601,0.02524239
 2017,Wood and articles of wood; wood charcoal,0.00010110,0.79421510
-2017,Food Related,0.00005303,0.10057891
-2017,Other,0.00015184,0.18433282
+2017,Cereals,0.00003853,0.08833858
+2017,Other,0.00016634,0.19657315
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00208551,0.00020646
 2018,Wood and articles of wood; wood charcoal,0.00019026,0.68565527
 2018,Pharmaceutical products,0.00014952,0.03517464
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00011437,0.22925254
-2018,Food Related,0.00004173,0.07866902
-2018,Other,0.00010109,0.27449188
+2018,Cereals,0.00003408,0.07207931
+2018,Other,0.00010873,0.28108159
 2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00236084,0.00022951
 2019,Wood and articles of wood; wood charcoal,0.00016631,0.69402730
 2019,Pharmaceutical products,0.00013609,0.03201707
@@ -154,7 +154,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,Pharmaceutical products,0.00011104,0.03341315
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009584,0.00880702
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00008436,0.23957164
-2020,Other,0.00019269,0.25505611
+2020,Other,0.00019269,0.25505612
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00228674,0.00043374
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00016096,0.26819128
 2021,Wood and articles of wood; wood charcoal,0.00011459,0.47048597

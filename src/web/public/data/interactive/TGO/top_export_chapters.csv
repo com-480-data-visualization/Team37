@@ -7,46 +7,46 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Other,0.00010330,0.16331477
 1996,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00013486,3.50562010
 1996,Cotton,0.00011244,0.06779162
-1996,Food Related,0.00006266,0.08342565
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004697,0.27126092
 1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003281,0.00021863
-1996,Other,0.00011708,0.17797990
+1996,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00002383,0.00460856
+1996,Other,0.00015591,0.25679699
 1997,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00015889,3.54558663
 1997,Cotton,0.00011542,0.07234830
 1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00006357,0.26464608
-1997,Food Related,0.00003554,0.05357481
 1997,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002886,0.00063239
-1997,Other,0.00014758,0.23192958
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002767,0.01597203
+1997,Other,0.00015545,0.26953237
 1998,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00013237,3.12725705
 1998,Cotton,0.00013194,0.08819144
-1998,Food Related,0.00003460,0.10569624
 1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00002564,0.00071247
 1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002387,0.01217967
-1998,Other,0.00012898,0.35514426
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002069,0.10378280
+1998,Other,0.00014289,0.35705770
 1999,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00013138,2.69758630
 1999,Cotton,0.00013010,0.10443223
-1999,Food Related,0.00003805,0.10535556
 1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00003749,0.00062518
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00003246,0.01700267
-1999,Other,0.00015194,0.35781002
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00002481,0.13518595
+1999,Other,0.00016518,0.32797963
 2000,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00013881,2.91090803
 2000,Cotton,0.00009278,0.06052871
 2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005491,0.17262597
-2000,Food Related,0.00003113,0.08373470
 2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001748,0.01385612
-2000,Other,0.00008213,0.13908487
+2000,Pharmaceutical products,0.00000870,0.00448582
+2000,Other,0.00010457,0.21833375
 2001,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00013761,2.91245820
 2001,Cotton,0.00010472,0.07976505
 2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00006613,0.20173888
 2001,Chemical products n.e.c.,0.00004160,0.00452539
-2001,Food Related,0.00003631,0.11189608
-2001,Other,0.00014332,0.20175594
+2001,Pharmaceutical products,0.00001886,0.01197264
+2001,Other,0.00016077,0.30167938
 2002,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00011803,2.18295550
 2002,Cotton,0.00007360,0.06807103
-2002,Food Related,0.00005902,0.18132712
 2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00005701,0.17751337
 2002,Pharmaceutical products,0.00002278,0.01434643
-2002,Other,0.00010580,0.16257653
+2002,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00001428,0.08967453
+2002,Other,0.00015055,0.25422912
 2003,Cotton,0.00020133,0.08825964
 2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019843,1.03041526
 2003,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00017754,3.81332656
@@ -56,120 +56,120 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00016542,2.74316410
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00014772,0.29427614
 2004,Cotton,0.00011821,0.07020458
-2004,Food Related,0.00010004,0.16506497
+2004,Cocoa and cocoa preparations,0.00003693,0.02199671
 2004,Iron and steel,0.00003326,0.08156431
-2004,Other,0.00014709,0.16638527
+2004,Other,0.00021021,0.30945354
 2005,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00017012,2.74937157
-2005,Food Related,0.00014971,0.21581551
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00011285,0.13865695
+2005,Cocoa and cocoa preparations,0.00008446,0.05897810
 2005,Cotton,0.00008202,0.06124073
 2005,Iron and steel,0.00003503,0.10219892
-2005,Other,0.00019213,0.18717540
+2005,Other,0.00025738,0.34401281
 2006,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00018383,2.60755114
-2006,Food Related,0.00016256,0.16604458
 2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00014354,0.21504906
+2006,Cocoa and cocoa preparations,0.00011697,0.07238378
 2006,Cotton,0.00003995,0.03159223
 2006,Wood and articles of wood; wood charcoal,0.00003209,0.00981831
-2006,Other,0.00015723,0.30443233
+2006,Other,0.00020282,0.39809314
 2007,"Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",0.00029321,0.01275695
 2007,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00022330,2.70966259
-2007,Food Related,0.00020972,0.17209490
 2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00020568,0.24188880
+2007,Cocoa and cocoa preparations,0.00015429,0.07908751
 2007,Iron and steel,0.00005787,0.14992874
-2007,Other,0.00032096,0.30715878
+2007,Other,0.00037639,0.40016618
 2008,Cotton,0.00080246,0.21476544
 2008,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00041614,2.62179775
 2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00036537,0.44909338
-2008,Food Related,0.00033869,0.20806400
+2008,Cocoa and cocoa preparations,0.00025291,0.09736866
 2008,Iron and steel,0.00010898,0.21274993
-2008,Other,0.00037549,0.31837592
-2009,Food Related,0.00035054,0.18395330
+2008,Other,0.00046126,0.42907126
+2009,Cocoa and cocoa preparations,0.00030379,0.10511380
 2009,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00027049,2.48379909
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019872,0.18596301
 2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00006102,0.00065877
 2009,Cotton,0.00005346,0.01809948
-2009,Other,0.00037118,0.35266039
+2009,Other,0.00041792,0.43149990
 2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00029734,0.27240964
 2010,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00027389,2.24108333
-2010,Food Related,0.00027382,0.18242331
+2010,Cocoa and cocoa preparations,0.00022150,0.07343773
 2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00015340,0.00202185
 2010,Iron and steel,0.00008282,0.15011670
-2010,Other,0.00039417,0.39481310
-2011,Food Related,0.00048571,0.24045659
+2010,Other,0.00044649,0.50379867
+2011,Cocoa and cocoa preparations,0.00041395,0.12060005
 2011,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00036748,3.06703475
 2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00029376,0.21734737
 2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00018145,0.01165999
 2011,Cotton,0.00013344,0.02849775
-2011,Other,0.00065447,0.68800764
+2011,Other,0.00072623,0.80786419
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00086334,0.81814331
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00079569,0.01562378
 2012,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00044744,3.68225133
-2012,Food Related,0.00016064,0.17823769
 2012,Cotton,0.00011816,0.04063921
-2012,Other,0.00063367,0.74407604
+2012,Iron and steel,0.00007726,0.14515781
+2012,Other,0.00071705,0.77715592
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00089116,0.01193592
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00069287,0.55999255
 2013,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00049153,4.36464119
-2013,Food Related,0.00022636,0.21076454
 2013,Cotton,0.00011033,0.04152418
-2013,Other,0.00070762,1.23811112
+2013,"Ships, boats and floating structures",0.00010879,0.10766478
+2013,Other,0.00082519,1.34121087
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00088216,0.79638610
 2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00074184,0.00774022
 2014,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00041614,3.63291163
-2014,Food Related,0.00023209,0.20351844
 2014,Cotton,0.00011048,0.04087697
-2014,Other,0.00056841,0.99686743
+2014,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00010864,0.08288958
+2014,Other,0.00069186,1.11749629
 2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00076189,1.14163929
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00054654,0.00680708
 2015,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00034440,3.15254523
-2015,Food Related,0.00030543,0.31185109
+2015,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00019106,0.16342951
 2015,Cotton,0.00011818,0.06324836
-2015,Other,0.00053660,0.67607465
+2015,Other,0.00065097,0.82449624
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00070524,1.29147725
 2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00058269,0.00727343
-2016,Food Related,0.00022633,0.24203285
 2016,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00020013,2.43520118
+2016,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00011584,0.10509955
 2016,Cotton,0.00008991,0.04547279
-2016,Other,0.00050688,0.52409516
+2016,Other,0.00061737,0.66102845
 2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00141538,2.39179584
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00074646,0.00534699
 2017,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00023977,2.76765148
-2017,Food Related,0.00018879,0.28735851
 2017,Cotton,0.00011141,0.05236211
-2017,Other,0.00053620,0.64888745
+2017,Tin; articles thereof,0.00007840,0.04162641
+2017,Other,0.00064659,0.89461955
 2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00206640,2.50544867
 2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00037675,0.00546669
-2018,Food Related,0.00029612,0.36907738
 2018,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00026044,2.97816170
+2018,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00015864,0.15816115
 2018,Cotton,0.00014138,0.06262085
-2018,Other,0.00063873,0.71478317
+2018,Other,0.00077621,0.92569941
 2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00181815,2.11729203
-2019,Food Related,0.00039446,0.44858867
+2019,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00023223,0.21112231
 2019,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00016708,2.27730596
 2019,Cotton,0.00012887,0.06816320
 2019,Tin; articles thereof,0.00009634,0.09185728
-2019,Other,0.00054241,0.55982449
+2019,Other,0.00070464,0.79729085
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00090049,1.69490660
-2020,Food Related,0.00045852,0.56271715
+2020,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00028937,0.31609873
 2020,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00026896,3.06840839
+2020,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00009562,0.09600003
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008004,0.04178127
-2020,Plastics and articles thereof,0.00007634,0.07170075
-2020,Other,0.00049819,0.44763192
+2020,Other,0.00064807,0.66995106
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00181375,2.93538999
 2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00061172,0.00328486
-2021,Food Related,0.00056919,0.62180921
+2021,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00038893,0.37078544
 2021,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00034197,3.46328033
 2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010660,0.13070639
-2021,Other,0.00068079,0.58712597
+2021,Other,0.00086106,0.83814974
 2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00164765,1.55241295
 2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00118926,0.00439489
-2022,Food Related,0.00064144,0.84835491
 2022,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00053319,3.44404249
+2022,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00048835,0.50503937
 2022,Tin; articles thereof,0.00012151,0.12605478
-2022,Other,0.00079049,0.60015336
+2022,Other,0.00094358,0.94346890
 2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00265705,0.00662421
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00177416,1.87142233
-2023,Food Related,0.00079415,0.94901257
+2023,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00057701,0.64336392
 2023,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00044444,2.61416309
 2023,Tin; articles thereof,0.00018945,0.17405036
-2023,Other,0.00073745,0.60139863
+2023,Other,0.00095459,0.90704728

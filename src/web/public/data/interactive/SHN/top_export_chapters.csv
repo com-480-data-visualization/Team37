@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000041,0.00000804
 1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000038,0.00000000
 1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00000024,0.00041800
-1995,Food Related,0.00000014,0.00005456
-1995,Other,0.00000052,0.00035741
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000011,0.00001960
+1995,Other,0.00000055,0.00039237
 1996,Pharmaceutical products,0.00000337,0.00030267
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000194,0.00778821
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000041,0.00001516
@@ -82,7 +82,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000185,0.00019054
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000159,0.00004857
 2008,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00000061,0.00069521
-2008,Other,0.00000344,0.00119701
+2008,Other,0.00000344,0.00119700
 2009,Pharmaceutical products,0.00001072,0.00090079
 2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000634,0.04346304
 2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000256,0.00004996
@@ -93,8 +93,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000393,0.00026134
 2010,"Aircraft, spacecraft, and parts thereof",0.00000255,0.00001038
 2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000091,0.00000246
-2010,Food Related,0.00000036,0.00013246
-2010,Other,0.00000199,0.00055900
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000034,0.00002261
+2010,Other,0.00000202,0.00066885
 2011,Pharmaceutical products,0.00001316,0.00130496
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000353,0.00002311
 2011,Plastics and articles thereof,0.00000103,0.00004942
@@ -114,11 +114,11 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000068,0.00000163
 2013,Other,0.00000199,0.00106655
 2014,Pharmaceutical products,0.00001188,0.00066484
-2014,Food Related,0.00000245,0.00478159
+2014,Sugars and sugar confectionery,0.00000238,0.00475337
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000089,0.00005164
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000085,0.00004455
 2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000056,0.00000160
-2014,Other,0.00000235,0.00081475
+2014,Other,0.00000241,0.00084297
 2015,Pharmaceutical products,0.00001975,0.00097616
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000575,0.00133265
 2015,"Aircraft, spacecraft, and parts thereof",0.00000570,0.00000373
@@ -165,8 +165,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2022,Iron and steel,0.00000677,0.00342454
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000140,0.00006957
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000129,0.00002617
-2022,Food Related,0.00000095,0.00480008
-2022,Other,0.00000237,0.00030636
+2022,Cereals,0.00000095,0.00480000
+2022,Other,0.00000238,0.00030644
 2023,Pharmaceutical products,0.00002532,0.00168567
 2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000389,0.00059073
 2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000274,0.00461559

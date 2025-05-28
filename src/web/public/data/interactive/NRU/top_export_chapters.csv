@@ -21,14 +21,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000242,0.00006707
 1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000030,0.00004358
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000023,0.00000467
-1998,Food Related,0.00000015,0.00008172
-1998,Other,0.00000134,0.00063899
+1998,Raw hides and skins (other than furskins) and leather,0.00000011,0.00001867
+1998,Other,0.00000137,0.00070205
 1999,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00003411,0.60827440
 1999,Fertilizers,0.00000528,0.03300000
 1999,Organic chemicals,0.00000285,0.00796328
 1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000071,0.00019548
-1999,Food Related,0.00000052,0.00032265
-1999,Other,0.00000312,0.00109721
+1999,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000051,0.00000028
+1999,Other,0.00000314,0.00141959
 2000,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00002818,0.51585152
 2000,Pharmaceutical products,0.00000146,0.00057158
 2000,Organic chemicals,0.00000145,0.00352369
@@ -38,9 +38,9 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2001,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001270,0.23023784
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000151,0.00001238
 2001,Rubber and articles thereof,0.00000087,0.00065400
-2001,Food Related,0.00000074,0.00136382
 2001,Pharmaceutical products,0.00000051,0.00010814
-2001,Other,0.00000237,0.00171101
+2001,Sugars and sugar confectionery,0.00000047,0.00085707
+2001,Other,0.00000265,0.00221775
 2002,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000740,0.11824362
 2002,Pharmaceutical products,0.00000276,0.00297051
 2002,Plastics and articles thereof,0.00000159,0.00074494
@@ -75,14 +75,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000300,0.00011919
 2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000165,0.00014031
 2007,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000117,0.00000028
-2007,Food Related,0.00000069,0.00261640
-2007,Other,0.00000339,0.00119972
+2007,Cereals,0.00000054,0.00238864
+2007,Other,0.00000355,0.00142748
 2008,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00012870,0.49973884
 2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000121,0.00005990
 2008,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000097,0.00245512
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000053,0.00005077
-2008,Food Related,0.00000046,0.00013108
-2008,Other,0.00000243,0.00053101
+2008,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000037,0.00011246
+2008,Other,0.00000252,0.00054964
 2009,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00002036,0.12947547
 2009,Plastics and articles thereof,0.00000055,0.00024158
 2009,Pharmaceutical products,0.00000052,0.00013180

@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00004431,0.00356004
 1995,Iron and steel,0.00002418,0.06820308
 1995,Apparel and clothing accessories; knitted or crocheted,0.00001406,0.00171965
-1995,Food Related,0.00001397,0.01122626
-1995,Other,0.00009364,0.22460237
+1995,Copper and articles thereof,0.00001211,0.00513669
+1995,Other,0.00009549,0.23069195
 1996,Footwear; gaiters and the like; parts of such articles,0.00007852,0.00481009
 1996,Apparel and clothing accessories; not knitted or crocheted,0.00006155,0.00587532
 1996,Apparel and clothing accessories; knitted or crocheted,0.00002904,0.00347245
@@ -20,21 +20,21 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,Footwear; gaiters and the like; parts of such articles,0.00007667,0.00510718
 1998,Apparel and clothing accessories; not knitted or crocheted,0.00006746,0.00731986
 1998,Apparel and clothing accessories; knitted or crocheted,0.00003264,0.00389834
-1998,Food Related,0.00002035,0.00986654
 1998,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00002006,0.01294133
-1998,Other,0.00011850,0.22962361
+1998,Iron and steel,0.00001510,0.03179509
+1998,Other,0.00012375,0.20769506
 1999,Footwear; gaiters and the like; parts of such articles,0.00008066,0.00635624
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00007865,0.00687851
 1999,Apparel and clothing accessories; knitted or crocheted,0.00004487,0.00494407
-1999,Food Related,0.00001791,0.01113847
 1999,Iron and steel,0.00001433,0.04007744
-1999,Other,0.00012983,0.20854335
+1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00001294,0.00556253
+1999,Other,0.00013480,0.21411928
 2000,Footwear; gaiters and the like; parts of such articles,0.00007424,0.00778585
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00006468,0.00508502
 2000,Apparel and clothing accessories; knitted or crocheted,0.00004141,0.00437570
 2000,Raw hides and skins (other than furskins) and leather,0.00001719,0.00457179
-2000,Food Related,0.00001711,0.01218777
-2000,Other,0.00012939,0.21275742
+2000,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00001397,0.00512594
+2000,Other,0.00013253,0.21981925
 2001,Footwear; gaiters and the like; parts of such articles,0.00009700,0.00941850
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00007389,0.00835705
 2001,Apparel and clothing accessories; knitted or crocheted,0.00006135,0.00445869
@@ -45,20 +45,20 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00007672,0.00807362
 2002,Apparel and clothing accessories; knitted or crocheted,0.00003973,0.00473901
 2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002554,0.00229472
-2002,Food Related,0.00002204,0.01145411
-2002,Other,0.00016065,0.25001625
+2002,Raw hides and skins (other than furskins) and leather,0.00002110,0.00642529
+2002,Other,0.00016159,0.25504506
 2003,Footwear; gaiters and the like; parts of such articles,0.00014141,0.01277966
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00009949,0.00738443
 2003,Apparel and clothing accessories; knitted or crocheted,0.00004939,0.00334232
 2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003665,0.00160713
-2003,Food Related,0.00003060,0.01506994
-2003,Other,0.00019223,0.47413753
+2003,Iron and steel,0.00002564,0.07422543
+2003,Other,0.00019719,0.41498204
 2004,Footwear; gaiters and the like; parts of such articles,0.00018453,0.01794947
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00011234,0.00966369
 2004,Apparel and clothing accessories; knitted or crocheted,0.00006478,0.00699348
 2004,Iron and steel,0.00006429,0.17651934
-2004,Food Related,0.00003533,0.01543239
-2004,Other,0.00022698,0.62252127
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002541,0.01095666
+2004,Other,0.00023689,0.62699700
 2005,Footwear; gaiters and the like; parts of such articles,0.00019177,0.01885865
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00010930,0.00914665
 2005,Apparel and clothing accessories; knitted or crocheted,0.00006039,0.00681449
@@ -148,13 +148,13 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2019,Apparel and clothing accessories; not knitted or crocheted,0.00031564,0.01098877
 2019,Apparel and clothing accessories; knitted or crocheted,0.00028416,0.01560366
 2019,Iron and steel,0.00020562,0.18930306
-2019,Other,0.00110709,2.63648924
+2019,Other,0.00110709,2.63648923
 2020,Footwear; gaiters and the like; parts of such articles,0.00051392,0.02569328
 2020,Apparel and clothing accessories; not knitted or crocheted,0.00028896,0.00937016
 2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024974,0.73086450
 2020,Apparel and clothing accessories; knitted or crocheted,0.00022725,0.01244602
-2020,Food Related,0.00014652,0.04053900
-2020,Other,0.00112193,2.73055032
+2020,Iron and steel,0.00013918,0.19768174
+2020,Other,0.00112928,2.57340757
 2021,Footwear; gaiters and the like; parts of such articles,0.00059137,0.02846802
 2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00038384,0.70400857
 2021,Iron and steel,0.00035856,0.29266051

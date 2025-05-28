@@ -34,7 +34,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02743131,1.93292168
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.02631211,97.50071657
 2004,Organic chemicals,0.02187971,11.08571218
-2004,Other,0.15012091,140.42468334
+2004,Other,0.15012091,140.42468333
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03813492,117.95439356
 2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03592771,3.68818733
 2005,Pharmaceutical products,0.03161387,0.43009039
@@ -81,14 +81,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03184828,2.98737670
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02813807,1.99385772
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02507217,0.56439223
-2012,Food Related,0.01863214,19.20368949
-2012,Other,0.16989875,125.98431299
+2012,Organic chemicals,0.01804808,9.73009567
+2012,Other,0.17048281,135.45790681
 2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.06751691,99.40803121
 2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03447062,3.15146075
 2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02741202,1.80030356
 2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.02363282,0.55458937
-2013,Food Related,0.01930838,19.35288445
-2013,Other,0.17600333,123.18859291
+2013,Organic chemicals,0.01868996,10.02915708
+2013,Other,0.17662176,132.51232028
 2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.05884954,91.56028022
 2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03545046,3.20919751
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02935694,1.86770053
@@ -99,8 +99,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03214053,3.21128229
 2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02535541,1.74327287
 2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01942715,0.59688437
-2015,Food Related,0.01665056,19.59432548
-2015,Other,0.15064240,121.09550027
+2015,Pharmaceutical products,0.01664570,0.33098486
+2015,Other,0.15064726,140.35884089
 2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.03578753,3.32621750
 2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03115679,97.69993622
 2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02610237,1.70534475

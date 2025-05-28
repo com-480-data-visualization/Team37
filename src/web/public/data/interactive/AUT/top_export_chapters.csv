@@ -153,8 +153,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2020,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01657161,1.24498779
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01541677,0.71297453
 2020,Pharmaceutical products,0.01254078,0.09019717
-2020,Food Related,0.00767819,5.17246922
-2020,Other,0.07898319,54.49343568
+2020,Plastics and articles thereof,0.00752714,2.82977508
+2020,Other,0.07913424,56.83612982
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02971102,1.84596938
 2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01978762,1.61726011
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01791925,0.74348758
@@ -171,5 +171,5 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2023,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.02132832,1.58483469
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01986480,0.73934228
 2023,Pharmaceutical products,0.01694133,0.11091432
-2023,Food Related,0.00956553,5.06999813
-2023,Other,0.10241158,50.88144330
+2023,Plastics and articles thereof,0.00911601,2.65351656
+2023,Other,0.10286110,53.29792487

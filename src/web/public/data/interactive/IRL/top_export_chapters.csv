@@ -2,39 +2,39 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00821956,0.34498239
 1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00727792,0.16710666
 1995,Organic chemicals,0.00621909,0.10166267
-1995,Food Related,0.00557550,1.76325724
 1995,Pharmaceutical products,0.00281353,0.34280613
-1995,Other,0.01286874,8.20544360
+1995,Rubber and articles thereof,0.00210594,0.70765315
+1995,Other,0.01633831,9.26104769
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00853778,0.30746416
 1996,Organic chemicals,0.00778092,0.10815166
 1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00775057,0.18024348
-1996,Food Related,0.00519119,1.46847618
 1996,Pharmaceutical products,0.00276668,0.34534267
-1996,Other,0.01315360,8.50988415
+1996,Miscellaneous edible preparations,0.00206404,0.12827775
+1996,Other,0.01628076,9.85008259
 1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00998617,0.27675822
 1997,Organic chemicals,0.00901142,0.11209226
 1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00863135,0.20877502
-1997,Food Related,0.00455963,1.63219726
 1997,Pharmaceutical products,0.00350038,0.33514953
-1997,Other,0.01377095,8.97274730
+1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00201676,0.03321988
+1997,Other,0.01631383,10.57172467
 1998,Organic chemicals,0.01687282,0.12008287
 1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01237037,0.26820009
 1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00910051,0.21196245
-1998,Food Related,0.00506576,1.66361838
 1998,Pharmaceutical products,0.00404379,0.37664013
-1998,Other,0.01400234,9.19199859
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00203317,0.03609087
+1998,Other,0.01703493,10.81952610
 1999,Organic chemicals,0.02083802,0.12086052
 1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01514624,0.30758964
 1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01002983,0.18954836
-1999,Food Related,0.00490457,1.83979662
 1999,Pharmaceutical products,0.00468054,0.34363863
-1999,Other,0.01454519,8.86900382
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00266185,0.04471304
+1999,Other,0.01678791,10.66408740
 2000,Organic chemicals,0.02616350,0.12916683
 2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01675109,0.31724556
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01092960,0.29508699
 2000,Pharmaceutical products,0.00469343,0.36010226
-2000,Food Related,0.00448801,1.94636293
-2000,Other,0.01664198,9.30169214
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00323547,0.05475734
+2000,Other,0.01789452,11.19329773
 2001,Organic chemicals,0.02955514,0.16741060
 2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01662779,0.35820526
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01044280,0.30334288
@@ -117,8 +117,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2014,Organic chemicals,0.02547013,0.07884853
 2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01299314,0.06701554
 2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01070176,0.31581150
-2014,Food Related,0.01040106,2.32931181
-2014,Other,0.04272474,15.41389386
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00951930,0.12645933
+2014,Other,0.04360650,17.61674635
 2015,Pharmaceutical products,0.04066079,0.38035399
 2015,Organic chemicals,0.02436723,0.09147167
 2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01304379,0.06381339
@@ -129,32 +129,32 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,Organic chemicals,0.03274875,0.10289342
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01547873,0.11696030
 2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01403976,0.07893487
-2016,Food Related,0.00987662,2.61290701
-2016,Other,0.04078336,16.65703478
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00977989,0.32948410
+2016,Other,0.04088009,18.94045768
 2017,Pharmaceutical products,0.05410199,0.40823580
 2017,Organic chemicals,0.02877215,0.06243953
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01741266,0.10878268
 2017,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01463321,0.08073910
-2017,Food Related,0.01020374,2.72484748
-2017,Other,0.04245567,17.09267539
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00914881,0.31927613
+2017,Other,0.04351060,19.49824674
 2018,Pharmaceutical products,0.06181916,0.38533682
 2018,Organic chemicals,0.03607618,0.06028577
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01697532,0.09685233
 2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01697346,0.09747341
-2018,Food Related,0.01054407,2.89223882
-2018,Other,0.04425844,17.52204455
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01006692,0.35515150
+2018,Other,0.04473558,20.05913186
 2019,Pharmaceutical products,0.06090197,0.42338941
 2019,Organic chemicals,0.04329695,0.07216504
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01918855,0.10309792
 2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01842420,0.09260956
-2019,Food Related,0.01048888,2.94732797
-2019,Other,0.04443212,17.33341327
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01019366,0.36867364
+2019,Other,0.04472734,19.91206760
 2020,Pharmaceutical products,0.06708685,0.42521821
 2020,Organic chemicals,0.04448987,0.10059290
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01816075,0.10237465
 2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.01635187,0.08953279
-2020,Food Related,0.01067550,3.00511728
-2020,Other,0.04525023,16.74311465
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01057386,0.35614056
+2020,Other,0.04535187,19.39209138
 2021,Pharmaceutical products,0.07111062,0.37697664
 2021,Organic chemicals,0.03956191,0.05617878
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02852101,0.12291323
@@ -171,5 +171,5 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2023,Organic chemicals,0.04017943,0.08325089
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.02109043,0.14018956
 2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.02048815,0.09069292
-2023,Food Related,0.01126445,2.76979505
-2023,Other,0.05563754,15.81127875
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01092810,0.35994634
+2023,Other,0.05597389,18.22112746

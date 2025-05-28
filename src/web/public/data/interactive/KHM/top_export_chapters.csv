@@ -58,7 +58,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00061073,0.00006181
 2004,Footwear; gaiters and the like; parts of such articles,0.00022849,0.02341713
 2004,Rubber and articles thereof,0.00007929,0.06661491
-2004,Other,0.00032215,0.38984110
+2004,Other,0.00032215,0.38984109
 2005,Apparel and clothing accessories; knitted or crocheted,0.00236923,0.15820001
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00115744,0.06875842
 2005,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",0.00053867,0.00005388
@@ -111,14 +111,14 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00228946,0.09851118
 2013,Footwear; gaiters and the like; parts of such articles,0.00119230,0.05782159
 2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00044574,0.03122582
-2013,Food Related,0.00043833,0.72343039
-2013,Other,0.00180386,10.43367967
+2013,Cereals,0.00032233,0.50578966
+2013,Other,0.00191986,10.65132041
 2014,Apparel and clothing accessories; knitted or crocheted,0.00697185,0.34045551
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00250728,0.10400957
 2014,Footwear; gaiters and the like; parts of such articles,0.00146352,0.07686911
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00046428,0.01133667
-2014,Food Related,0.00043935,0.73664456
-2014,Other,0.00258472,17.22152300
+2014,Wood and articles of wood; wood charcoal,0.00043475,0.36658951
+2014,Other,0.00258932,17.59157804
 2015,Apparel and clothing accessories; knitted or crocheted,0.00725318,0.37347377
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00283497,0.13085306
 2015,Footwear; gaiters and the like; parts of such articles,0.00181688,0.09114204
@@ -135,8 +135,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2017,Apparel and clothing accessories; not knitted or crocheted,0.00334142,0.14983857
 2017,Footwear; gaiters and the like; parts of such articles,0.00224144,0.07679632
 2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00107719,2.37319309
-2017,Food Related,0.00053431,0.94648075
-2017,Other,0.00380802,1.93889321
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00051530,0.02273698
+2017,Other,0.00382703,2.86263698
 2018,Apparel and clothing accessories; knitted or crocheted,0.00936581,0.41415844
 2018,Apparel and clothing accessories; not knitted or crocheted,0.00404019,0.16380611
 2018,Footwear; gaiters and the like; parts of such articles,0.00243807,0.08617547

@@ -3,8 +3,8 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00461867,35.71697695
 1995,Iron and steel,0.00308161,11.83512856
 1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00235218,0.15097361
-1995,Food Related,0.00214107,4.66597354
-1995,Other,0.01892842,16.57456365
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00181928,0.19762251
+1995,Other,0.01925021,21.04291468
 1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00857083,0.59047448
 1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00591489,48.72601744
 1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00304579,0.19937677
@@ -58,7 +58,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00860789,0.69282346
 2004,Iron and steel,0.00810894,22.95323550
 2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00805333,32.66741083
-2004,Other,0.04376735,40.39649009
+2004,Other,0.04376735,40.39649010
 2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.01684659,1.23156375
 2005,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01081759,1.18688279
 2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01065477,35.95369690
@@ -100,7 +100,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2011,Iron and steel,0.02015038,34.19626153
 2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.01741905,1.62501305
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.01562164,0.73220880
-2011,Other,0.10530603,60.68210195
+2011,Other,0.10530603,60.68210196
 2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.03185919,61.24072647
 2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.02676146,1.95671763
 2012,Iron and steel,0.01962256,37.00203640

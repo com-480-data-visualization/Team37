@@ -172,7 +172,8 @@ def adjust_for_inflation(nominal_df, cpi_df, target_year, nominal_col="world_nom
 
 
 def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
-                                year: int, keep_top_n: int) -> pd.DataFrame:
+                                year: int, keep_top_n: int,
+                                merge_food=True) -> pd.DataFrame:
     """
     Build the Top-N+1 (“Other”) rows for one calendar year.
     """
@@ -182,24 +183,26 @@ def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
                             "quantity_mln_metric_tons"]]
         .copy()
     )
-
-    # collapse the very fine-grained food chapters
-    food_rows = tmp[tmp["product_chapter"].isin(FOOD_CHAPTERS)]
-    food_row = {
-        "product_chapter": "Food Related",
-        "value_trln_USD": food_rows["value_trln_USD"].sum(),
-        "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum(),
-    }
-    tmp = tmp[~tmp["product_chapter"].isin(FOOD_CHAPTERS)]
-
     # convert chapters to human-readable names
     tmp = make_human_readable(tmp, cc_df, epc22_df, product_fmt="description")
 
-    # include the aggregated food row, then rank by value
-    tmp = (
-        pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
-        .sort_values("value_trln_USD", ascending=False)
-    )
+    if merge_food:
+        # collapse the very fine-grained food chapters
+        food_rows = tmp[tmp["product_chapter"].isin(FOOD_CHAPTERS)]
+        food_row = {
+            "product_chapter": "Food Related",
+            "value_trln_USD": food_rows["value_trln_USD"].sum(),
+            "quantity_mln_metric_tons": food_rows["quantity_mln_metric_tons"].sum(),
+        }
+        tmp = tmp[~tmp["product_chapter"].isin(FOOD_CHAPTERS)]
+
+        # include the aggregated food row
+        tmp = (
+            pd.concat([tmp, pd.DataFrame([food_row])], ignore_index=True)
+        )
+    
+    # Rank by value
+    tmp = tmp.sort_values("value_trln_USD", ascending=False)
 
     # keep top-N and aggregate everything else into “Other”
     top_n = tmp.iloc[:keep_top_n, :]
@@ -215,7 +218,7 @@ def _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
 
 
 def get_chapter_totals_all_years(chapter_totals, cc_df, epc22_df,
-                                 keep_top_n: int) -> pd.DataFrame:
+                                 keep_top_n: int, merge_food=True) -> pd.DataFrame:
     """
     For every distinct year in *chapter_totals*, compute the Top-N+1 rows
     (including the aggregated “Other” row) and return a single DataFrame
@@ -224,21 +227,21 @@ def get_chapter_totals_all_years(chapter_totals, cc_df, epc22_df,
     years = sorted(chapter_totals["year"].unique())
     per_year_frames = [
         _chapter_totals_single_year(chapter_totals, cc_df, epc22_df,
-                                    year, keep_top_n)
+                                    year, keep_top_n, merge_food=merge_food)
         for year in years
     ]
     return pd.concat(per_year_frames, ignore_index=True)
 
 
 def get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df,
-                                year: int, keep_top_n: int) -> pd.DataFrame:
+                                year: int, keep_top_n: int, merge_food=True) -> pd.DataFrame:
     """
     Compatibility wrapper that delegates to *get_chapter_totals_all_years*
     and then filters for the requested *year*.
     """
     all_years = get_chapter_totals_all_years(chapter_totals,
                                              cc_df, epc22_df,
-                                             keep_top_n)
+                                             keep_top_n, merge_food=merge_food)
     return all_years.loc[all_years["year"] == year].reset_index(drop=True)
 
 import pandas as pd

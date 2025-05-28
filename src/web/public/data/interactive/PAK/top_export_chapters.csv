@@ -2,15 +2,15 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,Cotton,0.00250297,0.73454517
 1995,Apparel and clothing accessories; knitted or crocheted,0.00074909,0.06785092
 1995,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00065703,0.11841919
-1995,Food Related,0.00056258,2.93359471
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00052870,0.05054779
-1995,Other,0.00227785,0.97384242
+1995,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00042421,0.01709229
+1995,Other,0.00241621,3.89034484
 1996,Cotton,0.00288716,1.00106300
 1996,Apparel and clothing accessories; knitted or crocheted,0.00074753,0.06564109
 1996,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00072256,0.13541005
 1996,Apparel and clothing accessories; not knitted or crocheted,0.00053870,0.05238408
-1996,Food Related,0.00045613,1.81653813
-1996,Other,0.00242536,1.03953758
+1996,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",0.00044960,0.01897119
+1996,Other,0.00243189,2.83710452
 1997,Cotton,0.00254013,0.84668771
 1997,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00076811,0.14186785
 1997,Apparel and clothing accessories; knitted or crocheted,0.00074923,0.06583857
@@ -20,156 +20,156 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1998,Cotton,0.00220778,0.81240216
 1998,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00091688,0.18783201
 1998,Apparel and clothing accessories; knitted or crocheted,0.00081199,0.07209093
-1998,Food Related,0.00074123,3.48202899
 1998,Apparel and clothing accessories; not knitted or crocheted,0.00063457,0.06388170
-1998,Other,0.00244371,1.11231576
+1998,Man-made staple fibres,0.00049924,0.15375401
+1998,Other,0.00268570,4.44059074
 1999,Cotton,0.00188587,0.74500060
 1999,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00106659,0.22836856
 1999,Apparel and clothing accessories; knitted or crocheted,0.00088090,0.08190448
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00062752,0.07119302
-1999,Food Related,0.00060603,3.21994579
-1999,Other,0.00225485,1.37891552
+1999,Man-made staple fibres,0.00043336,0.16817216
+1999,Other,0.00242753,4.43068916
 2000,Cotton,0.00225740,1.16168009
 2000,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00114306,0.21873297
 2000,Apparel and clothing accessories; knitted or crocheted,0.00093758,0.07564724
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00072641,0.06422071
-2000,Food Related,0.00052867,2.34599278
-2000,Other,0.00270064,1.79454930
+2000,Man-made staple fibres,0.00052343,0.18624318
+2000,Other,0.00270588,3.95429890
 2001,Cotton,0.00224920,1.17664733
 2001,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00126026,0.25661099
 2001,Apparel and clothing accessories; knitted or crocheted,0.00096727,0.08221966
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00076400,0.07246287
-2001,Food Related,0.00064516,2.87796219
-2001,Other,0.00288827,2.12282723
+2001,Man-made staple fibres,0.00049585,0.17599527
+2001,Other,0.00303759,4.82479415
 2002,Cotton,0.00219002,1.00399254
 2002,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00146906,0.37060514
 2002,Apparel and clothing accessories; knitted or crocheted,0.00107827,0.11723808
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00083112,0.10113878
-2002,Food Related,0.00059808,3.00831950
-2002,Other,0.00285033,1.87263843
+2002,Man-made staple fibres,0.00047045,0.17500951
+2002,Other,0.00297796,4.70594842
 2003,Cotton,0.00266765,0.89041578
 2003,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00213203,0.46542687
 2003,Apparel and clothing accessories; knitted or crocheted,0.00178081,0.13130030
-2003,Food Related,0.00113009,4.46384367
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00112600,0.09795602
-2003,Other,0.00481759,4.25837529
+2003,Cereals,0.00075742,2.41306380
+2003,Other,0.00519026,6.30915516
 2004,Cotton,0.00302615,0.96901155
 2004,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00238187,0.48613006
 2004,Apparel and clothing accessories; knitted or crocheted,0.00209205,0.16645992
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00119229,0.08807558
-2004,Food Related,0.00113555,4.05331408
-2004,Other,0.00551567,4.61379910
+2004,Man-made staple fibres,0.00078924,0.28518096
+2004,Other,0.00586199,8.38193222
 2005,Cotton,0.00313870,1.11731818
 2005,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00257502,0.54690404
 2005,Apparel and clothing accessories; knitted or crocheted,0.00193934,0.16436977
-2005,Food Related,0.00158265,4.49758704
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00125497,0.10943678
-2005,Other,0.00592256,6.07664367
+2005,Cereals,0.00106001,2.89584386
+2005,Other,0.00644520,7.67838686
 2006,Cotton,0.00368857,1.20738232
 2006,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00280334,0.57611173
 2006,Apparel and clothing accessories; knitted or crocheted,0.00199248,0.18510214
-2006,Food Related,0.00173319,4.97898141
 2006,Apparel and clothing accessories; not knitted or crocheted,0.00138752,0.09178463
-2006,Other,0.00701581,6.88063830
+2006,Cereals,0.00117491,3.43484792
+2006,Other,0.00757409,8.42477179
 2007,Cotton,0.00369591,1.18122578
 2007,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00305103,0.62784058
 2007,Apparel and clothing accessories; knitted or crocheted,0.00201070,0.15997532
-2007,Food Related,0.00183909,4.50055812
 2007,Apparel and clothing accessories; not knitted or crocheted,0.00159305,0.09664631
-2007,Other,0.00775008,9.04828730
+2007,Cereals,0.00127877,3.27246724
+2007,Other,0.00831040,10.27637818
 2008,Cotton,0.00375884,1.11421054
-2008,Food Related,0.00349954,5.16865949
 2008,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00316439,0.62337646
+2008,Cereals,0.00261806,3.32015425
 2008,Apparel and clothing accessories; knitted or crocheted,0.00215752,0.12528571
 2008,Apparel and clothing accessories; not knitted or crocheted,0.00167484,0.09270764
-2008,Other,0.00988025,14.18779062
+2008,Other,0.01076173,16.03629586
 2009,Cotton,0.00362130,1.28285119
 2009,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00297720,0.67501055
-2009,Food Related,0.00262867,4.60159122
+2009,Cereals,0.00196639,3.32767019
 2009,Apparel and clothing accessories; knitted or crocheted,0.00180736,0.13614877
 2009,Apparel and clothing accessories; not knitted or crocheted,0.00164925,0.11416091
-2009,Other,0.00831835,16.69918917
+2009,Other,0.00898063,17.97311020
 2010,Cotton,0.00419712,1.30879952
 2010,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00331785,0.69890937
-2010,Food Related,0.00323069,5.41867910
+2010,Cereals,0.00255369,4.41565594
 2010,Apparel and clothing accessories; knitted or crocheted,0.00210396,0.15577929
 2010,Apparel and clothing accessories; not knitted or crocheted,0.00182778,0.09675509
-2010,Other,0.01027761,23.72484698
+2010,Other,0.01095461,24.72787013
 2011,Cotton,0.00550733,1.16566978
-2011,Food Related,0.00455272,8.49299821
 2011,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00378666,0.64123284
+2011,Cereals,0.00325724,6.30993396
 2011,Apparel and clothing accessories; knitted or crocheted,0.00241821,0.16100176
 2011,Apparel and clothing accessories; not knitted or crocheted,0.00225861,0.11401455
-2011,Other,0.01215347,20.21040414
+2011,Other,0.01344896,22.39346839
 2012,Cotton,0.00543681,1.51027656
-2012,Food Related,0.00377014,6.63718648
 2012,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00354016,0.67609956
 2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00268463,0.09149370
+2012,Cereals,0.00232592,4.34278919
 2012,Apparel and clothing accessories; not knitted or crocheted,0.00224792,0.14632684
-2012,Other,0.01209482,18.68414712
+2012,Other,0.01353905,20.97854441
 2013,Cotton,0.00530289,1.40001252
-2013,Food Related,0.00430135,7.30983382
 2013,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00358842,0.71883472
+2013,Cereals,0.00240422,4.28373196
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00235542,0.14449376
 2013,Apparel and clothing accessories; knitted or crocheted,0.00228910,0.16480126
-2013,Other,0.01085058,21.25495343
+2013,Other,0.01274770,24.28105529
 2014,Cotton,0.00487911,1.25878975
 2014,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00428938,0.82480233
-2014,Food Related,0.00426054,6.47615828
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00279195,0.16654444
 2014,Apparel and clothing accessories; knitted or crocheted,0.00262768,0.19794603
-2014,Other,0.01098822,19.47000537
+2014,Cereals,0.00261014,4.08161005
+2014,Other,0.01263862,21.86455359
 2015,Cotton,0.00431982,1.21099277
 2015,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00408775,0.81660090
-2015,Food Related,0.00373854,8.23744247
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00296290,0.17281393
 2015,Apparel and clothing accessories; knitted or crocheted,0.00268343,0.20442600
-2015,Other,0.00939330,17.36413445
+2015,Cereals,0.00207841,4.63543707
+2015,Other,0.01105343,20.96613985
 2016,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00424438,0.87973055
 2016,Cotton,0.00358140,0.95200084
-2016,Food Related,0.00325942,6.12484944
 2016,Apparel and clothing accessories; not knitted or crocheted,0.00307860,0.17473802
 2016,Apparel and clothing accessories; knitted or crocheted,0.00265775,0.18933147
-2016,Other,0.00863734,15.08317149
+2016,Cereals,0.00206300,4.32756936
+2016,Other,0.00983376,16.88045158
 2017,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00440748,0.92097992
-2017,Food Related,0.00381351,6.79990878
 2017,Cotton,0.00354862,0.92985356
 2017,Apparel and clothing accessories; not knitted or crocheted,0.00348254,0.20748549
 2017,Apparel and clothing accessories; knitted or crocheted,0.00303440,0.20770501
-2017,Other,0.00917768,15.03864297
+2017,Cereals,0.00198252,3.83143676
+2017,Other,0.01100867,18.00711499
 2018,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00458179,1.09778259
-2018,Food Related,0.00457488,10.34570992
 2018,Cotton,0.00366288,0.91715234
 2018,Apparel and clothing accessories; not knitted or crocheted,0.00361748,0.20314870
 2018,Apparel and clothing accessories; knitted or crocheted,0.00345588,0.22984261
-2018,Other,0.00967769,15.76527209
+2018,Cereals,0.00274562,6.60206155
+2018,Other,0.01150695,19.50892046
 2019,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00452661,0.93955842
-2019,Food Related,0.00409365,7.86891072
 2019,Apparel and clothing accessories; not knitted or crocheted,0.00379012,0.21660825
 2019,Apparel and clothing accessories; knitted or crocheted,0.00364671,0.21431395
 2019,Cotton,0.00290012,0.68059140
-2019,Other,0.01027878,18.30329344
+2019,Cereals,0.00256189,5.12271847
+2019,Other,0.01181054,21.04948568
 2020,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00443991,1.04184523
 2020,Apparel and clothing accessories; not knitted or crocheted,0.00348695,0.21664143
 2020,Apparel and clothing accessories; knitted or crocheted,0.00346601,0.25671976
-2020,Food Related,0.00321598,5.36041658
 2020,Cotton,0.00266774,0.69964908
-2020,Other,0.00873970,16.53765954
+2020,Cereals,0.00223964,4.21130382
+2020,Other,0.00971604,17.68677230
 2021,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00553810,1.16289859
 2021,Apparel and clothing accessories; knitted or crocheted,0.00497257,0.35806602
 2021,Apparel and clothing accessories; not knitted or crocheted,0.00435813,0.26026125
-2021,Food Related,0.00373029,5.99977611
 2021,Cotton,0.00344821,0.77304382
-2021,Other,0.01151637,18.05094916
+2021,Cereals,0.00241162,4.43189889
+2021,Other,0.01283504,19.61882637
 2022,Apparel and clothing accessories; knitted or crocheted,0.00587625,0.38612168
 2022,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00570889,1.14764720
-2022,Food Related,0.00509266,8.39824787
 2022,Apparel and clothing accessories; not knitted or crocheted,0.00495472,0.28810886
 2022,Cotton,0.00356862,0.71910887
-2022,Other,0.01413683,17.54600799
+2022,Cereals,0.00349509,6.49034069
+2022,Other,0.01573439,19.45391517
 2023,Apparel and clothing accessories; knitted or crocheted,0.00513851,0.32914205
 2023,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",0.00500432,1.03082107
-2023,Food Related,0.00476004,6.98765363
 2023,Apparel and clothing accessories; not knitted or crocheted,0.00434646,0.25828982
 2023,Cotton,0.00303945,0.79361605
-2023,Other,0.01355362,18.74386611
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00296399,3.30380899
+2023,Other,0.01534967,22.42771075

@@ -94,7 +94,7 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2015,Plastics and articles thereof,0.00000830,0.00120107
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00000752,0.00015532
 2015,Ceramic products,0.00000693,0.01291315
-2015,Other,0.00006081,0.01940129
+2015,Other,0.00006081,0.01940128
 2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005373,0.00422214
 2016,Pharmaceutical products,0.00001273,0.00007953
 2016,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000930,0.00183084
@@ -103,43 +103,43 @@ year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 2016,Other,0.00005526,0.02009650
 2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005634,0.00332982
 2017,Pharmaceutical products,0.00001434,0.00009670
-2017,Food Related,0.00000586,0.00071089
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000489,0.00019308
 2017,Apparel and clothing accessories; not knitted or crocheted,0.00000482,0.00010195
-2017,Other,0.00005086,0.01407102
+2017,Miscellaneous edible preparations,0.00000478,0.00029514
+2017,Other,0.00005194,0.01448677
 2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006610,0.00338060
 2018,Pharmaceutical products,0.00001518,0.00010593
-2018,Food Related,0.00000912,0.00066979
+2018,Miscellaneous edible preparations,0.00000766,0.00051191
 2018,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000677,0.00169789
 2018,Chemical products n.e.c.,0.00000518,0.00068013
-2018,Other,0.00005588,0.01680954
+2018,Other,0.00005735,0.01696741
 2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006274,0.00365255
 2019,Pharmaceutical products,0.00001187,0.00014547
-2019,Food Related,0.00001140,0.00087212
+2019,Miscellaneous edible preparations,0.00000736,0.00044593
 2019,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000559,0.00088701
 2019,"Aircraft, spacecraft, and parts thereof",0.00000536,0.00000745
-2019,Other,0.00005737,0.01705408
+2019,Other,0.00006141,0.01748027
 2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006378,0.00362344
-2020,Food Related,0.00002027,0.00143070
+2020,Miscellaneous edible preparations,0.00001622,0.00102647
 2020,Pharmaceutical products,0.00001050,0.00010122
 2020,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00000742,0.00105034
 2020,Apparel and clothing accessories; not knitted or crocheted,0.00000540,0.00009731
-2020,Other,0.00005316,0.01817043
+2020,Other,0.00005721,0.01857467
 2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008302,0.00473409
 2021,Chemical products n.e.c.,0.00002216,0.00052017
-2021,Food Related,0.00002176,0.00151832
+2021,Miscellaneous edible preparations,0.00001988,0.00132004
 2021,Pharmaceutical products,0.00001446,0.00007779
 2021,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00001162,0.00193666
-2021,Other,0.00007120,0.01263333
+2021,Other,0.00007308,0.01283161
 2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009075,0.00489537
-2022,Food Related,0.00001835,0.00142633
+2022,Miscellaneous edible preparations,0.00001752,0.00132948
 2022,Pharmaceutical products,0.00001737,0.00016809
 2022,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",0.00001290,0.00179923
 2022,Plastics and articles thereof,0.00000634,0.00080668
-2022,Other,0.00007765,0.01239901
+2022,Other,0.00007849,0.01249587
 2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008124,0.00596417
-2023,Food Related,0.00002741,0.00112438
+2023,Miscellaneous edible preparations,0.00002606,0.00094982
 2023,Pharmaceutical products,0.00001816,0.00015202
 2023,"Aircraft, spacecraft, and parts thereof",0.00001263,0.00012100
 2023,Plastics and articles thereof,0.00000951,0.00121540
-2023,Other,0.00007531,0.01201942
+2023,Other,0.00007666,0.01219398

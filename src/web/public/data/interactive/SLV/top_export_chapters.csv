@@ -1,175 +1,175 @@
 year,product_chapter,value_trln_USD,quantity_mln_metric_tons
 1995,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00042154,0.12144532
 1995,Apparel and clothing accessories; not knitted or crocheted,0.00016995,0.00731124
-1995,Food Related,0.00015035,0.18913489
 1995,Apparel and clothing accessories; knitted or crocheted,0.00014211,0.00900168
 1995,Pharmaceutical products,0.00007107,0.01188207
-1995,Other,0.00046853,0.33322891
+1995,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00005914,0.03337140
+1995,Other,0.00055974,0.48899240
 1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00038525,0.15069264
 1996,Apparel and clothing accessories; not knitted or crocheted,0.00019779,0.00734454
 1996,Apparel and clothing accessories; knitted or crocheted,0.00018799,0.00708570
-1996,Food Related,0.00012894,0.26510935
 1996,"Aircraft, spacecraft, and parts thereof",0.00010384,0.00000096
-1996,Other,0.00060336,0.48955376
+1996,Pharmaceutical products,0.00009216,0.01324012
+1996,Other,0.00064014,0.74142298
 1997,Apparel and clothing accessories; knitted or crocheted,0.00069810,0.05309235
 1997,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00053906,0.14273721
 1997,Apparel and clothing accessories; not knitted or crocheted,0.00041416,0.01863162
-1997,Food Related,0.00014901,0.31631135
 1997,Pharmaceutical products,0.00007630,0.01815796
-1997,Other,0.00056433,0.54710019
+1997,Sugars and sugar confectionery,0.00006446,0.23609850
+1997,Other,0.00064888,0.62731304
 1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00034659,0.12909459
 1998,Apparel and clothing accessories; knitted or crocheted,0.00031374,0.01064689
-1998,Food Related,0.00020326,0.48671232
 1998,Apparel and clothing accessories; not knitted or crocheted,0.00016976,0.00445374
 1998,Pharmaceutical products,0.00010212,0.01144238
-1998,Other,0.00069891,0.50083882
+1998,Sugars and sugar confectionery,0.00009502,0.43999978
+1998,Other,0.00080714,0.54755137
 1999,Apparel and clothing accessories; knitted or crocheted,0.00043047,0.02253636
 1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00026331,0.11910370
 1999,Apparel and clothing accessories; not knitted or crocheted,0.00023714,0.01093608
-1999,Food Related,0.00018883,0.56456248
 1999,Pharmaceutical products,0.00009945,0.02852124
-1999,Other,0.00070500,0.78780242
+1999,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00007928,0.04865362
+1999,Other,0.00081454,1.30371128
 2000,Apparel and clothing accessories; knitted or crocheted,0.00092420,0.09766750
 2000,Apparel and clothing accessories; not knitted or crocheted,0.00034655,0.02391425
 2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00031589,0.15744616
-2000,Food Related,0.00022250,0.57711216
 2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00015434,0.02357585
-2000,Other,0.00084913,0.74248385
+2000,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00008597,0.05487867
+2000,Other,0.00098566,1.26471734
 2001,Apparel and clothing accessories; knitted or crocheted,0.00120639,0.15136375
 2001,Apparel and clothing accessories; not knitted or crocheted,0.00043974,0.03308290
-2001,Food Related,0.00027629,0.63600335
 2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00015616,0.01333248
 2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00013607,0.09781759
-2001,Other,0.00085253,0.72993396
+2001,Sugars and sugar confectionery,0.00012635,0.48716580
+2001,Other,0.00100248,0.87877152
 2002,Apparel and clothing accessories; knitted or crocheted,0.00145283,0.13598985
 2002,Apparel and clothing accessories; not knitted or crocheted,0.00044892,0.03408480
-2002,Food Related,0.00023799,0.47549559
 2002,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00012918,0.09799729
 2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00012300,0.01640172
-2002,Other,0.00090484,1.07115227
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00011809,0.09878724
+2002,Other,0.00102473,1.44786062
 2003,Apparel and clothing accessories; knitted or crocheted,0.00158812,0.15167291
 2003,Apparel and clothing accessories; not knitted or crocheted,0.00041492,0.03442493
-2003,Food Related,0.00028268,0.61757071
 2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00016099,0.01346313
 2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00014724,0.08286278
-2003,Other,0.00093392,0.98482410
+2003,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00012113,0.09184399
+2003,Other,0.00109546,1.51055082
 2004,Apparel and clothing accessories; knitted or crocheted,0.00152213,0.16061100
 2004,Apparel and clothing accessories; not knitted or crocheted,0.00039578,0.04005566
-2004,Food Related,0.00029424,0.58970458
 2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00021353,0.07968089
 2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00013349,0.08388184
-2004,Other,0.00104040,1.07447985
+2004,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00012835,0.10034283
+2004,Other,0.00120628,1.56384159
 2005,Apparel and clothing accessories; knitted or crocheted,0.00148494,0.16445064
-2005,Food Related,0.00039040,0.70644131
 2005,Apparel and clothing accessories; not knitted or crocheted,0.00029263,0.02615363
 2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00022371,0.01735120
 2005,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00018132,0.08128146
-2005,Other,0.00113338,1.10096783
+2005,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00014096,0.11252041
+2005,Other,0.00138282,1.69488873
 2006,Apparel and clothing accessories; knitted or crocheted,0.00143184,0.15810247
-2006,Food Related,0.00039038,0.62059361
 2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00025647,0.01780971
 2006,Apparel and clothing accessories; not knitted or crocheted,0.00025581,0.02415102
 2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00020344,0.08050773
-2006,Other,0.00139032,1.42643879
+2006,"Beverages, spirits and vinegar",0.00018445,0.29953513
+2006,Other,0.00159626,1.74749728
 2007,Apparel and clothing accessories; knitted or crocheted,0.00148281,0.17699695
-2007,Food Related,0.00047675,0.70146186
 2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00027986,0.01402090
 2007,Apparel and clothing accessories; not knitted or crocheted,0.00025311,0.01885385
 2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00022724,0.08323151
-2007,Other,0.00165522,1.67932397
+2007,"Beverages, spirits and vinegar",0.00021093,0.33164577
+2007,Other,0.00192105,2.04914007
 2008,Apparel and clothing accessories; knitted or crocheted,0.00170410,0.16948153
-2008,Food Related,0.00052783,0.69648976
 2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00029744,0.09981808
 2008,"Beverages, spirits and vinegar",0.00029439,0.54071803
 2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00024541,0.00712841
-2008,Other,0.00199766,1.57128104
+2008,Apparel and clothing accessories; not knitted or crocheted,0.00022201,0.01188590
+2008,Other,0.00230348,2.25588489
 2009,Apparel and clothing accessories; knitted or crocheted,0.00135199,0.13991273
-2009,Food Related,0.00051779,0.68623890
 2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00026214,0.08871328
 2009,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00021178,0.13268272
 2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00020434,0.00642788
-2009,Other,0.00165085,1.27398958
+2009,Apparel and clothing accessories; not knitted or crocheted,0.00019821,0.01374222
+2009,Other,0.00197043,1.94648626
 2010,Apparel and clothing accessories; knitted or crocheted,0.00152294,0.17573173
-2010,Food Related,0.00059287,0.77372520
 2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00035208,0.01121213
 2010,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00025268,0.07260588
 2010,Plastics and articles thereof,0.00024721,0.10068422
-2010,Other,0.00183104,1.24830195
+2010,Apparel and clothing accessories; not knitted or crocheted,0.00022104,0.01463138
+2010,Other,0.00220287,2.00739577
 2011,Apparel and clothing accessories; knitted or crocheted,0.00172992,0.16810171
-2011,Food Related,0.00073391,0.89158959
 2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00049646,0.10491494
 2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00038024,0.00760949
+2011,Sugars and sugar confectionery,0.00028898,0.55511768
 2011,Plastics and articles thereof,0.00028482,0.11116750
-2011,Other,0.00226040,1.49171893
+2011,Other,0.00270533,1.82819083
 2012,Apparel and clothing accessories; knitted or crocheted,0.00181230,0.16082098
-2012,Food Related,0.00078987,0.87194112
 2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00036255,0.01216678
 2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00032935,0.06759938
 2012,Plastics and articles thereof,0.00031120,0.12306777
-2012,Other,0.00220490,1.51585873
+2012,Sugars and sugar confectionery,0.00029806,0.51462243
+2012,Other,0.00269671,1.87317742
 2013,Apparel and clothing accessories; knitted or crocheted,0.00187417,0.16038598
-2013,Food Related,0.00081985,1.15138620
 2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00039108,0.01240923
 2013,Plastics and articles thereof,0.00032909,0.12849923
 2013,Apparel and clothing accessories; not knitted or crocheted,0.00029641,0.01782540
-2013,Other,0.00224573,1.51711257
+2013,Sugars and sugar confectionery,0.00029509,0.75593290
+2013,Other,0.00277050,1.91256588
 2014,Apparel and clothing accessories; knitted or crocheted,0.00181444,0.16113360
-2014,Food Related,0.00076202,0.99325734
 2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00040707,0.01218343
 2014,Plastics and articles thereof,0.00033841,0.13140387
 2014,Apparel and clothing accessories; not knitted or crocheted,0.00029743,0.01618611
-2014,Other,0.00201411,1.41805497
+2014,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00026793,0.15132671
+2014,Other,0.00250820,2.25998559
 2015,Apparel and clothing accessories; knitted or crocheted,0.00198267,0.16270112
-2015,Food Related,0.00076691,1.20178544
 2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00037750,0.00768594
 2015,Plastics and articles thereof,0.00035314,0.14456310
 2015,Apparel and clothing accessories; not knitted or crocheted,0.00029591,0.01608156
-2015,Other,0.00213916,1.49216181
+2015,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00027891,0.15112770
+2015,Other,0.00262716,2.54281955
 2016,Apparel and clothing accessories; knitted or crocheted,0.00194819,0.15599480
-2016,Food Related,0.00070558,1.02286925
 2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00043289,0.01493266
 2016,Plastics and articles thereof,0.00033931,0.15611134
 2016,Apparel and clothing accessories; not knitted or crocheted,0.00028916,0.01528968
-2016,Other,0.00213909,1.64335769
+2016,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00027007,0.14964724
+2016,Other,0.00257460,2.51657970
 2017,Apparel and clothing accessories; knitted or crocheted,0.00201094,0.15354676
-2017,Food Related,0.00079159,1.19106177
 2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00056141,0.00952436
 2017,Plastics and articles thereof,0.00037562,0.17496758
+2017,Sugars and sugar confectionery,0.00032192,0.85866556
 2017,Apparel and clothing accessories; not knitted or crocheted,0.00029689,0.01393594
-2017,Other,0.00232799,1.78401159
+2017,Other,0.00279765,2.11640780
 2018,Apparel and clothing accessories; knitted or crocheted,0.00198890,0.15788854
-2018,Food Related,0.00072389,1.10026805
 2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00065422,0.01258710
 2018,Plastics and articles thereof,0.00037396,0.16633850
 2018,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00030653,0.16179909
-2018,Other,0.00236741,1.53960520
+2018,Apparel and clothing accessories; not knitted or crocheted,0.00028596,0.01266875
+2018,Other,0.00280535,2.62720450
 2019,Apparel and clothing accessories; knitted or crocheted,0.00193652,0.11178725
-2019,Food Related,0.00077916,1.24985744
 2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00050246,0.01081932
 2019,Plastics and articles thereof,0.00040416,0.18913204
 2019,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00033360,0.17853741
-2019,Other,0.00232245,1.50895512
+2019,Sugars and sugar confectionery,0.00027097,0.87764072
+2019,Other,0.00283064,1.88117185
 2020,Apparel and clothing accessories; knitted or crocheted,0.00141885,0.11050841
-2020,Food Related,0.00073003,1.15252917
 2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00038367,0.00869533
 2020,Plastics and articles thereof,0.00038167,0.19196787
 2020,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00029768,0.16808666
-2020,Other,0.00196914,1.30649780
+2020,Sugars and sugar confectionery,0.00025692,0.82974732
+2020,Other,0.00244225,1.62927965
 2021,Apparel and clothing accessories; knitted or crocheted,0.00199713,0.15854457
-2021,Food Related,0.00081647,1.14321841
 2021,Plastics and articles thereof,0.00050687,0.21453625
 2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00045300,0.00994490
 2021,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00036744,0.19378027
-2021,Other,0.00251378,1.58802763
+2021,Sugars and sugar confectionery,0.00030275,0.80896333
+2021,Other,0.00302749,1.92228271
 2022,Apparel and clothing accessories; knitted or crocheted,0.00213562,0.14340409
-2022,Food Related,0.00093215,1.12390137
 2022,Plastics and articles thereof,0.00060848,0.23783748
 2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00051808,0.01321435
 2022,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00042150,0.18269035
-2022,Other,0.00284337,1.66906448
+2022,Sugars and sugar confectionery,0.00033327,0.78344432
+2022,Other,0.00344226,2.00952154
 2023,Apparel and clothing accessories; knitted or crocheted,0.00179315,0.11714308
-2023,Food Related,0.00098012,1.11250788
 2023,Plastics and articles thereof,0.00051117,0.23040000
 2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00043307,0.01385547
 2023,"Paper and paperboard; articles of paper pulp, of paper or paperboard",0.00039256,0.16590374
-2023,Other,0.00264548,1.78159762
+2023,Sugars and sugar confectionery,0.00034128,0.75819552
+2023,Other,0.00328432,2.13590999
