@@ -116,7 +116,7 @@ def produce_interactive_map_csvs(
                   total=len(country_codes),
                   desc="Countries"))
 
-# def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
+# def produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df, n_processes: Optional[int] = None,):
 #     country_codes = list(data_df["exporter"].unique())
 #     product_chapters = list(data_df["product_chapter"].unique())
 
@@ -160,20 +160,20 @@ def produce_interactive_map_csvs(
 #         save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_export_chapters.csv")
 
 
-#         # Produce, for each year, the top N import sources for this country and the top 5 export destinations
-#         # for *each chapter*
-#         # N (countries) x 28 (yrs) x 87 (chapters) = 12k assuming N=5
-#         tmp_imp = make_human_readable(data_df[data_df["importer"] == cc].copy(), 
-#                                       cc_df, epc22_df, 
-#                                       country_fmt="country_iso3")
-#         tmp_exp = make_human_readable(data_df[data_df["exporter"] == cc].copy(), 
-#                                       cc_df, epc22_df, 
-#                                       country_fmt="country_iso3")
-#         keep_top_n = 5
-#         largest_imports = get_top_partners_all_years(tmp_imp, actor="exporter", keep_top_n=keep_top_n)
-#         save_dataframe_to_csv(largest_imports, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_import_srcs.csv")
-#         largest_exports = get_top_partners_all_years(tmp_exp, actor="importer", keep_top_n=keep_top_n)
-#         save_dataframe_to_csv(largest_exports, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_export_dsts.csv")
+#         # # Produce, for each year, the top N import sources for this country and the top 5 export destinations
+#         # # for *each chapter*
+#         # # N (countries) x 28 (yrs) x 87 (chapters) = 12k assuming N=5
+#         # tmp_imp = make_human_readable(data_df[data_df["importer"] == cc].copy(), 
+#         #                               cc_df, epc22_df, 
+#         #                               country_fmt="country_iso3")
+#         # tmp_exp = make_human_readable(data_df[data_df["exporter"] == cc].copy(), 
+#         #                               cc_df, epc22_df, 
+#         #                               country_fmt="country_iso3")
+#         # keep_top_n = 5
+#         # largest_imports = get_top_partners_all_years(tmp_imp, actor="exporter", keep_top_n=keep_top_n)
+#         # save_dataframe_to_csv(largest_imports, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_import_srcs.csv")
+#         # largest_exports = get_top_partners_all_years(tmp_exp, actor="importer", keep_top_n=keep_top_n)
+#         # save_dataframe_to_csv(largest_exports, f"{OUTPUT_DIR_INTERACTIVE}/{country_name}/top_export_dsts.csv")
 
 
 
