@@ -30,7 +30,7 @@ export const FoodSection: React.FC = () => {
       imageSrc: placeholder_yemen,
       imageAlt: 'Yemen Food Dependency',
       description:
-        "In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people.",
+        "PLACEHOLDER: Food Dependence and civil war (shock) - Famine. Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people.",
     },
     {
       id: 'saudi',
@@ -38,7 +38,10 @@ export const FoodSection: React.FC = () => {
       imageSrc: placeholder_saudi,
       imageAlt: 'Saudi Water Conservation',
       description:
-        "Description",
+        "PLACEHOLDER (Trade-offs (water/agriculture) and policy choices): Saudi Arabia's grain story reads like a policy whiplash."+ 
+        "Flush with oil money, the kingdom used fossil-aquifer irrigation to become a net" +
+        "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
+        "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
       plot: <SaudiGrainTrade />, 
     }
   ];
