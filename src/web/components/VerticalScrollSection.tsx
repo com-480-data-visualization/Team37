@@ -21,7 +21,7 @@ export const VerticalScrollSection = ({ title, items }) => {
       </ScrollAnimationWrapper>
       <motion.div style={{ y, position: 'sticky', top: 0 }}>
         {items.map((item, index) => (
-          <ScrollAnimationWrapper style={fullPageStyle}>
+          <ScrollAnimationWrapper key={`${item.title}-${index}`} style={fullPageStyle}>
             <h2>{item.title}</h2>
             {item.content}
           </ScrollAnimationWrapper>

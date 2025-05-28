@@ -234,11 +234,14 @@ export const WorldTradeMap: React.FC = () => {
   const { data: allData, loading } = useData<TradeData[]>('absolute_deficit_2023.csv');
 
   useEffect(() => {
-    if (!chartRef.current || !allData) return;
+    if (!chartRef.current || !allData) {
+      console.log('chartRef or allData not ready', chartRef.current, allData);
+      return;
+    }
+    console.log('allData:', allData);
 
     const chart = echarts.init(chartRef.current);
 
-    worldJson.features.forEach(f => { f.properties.name = f.properties.NAME; });
     echarts.registerMap('world', worldJson as any);
 
     const countryCodeMapping = worldJson.features.reduce((acc, f) => {
@@ -280,7 +283,7 @@ export const WorldTradeMap: React.FC = () => {
     const values = finalMapData.map(item => item.value).filter(v => !isNaN(v));
     const minValue = Math.min(...values);
     const maxValue = Math.max(...values);
-    const maxRange = Math.max(minValue, maxValue)
+    const maxAbs = Math.max(Math.abs(minValue), Math.abs(maxValue));
 
     const option = {
       backgroundColor: '#fff',
@@ -300,8 +303,8 @@ export const WorldTradeMap: React.FC = () => {
       },
       visualMap: {
         left: 'left',
-        min: maxRange,
-        max: -maxRange,
+        min: -maxAbs,
+        max: maxAbs,
         text: ['Surplus', 'Deficit'],
         realtime: false,
         calculable: true,
@@ -317,7 +320,10 @@ export const WorldTradeMap: React.FC = () => {
       }]
     };
 
+    console.log('准备 setOption', option);
     chart.setOption(option);
+    console.log('setOption 完成');
+
     const handleResize = () => chart.resize();
     window.addEventListener('resize', handleResize);
 
@@ -332,10 +338,26 @@ export const WorldTradeMap: React.FC = () => {
   }
 
   return (
-    <div style={{ width: '100%', margin: '20px 0' }}>
-      <div ref={chartRef} style={{
-        width: '100%', height: '800px', backgroundColor: '#fff',
-        borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+    <div style={{ 
+      position: 'relative', 
+      width: '100%', 
+      height: '100%',
+      minHeight: '600px',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#f0f0f0',
+      padding: '20px'
+    }}>
+      <div id="echarts-map" ref={chartRef} style={{
+        width: '90%',
+        height: '600px',
+        backgroundColor: 'red',
+        borderRadius: '8px',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+        position: 'relative',
+        zIndex: 1,
+        border: '2px solid #ff0000'
       }} />
     </div>
   );

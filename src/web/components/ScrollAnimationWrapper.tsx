@@ -64,7 +64,16 @@ export const ScrollAnimationWrapper = ({ children, style = {}, className = '' })
   }, []);
 
   return (
-    <div ref={ref} className={`scroll-section ${className}`} style={{ opacity: 0, ...style }}>
+    <div 
+      ref={ref} 
+      className={`scroll-section ${className}`} 
+      style={{ 
+        opacity: 0, 
+        position: 'relative',
+        width: '100%',
+        ...style 
+      }}
+    >
       {children}
     </div>
   );

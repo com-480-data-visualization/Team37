@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00009834,0.01848392
+1995,Cereals,0.00007241,0.25768903
+1995,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00006851,0.09894050
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004962,0.00434304
+1995,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00004912,0.18835969
+1995,Other,0.00045422,0.62880006
+1996,Cereals,0.00006801,0.19330080
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006554,0.01405226
+1996,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00005897,0.10303174
+1996,"Products of the milling industry; malt, starches, inulin, wheat gluten",0.00005548,0.17785126
+1996,Sugars and sugar confectionery,0.00004561,0.14908206
+1996,Other,0.00046692,0.68220372
+1997,Cereals,0.00008163,0.22409233
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006812,0.01213889
+1997,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00005937,0.09888143
+1997,Apparel and clothing accessories; knitted or crocheted,0.00005143,0.00647739
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004944,0.00469654
+1997,Other,0.00054564,0.92443275
+1998,Cereals,0.00007157,0.23278898
+1998,Apparel and clothing accessories; knitted or crocheted,0.00006474,0.00672390
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006390,0.01214597
+1998,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00005764,0.08704459
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00005420,0.00632604
+1998,Other,0.00057549,1.21032592
+1999,Cereals,0.00009794,0.38094797
+1999,Apparel and clothing accessories; knitted or crocheted,0.00008729,0.00881648
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008064,0.01400779
+1999,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00005788,0.09708388
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004623,0.00521571
+1999,Other,0.00056956,1.36933365
+2000,Apparel and clothing accessories; knitted or crocheted,0.00012778,0.00727455
+2000,Cereals,0.00009538,0.20710216
+2000,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005785,0.00895276
+2000,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00004821,0.09453939
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00004643,0.00549175
+2000,Other,0.00053602,1.41099621
+2001,Apparel and clothing accessories; knitted or crocheted,0.00009703,0.01384361
+2001,Cereals,0.00009277,0.24437067
+2001,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00005243,0.00804878
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00004683,0.00743313
+2001,Rubber and articles thereof,0.00004656,0.04007412
+2001,Other,0.00059104,1.37164719
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012967,0.32470161
+2002,Apparel and clothing accessories; knitted or crocheted,0.00011292,0.01604724
+2002,Cereals,0.00009860,0.41316766
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00006536,0.00991741
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00005503,0.00699073
+2002,Other,0.00065272,1.53165091
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00018886,0.12167985
+2003,Apparel and clothing accessories; knitted or crocheted,0.00014204,0.02074378
+2003,Cereals,0.00012691,0.46317988
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007194,0.01003469
+2003,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00005535,0.05395179
+2003,Other,0.00066869,1.32924819
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00018996,0.38173045
+2004,Apparel and clothing accessories; knitted or crocheted,0.00013519,0.01904500
+2004,Cereals,0.00013167,0.43630715
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00007540,0.00942167
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00006465,0.00773363
+2004,Other,0.00067662,1.34881516
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022340,0.36198427
+2005,Apparel and clothing accessories; knitted or crocheted,0.00015466,0.01857441
+2005,Cereals,0.00014663,0.44897042
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008050,0.00697527
+2005,Fabrics; knitted or crocheted,0.00006823,0.00928076
+2005,Other,0.00083098,1.45230726
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00039701,0.62199658
+2006,Apparel and clothing accessories; knitted or crocheted,0.00023429,0.04056559
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00022134,0.01140473
+2006,Cereals,0.00018833,0.66306843
+2006,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008272,0.01137482
+2006,Other,0.00112698,1.86896794
+2007,Cotton,0.00027421,0.07479384
+2007,Cereals,0.00017204,0.51369143
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00015674,0.01085930
+2007,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00009347,0.12558759
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009176,0.00905351
+2007,Other,0.00121707,1.27055660
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00056554,0.57376716
+2008,Cereals,0.00031031,0.57229448
+2008,Cotton,0.00029840,0.07069997
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00013587,0.01551084
+2008,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00013537,0.13327322
+2008,Other,0.00144543,1.42175376
+2009,Cotton,0.00028823,0.06243442
+2009,Cereals,0.00023811,0.58808337
+2009,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00011105,0.13704900
+2009,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00010680,0.01042154
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00009212,0.00826160
+2009,Other,0.00136603,1.65516619
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00021439,0.02299655
+2010,Cereals,0.00020683,0.41685149
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00020584,0.01571682
+2010,Cotton,0.00019840,0.04513461
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00016762,0.01725137
+2010,Other,0.00202930,2.19903195
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00032617,0.01433317
+2011,Cereals,0.00023626,0.44492950
+2011,Cotton,0.00023261,0.04429674
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00018162,0.02034384
+2011,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00016569,0.14699282
+2011,Other,0.00218309,2.35786365
+2012,Cereals,0.00023600,0.44707796
+2012,Cotton,0.00021988,0.04503123
+2012,Apparel and clothing accessories; knitted or crocheted,0.00017329,0.02153654
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00016940,0.01617901
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00014073,0.04181890
+2012,Other,0.00208987,2.83266450
+2013,Cotton,0.00036344,0.06696338
+2013,Cereals,0.00030126,0.59596922
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00019387,0.01269087
+2013,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00015765,0.17047959
+2013,Iron and steel,0.00014860,0.18726350
+2013,Other,0.00215008,2.79319980
+2014,Cotton,0.00034544,0.05966613
+2014,Cereals,0.00031805,0.63603202
+2014,Plastics and articles thereof,0.00020974,0.07369001
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00018138,0.14045721
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00017273,0.01379095
+2014,Other,0.00253052,3.00030855
+2015,Cereals,0.00029022,0.67773894
+2015,Cotton,0.00023200,0.02827006
+2015,Plastics and articles thereof,0.00021396,0.06109858
+2015,Apparel and clothing accessories; knitted or crocheted,0.00020390,0.03696883
+2015,Iron and steel,0.00015567,0.25181670
+2015,Other,0.00240930,2.81353131
+2016,Cereals,0.00028508,0.64248643
+2016,Plastics and articles thereof,0.00020475,0.05905500
+2016,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00015886,0.17778096
+2016,Apparel and clothing accessories; knitted or crocheted,0.00015575,0.03694915
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00013318,0.01458975
+2016,Other,0.00237013,3.12818023
+2017,Cereals,0.00036795,0.94903585
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00026164,0.28809893
+2017,Apparel and clothing accessories; knitted or crocheted,0.00025187,0.04965103
+2017,Plastics and articles thereof,0.00020685,0.07459522
+2017,Cotton,0.00017566,0.02465726
+2017,Other,0.00268837,3.62405779
+2018,Cereals,0.00032527,0.75511785
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00031837,0.25662519
+2018,Apparel and clothing accessories; knitted or crocheted,0.00022074,0.04401081
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00021520,0.01914116
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00019504,0.02809724
+2018,Other,0.00290510,3.91237698
+2019,Cereals,0.00031451,0.77025990
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00029601,0.25973508
+2019,Apparel and clothing accessories; knitted or crocheted,0.00021992,0.03560250
+2019,Fabrics; knitted or crocheted,0.00018156,0.02779540
+2019,Cotton,0.00017747,0.02330244
+2019,Other,0.00265616,3.81746111
+2020,Cereals,0.00036043,0.82180828
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024166,0.65440481
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00022006,0.03047455
+2020,Plastics and articles thereof,0.00019822,0.09448916
+2020,Iron and steel,0.00017047,0.31709030
+2020,Other,0.00255916,3.71509239
+2021,Cereals,0.00032845,0.71698268
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00030140,0.61245135
+2021,Plastics and articles thereof,0.00023645,0.08751753
+2021,Fabrics; knitted or crocheted,0.00022677,0.03339133
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00021547,0.03149172
+2021,Other,0.00286822,3.97226284
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00052769,0.66534736
+2022,Cereals,0.00036386,0.67856841
+2022,Plastics and articles thereof,0.00022665,0.07737411
+2022,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00021150,0.13636086
+2022,Cotton,0.00018455,0.02130971
+2022,Other,0.00239032,2.52487554
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00054653,0.76878234
+2023,Cereals,0.00044297,0.83471350
+2023,Plastics and articles thereof,0.00019459,0.07977940
+2023,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00017788,0.16216192
+2023,"Preparations of cereals, flour, starch or milk; pastrycooks' products",0.00016817,0.10201203
+2023,Other,0.00219063,2.45495694

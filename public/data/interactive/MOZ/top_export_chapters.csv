@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Pharmaceutical products,0.00008760,0.01083665
+1995,Sugars and sugar confectionery,0.00003094,0.08516958
+1995,Cotton,0.00002952,0.15974807
+1995,Tin; articles thereof,0.00002681,0.00988820
+1995,Cereals,0.00001409,0.06618974
+1995,Other,0.00007262,0.39948368
+1996,Pharmaceutical products,0.00007730,0.00890175
+1996,Tin; articles thereof,0.00004266,0.03411618
+1996,Cotton,0.00002746,0.01535897
+1996,Sugars and sugar confectionery,0.00001619,0.07040590
+1996,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001164,0.04042074
+1996,Other,0.00005201,0.10775584
+1997,Pharmaceutical products,0.00009733,0.01179627
+1997,Cotton,0.00003238,0.01749642
+1997,Tin; articles thereof,0.00003050,0.02348391
+1997,Sugars and sugar confectionery,0.00001816,0.06649836
+1997,Wood and articles of wood; wood charcoal,0.00001272,0.13193942
+1997,Other,0.00008306,0.19531561
+1998,Pharmaceutical products,0.00007892,0.00929324
+1998,Tin; articles thereof,0.00004462,0.03394447
+1998,Cotton,0.00002967,0.01739696
+1998,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001404,0.04683996
+1998,Sugars and sugar confectionery,0.00001180,0.05215611
+1998,Other,0.00008100,0.38964223
+1999,Pharmaceutical products,0.00008546,0.00971411
+1999,Tin; articles thereof,0.00003864,0.02951294
+1999,Cotton,0.00003860,0.02972585
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002003,0.11162116
+1999,Wood and articles of wood; wood charcoal,0.00001468,0.07112570
+1999,Other,0.00008514,0.29891607
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022477,0.39285627
+2000,Pharmaceutical products,0.00011683,0.01346683
+2000,Cotton,0.00006153,0.04520009
+2000,Wood and articles of wood; wood charcoal,0.00003446,0.00919142
+2000,Tin; articles thereof,0.00003421,0.02555437
+2000,Other,0.00021051,0.37880835
+2001,Aluminium and articles thereof,0.00044958,0.29767044
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00026096,0.37967820
+2001,Pharmaceutical products,0.00011821,0.01762991
+2001,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00003548,0.01384221
+2001,Cotton,0.00003438,0.02909565
+2001,Other,0.00012278,0.29555401
+2002,Aluminium and articles thereof,0.00055314,0.38889593
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024884,0.55564507
+2002,Pharmaceutical products,0.00011661,0.01470875
+2002,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00004425,0.01855821
+2002,Wood and articles of wood; wood charcoal,0.00003748,0.00735621
+2002,Other,0.00019582,0.54619912
+2003,Aluminium and articles thereof,0.00065427,0.44338773
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00014979,0.33173317
+2003,Pharmaceutical products,0.00011565,0.01614854
+2003,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00006948,0.04048288
+2003,Cotton,0.00005315,0.17056206
+2003,Other,0.00020766,0.45591302
+2004,Aluminium and articles thereof,0.00199713,0.83620508
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00026033,0.79176841
+2004,Pharmaceutical products,0.00009657,0.01738050
+2004,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00007365,0.03703243
+2004,Sugars and sugar confectionery,0.00004451,0.05876595
+2004,Other,0.00032839,0.75943048
+2005,Aluminium and articles thereof,0.00132028,0.67920937
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00048664,1.07708004
+2005,Pharmaceutical products,0.00011845,0.02808341
+2005,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00009558,0.03827465
+2005,Wood and articles of wood; wood charcoal,0.00006258,0.00770329
+2005,Other,0.00036860,0.87841662
+2006,Aluminium and articles thereof,0.00164771,0.64595926
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00049449,1.12407495
+2006,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00014870,0.05168680
+2006,Pharmaceutical products,0.00010976,0.01540003
+2006,Sugars and sugar confectionery,0.00009089,0.30439280
+2006,Other,0.00045590,0.91739373
+2007,Aluminium and articles thereof,0.00175510,0.62217394
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00067062,2.71335455
+2007,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00016660,0.04734792
+2007,Pharmaceutical products,0.00011035,0.01314924
+2007,Wood and articles of wood; wood charcoal,0.00011007,0.06299065
+2007,Other,0.00054178,0.96441668
+2008,Aluminium and articles thereof,0.00261756,1.00753339
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00060730,2.50569362
+2008,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00015891,0.04164542
+2008,Pharmaceutical products,0.00012483,0.01068150
+2008,Wood and articles of wood; wood charcoal,0.00011188,0.06185800
+2008,Other,0.00070415,1.06641827
+2009,Aluminium and articles thereof,0.00098188,0.52957937
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00066055,3.30374654
+2009,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00018226,0.04187554
+2009,Wood and articles of wood; wood charcoal,0.00009138,0.05944352
+2009,Pharmaceutical products,0.00008932,0.00949004
+2009,Other,0.00076145,1.04499268
+2010,Aluminium and articles thereof,0.00241852,1.20225298
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00063542,0.92914768
+2010,"Ores, slag and ash",0.00020598,0.72028485
+2010,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00018896,0.04153519
+2010,Wood and articles of wood; wood charcoal,0.00017020,0.48823707
+2010,Other,0.00070437,0.86486319
+2011,Aluminium and articles thereof,0.00252275,0.82057245
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00123716,3.70232657
+2011,"Ores, slag and ash",0.00029958,1.20697155
+2011,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00025741,0.05690865
+2011,Wood and articles of wood; wood charcoal,0.00024714,0.54285062
+2011,Other,0.00111347,1.29896889
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00236169,8.23463624
+2012,Aluminium and articles thereof,0.00198045,0.53013668
+2012,"Ores, slag and ash",0.00032883,0.87415619
+2012,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00025187,0.05891276
+2012,Wood and articles of wood; wood charcoal,0.00022357,0.60458057
+2012,Other,0.00134747,1.62634373
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00301543,11.80755757
+2013,Aluminium and articles thereof,0.00224413,0.64010229
+2013,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00034385,0.07338426
+2013,Wood and articles of wood; wood charcoal,0.00024101,0.89355653
+2013,"Ships, boats and floating structures",0.00023331,0.00330323
+2013,Other,0.00158510,2.47368545
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00272865,12.53577677
+2014,Aluminium and articles thereof,0.00227832,0.61640315
+2014,Chemical products n.e.c.,0.00043873,3.23867919
+2014,Wood and articles of wood; wood charcoal,0.00040777,1.19492740
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00033450,0.16472876
+2014,Other,0.00169427,66.24035257
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00201534,13.27307519
+2015,Aluminium and articles thereof,0.00191512,1.18638825
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00035154,0.12834890
+2015,Wood and articles of wood; wood charcoal,0.00029989,0.93747519
+2015,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00029044,0.06648497
+2015,Other,0.00126171,2.59411978
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00186620,78.65584029
+2016,Aluminium and articles thereof,0.00136563,0.84148534
+2016,Chemical products n.e.c.,0.00045512,3.20825941
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00043413,0.18791710
+2016,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00028302,0.06112134
+2016,Other,0.00124576,2.72873171
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00436617,31.18192764
+2017,Aluminium and articles thereof,0.00167086,0.76770973
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00044893,0.19008504
+2017,Wood and articles of wood; wood charcoal,0.00031281,1.00851337
+2017,"Ores, slag and ash",0.00027274,1.32812948
+2017,Other,0.00130073,189.94559248
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00473444,23.30553456
+2018,Aluminium and articles thereof,0.00221265,1.04802783
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00050207,0.23904037
+2018,"Beverages, spirits and vinegar",0.00048808,0.00933885
+2018,"Ores, slag and ash",0.00038938,1.72210081
+2018,Other,0.00179445,3.58842186
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00325166,531.04775953
+2019,Aluminium and articles thereof,0.00142357,0.61490607
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00067693,0.21950380
+2019,"Ores, slag and ash",0.00036038,1.56515297
+2019,Wood and articles of wood; wood charcoal,0.00031760,0.83301043
+2019,Other,0.00150277,7.75887837
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00199337,228.79890209
+2020,Aluminium and articles thereof,0.00147954,0.54712255
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00060352,0.25681167
+2020,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00033038,0.06453918
+2020,"Ores, slag and ash",0.00030918,1.64382012
+2020,Other,0.00143315,2.73341288
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00331261,115.16809815
+2021,Aluminium and articles thereof,0.00220405,0.44240351
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00095698,0.30188111
+2021,"Ores, slag and ash",0.00049927,1.22463209
+2021,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00027021,0.06997376
+2021,Other,0.00200723,3.61404257
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00622097,28.26162322
+2022,Aluminium and articles thereof,0.00230651,0.57072727
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00143635,0.56013269
+2022,"Ores, slag and ash",0.00057912,1.26651923
+2022,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00030289,0.24832909
+2022,Other,0.00203618,2.84262035
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00595373,25.35994830
+2023,Aluminium and articles thereof,0.00169875,0.65511371
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00152251,0.36358832
+2023,"Ores, slag and ash",0.00065184,1.63478736
+2023,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",0.00038709,0.36088493
+2023,Other,0.00154319,3.63472964
