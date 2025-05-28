@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import * as echarts from 'echarts';
-import {useData} from '../hooks/useData';
-import worldJson from '../assets/world.json';
+import {useData} from '../../hooks/useData';
+import worldJson from '../../assets/world.json';
 
 
 // TODO: refactor and merge non-interactive maps to avoid duplication.

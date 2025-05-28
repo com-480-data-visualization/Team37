@@ -237,10 +237,10 @@ def produce_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
     # save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR}/chapter_totals_{year}.csv")
 
     # produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
-    produce_interactive_map_csvs_parallel(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df, n_processes=6)
+    # produce_interactive_map_csvs_parallel(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df, n_processes=6)
 
 
-    produce_country_specific_csvs(ata_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
+    produce_country_specific_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
 
 
 if __name__ == "__main__":

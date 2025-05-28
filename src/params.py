@@ -3,6 +3,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR = os.path.abspath(os.path.join(BASE_DIR, ".."))
 OUTPUT_DIR = os.path.join(BASE_DIR, "web/public/data")
 OUTPUT_DIR_INTERACTIVE = os.path.join(OUTPUT_DIR, "interactive")
+OUTPUT_DIR_COUNTRY = os.path.join(OUTPUT_DIR, "country_specific")
 DATA_DIR = os.path.join(PARENT_DIR, "data/BACI_HS92_V202501")
 OTHER_DATA_DIR = os.path.join(PARENT_DIR, "data")
 datayears = [str(y) for y in list(range(1995, 2024))]

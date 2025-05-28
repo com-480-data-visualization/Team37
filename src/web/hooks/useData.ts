@@ -21,7 +21,8 @@ export function useData<T>(filename: string) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const csvText = await response.text();
-        console.log('CSV content:', csvText.slice(0, 200));
+        console.log("Fetched CSV: ", filename)
+        // console.log('CSV content:', csvText.slice(0, 200));
         
         Papa.parse(csvText, {
           header: true,
@@ -29,22 +30,22 @@ export function useData<T>(filename: string) {
           skipEmptyLines: true,
           complete: (results) => {
             if (results.errors.length > 0) {
-              console.warn('CSV parsing errors:', results.errors);
+              console.warn('CSV parsing errors while parsing:', filename, "  ", results.errors);
             }
-            console.log('Parsed data:', results.data);
+            // console.log('Parsed data:', results.data);
             // 强Force conversion of the value_trln_USD field to a number
             const fixedData = (results.data as any[]).map(row => ({
               ...row,
               value_trln_USD: Number(row.value_trln_USD)
             }));
-            if (filename === 'absolute_deficit_all_years.csv') {
-              console.log('【主地图数据 after fix】', fixedData.slice(0, 10));
-            }
+            // if (filename === 'absolute_deficit_all_years.csv') {
+            //   console.log('【主地图数据 after fix】', fixedData.slice(0, 10));
+            // }
             setData(fixedData as T);
             setLoading(false);
           },
           error: (error) => {
-            console.error('CSV parsing error:', error);
+            console.error('CSV parsing error while parsing:', filename, "  ", error);
             setError(error.message);
             setLoading(false);
           }

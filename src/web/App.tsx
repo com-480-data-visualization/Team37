@@ -6,7 +6,7 @@ import { TradeWeightChart } from "./components/TradeWeightChart";
 import { TradeBalanceDistribution } from "./components/TradeBalanceDistribution";
 import { WorldTradeMapAnimated } from "./components/WorldTradeMapAnimated";
 import { ChapterTotalsBarChart } from "./components/ChapterTotalsBarChart";
-import { FoodSection } from './components/FoodSection';
+import { FoodSection } from './components/food/FoodSection';
 import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
@@ -14,7 +14,7 @@ import { ZoomScroll } from './components/ZoomScroll'
 
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
-import { FoodTradeMap } from "./components/FoodTradeMap";
+import { FoodTradeMap } from "./components/food/FoodTradeMap";
 
 /* TODO: TMP */
 import placeholder_cars from './assets/tmp_cars_world.png';
@@ -26,7 +26,6 @@ const App: React.FC = () => {
         <section className="intro">
           <header>
             <h1>The Flow of Goods Around the World</h1>
-            <h2>(Work in progress)</h2>
             <p className="description-text">In 2025, the collective brain of humanity turned its attention to the difference between where goods like food and cars are <i>made</i> and where they are <i>consumed</i>.
               Motivated by the desire to reduce transportation emissions or by national security concerns, humanity appears to be peeking under the hood of the global trade system, with the subject debated everywhere from government circles to taxi rides.
               <br />
