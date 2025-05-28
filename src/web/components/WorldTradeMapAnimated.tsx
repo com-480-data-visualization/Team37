@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 import * as echarts from 'echarts';
 import {useData} from '../hooks/useData';
 import worldJson from '../assets/world.json';
@@ -228,36 +228,32 @@ interface TradeData {
     value_bln_USD: number;
 }
 
-export const WorldTradeMapAnimated: React.FC = () => {
+interface WorldTradeMapAnimatedProps {
+  selectedCountry: string | null;
+  onCountrySelect: (country: string) => void;
+  selectedYear: string;
+  selectedProductChapter: string;
+}
+
+export const WorldTradeMapAnimated: React.FC<WorldTradeMapAnimatedProps> = ({
+  selectedCountry,
+  onCountrySelect,
+  selectedYear,
+  selectedProductChapter
+}) => {
     const chartRef = useRef<HTMLDivElement>(null);
     const { data: allData, loading } = useData<TradeData[]>('absolute_deficit_all_years.csv');
-    const [year, setYear] = useState<string>('2023');
-    const [playing, setPlaying] = useState(false);
-
-    const years = React.useMemo(() => {
-        if (!allData) return [];
-        const set = new Set<string>();
-        allData.forEach(item => set.add(item.year));
-        return Array.from(set).sort();
-    }, [allData]);
-
-    useEffect(() => {
-        if (!playing || years.length === 0) return;
-        const idx = years.indexOf(year);
-        if (idx === -1) return;
-        const timer = setTimeout(() => {
-            setYear(years[(idx + 1) % years.length]);
-        }, 1200);
-        return () => clearTimeout(timer);
-    }, [playing, year, years]);
 
     useEffect(() => {
         if (!chartRef.current || !allData) return;
         const chart = echarts.init(chartRef.current);
-        worldJson.features.forEach(f => f.properties.name = f.properties.NAME);
         echarts.registerMap('world', worldJson as any);
 
-        const yearData = allData.filter(item => String(item.year) === String(year));
+        console.log('原始数据:', allData.slice(0, 5));
+
+        // 只筛选当前年份
+        const yearData = allData.filter(item => String(item.year) === String(selectedYear));
+        console.log('年份筛选后:', yearData.slice(0, 5));
 
         const codeToName: Record<string, string> = {};
         worldJson.features.forEach(f => {
@@ -285,79 +281,129 @@ export const WorldTradeMapAnimated: React.FC = () => {
         };
 
         const mapData = yearData.map(item => {
+            const value = Number(item.value_bln_USD);
+            if (isNaN(value)) {
+                console.warn('无效的数值:', item);
+                return null;
+            }
             let name = matchCountryName(item.country, item.country);
             const geoName = geoNameMap[name.toLowerCase()];
-            return { name: geoName || name, value: Number(item.value_bln_USD) || 0 };
-        });
+            return { name: geoName || name, value };
+        }).filter((item): item is { name: string; value: number } => item !== null);
+
+        console.log('地图数据:', mapData.slice(0, 5));
 
         const geoNames = worldJson.features.map(f => f.properties?.NAME).filter(Boolean);
         const geoNamesSet = new Set(geoNames.map(n => n.toLowerCase()));
         const filteredMapData = mapData.filter(item => geoNamesSet.has(item.name.toLowerCase()));
-
         const finalMapData = filteredMapData.length > 0 ? filteredMapData : mapData;
-        const values = finalMapData.map(item => item.value).filter(v => !isNaN(v));
-        const minValue = Math.min(...values);
-        const maxValue = Math.max(...values);
-        const maxRange = Math.max(minValue, maxValue)
+
+        console.log('过滤后数据:', finalMapData.slice(0, 5));
+
+        // 数据处理
+        const finalMapDataFixed = finalMapData.map(item => {
+            const countryName = matchCountryName(item.name, countryCodeToName[item.name] || item.name);
+            const value = parseFloat(item.value?.toString() || '0');
+            if (isNaN(value)) {
+                console.warn('无效的数值:', item);
+                return null;
+            }
+            return {
+                name: countryName,
+                value: value
+            };
+        }).filter((item): item is { name: string; value: number } => item !== null);
+
+        console.log('最终数据:', finalMapDataFixed.slice(0, 5));
+
+        const values = finalMapDataFixed.map(item => item.value).filter(v => !isNaN(v));
+        console.log('数值范围:', values.slice(0, 5));
+
+        const minValue = values.length ? Math.min(...values) : -1;
+        const maxValue = values.length ? Math.max(...values) : 1;
+        // 保证 maxRange 至少为1，且不是NaN
+        const maxRange = Math.max(Math.abs(minValue), Math.abs(maxValue), 1);
+
+        console.log('数据范围:', { minValue, maxValue, maxRange });
 
         const option = {
             backgroundColor: '#fff',
             title: {
-                text: `Trade Balance in Nominal USD (${year})`,
-                // subtext: 'Unit: Billion USD',
+                text: `Trade Balance in Nominal USD (${selectedYear})`,
                 left: 'center',
                 top: 20,
                 textStyle: { color: '#333', fontSize: 20 }
             },
             tooltip: {
                 trigger: 'item',
-                formatter: params => `${params.name}<br/>Trade ${params.value >= 0 ? 'Surplus' : 'Deficit'}: ${params.value.toFixed(2)} Billion USD`
+                formatter: (params: any) => {
+                    if (!params || !params.data) {
+                        return `${params.name}<br/>No data available`;
+                    }
+                    const value = params.data.value;
+                    if (typeof value !== 'number' || isNaN(value)) {
+                        return `${params.name}<br/>No data available`;
+                    }
+                    return `${params.name}<br/>Trade ${value >= 0 ? 'Surplus' : 'Deficit'}: ${value.toFixed(2)} 十亿美元`;
+                }
             },
             visualMap: {
-                left: 'left',
-                min: maxRange,
-                max: -maxRange,
-                text: ['Surplus', 'Deficit'],
+                min: -maxRange,
+                max: maxRange,
+                text: ['High', 'Low'],
                 realtime: false,
                 calculable: true,
-                inRange: { color: ['#ff0000', '#ffffff', '#0000ff'] }
+                inRange: {
+                    color: ['#ff0000', '#ffffff', '#00ff00']
+                }
             },
-            series: [{
-                name: 'Trade Balance',
-                type: 'map',
-                map: 'world',
-                roam: false,
-                emphasis: { label: { show: true } },
-                data: finalMapData
-            }]
+            series: [
+                {
+                    name: 'World Trade',
+                    type: 'map',
+                    map: 'world',
+                    roam: true,
+                    emphasis: {
+                        label: {
+                            show: true
+                        }
+                    },
+                    data: finalMapDataFixed
+                }
+            ]
         };
-
         chart.setOption(option);
+
+        // 高亮选中
+        if (selectedCountry) {
+          chart.dispatchAction({
+            type: 'mapSelect',
+            name: selectedCountry
+          });
+        }
+
+        // 点击事件
+        chart.off('click');
+        chart.on('click', (params: any) => {
+          if (params.name) {
+            onCountrySelect(params.name);
+          }
+        });
+
         const handleResize = () => chart.resize();
         window.addEventListener('resize', handleResize);
         return () => {
             window.removeEventListener('resize', handleResize);
             chart.dispose();
         };
-    }, [allData, year]);
+    }, [allData, selectedYear, selectedCountry, onCountrySelect]);
 
     if (loading) return <div>Loading...</div>;
 
     return (
         <div style={{ width: '100%', margin: '20px 0' }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <button onClick={() => setPlaying(prev => !prev)} style={{ marginRight: 10 }}>
-                    {playing ? 'Pause' : 'Play'}
-                </button>
-                <input
-                    type="range"
-                    min={0}
-                    max={years.length - 1}
-                    value={years.indexOf(year)}
-                    onChange={e => setYear(years[Number(e.target.value)])}
-                    style={{ flex: 1 }}
-                />
-                <span style={{ marginLeft: 10, fontWeight: 'bold' }}>{year}</span>
+                {/* 这里可以加年份/类别选择器 */}
             </div>
             <div ref={chartRef} style={{
                 width: '100%', height: '600px', backgroundColor: '#fff', borderRadius: '8px',

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { WorldTradeMap } from "./components/WorldTradeMap";
 import { TradeTrendChart } from "./components/TradeTrendChart";
 import { TradeGDPChart } from "./components/TradeGDPChart";
@@ -11,6 +11,7 @@ import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
 import { ZoomScroll } from './components/ZoomScroll'
+import { SankeyTradeFlow } from "./components/SankeyTradeFlow";
 
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
@@ -20,6 +21,11 @@ import { FoodTradeMap } from "./components/FoodTradeMap";
 import placeholder_cars from './assets/tmp_cars_world.png';
 
 const App: React.FC = () => {
+  // 全局状态
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [selectedYear, setSelectedYear] = useState<string>('2023');
+  const [selectedProductChapter, setSelectedProductChapter] = useState<string>('incl all');
+
   return (
     <div className="app">
         <ScrollAnimationWrapper style={fullPageStyle}>
@@ -81,7 +87,24 @@ const App: React.FC = () => {
 
         <ScrollAnimationWrapper style={fullPageStyle}>
           <ZoomScroll items={[
-            { title: "In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.", content: <WorldTradeMap /> },
+            {
+              title: "In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.",
+              content: <>
+                <WorldTradeMapAnimated
+                  selectedCountry={selectedCountry}
+                  onCountrySelect={setSelectedCountry}
+                  selectedYear={selectedYear}
+                  selectedProductChapter={selectedProductChapter}
+                />
+                {selectedCountry && (
+                  <SankeyTradeFlow
+                    country={selectedCountry}
+                    year={selectedYear}
+                    productChapter={selectedProductChapter}
+                  />
+                )}
+              </>
+            },
           ]} />
         </ScrollAnimationWrapper>
 

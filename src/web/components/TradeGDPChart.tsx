@@ -193,50 +193,50 @@ export const TradeGDPChart: React.FC = () => {
               onClick={() => setSelectedPoint(null)}
             />
             {/* Popup */}
-            <div style={{
-              position: 'absolute',
-              top: '50%',
+        <div style={{
+          position: 'absolute',
+          top: '50%',
               left: `${safePercent}%`,
-              transform: 'translate(-50%, -50%)',
-              backgroundColor: 'white',
-              padding: '20px',
-              borderRadius: '8px',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-              zIndex: 1000,
+          transform: 'translate(-50%, -50%)',
+          backgroundColor: 'white',
+          padding: '20px',
+          borderRadius: '8px',
+          boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+          zIndex: 1000,
               maxWidth: '200px',
               transition: 'left 0.3s ease-in-out'
-            }}>
-              <button 
-                onClick={() => setSelectedPoint(null)}
-                style={{
-                  position: 'absolute',
-                  top: '10px',
-                  right: '10px',
-                  background: 'none',
-                  border: 'none',
-                  fontSize: '18px',
-                  cursor: 'pointer'
-                }}
-              >
-              </button>
+        }}>
+          <button 
+            onClick={() => setSelectedPoint(null)}
+            style={{
+              position: 'absolute',
+              top: '10px',
+              right: '10px',
+              background: 'none',
+              border: 'none',
+              fontSize: '18px',
+              cursor: 'pointer'
+            }}
+          >
+          </button>
               <h3 style={{ marginTop: 0, fontSize: '1.05rem', lineHeight: 1.2 }}>
-                {eventData[selectedPoint.year].title} ({selectedPoint.year})
-              </h3>
+            {eventData[selectedPoint.year].title} ({selectedPoint.year})
+          </h3>
               <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>{eventData[selectedPoint.year].description}</p>
               <a href={eventData[selectedPoint.year].newsUrl} target="_blank" rel="noopener noreferrer">
-                <img 
-                  src={eventData[selectedPoint.year].imageUrl} 
-                  alt={eventData[selectedPoint.year].title}
-                  style={{ 
-                    width: '100%', 
-                    borderRadius: '4px',
+          <img 
+            src={eventData[selectedPoint.year].imageUrl} 
+            alt={eventData[selectedPoint.year].title}
+            style={{ 
+              width: '100%', 
+              borderRadius: '4px',
                     margin: '10px auto',
                     display: 'block'
-                  }}
-                />
+            }}
+          />
               </a>
               <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>Trade: {selectedPoint.value.toFixed(2)}% of GDP</p>
-            </div>
+        </div>
           </>
         );
       })()}
@@ -464,16 +464,16 @@ const TradeGDPChartWithScroll = ({ tradeData }) => {
             </h3>
             <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>{eventData[eventYears[activeEventIndex]].description}</p>
             <a href={eventData[eventYears[activeEventIndex]].newsUrl} target="_blank" rel="noopener noreferrer">
-              <img 
-                src={eventData[eventYears[activeEventIndex]].imageUrl} 
+            <img 
+              src={eventData[eventYears[activeEventIndex]].imageUrl} 
                 alt={eventData[eventYears[activeEventIndex]].title}
-                style={{ 
+              style={{ 
                   width: '100%', 
-                  borderRadius: '4px',
-                  margin: '10px auto',
-                  display: 'block'
-                }}
-              />
+                borderRadius: '4px',
+                margin: '10px auto',
+                display: 'block'
+              }} 
+            />
             </a>
             <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>
               <strong>Trade:</strong> {
