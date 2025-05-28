@@ -7,6 +7,7 @@ import { TradeBalanceDistribution } from "./components/TradeBalanceDistribution"
 import { WorldTradeMapAnimated } from "./components/WorldTradeMapAnimated";
 import { ChapterTotalsBarChart } from "./components/ChapterTotalsBarChart";
 import { FoodSection } from './components/food/FoodSection';
+import { FuelSection } from './components/fuel/FuelSection';
 import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
@@ -15,6 +16,7 @@ import { ZoomScroll } from './components/ZoomScroll'
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
 import { FoodTradeMap } from "./components/food/FoodTradeMap";
+import { FuelTradeMap } from "./components/fuel/FuelTradeMap";
 
 /* TODO: TMP */
 import placeholder_cars from './assets/tmp_cars_world.png';
@@ -108,6 +110,7 @@ const App: React.FC = () => {
         </section> */}
 
         <FoodSection />
+        <FuelSection />
 
         {/* <section>
           <h2>Trade Balance Trends</h2>
