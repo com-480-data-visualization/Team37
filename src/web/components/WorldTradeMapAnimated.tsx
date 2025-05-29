@@ -269,6 +269,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const exportsChartRef = useRef<HTMLDivElement>(null);
     // Ref for sankey diagram
     const [sankeyChartRef] = useState(useRef<HTMLDivElement>(null));
+    // Ref for the line plot
+    const linePlotRef = useRef<HTMLDivElement>(null);
 
     const { data: allData, loading: deficitLoading } = useData<TradeData[]>('absolute_deficit_all_years.csv');
     const { data: rawChapterMappings, loading: chaptersLoading } = useData<any[]>('interactive/prod_chap_to_description.csv');
@@ -290,6 +292,47 @@ export const WorldTradeMapAnimated: React.FC = () => {
     // State for sankey diagram (top import/export countries)
     const [topImportSources, setTopImportSources] = useState<Record<string, any[]>>({});
     const [topExportSources, setTopExportSources] = useState<Record<string, any[]>>({});
+
+    // State for lineplot
+    const [linePlotData, setLinePlotData] = useState<{ year: string, imports: number, exports: number }[]>([]);
+
+    const loadLinePlotData = async (countryCode: string, productChapter: string) => {
+        if (!countryCode || !productChapter) {
+            setLinePlotData([]);
+            return;
+        }
+
+        try {
+            const response = await fetch(`/Team37/data/interactive/${countryCode}/surplus_deficit_by_chapter.csv`);
+            if (!response.ok) throw new Error('Failed to fetch data');
+
+            const text = await response.text();
+            const lines = text.split('\n').filter(line => line.trim() !== '');
+            const headers = lines[0].split(',').map(h => h.trim());
+
+            const data = lines.slice(1)
+                .map(line => {
+                    const values = line.split(',');
+                    const entry: any = {};
+                    headers.forEach((header, i) => {
+                        entry[header] = values[i];
+                    });
+                    return entry as ProductTradeData;
+                })
+                .filter(item => item.product_chapter === productChapter)
+                .map(item => ({
+                    year: item.year,
+                    imports: parseFloat(item.imports_trln_USD || '0'),
+                    exports: parseFloat(item.exports_trln_USD || '0')
+                }))
+                .sort((a, b) => parseInt(a.year) - parseInt(b.year));
+
+            setLinePlotData(data);
+        } catch (error) {
+            console.error('Error loading line plot data:', error);
+            setLinePlotData([]);
+        }
+    };
 
     const parseAndAggregateTradeSources = (text: string) => {
         const lines = text.split('\n').filter(line => line.trim() !== '');
@@ -446,6 +489,76 @@ export const WorldTradeMapAnimated: React.FC = () => {
             setLoadingTopData(false);
         }
     };
+
+    const getChapterDescription = (chapterCode: string) => {
+        const chapter = productChapters.find(c => c.product_chapter === chapterCode);
+        return chapter ? chapter.description : `Chapter ${chapterCode}`;
+    };
+
+    // lineplot useEffects
+    useEffect(() => {
+        if (selectedCountry && selectedProduct) {
+            loadLinePlotData(selectedCountry, selectedProduct);
+        }
+    }, [selectedCountry, selectedProduct]);
+
+    useEffect(() => {
+        if (!linePlotRef.current || linePlotData.length === 0) return;
+
+        const chart = echarts.init(linePlotRef.current);
+        const option = {
+            title: {
+                text:  `Trade Over Time - ${codeToName[selectedCountry || ''] || selectedCountry} (${getChapterDescription(selectedProduct)})`,
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'axis',
+                formatter: (params: any) => {
+                    const year = params[0].axisValue;
+                    const imports = params[0].data;
+                    const exports = params[1].data;
+                    return `Year: ${year}<br/>` +
+                        `Imports: ${imports.toFixed(6)} Trln USD<br/>` +
+                        `Exports: ${exports.toFixed(6)} Trln USD`;
+                }
+            },
+            legend: {
+                data: ['Imports', 'Exports'],
+                bottom: 0
+            },
+            xAxis: {
+                type: 'category',
+                data: linePlotData.map(item => item.year),
+                name: 'Year'
+            },
+            yAxis: {
+                type: 'value',
+                name: 'Value (Trillion USD)'
+            },
+            series: [
+                {
+                    name: 'Imports',
+                    type: 'line',
+                    data: linePlotData.map(item => item.imports),
+                    itemStyle: { color: '#FF6B6B' },
+                    lineStyle: { width: 3 }
+                },
+                {
+                    name: 'Exports',
+                    type: 'line',
+                    data: linePlotData.map(item => item.exports),
+                    itemStyle: { color: '#4C6FB1' },
+                    lineStyle: { width: 3 }
+                }
+            ]
+        };
+
+        chart.setOption(option);
+
+        return () => {
+            chart.dispose();
+        };
+    }, [linePlotData, selectedCountry, selectedProduct]);
 
     useEffect(() => {
         if (!sankeyChartRef.current || !selectedCountry) return;
@@ -973,89 +1086,207 @@ export const WorldTradeMapAnimated: React.FC = () => {
     }
 
     return (
-        <div style={{ width: '100%', margin: '20px 0' }}>
-            <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
-                <button onClick={() => setPlaying(prev => !prev)} style={{ marginRight: 10 }}>
-                    {playing ? 'Pause' : 'Play'}
-                </button>
-                <input
-                    type="range"
-                    min={0}
-                    max={years.length - 1}
-                    value={years.indexOf(year)}
-                    onChange={e => setYear(years[Number(e.target.value)])}
-                    style={{ flex: 1 }}
-                />
-                <span style={{ marginLeft: 10, fontWeight: 'bold' }}>{year}</span>
-                
-                <select 
-                    value={selectedProduct}
-                    onChange={(e) => {
-                        setSelectedProduct(e.target.value);
-                        setCurrentView('product');
-                    }}
-                    style={{ marginLeft: 20, padding: '5px 10px', minWidth: '300px' }}
-                >
-                    <option value="">-- Show Total Trade Balance --</option>
-                    {productChapters.map(chapter => (
-                        <option key={chapter.product_chapter} value={chapter.product_chapter}>
-                            {chapter.description}
-                        </option>
-                    ))}
-                </select>
+        <div style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+            {/* Top Section (70% height) */}
+            <div style={{ display: 'flex', height: '70%', gap: '20px' }}>
+                {/* Left Panel (30% width) */}
+                <div style={{ width: '30%', display: 'flex', flexDirection: 'column' }}>
+                    {/* Controls (50% height) */}
+                    <div style={{ height: '50%', padding: '10px', display: 'flex', flexDirection: 'column' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+                            <button onClick={() => setPlaying(prev => !prev)} style={{ marginRight: '10px' }}>
+                                {playing ? 'Pause' : 'Play'}
+                            </button>
+                            <input
+                                type="range"
+                                min={0}
+                                max={years.length - 1}
+                                value={years.indexOf(year)}
+                                onChange={e => setYear(years[Number(e.target.value)])}
+                                style={{ flex: 1 }}
+                            />
+                            <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>{year}</span>
+                        </div>
 
-                <button 
-                    onClick={() => setCurrentView('total')}
-                    style={{ marginLeft: 10, padding: '5px 10px' }}
-                    disabled={currentView === 'total'}
-                >
-                    Show Total Trade
-                </button>
+                        <select
+                            value={selectedProduct}
+                            onChange={(e) => {
+                                setSelectedProduct(e.target.value);
+                                setCurrentView('product');
+                            }}
+                            style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
+                        >
+                            <option value="">-- Show Total Trade Balance --</option>
+                            {productChapters.map(chapter => (
+                                <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                                    {chapter.description}
+                                </option>
+                            ))}
+                        </select>
+
+                        <button
+                            onClick={() => setCurrentView('total')}
+                            style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
+                            disabled={currentView === 'total'}
+                        >
+                            Show Total Trade
+                        </button>
+                    </div>
+
+                    {/* Line Plot (50% height) */}
+                    <div
+                        ref={linePlotRef}
+                        style={{
+                            height: '50%',
+                            backgroundColor: '#fff',
+                            borderRadius: '8px',
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                            padding: '10px'
+                        }}
+                    />
+                </div>
+
+                {/* World Map (70% width) */}
+                <div
+                    ref={chartRef}
+                    style={{
+                        width: '70%',
+                        height: '100%',
+                        backgroundColor: '#fff',
+                        borderRadius: '8px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                    }}
+                />
             </div>
-            <div ref={chartRef} style={{
-                width: '100%', height: '600px', backgroundColor: '#fff', borderRadius: '8px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-            }} />
-            {/* Add the new bar charts container */}
-            <div style={{ 
-                display: 'flex', 
+
+            {/* Bottom Section (30% height) */}
+            <div style={{
+                display: 'flex',
+                height: '30%',
                 marginTop: '20px',
                 gap: '20px'
             }}>
-                <div 
-                    ref={importsChartRef} 
+                <div
+                    ref={importsChartRef}
                     style={{
-                        width: '33.3%', 
-                        height: '400px', 
-                        backgroundColor: '#fff', 
+                        width: '33.3%',
+                        height: '100%',
+                        backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-                    }} 
+                    }}
                 />
                 <div
                     ref={sankeyChartRef}
                     style={{
                         width: '33.3%',
-                        height: '400px',
+                        height: '100%',
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
                         minWidth: '300px',
                     }}
                 />
-                <div 
-                    ref={exportsChartRef} 
+                <div
+                    ref={exportsChartRef}
                     style={{
-                        width: '33.3%', 
-                        height: '400px', 
-                        backgroundColor: '#fff', 
+                        width: '33.3%',
+                        height: '100%',
+                        backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-                    }} 
+                    }}
                 />
             </div>
 
             {(loadingProductData || loadingTopData) && <div>Loading data...</div>}
         </div>
     );
+
+//     return (
+//         <div style={{ width: '100%', margin: '20px 0' }}>
+//             <div style={{ display: 'flex', alignItems: 'center', marginBottom: 10 }}>
+//                 <button onClick={() => setPlaying(prev => !prev)} style={{ marginRight: 10 }}>
+//                     {playing ? 'Pause' : 'Play'}
+//                 </button>
+//                 <input
+//                     type="range"
+//                     min={0}
+//                     max={years.length - 1}
+//                     value={years.indexOf(year)}
+//                     onChange={e => setYear(years[Number(e.target.value)])}
+//                     style={{ flex: 1 }}
+//                 />
+//                 <span style={{ marginLeft: 10, fontWeight: 'bold' }}>{year}</span>
+//                 
+//                 <select 
+//                     value={selectedProduct}
+//                     onChange={(e) => {
+//                         setSelectedProduct(e.target.value);
+//                         setCurrentView('product');
+//                     }}
+//                     style={{ marginLeft: 20, padding: '5px 10px', minWidth: '300px' }}
+//                 >
+//                     <option value="">-- Show Total Trade Balance --</option>
+//                     {productChapters.map(chapter => (
+//                         <option key={chapter.product_chapter} value={chapter.product_chapter}>
+//                             {chapter.description}
+//                         </option>
+//                     ))}
+//                 </select>
+// 
+//                 <button 
+//                     onClick={() => setCurrentView('total')}
+//                     style={{ marginLeft: 10, padding: '5px 10px' }}
+//                     disabled={currentView === 'total'}
+//                 >
+//                     Show Total Trade
+//                 </button>
+//             </div>
+//             <div ref={chartRef} style={{
+//                 width: '100%', height: '600px', backgroundColor: '#fff', borderRadius: '8px',
+//                 boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+//             }} />
+//             {/* Add the new bar charts container */}
+//             <div style={{ 
+//                 display: 'flex', 
+//                 marginTop: '20px',
+//                 gap: '20px'
+//             }}>
+//                 <div 
+//                     ref={importsChartRef} 
+//                     style={{
+//                         width: '33.3%', 
+//                         height: '400px', 
+//                         backgroundColor: '#fff', 
+//                         borderRadius: '8px',
+//                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+//                     }} 
+//                 />
+//                 <div
+//                     ref={sankeyChartRef}
+//                     style={{
+//                         width: '33.3%',
+//                         height: '400px',
+//                         backgroundColor: '#fff',
+//                         borderRadius: '8px',
+//                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+//                         minWidth: '300px',
+//                     }}
+//                 />
+//                 <div 
+//                     ref={exportsChartRef} 
+//                     style={{
+//                         width: '33.3%', 
+//                         height: '400px', 
+//                         backgroundColor: '#fff', 
+//                         borderRadius: '8px',
+//                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+//                     }} 
+//                 />
+//             </div>
+// 
+//             {(loadingProductData || loadingTopData) && <div>Loading data...</div>}
+//         </div>
+//     );
 };
