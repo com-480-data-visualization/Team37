@@ -261,7 +261,7 @@ interface SankeyLink {
 
 console.log('WorldTradeMapAnimated mounted');
 
-export const WorldTradeMapAnimated: React.FC = () => {
+export const WorldTradeMapAnimated: React.FC = () => { 
     // Ref for the main WorldMap Chart
     const chartRef = useRef<HTMLDivElement>(null);
     // Ref for the two bar charts for imports/exports
@@ -334,7 +334,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
         }
     };
 
-    const parseAndAggregateTradeSources = (text: string) => {
+    const parseAndAggregateTradeSources = (text: string, filterYear?: string, filterProduct?: string) => {
         const lines = text.split('\n').filter(line => line.trim() !== '');
         if (lines.length < 2) return [];
 
@@ -351,6 +351,14 @@ export const WorldTradeMapAnimated: React.FC = () => {
             headers.forEach((header, index) => {
                 entry[header] = values[index];
             });
+            if (filterYear && String(entry.year).trim() !== String(filterYear).trim()) continue;
+            if (filterProduct && String(entry.product_chapter).trim() !== String(filterProduct).trim()) continue;
+            if (String(entry.year).trim() === String(filterYear).trim() &&
+                String(entry.product_chapter).trim() === String(filterProduct).trim()) {
+                console.log('%c命中！', 'color: green; font-weight: bold;', entry, filterYear, filterProduct);
+            } else {
+                console.log('未命中', entry, filterYear, filterProduct);
+            }
             data.push(entry);
         }
 
@@ -370,8 +378,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 country,
                 value: Math.max(0, value) // Ensure non-negative
             }))
-            .sort((a, b) => b.value - a.value)
-            .slice(0, 6); // Only top 6
+            .sort((a, b) => b.value - a.value);
     };
 
     const parseCSVTopTradeBarChart = (text: string): TopTradeData[] => {
@@ -436,8 +443,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
             const exportsData = parseCSVTopTradeBarChart(exportsText);
 
             // Process sankey data
-            const importSources = parseAndAggregateTradeSources(importSourcesText);
-            const exportSources = parseAndAggregateTradeSources(exportSourcesText);
+            const importSources = parseAndAggregateTradeSources(importSourcesText, year, selectedProduct);
+            const exportSources = parseAndAggregateTradeSources(exportSourcesText, year, selectedProduct);
 
             console.log('Successfully parsed:', {
                 imports: importsData,
@@ -573,124 +580,125 @@ export const WorldTradeMapAnimated: React.FC = () => {
     }, [linePlotData, selectedCountry, selectedProduct]);
 
     useEffect(() => {
-        if (!sankeyChartRef.current || !selectedCountry) return;
+        if (!sankeyChartRef.current || !selectedCountry || !selectedProduct) return;
+
+        // 读取对应国家的top_import_srcs.csv和top_export_dsts.csv
+        const importSourcesUrl = `/Team37/data/interactive/${selectedCountry}/top_import_srcs.csv`;
+        const exportSourcesUrl = `/Team37/data/interactive/${selectedCountry}/top_export_dsts.csv`;
 
         const sankeyChart = echarts.init(sankeyChartRef.current);
-        const importSources = (topImportSources[selectedCountry] || []).slice(0, 6); // Top 6 only
-        const exportSources = (topExportSources[selectedCountry] || []).slice(0, 6); // Top 6 only
-        const countryName = codeToName[selectedCountry] || selectedCountry;
 
-        // Prepare nodes - need unique names and proper indices
-        const nodes: SankeyNode[] = [
-            // Left side nodes (import sources)
-            ...importSources.map(src => ({
-                name: `${codeToName[src.country] || src.country} (Import)`
-            })),
-            // Center node (country)
-            { name: countryName },
-            // Right side nodes (export destinations)
-            ...exportSources.map(src => ({
-                name: `${codeToName[src.country] || src.country} (Export)`
-            }))
-        ];
+        Promise.all([
+            fetch(importSourcesUrl).then(res => res.ok ? res.text() : ''),
+            fetch(exportSourcesUrl).then(res => res.ok ? res.text() : '')
+        ]).then(([importSourcesText, exportSourcesText]) => {
+            // 只筛选当前year和selectedProduct的数据
+            const importSourcesAll = parseAndAggregateTradeSources(importSourcesText, year, selectedProduct);
+            const exportSourcesAll = parseAndAggregateTradeSources(exportSourcesText, year, selectedProduct);
+            const importSources = importSourcesAll.slice(0, 6);
+            const exportSources = exportSourcesAll.slice(0, 6);
+            const countryName = codeToName[selectedCountry] || selectedCountry;
 
-        // Create a map from node names to their indices
-        const nodeMap: Record<string, number> = {};
-        nodes.forEach((node, index) => {
-            nodeMap[node.name] = index;
-        });
+            // Prepare nodes - need unique names and proper indices
+            const nodes: SankeyNode[] = [
+                ...importSources.map(src => ({
+                    name: `${codeToName[src.country] || src.country} (Import)`
+                })),
+                { name: countryName },
+                ...exportSources.map(src => ({
+                    name: `${codeToName[src.country] || src.country} (Export)`
+                }))
+            ];
 
-        // Prepare links using节点名称（string），而不是索引（number）
-        const links: SankeyLink[] = [
-            // Import links (sources -> country)
-            ...importSources.map(src => ({
-                source: `${codeToName[src.country] || src.country} (Import)`,
-                target: countryName,
-                value: src.value * 1000 // Convert to billions
-            })),
-            // Export links (country -> destinations)
-            ...exportSources.map(src => ({
-                source: countryName,
-                target: `${codeToName[src.country] || src.country} (Export)`,
-                value: src.value * 1000 // Convert to billions
-            }))
-        ];
+            // Prepare links using节点名称（string），而不是索引（number）
+            const links: SankeyLink[] = [
+                ...importSources.map(src => ({
+                    source: `${codeToName[src.country] || src.country} (Import)`,
+                    target: countryName,
+                    value: src.value * 1000 // Convert to billions
+                })),
+                ...exportSources.map(src => ({
+                    source: countryName,
+                    target: `${codeToName[src.country] || src.country} (Export)` ,
+                    value: src.value * 1000 // Convert to billions
+                }))
+            ];
 
-        const option = {
-            title: {
-                text: `Trade Partners - ${countryName} (${year})`,
-                left: 'center',
-                top: 10,
-                textStyle: {
-                    fontSize: 18,
-                    color: '#222'
-                }
-            },
-            tooltip: {
-                trigger: 'item',
-                formatter: (params: any) => {
-                    if (params.dataType === 'edge') {
-                        const source = nodes[params.data.source].name.replace(' (Import)', '').replace(' (Export)', '');
-                        const target = nodes[params.data.target].name.replace(' (Import)', '').replace(' (Export)', '');
-                        return `${source} → ${target}<br/>Value: ${params.data.value.toFixed(6)} Billion USD`;
+            const option = {
+                title: {
+                    text: `Trade Partners - ${countryName} (${year})`,
+                    left: 'center',
+                    top: 10,
+                    textStyle: {
+                        fontSize: 18,
+                        color: '#222'
                     }
-                    return params.name.replace(' (Import)', '').replace(' (Export)', '');
-                }
-            },
-            series: [{
-                type: 'sankey',
-                layout: 'none',
-                data: nodes,
-                links: links,
-                emphasis: {
-                    focus: 'adjacency'
                 },
-                nodeAlign: 'left',  // Changed to left alignment
-                orient: 'horizontal',  // Set orientation to horizontal
-                left: '25%', // 向右移动
-                right: '10%',
-                top: '10%',
-                bottom: '10%',
-                levels: [{
-                    depth: 0,
-                    itemStyle: {
-                        color: '#fbb4ae'
-                    },
-                    lineStyle: {
-                        color: 'source',
-                        opacity: 0.6
-                    }
-                }, {
-                    depth: 1,
-                    itemStyle: {
-                        color: '#b3cde3'
-                    },
-                    lineStyle: {
-                        color: 'source',
-                        opacity: 0.6
-                    }
-                }],
-                lineStyle: {
-                    curveness: 0.5
-                },
-                label: {
-                    position: 'left',  // Position labels to the left of nodes
+                tooltip: {
+                    trigger: 'item',
                     formatter: (params: any) => {
+                        if (params.dataType === 'edge') {
+                            const source = nodes[params.data.source].name.replace(' (Import)', '').replace(' (Export)', '');
+                            const target = nodes[params.data.target].name.replace(' (Import)', '').replace(' (Export)', '');
+                            return `${source} → ${target}<br/>Value: ${params.data.value.toFixed(6)} Billion USD`;
+                        }
                         return params.name.replace(' (Import)', '').replace(' (Export)', '');
                     }
                 },
-                // Node positioning configuration
-                nodeWidth: 20,
-                nodeGap: 10,
-            }]
-        };
+                series: [{
+                    type: 'sankey',
+                    layout: 'none',
+                    data: nodes,
+                    links: links,
+                    emphasis: {
+                        focus: 'adjacency'
+                    },
+                    nodeAlign: 'left',
+                    orient: 'horizontal',
+                    left: '25%',
+                    top: '18%',
+                    right: '10%',
+                    bottom: '10%',
+                    levels: [{
+                        depth: 0,
+                        itemStyle: {
+                            color: '#fbb4ae'
+                        },
+                        lineStyle: {
+                            color: 'source',
+                            opacity: 0.6
+                        }
+                    }, {
+                        depth: 1,
+                        itemStyle: {
+                            color: '#b3cde3'
+                        },
+                        lineStyle: {
+                            color: 'source',
+                            opacity: 0.6
+                        }
+                    }],
+                    lineStyle: {
+                        curveness: 0.5
+                    },
+                    label: {
+                        position: 'left',
+                        formatter: (params: any) => {
+                            return params.name.replace(' (Import)', '').replace(' (Export)', '');
+                        }
+                    },
+                    nodeWidth: 20,
+                    nodeGap: 10,
+                }]
+            };
 
-        sankeyChart.setOption(option);
+            sankeyChart.setOption(option);
+        });
 
         return () => {
             sankeyChart.dispose();
         };
-    }, [selectedCountry, topImportSources, topExportSources, year]);
+    }, [selectedCountry, selectedProduct, year]);
 
     // Load top trade data when country is selected for the two bar charts
     useEffect(() => {
