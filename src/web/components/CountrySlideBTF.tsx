@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface CountrySlideProps {
+export interface CountrySlidePropsBTF {
   id: string;
   title: string;
   imageSrc: string;
@@ -9,7 +9,7 @@ export interface CountrySlideProps {
   plot?: React.ReactNode;      // ← optional slot for any chart
 }
 
-export const CountrySlide: React.FC<CountrySlideProps> = ({
+export const CountrySlideBTF: React.FC<CountrySlidePropsBTF> = ({
   id, title, imageSrc, imageAlt, description, plot,
 }) => (
   <li

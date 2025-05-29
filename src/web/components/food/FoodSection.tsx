@@ -4,7 +4,8 @@ import { GlobalMapSlide } from './FoodMapSlide';
 import { SaudiGrainTrade } from './SaudiGrainTrade';
 import { YemenFoodVsGdp } from './YemenFoodVsGdp';
 import { UkraineGrainExporter } from './UkraineGrainExporter';
-import { CountrySlide, CountrySlideProps } from '../CountrySlide';
+import { CountrySlideBTF, CountrySlidePropsBTF } from '../CountrySlideBTF';
+import { CountrySlideBTFF, CountrySlidePropsBTFF } from '../CountrySlideBTFF';
 import placeholder_yemen from '../../assets/yemen.png';
 import placeholder_saudi from '../../assets/saudi_water.avif';
 import ukraine_img from '../../assets/ukraine.jpg';
@@ -26,7 +27,7 @@ export const FoodSection: React.FC = () => {
     );
   }, []);
 
-  const countryData: CountrySlideProps[] = [
+  const countryData: CountrySlidePropsBTF[] = [
     {
       id: 'yemen',
       title: "Yemen's Food Import Dependence",
@@ -70,7 +71,7 @@ export const FoodSection: React.FC = () => {
         <div>
           <ul className="img-group" ref={imgGroupRef}>
             {countryData.map((c) => (
-              <CountrySlide key={c.id} {...c} />
+              <CountrySlideBTF key={c.id} {...c} />
             ))}
             <GlobalMapSlide />
           </ul>
