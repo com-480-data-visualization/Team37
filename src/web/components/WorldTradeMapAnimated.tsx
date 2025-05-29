@@ -2,6 +2,8 @@ import React, {useEffect, useRef, useState} from 'react';
 import * as echarts from 'echarts';
 import {useData} from '../hooks/useData';
 import worldJson from '../assets/world.json';
+import { SankeyTradeFlow } from './SankeyTradeFlow';
+import SankeyStaticTest from './SankeyStaticTest';
 
 // Complete ISO 3166-1 alpha-3 to English country name mapping table (including common countries and special codes)
 const countryCodeToName: Record<string, string> = {
@@ -254,6 +256,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const [productChapters, setProductChapters] = useState<ProductChapterMapping[]>([]);
     const [currentView, setCurrentView] = useState<'total' | 'product'>('total');
     const [availableCountries, setAvailableCountries] = useState<string[]>([]);
+    const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
     // 页面加载时获取 available_countries.json
     useEffect(() => {
@@ -437,7 +440,6 @@ export const WorldTradeMapAnimated: React.FC = () => {
             };
         } else {
             const countryProductData = productData[countryCode]?.[selectedProduct];
-            console.log('getTradeData', { countryCode, countryName, year, countryProductData });
             if (!countryProductData) {
                 return {
                     name: matchCountryName(countryCode, countryName),
@@ -446,9 +448,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     exports: 0
                 };
             }
-            // 强制字符串比较
-            const yearData = countryProductData.find(d => String(d.year) === String(year));
-            console.log('yearData', { year, yearType: typeof year, yearData, allYears: countryProductData.map(d => d.year) });
+            const yearData = countryProductData.find(d => d.year === year);
             if (!yearData) {
                 return {
                     name: matchCountryName(countryCode, countryName),
@@ -545,6 +545,24 @@ export const WorldTradeMapAnimated: React.FC = () => {
         }
     }, [option, allData, chartRef]);
 
+    // 地图点击事件
+    useEffect(() => {
+        if (!chartRef.current) return;
+        const chart = echarts.init(chartRef.current);
+        chart.on('click', (params: any) => {
+            if (params && params.name && codeToName) {
+                // 反查ISO代码
+                const code = Object.keys(codeToName).find(k => codeToName[k] === params.name);
+                if (code && availableCountries.includes(code)) {
+                    setSelectedCountry(code);
+                } else {
+                    setSelectedCountry(null);
+                }
+            }
+        });
+        return () => { chart.off('click'); };
+    }, [chartRef, codeToName, availableCountries]);
+
     if (
         deficitLoading || 
         chaptersLoading || 
@@ -598,6 +616,16 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
             }} />
             {loadingProductData && <div>Loading product data...</div>}
+            {/* Sankey 图容器 */}
+            <div id="sankey-container" style={{ width: '100%', height: 400, marginTop: 20 }}>
+                <SankeyTradeFlow 
+                  key={year + '-' + selectedProduct + '-' + (selectedCountry || 'USA')}
+                  countryCode={selectedCountry || 'USA'} 
+                  year={year} 
+                  productChapter={selectedProduct} 
+                />
+            </div>
+            <SankeyStaticTest />
         </div>
     );
 };
