@@ -506,10 +506,16 @@ export const WorldTradeMapAnimated: React.FC = () => {
         if (!linePlotRef.current || linePlotData.length === 0) return;
 
         const chart = echarts.init(linePlotRef.current);
+        const desc = getChapterDescription(selectedProduct);
+        const first3Words = desc.split(' ').slice(0, 3).join(' ');
         const option = {
             title: {
-                text:  `Trade Over Time - ${codeToName[selectedCountry || ''] || selectedCountry} (${getChapterDescription(selectedProduct)})`,
-                left: 'center'
+                text: `Trade Over Time - ${first3Words}`,
+                left: 'center',
+                textStyle: {
+                    fontSize: 18,
+                    color: '#222'
+                }
             },
             tooltip: {
                 trigger: 'axis',
@@ -533,7 +539,13 @@ export const WorldTradeMapAnimated: React.FC = () => {
             },
             yAxis: {
                 type: 'value',
-                name: 'Value (Trillion USD)'
+                name: 'Value (Trillion USD)',
+                nameLocation: 'middle',
+                nameGap: 43,
+                nameTextStyle: {
+                   
+                    fontSize: 10
+                }
             },
             series: [
                 {
@@ -588,18 +600,18 @@ export const WorldTradeMapAnimated: React.FC = () => {
             nodeMap[node.name] = index;
         });
 
-        // Prepare links using indices
+        // Prepare links using节点名称（string），而不是索引（number）
         const links: SankeyLink[] = [
             // Import links (sources -> country)
             ...importSources.map(src => ({
-                source: nodeMap[`${codeToName[src.country] || src.country} (Import)`],
-                target: nodeMap[countryName],
+                source: `${codeToName[src.country] || src.country} (Import)`,
+                target: countryName,
                 value: src.value * 1000 // Convert to billions
             })),
             // Export links (country -> destinations)
             ...exportSources.map(src => ({
-                source: nodeMap[countryName],
-                target: nodeMap[`${codeToName[src.country] || src.country} (Export)`],
+                source: countryName,
+                target: `${codeToName[src.country] || src.country} (Export)`,
                 value: src.value * 1000 // Convert to billions
             }))
         ];
@@ -607,7 +619,12 @@ export const WorldTradeMapAnimated: React.FC = () => {
         const option = {
             title: {
                 text: `Trade Partners - ${countryName} (${year})`,
-                left: 'center'
+                left: 'center',
+                top: 10,
+                textStyle: {
+                    fontSize: 18,
+                    color: '#222'
+                }
             },
             tooltip: {
                 trigger: 'item',
@@ -630,6 +647,10 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 },
                 nodeAlign: 'left',  // Changed to left alignment
                 orient: 'horizontal',  // Set orientation to horizontal
+                left: '25%', // 向右移动
+                right: '10%',
+                top: '10%',
+                bottom: '10%',
                 levels: [{
                     depth: 0,
                     itemStyle: {
@@ -661,10 +682,6 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 // Node positioning configuration
                 nodeWidth: 20,
                 nodeGap: 10,
-                left: '10%',
-                right: '10%',
-                top: '10%',
-                bottom: '10%'
             }]
         };
 
@@ -707,25 +724,65 @@ export const WorldTradeMapAnimated: React.FC = () => {
             chart.setOption({
                 title: {
                     text: title,
-                    left: 'center'
+                    left: 'center',
+                    top: 10,
+                    textStyle: {
+                        fontSize: 50,
+                        
+                        color: '#222'
+                    }
                 },
                 tooltip: {
-                    trigger: 'item',
-                    formatter: (params: any) => {
-                        return `${params.name}<br/>Value: ${params.value.toFixed(6)} Trillion USD`;
+                    trigger: 'axis',
+                    axisPointer: { type: 'shadow' },
+                    formatter: function(params: any) {
+                        // params[0].name 是完整的y轴标签
+                        let content = `<b>${params[0].name}</b><br/>`;
+                        params.forEach((item: any) => {
+                            content += `${item.seriesName || ''}: ${item.value}<br/>`;
+                        });
+                        return content;
                     }
+                },
+                grid: {
+                    left: 120,
+                    right: 30,
+                    top: 60,
+                    bottom: 40
                 },
                 xAxis: {
                     type: 'value',
-                    name: 'Value (Trillion USD)'
+                    name: 'Value (Trillion USD)',
+                    nameLocation: 'middle',
+                    nameGap: 20,
+                    nameTextStyle: {
+                        
+                        fontSize: 14
+                    },
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#333',
+                        fontWeight: 'bold'
+                    }
                 },
                 yAxis: {
                     type: 'category',
                     data: yearData.map(item => item.product_chapter),
+                    nameTextStyle: {
+                        fontWeight: 'bold',
+                        fontSize: 14
+                    },
                     axisLabel: {
                         interval: 0,
-                        width: 150,
-                        overflow: 'truncate'
+                        width: 180,
+                        overflow: 'truncate',
+                        ellipsis: '...',
+                        fontSize: 14,
+                        color: '#333',
+                        fontWeight: 'bold',
+                        formatter: function(value: string) {
+                            return value.length > 18 ? value.slice(0, 18) + '...' : value;
+                        }
                     }
                 },
                 series: [{
@@ -734,9 +791,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     label: {
                         show: true,
                         position: 'right',
+                        fontSize: 14,
+                        fontWeight: 'bold',
+                        color: '#333',
                         formatter: (params: any) => params.value.toFixed(6)
                     }
-                }]
+                }],
+                textStyle: {
+                    fontFamily: 'inherit',
+                    fontSize: 14,
+                    color: '#333'
+                }
             });
         };
 
@@ -765,25 +830,27 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
 
     // Update your existing map click handler to set the selected country
-    const handleMapClick = async (params: any) => {
-        if (!params.data || !params.data.name) return;
+    const handleMapClick = (params: any) => {
+        (async () => {
+            if (!params.data || !params.data.name) return;
 
-        const countryFeature = worldJson.features.find(f =>
-            f.properties?.NAME?.toLowerCase() === params.data.name.toLowerCase()
-        );
+            const countryFeature = worldJson.features.find(f =>
+                f.properties?.NAME?.toLowerCase() === params.data.name.toLowerCase()
+            );
 
-        if (!countryFeature || !countryFeature.properties?.ISO_A3) return;
+            if (!countryFeature || !countryFeature.properties?.ISO_A3) return;
 
-        const countryCode = countryFeature.properties.ISO_A3;
-        console.log(countryCode)
-        setSelectedCountry(countryCode);
+            const countryCode = countryFeature.properties.ISO_A3;
+            console.log(countryCode)
+            setSelectedCountry(countryCode);
 
-        // Always load top trade data when a country is selected
-        await loadTopTradeData(countryCode);
+            // Always load top trade data when a country is selected
+            await loadTopTradeData(countryCode);
 
-        if (currentView === 'product') {
-            await loadProductData(countryCode);
-        }
+            if (currentView === 'product') {
+                await loadProductData(countryCode);
+            }
+        })();
     };
 
     // 页面加载时获取 available_countries.json
@@ -947,58 +1014,58 @@ export const WorldTradeMapAnimated: React.FC = () => {
     }, []);
 
     // 国家名称匹配
-    const matchCountryName = (countryCode: string, countryName: string): string => {
-        if (codeToName[countryCode]) return codeToName[countryCode];
-        if (countryCodeToName[countryCode]) return countryCodeToName[countryCode];
-        if (countryNameAlias[countryName]) return countryNameAlias[countryName];
-        const normalizedInput = countryName.toLowerCase().trim();
-        const possibleMatches = Object.values(codeToName).filter(name =>
-            name.toLowerCase().includes(normalizedInput) || normalizedInput.includes(name.toLowerCase())
-        );
-        return possibleMatches.length === 1 ? possibleMatches[0] : countryName;
-    };
+        const matchCountryName = (countryCode: string, countryName: string): string => {
+            if (codeToName[countryCode]) return codeToName[countryCode];
+            if (countryCodeToName[countryCode]) return countryCodeToName[countryCode];
+            if (countryNameAlias[countryName]) return countryNameAlias[countryName];
+            const normalizedInput = countryName.toLowerCase().trim();
+            const possibleMatches = Object.values(codeToName).filter(name =>
+                name.toLowerCase().includes(normalizedInput) || normalizedInput.includes(name.toLowerCase())
+            );
+            return possibleMatches.length === 1 ? possibleMatches[0] : countryName;
+        };
 
     // 获取国家贸易数据
-    const getTradeData = (countryCode: string, countryName: string) => {
-        if (currentView === 'total') {
+        const getTradeData = (countryCode: string, countryName: string) => {
+            if (currentView === 'total') {
             const item = allData?.find(d => String(d.year) === String(year) && d.country === countryCode);
-            return {
-                name: matchCountryName(countryCode, countryName),
-                value: item ? Number(item.value_bln_USD) || 0 : 0
-            };
-        } else {
-            const countryProductData = productData[countryCode]?.[selectedProduct];
-            console.log('getTradeData', { countryCode, countryName, year, countryProductData });
-            if (!countryProductData) {
                 return {
                     name: matchCountryName(countryCode, countryName),
-                    value: 0,
-                    imports: 0,
-                    exports: 0
+                    value: item ? Number(item.value_bln_USD) || 0 : 0
                 };
-            }
+            } else {
+                const countryProductData = productData[countryCode]?.[selectedProduct];
+            console.log('getTradeData', { countryCode, countryName, year, countryProductData });
+                if (!countryProductData) {
+                    return {
+                        name: matchCountryName(countryCode, countryName),
+                        value: 0,
+                        imports: 0,
+                        exports: 0
+                    };
+                }
             // 强制字符串比较
             const yearData = countryProductData.find(d => String(d.year) === String(year));
             console.log('yearData', { year, yearType: typeof year, yearData, allYears: countryProductData.map(d => d.year) });
-            if (!yearData) {
-                return {
-                    name: matchCountryName(countryCode, countryName),
-                    value: 0,
-                    imports: 0,
-                    exports: 0
-                };
-            }
+                if (!yearData) {
+                    return {
+                        name: matchCountryName(countryCode, countryName),
+                        value: 0,
+                        imports: 0,
+                        exports: 0
+                    };
+                }
             const imports = parseFloat(yearData.imports_trln_USD || '0') * 1000;
             const exports = parseFloat(yearData.exports_trln_USD || '0') * 1000;
-            const balance = exports - imports;
-            return {
-                name: matchCountryName(countryCode, countryName),
-                value: balance,
-                imports,
-                exports
-            };
-        }
-    };
+                const balance = exports - imports;
+                return {
+                    name: matchCountryName(countryCode, countryName),
+                    value: balance,
+                    imports,
+                    exports
+                };
+            }
+        };
 
     // 地图数据
     const mapData = React.useMemo(() => {
@@ -1010,53 +1077,53 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 })
                 .filter(item => item !== null) as any[];
         } else {
-            const countryCodes = new Set<string>();
+        const countryCodes = new Set<string>();
             allData?.forEach(item => countryCodes.add(item.country));
             return Array.from(countryCodes)
-                .map(code => {
-                    const name = codeToName[code] || code;
-                    return getTradeData(code, name);
-                })
-                .filter(item => item !== null) as any[];
+            .map(code => {
+                const name = codeToName[code] || code;
+                return getTradeData(code, name);
+            })
+            .filter(item => item !== null) as any[];
         }
     }, [currentView, availableCountries, allData, selectedProduct, productData, productChapters, chaptersLoading, year]);
 
     // 计算maxRange
-    const values = mapData.map(item => item.value).filter(v => !isNaN(v));
-    const minValue = Math.min(...values);
-    const maxValue = Math.max(...values);
-    const maxRange = Math.max(Math.abs(minValue), Math.abs(maxValue));
+        const values = mapData.map(item => item.value).filter(v => !isNaN(v));
+        const minValue = Math.min(...values);
+        const maxValue = Math.max(...values);
+        const maxRange = Math.max(Math.abs(minValue), Math.abs(maxValue));
 
     // 生成 option
-    const option = {
-      backgroundColor: '#fff',
-      title: {
+        const option = {
+            backgroundColor: '#fff',
+            title: {
         text: 'Trade Surpluses and Deficits by Category',
-        left: 'center',
-        top: 20,
-        textStyle: { color: '#333', fontSize: 20 }
-      },
-      tooltip: {
-        trigger: 'item',
-        formatter: (params: any) => {
+                left: 'center',
+                top: 20,
+                textStyle: { color: '#333', fontSize: 20 }
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: (params: any) => {
           const value = params.value || 0;
           return `${params.name}<br/>Trade ${value >= 0 ? 'Surplus' : 'Deficit'}: ${value.toFixed(2)} Billion USD`;
-        }
-      },
-      visualMap: {
-        left: 'left',
-        min: -maxRange,
-        max: maxRange,
+                }
+            },
+            visualMap: {
+                left: 'left',
+                min: -maxRange,
+                max: maxRange,
         text: ['Surplus', 'Deficit'],
-        realtime: false,
-        calculable: true,
+                realtime: false,
+                calculable: true,
         inRange: { color: ['#ff0000', '#ffffff', '#0000ff'] }
-      },
-      series: [{
+            },
+            series: [{
         name: 'Trade Balance',
-        type: 'map',
-        map: 'world',
-        roam: false,
+                type: 'map',
+                map: 'world',
+                roam: false,
         emphasis: { label: { show: true } },
         data: mapData
       }]
@@ -1092,45 +1159,38 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 {/* Left Panel (30% width) */}
                 <div style={{ width: '30%', display: 'flex', flexDirection: 'column' }}>
                     {/* Controls (50% height) */}
-                    <div style={{ height: '50%', padding: '10px', display: 'flex', flexDirection: 'column' }}>
+                    <div style={{ height: '50%', padding: '10px', marginTop: '10px', display: 'flex', flexDirection: 'column' }}>
                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                            <button onClick={() => setPlaying(prev => !prev)} style={{ marginRight: '10px' }}>
-                                {playing ? 'Pause' : 'Play'}
-                            </button>
-                            <input
-                                type="range"
-                                min={0}
-                                max={years.length - 1}
-                                value={years.indexOf(year)}
-                                onChange={e => setYear(years[Number(e.target.value)])}
-                                style={{ flex: 1 }}
-                            />
+                <input
+                    type="range"
+                    min={0}
+                    max={years.length - 1}
+                    value={years.indexOf(year)}
+                    onChange={e => setYear(years[Number(e.target.value)])}
+                    style={{ flex: 1 }}
+                />
                             <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>{year}</span>
                         </div>
-
-                        <select
-                            value={selectedProduct}
-                            onChange={(e) => {
-                                setSelectedProduct(e.target.value);
-                                setCurrentView('product');
-                            }}
+                
+                <select 
+                    value={selectedProduct}
+                    onChange={(e) => {
+                        setSelectedProduct(e.target.value);
+                                if (e.target.value === "") {
+                                    setCurrentView('total');
+                                } else {
+                        setCurrentView('product');
+                                }
+                    }}
                             style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
-                        >
-                            <option value="">-- Show Total Trade Balance --</option>
-                            {productChapters.map(chapter => (
-                                <option key={chapter.product_chapter} value={chapter.product_chapter}>
-                                    {chapter.description}
-                                </option>
-                            ))}
-                        </select>
-
-                        <button
-                            onClick={() => setCurrentView('total')}
-                            style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
-                            disabled={currentView === 'total'}
-                        >
-                            Show Total Trade
-                        </button>
+                >
+                    <option value="">-- Show Total Trade Balance --</option>
+                    {productChapters.map(chapter => (
+                        <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                            {chapter.description}
+                        </option>
+                    ))}
+                </select>
                     </div>
 
                     {/* Line Plot (50% height) */}
@@ -1144,7 +1204,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                             padding: '10px'
                         }}
                     />
-                </div>
+            </div>
 
                 {/* World Map (70% width) */}
                 <div
@@ -1154,7 +1214,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         height: '100%',
                         backgroundColor: '#fff',
                         borderRadius: '8px',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
                     }}
                 />
             </div>

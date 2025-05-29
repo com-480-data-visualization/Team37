@@ -56,7 +56,7 @@ export const ZoomScroll = ({ items }) => {
             position: 'relative',
             overflow: 'visible'
           }}>
-            {item.content}
+          {item.content}
           </div>
         </motion.div>
       ))}
