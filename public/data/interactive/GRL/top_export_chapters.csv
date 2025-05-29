@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Pharmaceutical products,0.00028952,0.06180804
+1995,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00011186,0.01353665
+1995,"Ships, boats and floating structures",0.00001514,0.00280300
+1995,Works of art; collectors' pieces and antiques,0.00000153,0.00000000
+1995,Furskins and artificial fur; manufactures thereof,0.00000144,0.00003184
+1995,Other,0.00000771,0.00189378
+1996,Pharmaceutical products,0.00028984,0.06615111
+1996,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00011935,0.01362261
+1996,"Ships, boats and floating structures",0.00000535,0.00125637
+1996,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000400,0.00033359
+1996,"Aircraft, spacecraft, and parts thereof",0.00000336,0.00001431
+1996,Other,0.00001372,0.03678250
+1997,Pharmaceutical products,0.00024876,0.06704057
+1997,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00009732,0.01458901
+1997,"Ships, boats and floating structures",0.00000708,0.00145853
+1997,"Aircraft, spacecraft, and parts thereof",0.00000466,0.00001429
+1997,Furskins and artificial fur; manufactures thereof,0.00000270,0.00006423
+1997,Other,0.00000995,0.00931788
+1998,Pharmaceutical products,0.00026550,0.06858735
+1998,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00008789,0.01363580
+1998,"Ships, boats and floating structures",0.00000564,0.00117860
+1998,Furskins and artificial fur; manufactures thereof,0.00000184,0.00002799
+1998,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000148,0.01365424
+1998,Other,0.00000673,0.00265141
+1999,Pharmaceutical products,0.00030344,0.08532307
+1999,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00008559,0.01359722
+1999,"Aircraft, spacecraft, and parts thereof",0.00000240,0.00000101
+1999,Furskins and artificial fur; manufactures thereof,0.00000189,0.00003759
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000115,0.00022812
+1999,Other,0.00000860,0.00607848
+2000,Pharmaceutical products,0.00029953,0.07598731
+2000,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00007427,0.01434870
+2000,"Ships, boats and floating structures",0.00001615,0.00460889
+2000,"Aircraft, spacecraft, and parts thereof",0.00000765,0.00002890
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000266,0.00028309
+2000,Other,0.00001104,0.04305719
+2001,Pharmaceutical products,0.00026175,0.11730134
+2001,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00008144,0.01620342
+2001,"Ships, boats and floating structures",0.00000712,0.00041018
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000363,0.00029742
+2001,Furskins and artificial fur; manufactures thereof,0.00000238,0.00005076
+2001,Other,0.00000777,0.04010835
+2002,Pharmaceutical products,0.00032984,0.15382063
+2002,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00008905,0.01757352
+2002,"Aircraft, spacecraft, and parts thereof",0.00000751,0.00004194
+2002,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000346,0.03645766
+2002,Furskins and artificial fur; manufactures thereof,0.00000225,0.00009704
+2002,Other,0.00000999,0.00297622
+2003,Pharmaceutical products,0.00039388,0.14433485
+2003,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00008613,0.01565875
+2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001441,0.00007339
+2003,Furskins and artificial fur; manufactures thereof,0.00000320,0.00003930
+2003,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000306,0.03528850
+2003,Other,0.00000839,0.00341863
+2004,Pharmaceutical products,0.00035715,0.13523353
+2004,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00011470,0.01915163
+2004,"Ores, slag and ash",0.00002058,0.09979730
+2004,Furskins and artificial fur; manufactures thereof,0.00000418,0.00004612
+2004,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000301,0.02727540
+2004,Other,0.00001127,0.00531469
+2005,Pharmaceutical products,0.00032685,0.13344209
+2005,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00014155,0.02578214
+2005,"Ores, slag and ash",0.00002488,0.11726696
+2005,Furskins and artificial fur; manufactures thereof,0.00000518,0.00005799
+2005,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000251,0.12566370
+2005,Other,0.00001139,0.02257491
+2006,Pharmaceutical products,0.00035876,0.14416595
+2006,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00012978,0.02410288
+2006,"Ores, slag and ash",0.00001948,0.06977548
+2006,"Ships, boats and floating structures",0.00001591,0.00233909
+2006,Furskins and artificial fur; manufactures thereof,0.00000642,0.00005871
+2006,Other,0.00001869,0.18389589
+2007,Pharmaceutical products,0.00040850,0.14181597
+2007,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00014188,0.02428866
+2007,"Ores, slag and ash",0.00004283,0.07710183
+2007,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001029,0.57706197
+2007,Works of art; collectors' pieces and antiques,0.00000269,0.00001864
+2007,Other,0.00001492,0.01650782
+2008,Pharmaceutical products,0.00046948,0.12773942
+2008,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00017149,0.02783617
+2008,"Ores, slag and ash",0.00003090,0.06281765
+2008,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00001620,0.36641280
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000453,0.00021509
+2008,Other,0.00001728,0.01693971
+2009,Pharmaceutical products,0.00039124,0.12805110
+2009,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00013582,0.02504170
+2009,"Ores, slag and ash",0.00001363,0.02582559
+2009,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000817,0.12652555
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000183,0.00013498
+2009,Other,0.00001035,0.00563183
+2010,Pharmaceutical products,0.00045233,0.14314659
+2010,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00013220,0.02593742
+2010,"Aircraft, spacecraft, and parts thereof",0.00001230,0.00001542
+2010,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000866,0.32190959
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000302,0.00059197
+2010,Other,0.00001408,0.01000935
+2011,Pharmaceutical products,0.00053100,0.13360543
+2011,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00014887,0.02439622
+2011,"Ships, boats and floating structures",0.00002393,0.00186199
+2011,Iron and steel,0.00000540,0.01182791
+2011,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000510,0.01800272
+2011,Other,0.00001873,0.00450807
+2012,Pharmaceutical products,0.00054711,0.14042540
+2012,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00016117,0.02433730
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001369,0.00000037
+2012,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000588,0.02661039
+2012,"Aircraft, spacecraft, and parts thereof",0.00000285,0.00000274
+2012,Other,0.00001023,0.11344655
+2013,Pharmaceutical products,0.00060197,0.14791137
+2013,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00016325,0.02381602
+2013,"Ships, boats and floating structures",0.00002707,0.00146469
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00001531,0.00000044
+2013,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00001067,0.03545943
+2013,Other,0.00000988,0.00500499
+2014,Pharmaceutical products,0.00067624,0.19614881
+2014,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00014676,0.02032544
+2014,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000504,0.02207023
+2014,Iron and steel,0.00000327,0.00441636
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000187,0.00170367
+2014,Other,0.00000998,0.00244911
+2015,Pharmaceutical products,0.00063695,0.19411764
+2015,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00012114,0.01615380
+2015,"Aircraft, spacecraft, and parts thereof",0.00001274,0.00000707
+2015,"Ships, boats and floating structures",0.00000819,0.00054935
+2015,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000797,0.03379668
+2015,Other,0.00000805,0.00556395
+2016,Pharmaceutical products,0.00073285,0.20183294
+2016,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00011731,0.01784653
+2016,"Ships, boats and floating structures",0.00004810,0.00218884
+2016,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000435,0.01308217
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000258,0.00039194
+2016,Other,0.00000888,0.00831199
+2017,Pharmaceutical products,0.00081483,0.25790101
+2017,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00012722,0.01902726
+2017,"Ships, boats and floating structures",0.00002636,0.00177653
+2017,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000402,0.02210995
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000302,0.00095946
+2017,Other,0.00000884,0.00603138
+2018,Pharmaceutical products,0.00094868,0.27245763
+2018,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00015205,0.02066087
+2018,"Ships, boats and floating structures",0.00002397,0.00001000
+2018,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000232,0.00868456
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000195,0.00001218
+2018,Other,0.00000851,0.00705000
+2019,Pharmaceutical products,0.00103867,0.22267052
+2019,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00019834,0.02202957
+2019,"Ships, boats and floating structures",0.00001941,0.00282586
+2019,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000112,0.00248928
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000106,0.00067868
+2019,Other,0.00000728,0.00743918
+2020,Pharmaceutical products,0.00107854,0.23611218
+2020,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00021682,0.02778969
+2020,"Ships, boats and floating structures",0.00002738,0.00073941
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000411,0.00014743
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000204,0.00003530
+2020,Other,0.00000732,0.01007496
+2021,Pharmaceutical products,0.00117697,0.26958077
+2021,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00020401,0.02682838
+2021,"Ships, boats and floating structures",0.00001542,0.00033061
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000459,0.00001015
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000392,0.00026827
+2021,Other,0.00001522,0.01226009
+2022,Pharmaceutical products,0.00122946,0.26392462
+2022,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00026101,0.03435966
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000840,0.00001057
+2022,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000514,0.01393860
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000353,0.00028242
+2022,Other,0.00001502,0.02609643
+2023,Pharmaceutical products,0.00132919,0.27465817
+2023,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00026097,0.03301893
+2023,"Ships, boats and floating structures",0.00002761,0.00266284
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000907,0.00000050
+2023,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",0.00000616,0.00885721
+2023,Other,0.00002664,0.04925833
