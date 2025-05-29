@@ -30,8 +30,8 @@ export const CountrySlideBTFF: React.FC<CountrySlidePropsBTFF> = ({
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: '30% 70%',
-        gridTemplateRows: 'auto 1fr',
+        gridTemplateColumns: '25% 75%',
+        gridTemplateRows: 'auto 60%',
         width: '100%',
         height: '100%',
       }}
@@ -57,7 +57,7 @@ export const CountrySlideBTFF: React.FC<CountrySlidePropsBTFF> = ({
         />
       </div>
 
-      {/* text description at top-right */}
+      {/* text description in top-right */}
       <div
         style={{
           gridColumn: '2 / 3',
@@ -65,12 +65,24 @@ export const CountrySlideBTFF: React.FC<CountrySlidePropsBTFF> = ({
           padding: '30px',
           backgroundColor: 'rgba(255,255,255,0.85)',
           display: 'flex',
-          alignItems: 'center',
+          flexDirection: 'column',
+          justifyContent: 'flex-start',
           borderRadius: '8px',
           boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
         }}
       >
-        <p style={{ color: '#333', lineHeight: 1.6, fontSize: '16px' }}>
+        <h3 style={{ 
+          margin: 0, 
+          marginBottom: '10px', 
+          color: '#2c3e50', 
+          fontSize: '28px', 
+          fontWeight: 600 
+        }}>
+          {title}
+        </h3>
+
+        {/* Then description */}
+        <p style={{whiteSpace: 'pre-line', color: '#333', lineHeight: 1.6, fontSize: '16px' }}>
           {description}
         </p>
       </div>
@@ -83,7 +95,9 @@ export const CountrySlideBTFF: React.FC<CountrySlidePropsBTFF> = ({
           padding: '20px',
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
-          gap: '20px',
+          gap: '10px',
+          // justifyItems: 'center',   // ← center horizontally
+          // alignItems: 'center',     // ← center vertically
           backgroundColor: 'rgba(255,255,255,0.9)',
           borderRadius: '8px',
           boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
@@ -93,20 +107,5 @@ export const CountrySlideBTFF: React.FC<CountrySlidePropsBTFF> = ({
         {plot2 && <div style={{ width: '100%', height: '100%' }}>{plot2}</div>}
       </div>
     </div>
-
-    {/* slide title */}
-    <h3
-      style={{
-        position: 'absolute',
-        bottom: '20px',
-        left: '20px',
-        margin: 0,
-        color: '#2c3e50',
-        fontSize: '28px',
-        fontWeight: 600,
-      }}
-    >
-      {title}
-    </h3>
   </li>
 );

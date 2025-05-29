@@ -57,6 +57,22 @@ export const ChinaFuelTrade: React.FC = () => {
 
         const chart = echarts.init(chartRef.current);
         const option = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {        // show pointer on hover
+                    type: 'cross',
+                    label: { backgroundColor: '#6a7985' }
+                },
+                formatter: (params: any[]) => {
+                    // params is an array when trigger='axis'
+                    const date = new Date(params[0].value[0]).getFullYear();
+                    let s = `${date}<br/>`;
+                    params.forEach((p) => {
+                        s += `${p.marker}${p.seriesName}: ${p.value[1]}<br/>`;
+                    });
+                    return s;
+                }
+            },
             grid: {
                 show: false,
                 left: '10%',
@@ -66,8 +82,7 @@ export const ChinaFuelTrade: React.FC = () => {
                 containLabel: true
             },
             xAxis: {
-                type: 'category',
-                data: flowData.map(d => d.year),
+                type: 'time',
                 splitLine: { show: false }
             },
             yAxis: [
@@ -91,14 +106,20 @@ export const ChinaFuelTrade: React.FC = () => {
                 {
                     name: 'Balance (abs)',
                     type: 'bar',
-                    data: flowData.map(d => Math.abs(d.balance_mln_metric_tons))
+                    data: flowData.map(d => [
+                        new Date(d.year, 0, 1),
+                        Math.abs(d.balance_mln_metric_tons)
+                    ]),
                 },
                 {
                     name: 'Ratio of total imports',
                     type: 'line',
                     yAxisIndex: 1,
                     smooth: true,
-                    data: flowData.map(d => d.ratio_of_total_imports_weight)
+                    data: flowData.map(d => [
+                        new Date(d.year, 0, 1),
+                        d.ratio_of_total_imports_weight
+                    ]),
                 }
             ]
         };

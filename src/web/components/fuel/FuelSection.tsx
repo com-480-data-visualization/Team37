@@ -35,11 +35,16 @@ export const FuelSection: React.FC = () => {
     {
       kind: 'BTF',
       id: 'usa',
-      title: "USA's Energy Independence",
+      title: "USA: From Chronic Importer to Net Exporter",
       imageSrc: usa_banner,
       imageAlt: 'USA Oil Barrel',
       description:
-        "PLACEHOLDER: The united states became energy independent thanks to the shale revolution. Key events..",
+        `For most of the post-war era the United States burned more oil and gas than it could pump. Conventional fields onshore and in the Gulf of Mexico peaked in 1970; by 2005 domestic crude output had fallen almost in half, and the country was bringing in roughly 60 % of the oil it used. 
+
+        What changed was the rapid commercialisation of shale technology:
+        Shale technology uses high-pressure water, sand and chemicals to crack tight shale rock sideways through long horizontal wells, letting trapped oil and gas flow to the surface. Shale drilling has faced strong criticism for its environmental impact as it can lead to water contamination and earthquake risks.
+        
+        Nevertheless, shale did what traditional drilling could not: it opened vast, previously uneconomic rock to economic exploitation and turned the United States into a net exporter of Mineral Fuels`,
       plot: <UsaFuelTrade />,
 
     },
@@ -62,7 +67,7 @@ export const FuelSection: React.FC = () => {
   return (
     <article id="fuel-gallery">
       <header>
-        <h2>Global Food Trade Patterns</h2>
+        <h2>Mineral Fuels: Refined and Unrefined Oil, Natural Gass, Coal </h2>
       </header>
 
       <section className="img-group-container" ref={containerRef}>

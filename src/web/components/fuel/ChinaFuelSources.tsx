@@ -45,13 +45,23 @@ interface TradeFlowData {
 export const ChinaFuelSources: React.FC = () => {
     const chartRef = useRef<HTMLDivElement>(null);
     const [selectedPoint, setSelectedPoint] = useState<{ year: string; value: number } | null>(null);
-    const { data: flowData, loading } = useData<TradeFlowData[]>('country_specific/CHN/top10_sources.csv');
+    const { data: flowData, loading } = useData<TradeFlowData[]>('country_specific/CHN/top15_sources.csv');
 
     useEffect(() => {
         if (!chartRef.current || !flowData) return;
 
         const chart = echarts.init(chartRef.current);
         const option = {
+            tooltip: {
+                trigger: 'item',
+                axisPointer: {
+                    type: 'shadow'  // nice for bar charts
+                },
+                formatter: params => {
+                    // params is a single series for trigger:'item'
+                    return `${params.marker}${params.name}: ${params.value} trln USD`;
+                }
+            },
             grid: {
                 show: false,
                 left: '10%',
@@ -63,7 +73,11 @@ export const ChinaFuelSources: React.FC = () => {
             xAxis: {
                 type: 'category',
                 data: flowData.map(d => d.exporter),
-                splitLine: { show: false }
+                splitLine: { show: false },
+                axisLabel: {
+                    rotate: 45,    // tilt them 45° (try –45 or 30 if you like)
+                    interval: 0    // show every label
+                }
             },
             yAxis: [
                 {

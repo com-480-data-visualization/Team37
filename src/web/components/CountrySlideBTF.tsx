@@ -24,7 +24,7 @@ export const CountrySlideBTF: React.FC<CountrySlidePropsBTF> = ({
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: '30% 70%',
+        gridTemplateColumns: '25% 75%',
         gridTemplateRows: 'auto 60%',
         width: '100%',
         height: '100%',
@@ -59,12 +59,24 @@ export const CountrySlideBTF: React.FC<CountrySlidePropsBTF> = ({
           padding: '30px',
           backgroundColor: 'rgba(255,255,255,0.85)',
           display: 'flex',
-          alignItems: 'center',
+          flexDirection: 'column',
+          justifyContent: 'flex-start',
           borderRadius: '8px',
           boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
         }}
       >
-        <p style={{ color: '#333', lineHeight: 1.6, fontSize: '16px' }}>
+        <h3 style={{ 
+          margin: 0, 
+          marginBottom: '10px', 
+          color: '#2c3e50', 
+          fontSize: '28px', 
+          fontWeight: 600 
+        }}>
+          {title}
+        </h3>
+
+        {/* Then description */}
+        <p style={{whiteSpace: 'pre-line', color: '#333', lineHeight: 1.6, fontSize: '16px' }}>
           {description}
         </p>
       </div>
@@ -85,20 +97,5 @@ export const CountrySlideBTF: React.FC<CountrySlidePropsBTF> = ({
         </div>
       )}
     </div>
-
-    {/* slide title */}
-    <h3
-      style={{
-        position: 'absolute',
-        bottom: '20px',
-        left: '20px',
-        margin: 0,
-        color: '#2c3e50',
-        fontSize: '28px',
-        fontWeight: 600,
-      }}
-    >
-      {title}
-    </h3>
   </li>
 );
