@@ -248,6 +248,17 @@ interface TopTradeData {
     quantity_mln_metric_tons: string;
 }
 
+// struct for sankey diagram
+interface SankeyNode {
+  name: string;
+}
+
+interface SankeyLink {
+  source: string;
+  target: string;
+  value: number;
+}
+
 console.log('WorldTradeMapAnimated mounted');
 
 export const WorldTradeMapAnimated: React.FC = () => {
@@ -256,6 +267,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
     // Ref for the two bar charts for imports/exports
     const importsChartRef = useRef<HTMLDivElement>(null);
     const exportsChartRef = useRef<HTMLDivElement>(null);
+    // Ref for sankey diagram
+    const [sankeyChartRef] = useState(useRef<HTMLDivElement>(null));
 
     const { data: allData, loading: deficitLoading } = useData<TradeData[]>('absolute_deficit_all_years.csv');
     const { data: rawChapterMappings, loading: chaptersLoading } = useData<any[]>('interactive/prod_chap_to_description.csv');
@@ -273,6 +286,50 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const [topExportsData, setTopExportsData] = useState<Record<string, TopTradeData[]>>({});
     const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
     const [loadingTopData, setLoadingTopData] = useState(false);
+
+    // State for sankey diagram (top import/export countries)
+    const [topImportSources, setTopImportSources] = useState<Record<string, any[]>>({});
+    const [topExportSources, setTopExportSources] = useState<Record<string, any[]>>({});
+
+    const parseAndAggregateTradeSources = (text: string) => {
+        const lines = text.split('\n').filter(line => line.trim() !== '');
+        if (lines.length < 2) return [];
+
+        const headers = lines[0].split(',').map(h => h.trim());
+        const data: any[] = [];
+
+        for (let i = 1; i < lines.length; i++) {
+            const values = lines[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/)
+                .map(v => v.trim().replace(/^"(.*)"$/, '$1'));
+
+            if (values.length !== headers.length) continue;
+
+            const entry: any = {};
+            headers.forEach((header, index) => {
+                entry[header] = values[index];
+            });
+            data.push(entry);
+        }
+
+        // Aggregate by exporter/importer
+        const aggregated: Record<string, number> = {};
+        data.forEach(item => {
+            const key = item.exporter || item.importer;
+            if (!key || key === 'Other') return; // Skip 'Other' and empty keys
+
+            const value = parseFloat(item.value_trln_USD) || 0;
+            aggregated[key] = (aggregated[key] || 0) + value;
+        });
+
+        // Convert to array, sort, and limit to top 6
+        return Object.entries(aggregated)
+            .map(([country, value]) => ({
+                country,
+                value: Math.max(0, value) // Ensure non-negative
+            }))
+            .sort((a, b) => b.value - a.value)
+            .slice(0, 6); // Only top 6
+    };
 
     const parseCSVTopTradeBarChart = (text: string): TopTradeData[] => {
         const lines = text.split('\n').filter(line => line.trim() !== '');
@@ -308,29 +365,42 @@ export const WorldTradeMapAnimated: React.FC = () => {
             // First verify the file exists
             const importsUrl = `/Team37/data/interactive/${countryCode}/top_import_chapters.csv`;
             const exportsUrl = `/Team37/data/interactive/${countryCode}/top_export_chapters.csv`;
+            const importSourcesUrl = `/Team37/data/interactive/${countryCode}/top_import_srcs.csv`;
+            const exportSourceUrl = `/Team37/data/interactive/${countryCode}/top_export_dsts.csv`
 
             console.log(`Attempting to fetch from: ${importsUrl}`);
 
-            const [importsRes, exportsRes] = await Promise.all([
+            const [importsRes, exportsRes, importSourcesRes, exportSourcesRes] = await Promise.all([
                 fetch(importsUrl),
-                fetch(exportsUrl)
+                fetch(exportsUrl),
+                fetch(importSourcesUrl),
+                fetch(exportSourceUrl)
             ]);
 
             // Check if we got HTML instead of CSV
             const importsText = await importsRes.text();
             const exportsText = await exportsRes.text();
+            const importSourcesText = await importSourcesRes.text();
+            const exportSourcesText = await exportSourcesRes.text();
 
             if (importsText.trim().startsWith('<!DOCTYPE') ||
                 exportsText.trim().startsWith('<!DOCTYPE')) {
                 throw new Error('Received HTML instead of CSV data');
             }
 
+            // Process bar chart data
             const importsData = parseCSVTopTradeBarChart(importsText);
             const exportsData = parseCSVTopTradeBarChart(exportsText);
 
+            // Process sankey data
+            const importSources = parseAndAggregateTradeSources(importSourcesText);
+            const exportSources = parseAndAggregateTradeSources(exportSourcesText);
+
             console.log('Successfully parsed:', {
                 imports: importsData,
-                exports: exportsData
+                exports: exportsData,
+                importSources: importSources,
+                exportSources: exportSources,
             });
 
             setTopImportsData(prev => ({
@@ -342,6 +412,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 ...prev,
                 [countryCode]: exportsData
             }));
+
+            setTopImportSources(prev => ({ 
+                ...prev,
+                [countryCode]: importSources
+            }));
+
+            setTopExportSources(prev => ({
+                ...prev,
+                [countryCode]: exportSources
+            }));
+
         } catch (error) {
             console.error(`Failed to load top trade data for ${countryCode}:`, error);
             // Set empty data to prevent errors
@@ -353,10 +434,123 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 ...prev,
                 [countryCode]: []
             }));
+            setTopImportSources(prev => ({ 
+                ...prev,
+                [countryCode]: []
+            }));
+            setTopExportSources(prev => ({
+                ...prev,
+                [countryCode]: []
+            }));
         } finally {
             setLoadingTopData(false);
         }
     };
+
+    // Update the Sankey useEffect
+    useEffect(() => {
+        if (!sankeyChartRef.current || !selectedCountry) return;
+
+        const sankeyChart = echarts.init(sankeyChartRef.current);
+        const importSources = (topImportSources[selectedCountry] || []).slice(0, 6); // Top 6 only
+        const exportSources = (topExportSources[selectedCountry] || []).slice(0, 6); // Top 6 only
+        const countryName = codeToName[selectedCountry] || selectedCountry;
+
+        // Prepare nodes - need unique names and proper indices
+        const nodes: SankeyNode[] = [
+            { name: `${countryName} (Imports)` },
+            ...importSources.map(src => ({
+                name: `${codeToName[src.country] || src.country} (Import)`
+            })),
+            { name: `${countryName} (Exports)` },
+            ...exportSources.map(src => ({
+                name: `${codeToName[src.country] || src.country} (Export)`
+            }))
+        ];
+
+        // Create a map from node names to their indices
+        const nodeMap: Record<string, number> = {};
+        nodes.forEach((node, index) => {
+            nodeMap[node.name] = index;
+        });
+
+        // Prepare links using indices
+        const links: SankeyLink[] = [
+            // Import links (sources -> country imports)
+            ...importSources.map(src => ({
+                source: nodeMap[`${codeToName[src.country] || src.country} (Import)`],
+                target: nodeMap[`${countryName} (Imports)`],
+                value: src.value * 1000 // Convert to billions
+            })),
+            // Export links (country exports -> destinations)
+            ...exportSources.map(src => ({
+                source: nodeMap[`${countryName} (Exports)`],
+                target: nodeMap[`${codeToName[src.country] || src.country} (Export)`],
+                value: src.value * 1000 // Convert to billions
+            }))
+        ];
+
+        const option = {
+            title: {
+                text: `Trade Partners - ${countryName} (${year})`,
+                left: 'center'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: (params: any) => {
+                    if (params.dataType === 'edge') {
+                        const source = nodes[params.data.source].name.replace(' (Import)', '').replace(' (Export)', '');
+                        const target = nodes[params.data.target].name.replace(' (Import)', '').replace(' (Export)', '');
+                        return `${source} → ${target}<br/>Value: ${params.data.value.toFixed(6)} Billion USD`;
+                    }
+                    return params.name.replace(' (Import)', '').replace(' (Export)', '');
+                }
+            },
+            series: [{
+                type: 'sankey',
+                layout: 'none',
+                data: nodes,
+                links: links,
+                emphasis: {
+                    focus: 'adjacency'
+                },
+                nodeAlign: 'right',
+                levels: [{
+                    depth: 0,
+                    itemStyle: {
+                        color: '#fbb4ae'
+                    },
+                    lineStyle: {
+                        color: 'source',
+                        opacity: 0.6
+                    }
+                }, {
+                    depth: 1,
+                    itemStyle: {
+                        color: '#b3cde3'
+                    },
+                    lineStyle: {
+                        color: 'source',
+                        opacity: 0.6
+                    }
+                }],
+                lineStyle: {
+                    curveness: 0.5
+                },
+                label: {
+                    formatter: (params: any) => {
+                        return params.name.replace(' (Import)', '').replace(' (Export)', '');
+                    }
+                }
+            }]
+        };
+
+        sankeyChart.setOption(option);
+
+        return () => {
+            sankeyChart.dispose();
+        };
+    }, [selectedCountry, topImportSources, topExportSources, year]);
 
     // Load top trade data when country is selected for the two bar charts
     useEffect(() => {
@@ -821,18 +1015,29 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 <div 
                     ref={importsChartRef} 
                     style={{
-                        width: '48%', 
-                        height: '300px', 
+                        width: '33.3%', 
+                        height: '400px', 
                         backgroundColor: '#fff', 
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
                     }} 
                 />
+                <div
+                    ref={sankeyChartRef}
+                    style={{
+                        width: '33.3%',
+                        height: '400px',
+                        backgroundColor: '#fff',
+                        borderRadius: '8px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                        minWidth: '300px',
+                    }}
+                />
                 <div 
                     ref={exportsChartRef} 
                     style={{
-                        width: '48%', 
-                        height: '300px', 
+                        width: '33.3%', 
+                        height: '400px', 
                         backgroundColor: '#fff', 
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
