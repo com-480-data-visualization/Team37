@@ -234,14 +234,11 @@ export const WorldTradeMap: React.FC = () => {
   const { data: allData, loading } = useData<TradeData[]>('absolute_deficit_2023.csv');
 
   useEffect(() => {
-    if (!chartRef.current || !allData) {
-      console.log('chartRef or allData not ready', chartRef.current, allData);
-      return;
-    }
-    console.log('allData:', allData);
+    if (!chartRef.current || !allData) return;
 
     const chart = echarts.init(chartRef.current);
 
+    worldJson.features.forEach(f => { f.properties.name = f.properties.NAME; });
     echarts.registerMap('world', worldJson as any);
 
     const countryCodeMapping = worldJson.features.reduce((acc, f) => {
@@ -283,7 +280,7 @@ export const WorldTradeMap: React.FC = () => {
     const values = finalMapData.map(item => item.value).filter(v => !isNaN(v));
     const minValue = Math.min(...values);
     const maxValue = Math.max(...values);
-    const maxAbs = Math.max(Math.abs(minValue), Math.abs(maxValue));
+    const maxRange = Math.max(minValue, maxValue)
 
     const option = {
       backgroundColor: '#fff',
@@ -303,8 +300,8 @@ export const WorldTradeMap: React.FC = () => {
       },
       visualMap: {
         left: 'left',
-        min: -maxAbs,
-        max: maxAbs,
+        min: maxRange,
+        max: -maxRange,
         text: ['Surplus', 'Deficit'],
         realtime: false,
         calculable: true,
@@ -320,10 +317,7 @@ export const WorldTradeMap: React.FC = () => {
       }]
     };
 
-    console.log('准备 setOption', option);
     chart.setOption(option);
-    console.log('setOption 完成');
-
     const handleResize = () => chart.resize();
     window.addEventListener('resize', handleResize);
 
