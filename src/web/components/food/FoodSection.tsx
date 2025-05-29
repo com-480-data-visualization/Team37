@@ -6,8 +6,8 @@ import { YemenFoodVsGdp } from './YemenFoodVsGdp';
 import { UkraineGrainExporter } from './UkraineGrainExporter';
 import { CountrySlideBTF, CountrySlidePropsBTF } from '../CountrySlideBTF';
 import { CountrySlideBTFF, CountrySlidePropsBTFF } from '../CountrySlideBTFF';
-import placeholder_yemen from '../../assets/yemen.png';
-import placeholder_saudi from '../../assets/saudi_water.avif';
+import yemen_img from '../../assets/yemen.png';
+import saudi_img from '../../assets/saudi_water.avif';
 import ukraine_img from '../../assets/ukraine.jpg';
 
 export const FoodSection: React.FC = () => {
@@ -31,17 +31,20 @@ export const FoodSection: React.FC = () => {
     {
       id: 'yemen',
       title: "Yemen's Dependence on Food Imports",
-      imageSrc: placeholder_yemen,
+      imageSrc: yemen_img,
       imageAlt: 'Yemen Food Dependency',
       description:
-        "PLACEHOLDER: Food Dependence and civil war (shock) - Famine. Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people. TODO: Add civil war start event, Make y axis percentage",
+        // "PLACEHOLDER: DATA QUALITY. Food Dependence and civil war (shock) - Famine. Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people. TODO: Add civil war start event, Make y axis percentage",
+        `We will first explore trade of food through some unique edge cases. In "food" we include all HS92 categories (18) that are related to human nutrition. The grouping is broad and includes categories like meat and fish, vegetables and fruits, and, crucially, cereals like wheat and rice.
+        
+        `,
       plot: <YemenFoodVsGdp />, 
 
     },
     {
       id: 'saudi',
       title: "Saudi Arabia's Water Conservation",
-      imageSrc: placeholder_saudi,
+      imageSrc: saudi_img,
       imageAlt: 'Saudi Water Conservation',
       description:
         "PLACEHOLDER DEFINE CEREAL (Trade-offs (water/agriculture) and policy choices): Saudi Arabia's grain story reads like a policy whiplash."+ 

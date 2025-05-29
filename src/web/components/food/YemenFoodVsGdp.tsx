@@ -5,36 +5,36 @@ import * as Prm from '../params';
 
 const eventData = {
   "1995": {
-    title: "WTO Established",
-    description: "World Trade Organization officially begins operation on January 1, 1995.",
-    imageUrl: "./assets/wto.png",
-    newsUrl: "https://en.wikipedia.org/wiki/World_Trade_Organization"
+    title: "Market-opening reform",
+    description: "Structural-adjustment cuts wheat-flour subsidies, pushing Yemen—already importing ≈70 % of its staples—to rely almost entirely on private, dollar-denominated cereal purchases.",
+    newsUrl: "https://en.wikipedia.org/wiki/Economy_of_Yemen"
   },
-  "2001": {
-    title: "China joined WTO",
-    description: "Jesus Christ pls save me from this huge trade deficit.",
-    imageUrl: "./assets/wto-china.jpg",
-    newsUrl: "https://www.wto.org/english/thewto_e/acc_e/s7lu_e.pdf"
+  "2011": {
+    title: "Arab-Spring supply squeeze",
+    description: "Port strikes and currency slides lift wheat-flour retail prices 40–60 %, forcing emergency purchases.",
+    newsUrl: "https://en.wikipedia.org/wiki/Yemeni_revolution?"
   },
-  "2008": {
-    title: "Global Financial Crisis",
-    description: "Trade volumes dropped sharply during the financial crisis.",
-    imageUrl: "./assets/2008-mortgage.webp",
-    newsUrl: "https://en.wikipedia.org/wiki/2008_financial_crisis"
+  "2014": {
+    title: "Yemeni Civil War",
+    description: "After Sana'a's takeover, 70 % of the population in the north must now depend on Red-Sea ports for 90 % of their grain, tightening geographic reliance on imports.",
+    newsUrl: "https://en.wikipedia.org/wiki/Houthi_takeover_in_Yemen?"
+  },
+  "2015": {
+    title: "Coalition blockade Begins",
+    description: "Saudi-led naval and air restrictions cut monthly wheat arrivals by half, leaving only ~1 Mt landed that year and pushing 6 m Yemenis into IPC “crisis” or worse food insecurity.",
+    newsUrl: "https://en.wikipedia.org/wiki/Saudi-led_intervention_in_the_Yemeni_civil_war?"
   },
   "2016": {
-    title: "MAKE AMERICA GREAT AGAIN!!!!!!!!!!!!!!!",
-    description: "CHINA!!!!!!!!!!!!!!!!!!!!!",
-    imageUrl: "./assets/trump_mad.webp",
-    newsUrl: "https://www.bbc.com/news/election-us-2016-37920175"
+    title: "Famine in Yemen ",
+    description: "President Hadi's decision to move the Central Bank to Aden in September 2016, triggering a liquidity crunch that has fueled famine, as somewhere between 8.5 million and 10 million Yemenis rely on public sector salaries that remained unpaid for more than a year. ",
+    newsUrl: "https://en.wikipedia.org/wiki/Famine_in_Yemen_%282016%E2%80%93present%29?"
   },
-  "2020": {
-    title: "COVID-19 Pandemic",
-    description: "Global trade was significantly disrupted by pandemic lockdowns.",
-    imageUrl: "./assets/corona.jpg",
-    newsUrl: "https://www.who.int/news/item/29-06-2020-covidtimeline"
-  }
 };
+
+// International agencies classify Yemen as facing “famine-like conditions” continuously from 2016 to the present, 
+// with IPC Phase 4/5 hotspots persisting each year since the Central-Bank split triggered a nationwide liquidity 
+// and salary crisis
+// https://en.wikipedia.org/wiki/Famine_in_Yemen_%282016%E2%80%93present%29?
 
 interface TradeFlowData {
   year: number;
@@ -43,7 +43,7 @@ interface TradeFlowData {
 
 export const YemenFoodVsGdp: React.FC = () => {
   const chartRef = useRef<HTMLDivElement>(null);
-  const [selectedPoint, setSelectedPoint] = useState<{ year: string; value: number } | null>(null);
+  const [selectedPoint, setSelectedPoint] = useState<{ year: number; value: number } | null>(null);
   const { data: flowData, loading } = useData<TradeFlowData[]>('country_specific/YEM/food_vs_gdp.csv');
 
   useEffect(() => {
@@ -100,7 +100,19 @@ export const YemenFoodVsGdp: React.FC = () => {
         {
           name: 'Food Imports % GDP',
           type: 'line',
-          data: flowData.map((d) => Math.round(d.imports_pcnt_gdp * 1000) / 10),
+          // data: flowData.map((d) => Math.round(d.imports_pcnt_gdp * 1000) / 10),
+          data: flowData.map(d => ({
+            value: Math.round(d.imports_pcnt_gdp * 1000) / 10,
+            itemStyle: {
+              color: eventData[d.year] ? Prm.curve_color_red : Prm.curve_color_blue,
+              borderColor: eventData[d.year] ? '#FFF' : 'transparent',
+              borderWidth: eventData[d.year] ? 2 : 0,
+              shadowColor: eventData[d.year] ? 'rgba(255,107,107,0.5)' : 'transparent',
+              shadowBlur: eventData[d.year] ? 10 : 0
+            },
+            symbolSize: eventData[d.year] ? Prm.large_marker_size : Prm.marker_size,
+            symbol: eventData[d.year] ? 'triangle' : Prm.marker_shape,
+          })),
           smooth: true,
           lineStyle: {
             color: Prm.yemen_black,   // line color
@@ -116,16 +128,14 @@ export const YemenFoodVsGdp: React.FC = () => {
 
     chart.setOption(option);
 
-    // chart.on('click', (params: any) => {
-    //   if (params.componentType === 'series') {
-    //     const year = flowData[params.dataIndex].year;
-    //     const value =
-    //       params.seriesName === 'Imports'
-    //         ? flowData[params.dataIndex].imports_mln_metric_tons
-    //         : flowData[params.dataIndex].exports_mln_metric_tons;
-    //     setSelectedPoint({ year, value });
-    //   }
-    // });
+    // Click event handler
+    chart.on('click', (params: any) => {
+      if (params.componentType === 'series') {
+        const year = flowData[params.dataIndex].year;
+        const value = flowData[params.dataIndex].imports_pcnt_gdp;
+        setSelectedPoint({ year, value });
+      }
+    });
 
     const handleResize = () => chart.resize();
     window.addEventListener('resize', handleResize);
@@ -144,6 +154,7 @@ export const YemenFoodVsGdp: React.FC = () => {
     <div style={{ position: 'relative' }}>
       <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
 
+      {/* Event Code Start */}
       {selectedPoint && eventData[selectedPoint.year] && (
         <>
           <div
@@ -185,7 +196,18 @@ export const YemenFoodVsGdp: React.FC = () => {
               }}
             >×</button>
             <h3 style={{ margin: 0, fontSize: '1rem' }}>
-              {eventData[selectedPoint.year].title} ({selectedPoint.year})
+              <a
+                href={eventData[selectedPoint.year].newsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: '#1a0dab',           // typical link blue (Google-style)
+                  textDecoration: 'underline', // underline the text
+                  fontWeight: 'normal'         // optional: keep weight normal inside h3
+                }}
+              >
+                {eventData[selectedPoint.year].title} ({selectedPoint.year})
+              </a>
             </h3>
             <p style={{ fontSize: '0.9rem' }}>
               {eventData[selectedPoint.year].description}
@@ -195,18 +217,14 @@ export const YemenFoodVsGdp: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={eventData[selectedPoint.year].imageUrl}
-                alt={eventData[selectedPoint.year].title}
-                style={{ width: '100%', borderRadius: '4px', margin: '10px 0' }}
-              />
             </a>
             <p style={{ fontSize: '0.9rem' }}>
-              Value: {selectedPoint.value.toLocaleString()} mln tons
+              Value: {selectedPoint.value.toLocaleString()}
             </p>
           </div>
         </>
       )}
+      {/* Event Code End */}
     </div>
   );
 };

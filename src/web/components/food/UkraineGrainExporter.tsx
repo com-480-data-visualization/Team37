@@ -218,7 +218,7 @@ export const UkraineGrainExporter: React.FC = () => {
               />
             </a>
             <p style={{ fontSize: '0.9rem' }}>
-              Value: {selectedPoint.value.toLocaleString()} mln tons
+              Value: {selectedPoint.value.toLocaleString()}
             </p>
           </div>
         </>

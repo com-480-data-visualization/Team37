@@ -84,7 +84,7 @@ export const ChinaFuelTrade: React.FC = () => {
                 },
                 {
                     type: 'value',
-                    name: 'Ratio of Global Imports (%)',
+                    name: 'Percentage of Global Imports (%)',
                     nameLocation: 'middle',
                     nameGap: 50,
                     nameRotate: -90,
@@ -103,7 +103,7 @@ export const ChinaFuelTrade: React.FC = () => {
             ],
             series: [
                 {
-                    name: 'Fuel Trade Balance',
+                    name: 'Fuel Trade Balance (Mil. Tons)',
                     type: 'bar',
                     data: flowData.map(d => Math.round(Math.abs(d.balance_mln_metric_tons) * 10) / 10),
                     itemStyle: {
@@ -111,7 +111,7 @@ export const ChinaFuelTrade: React.FC = () => {
                     }
                 },
                 {
-                    name: 'Ratio of Global Imports',
+                    name: '% of Global Imports (weight)',
                     type: 'line',
                     yAxisIndex: 1,
                     smooth: true,

@@ -3,38 +3,6 @@ import * as echarts from 'echarts';
 import { useData } from '../../hooks/useData';
 import * as Prm from '../params';
 
-const eventData = {
-  "1995": {
-    title: "WTO Established",
-    description: "World Trade Organization officially begins operation on January 1, 1995.",
-    imageUrl: "./assets/wto.png",
-    newsUrl: "https://en.wikipedia.org/wiki/World_Trade_Organization"
-  },
-  "2001": {
-    title: "China joined WTO",
-    description: "Jesus Christ pls save me from this huge trade deficit.",
-    imageUrl: "./assets/wto-china.jpg",
-    newsUrl: "https://www.wto.org/english/thewto_e/acc_e/s7lu_e.pdf"
-  },
-  "2008": {
-    title: "Global Financial Crisis",
-    description: "Trade volumes dropped sharply during the financial crisis.",
-    imageUrl: "./assets/2008-mortgage.webp",
-    newsUrl: "https://en.wikipedia.org/wiki/2008_financial_crisis"
-  },
-  "2016": {
-    title: "MAKE AMERICA GREAT AGAIN!!!!!!!!!!!!!!!",
-    description: "CHINA!!!!!!!!!!!!!!!!!!!!!",
-    imageUrl: "./assets/trump_mad.webp",
-    newsUrl: "https://www.bbc.com/news/election-us-2016-37920175"
-  },
-  "2020": {
-    title: "COVID-19 Pandemic",
-    description: "Global trade was significantly disrupted by pandemic lockdowns.",
-    imageUrl: "./assets/corona.jpg",
-    newsUrl: "https://www.who.int/news/item/29-06-2020-covidtimeline"
-  }
-};
 
 // USDA Foreign Agricultural Service
 // Wheat: 3.57 Mt imported / 4.54 Mt consumed → 79 % 

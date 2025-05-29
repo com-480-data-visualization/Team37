@@ -150,7 +150,7 @@ export const UsaFuelTrade: React.FC = () => {
     return (
         <div style={{ position: 'relative' }}>
             <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
-
+            {/* Event Code Start */}
             {selectedPoint && eventData[selectedPoint.year] && (
                 <>
                     <div
@@ -220,6 +220,8 @@ export const UsaFuelTrade: React.FC = () => {
                     </div>
                 </>
             )}
+            {/* Event Code End */}
+
         </div>
     );
 };
