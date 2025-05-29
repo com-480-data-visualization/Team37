@@ -10,6 +10,7 @@ import * as Prm from '../params';
 // Corn (feed & food): 4.0 Mt imported / 4.85 Mt consumed → 82 % 
 // Rice (food): 1.56 Mt imported / 1.56 Mt consumed → 100 % 
 
+// https://www.world-grain.com/articles/6275-saudi-arabia-ends-domestic-wheat-production-program?utm_source=chatgpt.com
 interface TradeFlowData {
   year: number;
   imports_mln_metric_tons: number;
@@ -73,7 +74,7 @@ export const SaudiGrainTrade: React.FC = () => {
       },
       series: [
         {
-          name: 'Cereal Imports',
+          name: 'Cereal Imports (Mln. Tons)',
           type: 'bar',
           data: flowData.map((d) => Math.round(d.imports_mln_metric_tons * 10) / 10),
           smooth: true,

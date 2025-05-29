@@ -5,35 +5,30 @@ import * as Prm from '../params';
 
 const eventData = {
   "1995": {
-    title: "WTO Established",
-    description: "World Trade Organization officially begins operation on January 1, 1995.",
-    imageUrl: "./assets/wto.png",
-    newsUrl: "https://en.wikipedia.org/wiki/World_Trade_Organization"
+    title: "Post-Soviet output collapse",
+    description: "\"Following independence in 1991, Ukraine's agricultural sector entered a decade of decline. Diminishing animal inventories freed up an exportable supply of feed grains. However, exports of this surplus grain were limited until 1994 when state price controls were reduced and export restrictions were removed\"",
+    newsUrl: "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=How+is+Ukrainian+Grain+Competitive%3F_Kyiv_Ukraine_08-02-2002.pdf"
   },
-  "2001": {
-    title: "China joined WTO",
-    description: "Jesus Christ pls save me from this huge trade deficit.",
-    imageUrl: "./assets/wto-china.jpg",
-    newsUrl: "https://www.wto.org/english/thewto_e/acc_e/s7lu_e.pdf"
+  "2007": {
+    title: "Export Quotas",
+    description: "Govenrment introduces quotas to guarantee food security and protect domestic consumers from rising international wheat prices.",
+    newsUrl: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/365851468309268556/the-quotas-on-grain-exports-in-ukraine-ineffective-inefficient-and-non-transparent?"
   },
-  "2008": {
-    title: "Global Financial Crisis",
-    description: "Trade volumes dropped sharply during the financial crisis.",
-    imageUrl: "./assets/2008-mortgage.webp",
-    newsUrl: "https://en.wikipedia.org/wiki/2008_financial_crisis"
+  "2011": {
+    title: "Black Sea Drought",
+    description: "Regional drought and food-price fears bring back quotas and export taxes; wheat share dips even though world prices are high.",
+    newsUrl: "https://link.springer.com/article/10.1007/s12571-014-0372-2?"
   },
-  "2016": {
-    title: "MAKE AMERICA GREAT AGAIN!!!!!!!!!!!!!!!",
-    description: "CHINA!!!!!!!!!!!!!!!!!!!!!",
-    imageUrl: "./assets/trump_mad.webp",
-    newsUrl: "https://www.bbc.com/news/election-us-2016-37920175"
+  "2021": {
+    title: "All-Time Wheat Production Record",
+    description: "Ideal weather plus technology gains boost production to 32 Metric Tons; exports reach 24 Mt",
+    newsUrl: "https://www.world-grain.com/articles/15771-ukraine-expects-record-harvest-in-2021-22?"
   },
-  "2020": {
-    title: "COVID-19 Pandemic",
-    description: "Global trade was significantly disrupted by pandemic lockdowns.",
-    imageUrl: "./assets/corona.jpg",
-    newsUrl: "https://www.who.int/news/item/29-06-2020-covidtimeline"
-  }
+  "2022": {
+    title: "Invasion and Grain Deal",
+    description: "Seaborne exports collapse after February 24 as the Black Sea is blockaded. The subsequent Black Sea grain deal helps avoid an export collapse.",
+    newsUrl: "https://en.wikipedia.org/wiki/Humanitarian_impacts_of_the_Russian_invasion_of_Ukraine?"
+  },
 };
 
 interface TradeFlowData {
@@ -46,7 +41,7 @@ interface TradeFlowData {
 
 export const UkraineGrainExporter: React.FC = () => {
   const chartRef = useRef<HTMLDivElement>(null);
-  const [selectedPoint, setSelectedPoint] = useState<{ year: string; value: number } | null>(null);
+  const [selectedPoint, setSelectedPoint] = useState<{ year: number; value: number } | null>(null);
   const { data: flowData, loading } = useData<TradeFlowData[]>('country_specific/UKR/cereal_exports.csv');
 
   useEffect(() => {
@@ -116,7 +111,18 @@ export const UkraineGrainExporter: React.FC = () => {
         {
           name: 'Cereal Exports as % of Total (Weight)',
           type: 'line',
-          data: flowData.map((d) => Math.round(d.ratio_total_exp_weight * 1000) / 10),
+          data: flowData.map(d => ({
+            value: Math.round(d.ratio_total_exp_weight * 1000) / 10,
+            itemStyle: {
+              color: eventData[d.year] ? Prm.curve_color_ukr_blue : Prm.curve_color_ukr_blue,
+              borderColor: eventData[d.year] ? '#FFF' : 'transparent',
+              borderWidth: eventData[d.year] ? 2 : 0,
+              shadowColor: eventData[d.year] ? 'rgba(255,107,107,0.5)' : 'transparent',
+              shadowBlur: eventData[d.year] ? 10 : 0
+            },
+            symbolSize: eventData[d.year] ? Prm.large_marker_size : 1,
+            symbol: eventData[d.year] ? 'triangle' : Prm.marker_shape,
+          })),
           smooth: true,
           lineStyle: {
             color: Prm.curve_color_ukr_blue,   // line color
@@ -132,16 +138,14 @@ export const UkraineGrainExporter: React.FC = () => {
 
     chart.setOption(option);
 
-    // chart.on('click', (params: any) => {
-    //   if (params.componentType === 'series') {
-    //     const year = flowData[params.dataIndex].year;
-    //     const value =
-    //       params.seriesName === 'Imports'
-    //         ? flowData[params.dataIndex].imports_mln_metric_tons
-    //         : flowData[params.dataIndex].exports_mln_metric_tons;
-    //     setSelectedPoint({ year, value });
-    //   }
-    // });
+    // Click event handler
+    chart.on('click', (params: any) => {
+      if (params.componentType === 'series') {
+        const year = flowData[params.dataIndex].year;
+        const value = flowData[params.dataIndex].ratio_total_exp_weight;
+        setSelectedPoint({ year, value });
+      }
+    });
 
     const handleResize = () => chart.resize();
     window.addEventListener('resize', handleResize);
@@ -160,69 +164,77 @@ export const UkraineGrainExporter: React.FC = () => {
     <div style={{ position: 'relative' }}>
       <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
 
-      {selectedPoint && eventData[selectedPoint.year] && (
-        <>
-          <div
-            style={{
-              position: 'fixed',
-              top: 0,
-              left: 0,
-              width: '100vw',
-              height: '100vh',
-              background: 'rgba(0,0,0,0)',
-              zIndex: 999
-            }}
-            onClick={() => setSelectedPoint(null)}
-          />
-          <div
-            style={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              backgroundColor: 'white',
-              padding: '20px',
-              borderRadius: '8px',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-              zIndex: 1000,
-              maxWidth: '250px'
-            }}
-          >
-            <button
-              onClick={() => setSelectedPoint(null)}
-              style={{
-                position: 'absolute',
-                top: '10px',
-                right: '10px',
-                background: 'none',
-                border: 'none',
-                fontSize: '18px',
-                cursor: 'pointer'
-              }}
-            >×</button>
-            <h3 style={{ margin: 0, fontSize: '1rem' }}>
-              {eventData[selectedPoint.year].title} ({selectedPoint.year})
-            </h3>
-            <p style={{ fontSize: '0.9rem' }}>
-              {eventData[selectedPoint.year].description}
-            </p>
-            <a
-              href={eventData[selectedPoint.year].newsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={eventData[selectedPoint.year].imageUrl}
-                alt={eventData[selectedPoint.year].title}
-                style={{ width: '100%', borderRadius: '4px', margin: '10px 0' }}
-              />
-            </a>
-            <p style={{ fontSize: '0.9rem' }}>
-              Value: {selectedPoint.value.toLocaleString()}
-            </p>
-          </div>
-        </>
-      )}
+      {/* Event Code Start */}
+            {selectedPoint && eventData[selectedPoint.year] && (
+                <>
+                    <div
+                        style={{
+                            position: 'fixed',
+                            top: 0,
+                            left: 0,
+                            width: '100vw',
+                            height: '100vh',
+                            background: 'rgba(0,0,0,0)',
+                            zIndex: 999
+                        }}
+                        onClick={() => setSelectedPoint(null)}
+                    />
+                    <div
+                        style={{
+                            position: 'absolute',
+                            top: '50%',
+                            left: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            backgroundColor: 'white',
+                            padding: '20px',
+                            borderRadius: '8px',
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                            zIndex: 1000,
+                            maxWidth: '250px'
+                        }}
+                    >
+                        <button
+                            onClick={() => setSelectedPoint(null)}
+                            style={{
+                                position: 'absolute',
+                                top: '10px',
+                                right: '10px',
+                                background: 'none',
+                                border: 'none',
+                                fontSize: '18px',
+                                cursor: 'pointer'
+                            }}
+                        >×</button>
+                        <h3 style={{ margin: 0, fontSize: '1rem' }}>
+                            <a
+                                href={eventData[selectedPoint.year].newsUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    color: '#1a0dab',           // typical link blue (Google-style)
+                                    textDecoration: 'underline', // underline the text
+                                    fontWeight: 'normal'         // optional: keep weight normal inside h3
+                                }}
+                            >
+                                {eventData[selectedPoint.year].title} ({selectedPoint.year})
+                            </a>
+                        </h3>
+                        <p style={{ fontSize: '0.9rem' }}>
+                            {eventData[selectedPoint.year].description}
+                        </p>
+                        <a
+                            href={eventData[selectedPoint.year].newsUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        </a>
+                        <p style={{ fontSize: '0.9rem' }}>
+                            Value: {selectedPoint.value.toLocaleString()} mln tons
+                        </p>
+                    </div>
+                </>
+            )}
+            {/* Event Code End */}
     </div>
   );
 };

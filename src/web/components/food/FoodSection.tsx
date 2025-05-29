@@ -34,10 +34,6 @@ export const FoodSection: React.FC = () => {
       imageSrc: yemen_img,
       imageAlt: 'Yemen Food Dependency',
       description:
-        // "PLACEHOLDER: DATA QUALITY. Food Dependence and civil war (shock) - Famine. 
-        // Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. 
-        // The environment is unsuitable for efficient large-scale agriculture for its 39 million people. 
-        // TODO: Add civil war start event, Make y axis percentage",
         `We will first explore trade of food through some unique edge cases. In "food" we include all HS92 categories (18) that are related to human nutrition. The grouping is broad and includes categories like meat and fish, vegetables and fruits, and, crucially, cereals like wheat and rice.
         
         Yemen is a country of 39.39 million people that has great difficulty producing its own food due to severe water scarcity, poor land quality, and war.
@@ -56,10 +52,16 @@ export const FoodSection: React.FC = () => {
       imageSrc: saudi_img,
       imageAlt: 'Saudi Water Conservation',
       description:
-        "PLACEHOLDER DEFINE CEREAL (Trade-offs (water/agriculture) and policy choices): Saudi Arabia's grain story reads like a policy whiplash."+ 
-        "Flush with oil money, the kingdom used fossil-aquifer irrigation to become a net" +
-        "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
-        "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
+        `In 2007, the Saudi government decreed that wheat production must fall by 12.5% year-over-year, with the objective of ending wheat cultivation in the country by 2016.
+        
+        Naturally, since wheat is a staple food ingredient in Saudi Arabia, the country is largely dependent on cereal imports. The 2007 decision, which is in contrast to the kingdom's 1980s policy of wheat self-sufficiency, was made to protect the country's scarce water reserves.
+
+        Below, we illustrate the rapid growth in cereal imports.
+        `,
+        // "PLACEHOLDER DEFINE CEREAL (Trade-offs (water/agriculture) and policy choices): Saudi Arabia's grain story reads like a policy whiplash."+ 
+        // "Flush with oil money, the kingdom used fossil-aquifer irrigation to become a net" +
+        // "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
+        // "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
       plot: <SaudiGrainTrade />, 
     },
     {
@@ -68,7 +70,13 @@ export const FoodSection: React.FC = () => {
       imageSrc: ukraine_img,
       imageAlt: 'Ukraine Fields',
       description:
-        "PLACEHOLDER (Bread Basket and War): TODO: why is y axis broken? Fix events, fix seeing value when hovering",
+        `Ukraine is nowadays known to be one of the breadbaskets of the world, but this was not always the case.
+        Cereal (mostly wheat) exports were almost zero after the collapse of the Soviet Union.
+        
+        Not without the occasional volatility, Ukraine emerged as the supplier of ~10% of the worlds cereal exports in terms of weight.
+        Despite the 2022 war and naval blockade threatening Ukraine's export industry and the food stability of the planet, Ukraine's contribution to food availability has remained relatively stable.
+        
+        We visualize the evolution of one of the worlds major food contributors in terms of Cereal exports in Dollar and weight terms.`,
       plot: <UkraineGrainExporter />, 
     }
   ];
