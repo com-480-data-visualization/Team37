@@ -240,10 +240,23 @@ interface ProductChapterMapping {
     description: string;
 }
 
+// struct for the two imports/exports bar chart
+interface TopTradeData {
+    year: string;
+    product_chapter: string;
+    value_trln_USD: string;
+    quantity_mln_metric_tons: string;
+}
+
 console.log('WorldTradeMapAnimated mounted');
 
 export const WorldTradeMapAnimated: React.FC = () => {
+    // Ref for the main WorldMap Chart
     const chartRef = useRef<HTMLDivElement>(null);
+    // Ref for the two bar charts for imports/exports
+    const importsChartRef = useRef<HTMLDivElement>(null);
+    const exportsChartRef = useRef<HTMLDivElement>(null);
+
     const { data: allData, loading: deficitLoading } = useData<TradeData[]>('absolute_deficit_all_years.csv');
     const { data: rawChapterMappings, loading: chaptersLoading } = useData<any[]>('interactive/prod_chap_to_description.csv');
     const [year, setYear] = useState<string>('2023');
@@ -254,6 +267,207 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const [productChapters, setProductChapters] = useState<ProductChapterMapping[]>([]);
     const [currentView, setCurrentView] = useState<'total' | 'product'>('total');
     const [availableCountries, setAvailableCountries] = useState<string[]>([]);
+
+    // Add state for bar charts (top trade data)
+    const [topImportsData, setTopImportsData] = useState<Record<string, TopTradeData[]>>({});
+    const [topExportsData, setTopExportsData] = useState<Record<string, TopTradeData[]>>({});
+    const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+    const [loadingTopData, setLoadingTopData] = useState(false);
+
+    const parseCSVTopTradeBarChart = (text: string): TopTradeData[] => {
+        const lines = text.split('\n').filter(line => line.trim() !== '');
+        if (lines.length < 2) return []; // Need at least header + one row
+
+        const headers = lines[0].split(',').map(h => h.trim());
+        const data: TopTradeData[] = [];
+
+        for (let i = 1; i < lines.length; i++) {
+            // Handle quoted values that might contain commas
+            const values = lines[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/)
+                .map(v => v.trim().replace(/^"(.*)"$/, '$1'));
+
+            if (values.length !== headers.length) continue;
+
+            const entry: any = {};
+            headers.forEach((header, index) => {
+                entry[header] = values[index];
+            });
+
+            data.push(entry as TopTradeData);
+        }
+
+        return data;
+    };
+
+    // Update the loadTopTradeData function for TopTradeBarChart
+    const loadTopTradeData = async (countryCode: string) => {
+        if (!countryCode) return;
+
+        setLoadingTopData(true);
+        try {
+            // First verify the file exists
+            const importsUrl = `/Team37/data/interactive/${countryCode}/top_import_chapters.csv`;
+            const exportsUrl = `/Team37/data/interactive/${countryCode}/top_export_chapters.csv`;
+
+            console.log(`Attempting to fetch from: ${importsUrl}`);
+
+            const [importsRes, exportsRes] = await Promise.all([
+                fetch(importsUrl),
+                fetch(exportsUrl)
+            ]);
+
+            // Check if we got HTML instead of CSV
+            const importsText = await importsRes.text();
+            const exportsText = await exportsRes.text();
+
+            if (importsText.trim().startsWith('<!DOCTYPE') ||
+                exportsText.trim().startsWith('<!DOCTYPE')) {
+                throw new Error('Received HTML instead of CSV data');
+            }
+
+            const importsData = parseCSVTopTradeBarChart(importsText);
+            const exportsData = parseCSVTopTradeBarChart(exportsText);
+
+            console.log('Successfully parsed:', {
+                imports: importsData,
+                exports: exportsData
+            });
+
+            setTopImportsData(prev => ({
+                ...prev,
+                [countryCode]: importsData
+            }));
+
+            setTopExportsData(prev => ({
+                ...prev,
+                [countryCode]: exportsData
+            }));
+        } catch (error) {
+            console.error(`Failed to load top trade data for ${countryCode}:`, error);
+            // Set empty data to prevent errors
+            setTopImportsData(prev => ({
+                ...prev,
+                [countryCode]: []
+            }));
+            setTopExportsData(prev => ({
+                ...prev,
+                [countryCode]: []
+            }));
+        } finally {
+            setLoadingTopData(false);
+        }
+    };
+
+    // Load top trade data when country is selected for the two bar charts
+    useEffect(() => {
+        if (selectedCountry && currentView === 'total') {
+            loadTopTradeData(selectedCountry);
+        }
+    }, [selectedCountry, currentView]);
+
+    // Then update the getYearData function
+    const getYearData = (data: TopTradeData[], year: string) => {
+        if (!data || !Array.isArray(data)) return [];
+
+        return data
+            .filter(item => item?.year?.toString()?.trim() === year?.toString()?.trim())
+            .sort((a, b) => {
+                const valA = parseFloat(a.value_trln_USD) || 0;
+                const valB = parseFloat(b.value_trln_USD) || 0;
+                return valB - valA; // Descending order
+            });
+    };
+
+    useEffect(() => {
+        if (!importsChartRef.current || !exportsChartRef.current) return;
+
+        const importsChart = echarts.init(importsChartRef.current);
+        const exportsChart = echarts.init(exportsChartRef.current);
+
+        const renderChart = (chart: echarts.ECharts, data: TopTradeData[], title: string) => {
+            const yearData = getYearData(data, year);
+
+            chart.setOption({
+                title: {
+                    text: title,
+                    left: 'center'
+                },
+                tooltip: {
+                    trigger: 'item',
+                    formatter: (params: any) => {
+                        return `${params.name}<br/>Value: ${params.value.toFixed(6)} Trillion USD`;
+                    }
+                },
+                xAxis: {
+                    type: 'value',
+                    name: 'Value (Trillion USD)'
+                },
+                yAxis: {
+                    type: 'category',
+                    data: yearData.map(item => item.product_chapter),
+                    axisLabel: {
+                        interval: 0,
+                        width: 150,
+                        overflow: 'truncate'
+                    }
+                },
+                series: [{
+                    type: 'bar',
+                    data: yearData.map(item => parseFloat(item.value_trln_USD)),
+                    label: {
+                        show: true,
+                        position: 'right',
+                        formatter: (params: any) => params.value.toFixed(6)
+                    }
+                }]
+            });
+        };
+
+        if (selectedCountry) {
+            renderChart(
+                importsChart,
+                topImportsData[selectedCountry] || [],
+                `Top Imports - ${codeToName[selectedCountry] || selectedCountry} (${year})`
+            );
+            renderChart(
+                exportsChart,
+                topExportsData[selectedCountry] || [],
+                `Top Exports - ${codeToName[selectedCountry] || selectedCountry} (${year})`
+            );
+        } else {
+            // Clear charts when no country selected
+            importsChart.setOption({ series: [{ data: [] }] });
+            exportsChart.setOption({ series: [{ data: [] }] });
+        }
+
+        return () => {
+            importsChart.dispose();
+            exportsChart.dispose();
+        };
+    }, [selectedCountry, topImportsData, topExportsData, year]);
+
+
+    // Update your existing map click handler to set the selected country
+    const handleMapClick = async (params: any) => {
+        if (!params.data || !params.data.name) return;
+
+        const countryFeature = worldJson.features.find(f =>
+            f.properties?.NAME?.toLowerCase() === params.data.name.toLowerCase()
+        );
+
+        if (!countryFeature || !countryFeature.properties?.ISO_A3) return;
+
+        const countryCode = countryFeature.properties.ISO_A3;
+        console.log(countryCode)
+        setSelectedCountry(countryCode);
+
+        // Always load top trade data when a country is selected
+        await loadTopTradeData(countryCode);
+
+        if (currentView === 'product') {
+            await loadProductData(countryCode);
+        }
+    };
 
     // 页面加载时获取 available_countries.json
     useEffect(() => {
@@ -542,6 +756,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
             console.log('WorldTradeMapAnimated: setOption', option);
             chart.setOption(option);
             console.log('WorldTradeMapAnimated: setOption 完成');
+            chart.on('click', handleMapClick);
         }
     }, [option, allData, chartRef]);
 
@@ -597,7 +812,35 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 width: '100%', height: '600px', backgroundColor: '#fff', borderRadius: '8px',
                 boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
             }} />
-            {loadingProductData && <div>Loading product data...</div>}
+            {/* Add the new bar charts container */}
+            <div style={{ 
+                display: 'flex', 
+                marginTop: '20px',
+                gap: '20px'
+            }}>
+                <div 
+                    ref={importsChartRef} 
+                    style={{
+                        width: '48%', 
+                        height: '300px', 
+                        backgroundColor: '#fff', 
+                        borderRadius: '8px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                    }} 
+                />
+                <div 
+                    ref={exportsChartRef} 
+                    style={{
+                        width: '48%', 
+                        height: '300px', 
+                        backgroundColor: '#fff', 
+                        borderRadius: '8px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                    }} 
+                />
+            </div>
+
+            {(loadingProductData || loadingTopData) && <div>Loading data...</div>}
         </div>
     );
 };
