@@ -627,11 +627,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
             const option = {
                 title: {
                     text: `Trade Partners - ${countryName} (${year})`,
+                    subtext: selectedProduct ? getChapterDescription(selectedProduct) : 'Total Trade Balance',
                     left: 'center',
                     top: 10,
                     textStyle: {
                         fontSize: 18,
                         color: '#222'
+                    },
+                    subtextStyle: {
+                        fontSize: 14,
+                        color: '#666',
+                        padding: [5, 0, 0, 0]  // 上右下左的内边距
                     }
                 },
                 tooltip: {
@@ -656,7 +662,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     nodeAlign: 'left',
                     orient: 'horizontal',
                     left: '25%',
-                    top: '18%',
+                    top: '22%',
                     right: '10%',
                     bottom: '10%',
                     levels: [{
@@ -726,36 +732,30 @@ export const WorldTradeMapAnimated: React.FC = () => {
         const importsChart = echarts.init(importsChartRef.current);
         const exportsChart = echarts.init(exportsChartRef.current);
 
-        const renderChart = (chart: echarts.ECharts, data: TopTradeData[], title: string) => {
-            const yearData = getYearData(data, year);
+        if (selectedCountry) {
+            const importsTitle = `Top Imports - ${codeToName[selectedCountry] || selectedCountry} (${year})`;
+            const exportsTitle = `Top Exports - ${codeToName[selectedCountry] || selectedCountry} (${year})`;
 
-            chart.setOption({
-                title: {
-                    text: title,
+            // 渲染进口图表
+            importsChart.setOption({
+                title: [{
+                    text: importsTitle,
                     left: 'center',
                     top: 10,
                     textStyle: {
-                        fontSize: 50,
-                        
+                        fontSize: 18,
+                        fontWeight: 'bold',
                         color: '#222'
                     }
-                },
+                }],
                 tooltip: {
                     trigger: 'axis',
-                    axisPointer: { type: 'shadow' },
-                    formatter: function(params: any) {
-                        // params[0].name 是完整的y轴标签
-                        let content = `<b>${params[0].name}</b><br/>`;
-                        params.forEach((item: any) => {
-                            content += `${item.seriesName || ''}: ${item.value}<br/>`;
-                        });
-                        return content;
-                    }
+                    axisPointer: { type: 'shadow' }
                 },
                 grid: {
                     left: 120,
                     right: 30,
-                    top: 60,
+                    top: 80,
                     bottom: 40
                 },
                 xAxis: {
@@ -764,7 +764,6 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     nameLocation: 'middle',
                     nameGap: 20,
                     nameTextStyle: {
-                        
                         fontSize: 14
                     },
                     axisLabel: {
@@ -775,7 +774,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 },
                 yAxis: {
                     type: 'category',
-                    data: yearData.map(item => item.product_chapter),
+                    data: getYearData(topImportsData[selectedCountry] || [], year).map(item => item.product_chapter),
                     nameTextStyle: {
                         fontWeight: 'bold',
                         fontSize: 14
@@ -795,7 +794,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 },
                 series: [{
                     type: 'bar',
-                    data: yearData.map(item => parseFloat(item.value_trln_USD)),
+                    data: getYearData(topImportsData[selectedCountry] || [], year).map(item => parseFloat(item.value_trln_USD)),
                     label: {
                         show: true,
                         position: 'right',
@@ -804,26 +803,78 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         color: '#333',
                         formatter: (params: any) => params.value.toFixed(6)
                     }
-                }],
-                textStyle: {
-                    fontFamily: 'inherit',
-                    fontSize: 14,
-                    color: '#333'
-                }
+                }]
             });
-        };
 
-        if (selectedCountry) {
-            renderChart(
-                importsChart,
-                topImportsData[selectedCountry] || [],
-                `Top Imports - ${codeToName[selectedCountry] || selectedCountry} (${year})`
-            );
-            renderChart(
-                exportsChart,
-                topExportsData[selectedCountry] || [],
-                `Top Exports - ${codeToName[selectedCountry] || selectedCountry} (${year})`
-            );
+            // 渲染出口图表
+            exportsChart.setOption({
+                title: [{
+                    text: exportsTitle,
+                    left: 'center',
+                    top: 10,
+                    textStyle: {
+                        fontSize: 18,
+                        fontWeight: 'bold',
+                        color: '#222'
+                    }
+                }],
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: { type: 'shadow' }
+                },
+                grid: {
+                    left: 120,
+                    right: 30,
+                    top: 80,
+                    bottom: 40
+                },
+                xAxis: {
+                    type: 'value',
+                    name: 'Value (Trillion USD)',
+                    nameLocation: 'middle',
+                    nameGap: 20,
+                    nameTextStyle: {
+                        fontSize: 14
+                    },
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#333',
+                        fontWeight: 'bold'
+                    }
+                },
+                yAxis: {
+                    type: 'category',
+                    data: getYearData(topExportsData[selectedCountry] || [], year).map(item => item.product_chapter),
+                    nameTextStyle: {
+                        fontWeight: 'bold',
+                        fontSize: 14
+                    },
+                    axisLabel: {
+                        interval: 0,
+                        width: 180,
+                        overflow: 'truncate',
+                        ellipsis: '...',
+                        fontSize: 14,
+                        color: '#333',
+                        fontWeight: 'bold',
+                        formatter: function(value: string) {
+                            return value.length > 18 ? value.slice(0, 18) + '...' : value;
+                        }
+                    }
+                },
+                series: [{
+                    type: 'bar',
+                    data: getYearData(topExportsData[selectedCountry] || [], year).map(item => parseFloat(item.value_trln_USD)),
+                    label: {
+                        show: true,
+                        position: 'right',
+                        fontSize: 14,
+                        fontWeight: 'bold',
+                        color: '#333',
+                        formatter: (params: any) => params.value.toFixed(6)
+                    }
+                }]
+            });
         } else {
             // Clear charts when no country selected
             importsChart.setOption({ series: [{ data: [] }] });
@@ -1278,7 +1329,9 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 display: 'flex',
                 flex: 1,
                 marginTop: '20px',
-                gap: '20px'
+                gap: '20px',
+                minHeight: '400px',  // 增加最小高度
+                paddingBottom: '20px'  // 增加底部内边距
             }}>
                 <div
                     ref={importsChartRef}
@@ -1286,7 +1339,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                        padding: '20px'  // 增加内边距
                     }}
                 />
                 <div
@@ -1296,7 +1350,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        minWidth: '300px'
+                        minWidth: '300px',
+                        padding: '20px'  // 增加内边距
                     }}
                 />
                 <div
@@ -1305,7 +1360,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                        padding: '20px'  // 增加内边距
                     }}
                 />
             </div>
