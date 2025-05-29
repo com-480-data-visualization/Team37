@@ -879,7 +879,11 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 const parts = cleanStr.split(':');
                 if (parts.length === 2) {
                     const chapterCode = parts[0].trim().replace(/'/g, '');
-                    const chapterDesc = parts[1].trim().replace(/'/g, '');
+                    // 移除所有引号并清理多余空格
+                    const chapterDesc = parts[1].trim()
+                        .replace(/'/g, '')
+                        .replace(/"/g, '')
+                        .replace(/\s+/g, ' ');
                     if (chapterCode && chapterDesc) {
                         processedChapters.push({
                             product_chapter: chapterCode,
@@ -891,7 +895,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 console.error('Error parsing chapter description:', error);
             }
         });
-        processedChapters.sort((a, b) => a.product_chapter.localeCompare(b.product_chapter));
+        // 按照描述的字母顺序排序
+        processedChapters.sort((a, b) => a.description.localeCompare(b.description));
         setProductChapters(processedChapters);
     }, [rawChapterMappings]);
 
