@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Iron and steel,0.00000156,0.00000000
+1995,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000098,0.00165000
+1995,"Ores, slag and ash",0.00000058,0.00000000
+1995,Man-made staple fibres,0.00000041,0.00001964
+1995,Cotton,0.00000015,0.00002740
+1995,Other,0.00000083,0.00009076
+1996,Iron and steel,0.00000325,0.00000000
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000098,0.00000988
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000064,0.00002579
+1996,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000022,0.00000230
+1996,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000021,0.00000000
+1996,Other,0.00000039,0.00004371
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000141,0.00008830
+1997,Man-made staple fibres,0.00000076,0.00002000
+1997,Pharmaceutical products,0.00000047,0.00003638
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000035,0.00000321
+1997,Plastics and articles thereof,0.00000024,0.00002791
+1997,Other,0.00000165,0.00071929
+1998,"Aircraft, spacecraft, and parts thereof",0.00000296,0.00001619
+1998,"Ores, slag and ash",0.00000233,0.00000000
+1998,Cotton,0.00000061,0.00040000
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000047,0.00001105
+1998,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000029,0.00000000
+1998,Other,0.00000223,0.00130533
+1999,"Aircraft, spacecraft, and parts thereof",0.00000209,0.00000462
+1999,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000147,0.00000008
+1999,Aluminium and articles thereof,0.00000095,0.01649500
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000080,0.00004039
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000077,0.00000647
+1999,Other,0.00000220,0.00084999
+2000,"Aircraft, spacecraft, and parts thereof",0.00000285,0.00000838
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000260,0.00014455
+2000,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000228,0.00002664
+2000,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000181,0.00002724
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000102,0.04379400
+2000,Other,0.00000671,0.00451851
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000672,0.00046050
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000377,0.00022691
+2001,Pharmaceutical products,0.00000349,0.00007220
+2001,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000316,0.00003600
+2001,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00000235,0.00483609
+2001,Other,0.00001362,0.01118812
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001584,0.00108632
+2002,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001086,0.00040237
+2002,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,0.00000447,0.00902171
+2002,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000333,0.00013129
+2002,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000279,0.00005235
+2002,Other,0.00002081,0.17641934
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002114,0.00125915
+2003,Pharmaceutical products,0.00001132,0.00007308
+2003,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000915,0.00054881
+2003,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000385,0.00002725
+2003,Iron and steel,0.00000339,0.00495032
+2003,Other,0.00003069,0.12586339
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001895,0.00102857
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001567,0.00063464
+2004,Cotton,0.00000464,0.00290042
+2004,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000412,0.00006366
+2004,Iron and steel,0.00000390,0.00272570
+2004,Other,0.00002190,0.01451989
+2005,Cotton,0.00003932,0.02761021
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00002237,0.00055235
+2005,Pharmaceutical products,0.00002087,0.00003471
+2005,"Aircraft, spacecraft, and parts thereof",0.00001257,0.00003317
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001171,0.00052854
+2005,Other,0.00004146,0.02600447
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001991,0.00026299
+2006,Pharmaceutical products,0.00001798,0.00003239
+2006,Cotton,0.00001356,0.01072261
+2006,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00001220,0.00005418
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001166,0.00061030
+2006,Other,0.00003806,0.01670790
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00003556,0.00084351
+2007,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002485,0.00013847
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001970,0.00020244
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001457,0.29080213
+2007,Cotton,0.00001226,0.00916630
+2007,Other,0.00005749,0.01944246
+2008,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00002417,0.00010410
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001869,0.00072680
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001809,0.24098409
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000987,0.00068095
+2008,Man-made filaments; strip and the like of man-made textile materials,0.00000497,0.00134408
+2008,Other,0.00004962,0.03998313
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00004265,0.63861460
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000931,0.00024557
+2009,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000837,0.00005155
+2009,Man-made filaments; strip and the like of man-made textile materials,0.00000715,0.00154313
+2009,Plastics and articles thereof,0.00000482,0.00508088
+2009,Other,0.00002104,0.00645586
+2010,Plastics and articles thereof,0.00000901,0.00867642
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000760,0.00014585
+2010,Iron and steel,0.00000641,0.03152000
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000500,0.00013199
+2010,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000207,0.00138174
+2010,Other,0.00000955,0.00230379
+2011,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00001445,0.00166376
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000480,0.00030379
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000336,0.00017081
+2011,Pharmaceutical products,0.00000244,0.00001739
+2011,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000145,0.00000985
+2011,Other,0.00000663,0.00186886
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00001535,0.14905058
+2012,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00001154,0.00063608
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000849,0.00009946
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000499,0.00000748
+2012,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000373,0.00001740
+2012,Other,0.00001254,0.00289123
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00021818,0.00037853
+2013,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000336,0.00008892
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000212,0.00009668
+2013,Pharmaceutical products,0.00000174,0.00003516
+2013,"Beverages, spirits and vinegar",0.00000114,0.00108916
+2013,Other,0.00000684,0.00255994
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000143,0.00002984
+2014,Pharmaceutical products,0.00000091,0.00051382
+2014,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000058,0.00000822
+2014,Iron or steel articles,0.00000052,0.00007492
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000043,0.00004733
+2014,Other,0.00000271,0.00102802
+2015,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000090,0.00002299
+2015,"Aircraft, spacecraft, and parts thereof",0.00000068,0.00000016
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000065,0.00066087
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000054,0.00002158
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000035,0.00001227
+2015,Other,0.00000265,0.00709445
+2016,Copper and articles thereof,0.00000126,0.00000968
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000079,0.00003506
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000045,0.00828477
+2016,"Salt; sulphur; earths, stone; plastering materials, lime and cement",0.00000039,0.00082898
+2016,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000037,0.00000110
+2016,Other,0.00000251,0.00206419
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00003720,0.09893719
+2017,"Ships, boats and floating structures",0.00000433,0.03045020
+2017,"Aircraft, spacecraft, and parts thereof",0.00000177,0.00000350
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000110,0.00004657
+2017,Pharmaceutical products,0.00000093,0.00010310
+2017,Other,0.00000625,0.00687333
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000268,0.00012747
+2018,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000191,0.00056064
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000130,0.00177297
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000115,0.00001589
+2018,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000099,0.00001253
+2018,Other,0.00000565,0.04046281
+2019,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000255,0.00000414
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000166,0.00000587
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000147,0.00236750
+2019,Pharmaceutical products,0.00000121,0.00004762
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000107,0.00007203
+2019,Other,0.00000406,0.00379699
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000487,0.00007084
+2020,"Aircraft, spacecraft, and parts thereof",0.00000157,0.00000127
+2020,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000104,0.00300000
+2020,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000085,0.00000259
+2020,Organic chemicals,0.00000052,0.00002335
+2020,Other,0.00000152,0.00039584
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000388,0.00013728
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000140,0.00011730
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000100,0.00154954
+2021,"Preparations of vegetables, fruit, nuts or other parts of plants",0.00000027,0.00081526
+2021,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00000025,0.00000215
+2021,Other,0.00000231,0.00520262
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000182,0.00182543
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00000109,0.00002130
+2022,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000077,0.00000398
+2022,Wood and articles of wood; wood charcoal,0.00000058,0.00084132
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000051,0.00002726
+2022,Other,0.00000428,0.01080130
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000422,0.00014803
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000324,0.00000327
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000158,0.00166736
+2023,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",0.00000071,0.00000191
+2023,Plastics and articles thereof,0.00000069,0.00003169
+2023,Other,0.00000363,0.00547062

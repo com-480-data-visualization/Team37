@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Cotton,0.00095349,0.13135737
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00055330,0.18145911
+1995,Cereals,0.00053690,3.01170151
+1995,Man-made staple fibres,0.00039571,0.06086881
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00028393,1.79970841
+1995,Other,0.00338621,8.52802596
+1996,Cotton,0.00092340,0.19614412
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00081544,0.85084806
+1996,Cereals,0.00043197,2.26215117
+1996,Man-made staple fibres,0.00041189,0.07096165
+1996,Iron and steel,0.00038460,0.91610263
+1996,Other,0.00444065,17.72463956
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00077011,3.35043563
+1997,Cotton,0.00074806,0.24405448
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00053791,3.52138505
+1997,Iron and steel,0.00050837,0.86845513
+1997,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00037717,0.81464780
+1997,Other,0.00466928,14.52788468
+1998,Cotton,0.00103002,0.25857254
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00086347,0.54512998
+1998,Man-made staple fibres,0.00052328,0.08715628
+1998,Cereals,0.00051899,3.13454502
+1998,Iron and steel,0.00043927,0.67244510
+1998,Other,0.00502889,15.95166179
+1999,Cotton,0.00063588,0.17193881
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00063179,0.32096105
+1999,Man-made staple fibres,0.00030109,0.09871882
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00028552,0.04264648
+1999,Cereals,0.00027985,1.99039528
+1999,Other,0.00357733,12.23949965
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00098933,0.09373069
+2000,Cotton,0.00089183,0.33073832
+2000,Man-made staple fibres,0.00056467,0.12042559
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00052618,2.66396358
+2000,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00050595,0.84050441
+2000,Other,0.00567203,13.73145151
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00110335,0.12621448
+2001,Cotton,0.00104607,0.38322282
+2001,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00058623,1.10430576
+2001,Man-made staple fibres,0.00056115,0.13796926
+2001,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00046891,0.04354853
+2001,Other,0.00581615,18.00012573
+2002,Cotton,0.00103406,0.42489827
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00100684,0.10963480
+2002,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00075352,1.29350737
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00051183,3.52091686
+2002,Man-made staple fibres,0.00046937,0.13266466
+2002,Other,0.00511339,19.35903827
+2003,Cotton,0.00128404,0.55948759
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00111959,0.13439756
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00095056,4.97465097
+2003,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00083463,1.12771297
+2003,Man-made staple fibres,0.00056624,0.15563253
+2003,Other,0.00591730,15.27930284
+2004,Cotton,0.00162253,0.62181657
+2004,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00145392,0.14558073
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00098486,6.39131278
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00077924,0.06668960
+2004,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00075938,1.28459090
+2004,Other,0.00718474,17.37528224
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00178591,0.16855165
+2005,Cotton,0.00155405,0.71167445
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00142654,7.03346601
+2005,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00114858,0.06776224
+2005,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00076697,1.50959882
+2005,Other,0.00767170,21.94320082
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00215392,0.19630548
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00206883,12.12397177
+2006,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00148068,0.10261862
+2006,Cotton,0.00146547,0.70920725
+2006,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00104920,1.92081135
+2006,Other,0.00879416,25.46366643
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00207398,0.19305566
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00190608,8.70281859
+2007,Cotton,0.00184565,0.96544144
+2007,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00164713,0.09863361
+2007,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00158283,2.09593874
+2007,Other,0.01006343,22.82504147
+2008,Cotton,0.00341191,1.25549726
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00242354,0.35230295
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00191674,5.13049413
+2008,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00177008,1.66397669
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00170608,0.19861774
+2008,Other,0.01325777,22.28570144
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00307478,8.42204290
+2009,Cotton,0.00294121,1.10557938
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00206005,0.85874381
+2009,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00187622,2.01541134
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00140431,0.10355033
+2009,Other,0.01270740,27.27450061
+2010,Cotton,0.00428252,1.40322072
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00309714,1.51396223
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00295080,4.86131406
+2010,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00216929,0.17505109
+2010,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00205360,1.91554005
+2010,Other,0.01650225,33.51839169
+2011,Cotton,0.00583076,1.20041174
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00421979,0.51874369
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00311566,6.30181394
+2011,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00292008,2.15923202
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00275699,0.32988721
+2011,Other,0.02224948,36.73849477
+2012,Cotton,0.00533765,1.67026226
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00364261,0.33182803
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00353990,6.02670525
+2012,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00249975,2.04506633
+2012,Iron and steel,0.00199694,3.45637378
+2012,Other,0.02015234,32.27687880
+2013,Cotton,0.00556743,1.51750241
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00355369,0.26229483
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00305352,9.13347462
+2013,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00245854,2.42019622
+2013,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00198749,0.15279677
+2013,Other,0.02095694,41.52122410
+2014,Cotton,0.00536980,1.15062319
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00424430,0.31724985
+2014,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00288428,0.13724353
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00261566,3.97637845
+2014,Iron and steel,0.00183990,3.09735987
+2014,Other,0.02286793,38.11995988
+2015,Cotton,0.00667093,1.96647964
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00539550,15.57499961
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00517914,0.64354705
+2015,Iron and steel,0.00257652,14.48959368
+2015,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00247347,1.00052118
+2015,Other,0.02772725,144.27578520
+2016,Cotton,0.00549075,1.51398933
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00522930,0.53114166
+2016,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00308646,0.18508576
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00209528,8.48477415
+2016,Iron and steel,0.00205993,5.91600781
+2016,Other,0.02452776,50.57883297
+2017,Cotton,0.00629620,1.82385095
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00595069,0.64051990
+2017,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00364293,0.24023692
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00310461,9.80947187
+2017,Cereals,0.00227867,9.88830804
+2017,Other,0.02821972,57.50221808
+2018,Cotton,0.00740558,2.08568175
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00681533,0.77991095
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00476291,11.77245052
+2018,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00407715,0.27807438
+2018,Iron and steel,0.00274232,5.67868659
+2018,Other,0.03066467,68.64022579
+2019,Cotton,0.00664628,2.03291483
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00620240,18.04529900
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00589707,0.78638409
+2019,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00341485,0.22387976
+2019,Iron and steel,0.00289729,7.82853527
+2019,Other,0.03176225,81.96707060
+2020,Cotton,0.00549137,2.01830448
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00483155,0.62505883
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00373553,44.96108481
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00347664,0.22483200
+2020,Iron and steel,0.00238141,7.03397946
+2020,Other,0.02904545,83.42258119
+2021,Cotton,0.00912655,2.71631479
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00828031,20.37919693
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00694927,0.90258934
+2021,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00485663,0.26309623
+2021,Iron and steel,0.00382730,6.54270860
+2021,Other,0.04339059,111.27793693
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01358767,21.59350962
+2022,Cotton,0.00890466,2.20122805
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00696912,0.76973828
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00472901,0.30582018
+2022,Iron and steel,0.00424014,6.80631427
+2022,Other,0.04549558,94.16927038
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01238755,23.73359623
+2023,Cotton,0.00655330,1.93790243
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00513291,0.59021654
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00378367,0.25630259
+2023,Iron and steel,0.00337955,6.86157205
+2023,Other,0.03518441,65.68571763

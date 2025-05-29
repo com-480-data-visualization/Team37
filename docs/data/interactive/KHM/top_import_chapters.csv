@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00020386,0.02322655
+1995,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00017747,0.03048632
+1995,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00012589,0.01661443
+1995,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00010111,0.00001703
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008325,0.02436924
+1995,Other,0.00058959,1.03141916
+1996,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00021027,0.02529443
+1996,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00017827,0.02198534
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00012667,0.02490123
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00012597,0.56060046
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00010961,0.01925511
+1996,Other,0.00055532,0.84629014
+1997,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00019973,0.02678904
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015377,0.71242590
+1997,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00013258,0.03210632
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00011633,0.03110025
+1997,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00008068,0.01444907
+1997,Other,0.00066597,1.50573283
+1998,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00014553,0.02051005
+1998,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00011507,0.05896139
+1998,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00010814,0.03043051
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010653,0.73765465
+1998,Fabrics; knitted or crocheted,0.00010503,0.01846184
+1998,Other,0.00069054,1.37114791
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019722,1.28363195
+1999,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00012416,0.01871179
+1999,Cotton,0.00011885,0.02168141
+1999,Fabrics; knitted or crocheted,0.00010042,0.02163966
+1999,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00008248,0.07463605
+1999,Other,0.00082332,1.52858102
+2000,Man-made staple fibres,0.00027492,0.06130996
+2000,Fabrics; knitted or crocheted,0.00025238,0.04284752
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022023,1.40587674
+2000,Cotton,0.00021241,0.08992973
+2000,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00014815,0.02398607
+2000,Other,0.00118008,1.91890248
+2001,Fabrics; knitted or crocheted,0.00033031,0.05694049
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00022560,1.04485415
+2001,Man-made staple fibres,0.00018644,0.04465161
+2001,Cotton,0.00018531,0.07389314
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00011307,0.05020607
+2001,Other,0.00127151,2.20761855
+2002,Man-made staple fibres,0.00037184,0.07727277
+2002,Fabrics; knitted or crocheted,0.00035770,0.06431258
+2002,Cotton,0.00027292,0.05143834
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00020351,0.85781774
+2002,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00014337,0.04531037
+2002,Other,0.00143552,2.68667236
+2003,Fabrics; knitted or crocheted,0.00044660,0.10524999
+2003,Man-made staple fibres,0.00030939,0.06686665
+2003,Cotton,0.00027592,0.05169738
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00023358,0.87921399
+2003,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00015529,0.04081904
+2003,Other,0.00168420,2.44378459
+2004,Fabrics; knitted or crocheted,0.00039215,0.07924176
+2004,Cotton,0.00032632,0.05274667
+2004,Man-made staple fibres,0.00028694,0.05648745
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00026912,0.93877880
+2004,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00020863,0.04761430
+2004,Other,0.00193182,2.92368880
+2005,Fabrics; knitted or crocheted,0.00067634,0.14064250
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00041043,0.94832473
+2005,Cotton,0.00037961,0.06461575
+2005,Man-made staple fibres,0.00030759,0.06270934
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00025773,0.04632797
+2005,Other,0.00241843,3.58238100
+2006,Fabrics; knitted or crocheted,0.00097369,0.19597371
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00060167,1.27895502
+2006,Man-made staple fibres,0.00044845,0.08941457
+2006,Cotton,0.00033713,0.05265003
+2006,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00031288,0.05433190
+2006,Other,0.00296200,4.35237825
+2007,Fabrics; knitted or crocheted,0.00121363,0.20204083
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00074701,1.35187454
+2007,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00041599,0.06155665
+2007,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00040780,0.11243110
+2007,Man-made staple fibres,0.00039329,0.07471270
+2007,Other,0.00351207,4.51481247
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00118889,1.69359570
+2008,Fabrics; knitted or crocheted,0.00093968,0.17135227
+2008,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00057036,0.11402890
+2008,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00053129,0.07525931
+2008,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00037569,0.04004636
+2008,Other,0.00431017,5.22579725
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00110417,1.55210352
+2009,Fabrics; knitted or crocheted,0.00076983,0.11288901
+2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00050871,0.01338745
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00036518,0.05069989
+2009,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00035494,0.09735227
+2009,Other,0.00401160,4.64869942
+2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00188347,0.00840348
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00140806,1.64141934
+2010,Fabrics; knitted or crocheted,0.00128231,0.21188664
+2010,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00058267,0.07705265
+2010,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00046592,0.07849444
+2010,Other,0.00540804,5.03006230
+2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00295636,0.00766939
+2011,Fabrics; knitted or crocheted,0.00170039,0.22904489
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00153749,1.88048903
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00078526,0.10073817
+2011,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00072727,0.04418868
+2011,Other,0.00685017,6.10757995
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00168047,1.82039348
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00145114,0.01577133
+2012,Fabrics; knitted or crocheted,0.00140175,0.18092070
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00096488,0.15995667
+2012,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00094002,0.15737470
+2012,Other,0.00814834,7.90367035
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00577655,0.01975661
+2013,Fabrics; knitted or crocheted,0.00193371,0.24259440
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00179068,1.90931252
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00109976,0.12136094
+2013,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00094173,0.14002267
+2013,Other,0.00903474,8.02755665
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00323004,0.00535495
+2014,Fabrics; knitted or crocheted,0.00217913,0.24450112
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00144366,2.22613690
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00128862,0.14026946
+2014,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00111490,0.14912213
+2014,Other,0.00939915,9.18207207
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00390008,0.00826490
+2015,Fabrics; knitted or crocheted,0.00189081,0.24450074
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00143678,3.00195683
+2015,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00130874,0.19672295
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00119103,0.16664294
+2015,Other,0.00957933,10.10582495
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00250941,0.00580321
+2016,Fabrics; knitted or crocheted,0.00246728,0.23760416
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00152695,4.56607517
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00123849,0.14884350
+2016,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00119539,0.16578460
+2016,Other,0.00986082,9.12886990
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00311104,0.00671020
+2017,Fabrics; knitted or crocheted,0.00250007,0.26308754
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00216219,5.46511526
+2017,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00127418,0.14116383
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00121431,0.13089024
+2017,Other,0.01107561,9.51514340
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00596413,0.01297878
+2018,Fabrics; knitted or crocheted,0.00333270,0.31451281
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00308056,5.78253660
+2018,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00165364,0.18559810
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00151899,0.16637290
+2018,Other,0.01258678,9.94948397
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00337738,7.78752682
+2019,Fabrics; knitted or crocheted,0.00330729,0.32325215
+2019,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00230509,0.36003172
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00207514,0.35983530
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00200279,0.00969027
+2019,Other,0.01564591,13.96361110
+2020,Fabrics; knitted or crocheted,0.00251984,0.30900670
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00247870,8.15665184
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00176982,0.00491987
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00172385,0.27491963
+2020,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00168355,0.15502314
+2020,Other,0.01544474,12.00620896
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00953169,0.00835741
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00368114,7.14141310
+2021,Fabrics; knitted or crocheted,0.00329284,0.37777440
+2021,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00201361,0.25846475
+2021,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00187094,0.28826825
+2021,Other,0.01902390,11.93373631
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.01187297,0.00951429
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00483659,7.39322408
+2022,Fabrics; knitted or crocheted,0.00293375,0.30975064
+2022,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",0.00240213,0.24685452
+2022,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00230925,0.16508680
+2022,Other,0.02096458,11.96800997
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00443653,9.39152432
+2023,Fabrics; knitted or crocheted,0.00238432,0.31350164
+2023,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00217974,0.16683720
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00173514,0.01225053
+2023,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00173429,0.26057364
+2023,Other,0.01814361,10.98064609

@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,Pharmaceutical products,0.00035088,0.18328402
+1995,"Ores, slag and ash",0.00027087,11.28965093
+1995,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000191,0.00407592
+1995,Raw hides and skins (other than furskins) and leather,0.00000167,0.00040751
+1995,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000131,0.00004642
+1995,Other,0.00000511,0.00260484
+1996,Pharmaceutical products,0.00040942,0.28604843
+1996,"Ores, slag and ash",0.00025342,10.55886605
+1996,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000381,0.00853041
+1996,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000275,0.00008513
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00000191,0.00999366
+1996,Other,0.00001173,0.00847459
+1997,Pharmaceutical products,0.00037142,0.30995474
+1997,"Ores, slag and ash",0.00028997,11.49604513
+1997,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000335,0.00594649
+1997,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000261,0.00046899
+1997,Apparel and clothing accessories; knitted or crocheted,0.00000141,0.00004160
+1997,Other,0.00000933,0.01602339
+1998,Pharmaceutical products,0.00032020,0.40427533
+1998,"Ores, slag and ash",0.00025140,10.50875521
+1998,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000720,0.01138594
+1998,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000305,0.00006131
+1998,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00000136,0.00000000
+1998,Other,0.00000871,0.00594211
+1999,Pharmaceutical products,0.00035913,0.40028891
+1999,"Ores, slag and ash",0.00025608,10.45278373
+1999,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001003,0.00180566
+1999,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000566,0.01718599
+1999,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000200,0.00009175
+1999,Other,0.00000899,0.01515186
+2000,Pharmaceutical products,0.00036874,0.34772848
+2000,"Ores, slag and ash",0.00024065,10.38180525
+2000,"Food industries, residues and wastes thereof; prepared animal fodder",0.00000607,0.02024680
+2000,Fertilizers,0.00000176,0.00503589
+2000,Apparel and clothing accessories; not knitted or crocheted,0.00000136,0.00006011
+2000,Other,0.00001043,0.01657895
+2001,Pharmaceutical products,0.00038564,1.68078495
+2001,"Ores, slag and ash",0.00021605,10.28908192
+2001,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001044,0.02494115
+2001,Albuminoidal substances; modified starches; glues; enzymes,0.00000273,0.00005953
+2001,Copper and articles thereof,0.00000267,0.00170710
+2001,Other,0.00001187,0.02494739
+2002,Pharmaceutical products,0.00035623,0.32223259
+2002,"Ores, slag and ash",0.00026809,11.98614633
+2002,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001343,0.02541838
+2002,Apparel and clothing accessories; not knitted or crocheted,0.00000495,0.00013560
+2002,"Ships, boats and floating structures",0.00000205,0.00079663
+2002,Other,0.00001619,0.01674290
+2003,Pharmaceutical products,0.00041197,0.27662292
+2003,"Ores, slag and ash",0.00026036,9.69855601
+2003,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001812,0.03335303
+2003,Apparel and clothing accessories; not knitted or crocheted,0.00000394,0.00009803
+2003,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000281,0.00046400
+2003,Other,0.00001597,0.02686953
+2004,Pharmaceutical products,0.00048283,0.32833312
+2004,"Ores, slag and ash",0.00041484,11.91080904
+2004,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001821,0.03841558
+2004,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",0.00000430,0.00060930
+2004,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00000346,0.00106198
+2004,Other,0.00002019,0.02883657
+2005,Pharmaceutical products,0.00060526,0.41819955
+2005,"Ores, slag and ash",0.00046320,10.26768615
+2005,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001330,0.02422948
+2005,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00000809,0.00042228
+2005,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00000757,0.00568319
+2005,Other,0.00001483,0.01942680
+2006,"Ores, slag and ash",0.00059411,10.30946198
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00057382,1.27304197
+2006,Pharmaceutical products,0.00046487,1.09742169
+2006,"Aircraft, spacecraft, and parts thereof",0.00007717,0.00029666
+2006,"Food industries, residues and wastes thereof; prepared animal fodder",0.00001414,0.02479406
+2006,Other,0.00002385,0.02454541
+2007,"Ores, slag and ash",0.00091934,12.06302462
+2007,Pharmaceutical products,0.00068810,0.46222421
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00032498,0.68821246
+2007,Copper and articles thereof,0.00002155,0.00318077
+2007,"Food industries, residues and wastes thereof; prepared animal fodder",0.00002145,0.02775949
+2007,Other,0.00004780,0.03698985
+2008,"Ores, slag and ash",0.00154707,11.30225511
+2008,Pharmaceutical products,0.00075320,0.35876949
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00043483,0.67718141
+2008,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00012465,0.00002376
+2008,Iron and steel,0.00002645,0.06050650
+2008,Other,0.00006563,0.04931785
+2009,"Ores, slag and ash",0.00101711,10.33677707
+2009,Pharmaceutical products,0.00082200,0.62327572
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00024361,0.59539694
+2009,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00016738,0.00003809
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00002629,0.00152861
+2009,Other,0.00005232,0.05628819
+2010,"Ores, slag and ash",0.00193471,15.90900905
+2010,Pharmaceutical products,0.00069875,0.59146111
+2010,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00024365,0.00003498
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00013083,0.27003203
+2010,"Food industries, residues and wastes thereof; prepared animal fodder",0.00005060,0.04204485
+2010,Other,0.00004006,0.06688839
+2011,"Ores, slag and ash",0.00225944,10.94245646
+2011,Pharmaceutical products,0.00086963,0.46678851
+2011,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00033274,0.00001348
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00021440,0.27888589
+2011,"Food industries, residues and wastes thereof; prepared animal fodder",0.00005633,0.04224699
+2011,Other,0.00007174,0.06127698
+2012,"Ores, slag and ash",0.00230365,16.55956154
+2012,Pharmaceutical products,0.00085488,0.57913963
+2012,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00066395,0.00004536
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00015443,0.25149550
+2012,"Food industries, residues and wastes thereof; prepared animal fodder",0.00004957,0.03736484
+2012,Other,0.00010077,0.10004142
+2013,"Ores, slag and ash",0.00316146,25.53890288
+2013,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00069324,0.00001756
+2013,Pharmaceutical products,0.00067921,0.36157055
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00030391,0.41350276
+2013,"Food industries, residues and wastes thereof; prepared animal fodder",0.00006588,0.05063400
+2013,Other,0.00010426,0.10419375
+2014,"Ores, slag and ash",0.00224911,24.25487187
+2014,Pharmaceutical products,0.00103175,0.68745290
+2014,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00066549,0.00003189
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00019742,0.26225846
+2014,"Food industries, residues and wastes thereof; prepared animal fodder",0.00009637,0.07349152
+2014,Other,0.00019097,0.14983843
+2015,"Ores, slag and ash",0.00131855,22.12367117
+2015,Pharmaceutical products,0.00097760,0.68307039
+2015,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00054934,0.00002666
+2015,"Food industries, residues and wastes thereof; prepared animal fodder",0.00010547,0.07585519
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00007588,0.21239006
+2015,Other,0.00013149,0.17002922
+2016,"Ores, slag and ash",0.00134478,24.85507139
+2016,Pharmaceutical products,0.00102877,0.71693705
+2016,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00047043,0.00005363
+2016,"Food industries, residues and wastes thereof; prepared animal fodder",0.00012362,0.09123285
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00010103,0.34388740
+2016,Other,0.00011746,0.15612014
+2017,"Ores, slag and ash",0.00114300,15.21742538
+2017,Pharmaceutical products,0.00094917,0.66474243
+2017,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00069461,0.00003663
+2017,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00038903,0.04155089
+2017,"Food industries, residues and wastes thereof; prepared animal fodder",0.00015266,0.11593201
+2017,Other,0.00021850,0.53033234
+2018,Pharmaceutical products,0.00159115,1.19496736
+2018,"Ores, slag and ash",0.00156161,21.84292715
+2018,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00058594,0.00010479
+2018,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00045742,0.03457946
+2018,"Food industries, residues and wastes thereof; prepared animal fodder",0.00016811,0.11828612
+2018,Other,0.00028597,0.54935839
+2019,"Ores, slag and ash",0.00209793,23.24353389
+2019,Pharmaceutical products,0.00131362,1.07028764
+2019,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00060034,0.00002757
+2019,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00037606,0.04091631
+2019,"Food industries, residues and wastes thereof; prepared animal fodder",0.00018224,0.13496007
+2019,Other,0.00020176,0.81079393
+2020,"Ores, slag and ash",0.00160563,13.95380973
+2020,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00111603,0.00029175
+2020,Pharmaceutical products,0.00082538,0.68429358
+2020,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00030132,0.03846951
+2020,"Food industries, residues and wastes thereof; prepared animal fodder",0.00016828,0.12606624
+2020,Other,0.00022460,0.81293596
+2021,"Ores, slag and ash",0.00234667,12.75160288
+2021,Pharmaceutical products,0.00070169,0.54302983
+2021,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00060627,0.00006242
+2021,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00035843,0.02793189
+2021,"Food industries, residues and wastes thereof; prepared animal fodder",0.00015266,0.11074436
+2021,Other,0.00015922,0.29147077
+2022,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00177635,0.00019861
+2022,"Ores, slag and ash",0.00176117,13.82611130
+2022,Pharmaceutical products,0.00061040,0.52630616
+2022,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00045062,0.03756500
+2022,"Food industries, residues and wastes thereof; prepared animal fodder",0.00017183,0.11790072
+2022,Other,0.00025625,0.25431153
+2023,"Ores, slag and ash",0.00183730,14.61406888
+2023,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",0.00172424,0.00037258
+2023,Pharmaceutical products,0.00057323,0.48231223
+2023,"Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",0.00037531,0.03616548
+2023,"Food industries, residues and wastes thereof; prepared animal fodder",0.00011909,0.08359152
+2023,Other,0.00032604,0.23701843

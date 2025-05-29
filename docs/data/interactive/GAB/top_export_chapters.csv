@@ -1,0 +1,175 @@
+year,product_chapter,value_trln_USD,quantity_mln_metric_tons
+1995,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00198287,15.18054302
+1995,Wood and articles of wood; wood charcoal,0.00046927,1.21198333
+1995,"Ores, slag and ash",0.00018584,1.88221356
+1995,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00004958,0.00085613
+1995,Pharmaceutical products,0.00001030,0.00155880
+1995,Other,0.00002196,0.02316319
+1996,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00259783,17.29869638
+1996,Wood and articles of wood; wood charcoal,0.00083526,2.71646558
+1996,"Ores, slag and ash",0.00018992,1.94683398
+1996,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001075,0.00144013
+1996,Rubber and articles thereof,0.00001051,0.00847236
+1996,Other,0.00004802,0.03754440
+1997,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00279657,18.23569600
+1997,Wood and articles of wood; wood charcoal,0.00083429,2.68690686
+1997,"Ores, slag and ash",0.00017949,1.89469711
+1997,Rubber and articles thereof,0.00001283,0.00987477
+1997,Pharmaceutical products,0.00000969,0.00161795
+1997,Other,0.00005933,0.04143677
+1998,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00170434,17.32565218
+1998,Wood and articles of wood; wood charcoal,0.00060195,2.01341192
+1998,"Ores, slag and ash",0.00018115,2.31536644
+1998,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00002461,0.01008209
+1998,"Aircraft, spacecraft, and parts thereof",0.00002227,0.00006066
+1998,Other,0.00007412,0.07506833
+1999,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00197893,15.50028025
+1999,Wood and articles of wood; wood charcoal,0.00069371,2.05865122
+1999,"Ores, slag and ash",0.00015406,1.95825643
+1999,"Ships, boats and floating structures",0.00006273,0.01244154
+1999,"Aircraft, spacecraft, and parts thereof",0.00003602,0.00003536
+1999,Other,0.00010512,0.04293620
+2000,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00293250,14.16479434
+2000,Wood and articles of wood; wood charcoal,0.00053600,1.90369102
+2000,"Ores, slag and ash",0.00014621,2.05805432
+2000,Pharmaceutical products,0.00001858,0.00375423
+2000,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",0.00001037,0.00328907
+2000,Other,0.00005376,0.04718580
+2001,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00239178,13.29856878
+2001,Wood and articles of wood; wood charcoal,0.00056246,1.82140743
+2001,"Ores, slag and ash",0.00011986,1.51395523
+2001,Pharmaceutical products,0.00001762,0.00343241
+2001,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001478,0.00362212
+2001,Other,0.00005971,0.06915954
+2002,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00234368,12.69184048
+2002,Wood and articles of wood; wood charcoal,0.00050606,1.49171842
+2002,"Ores, slag and ash",0.00014371,1.72775361
+2002,Pharmaceutical products,0.00001683,0.00387143
+2002,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00001643,0.00233919
+2002,Other,0.00004762,0.06733683
+2003,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00285225,12.99761117
+2003,Wood and articles of wood; wood charcoal,0.00054832,1.04570240
+2003,"Ores, slag and ash",0.00014172,1.48230578
+2003,"Ships, boats and floating structures",0.00003565,0.07366142
+2003,"Aircraft, spacecraft, and parts thereof",0.00003273,0.00004560
+2003,Other,0.00007837,0.19591071
+2004,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00329680,10.33631646
+2004,Wood and articles of wood; wood charcoal,0.00067866,1.41094212
+2004,"Ores, slag and ash",0.00028148,1.49450651
+2004,"Aircraft, spacecraft, and parts thereof",0.00011055,0.00032731
+2004,Pharmaceutical products,0.00002713,0.00546927
+2004,Other,0.00010003,0.10470898
+2005,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00414861,11.25962509
+2005,Wood and articles of wood; wood charcoal,0.00078598,1.63748442
+2005,"Ores, slag and ash",0.00032528,3.48577676
+2005,Pharmaceutical products,0.00002773,0.00520337
+2005,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00002545,0.00202532
+2005,Other,0.00012476,0.18391772
+2006,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00340661,8.18088120
+2006,Wood and articles of wood; wood charcoal,0.00068808,1.72157012
+2006,"Ores, slag and ash",0.00035003,2.35168505
+2006,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",0.00002979,0.00250183
+2006,Rubber and articles thereof,0.00002808,0.01542296
+2006,Other,0.00010343,0.09009358
+2007,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00424797,8.85715824
+2007,Wood and articles of wood; wood charcoal,0.00139409,2.29441123
+2007,"Ores, slag and ash",0.00057716,3.12410418
+2007,"Ships, boats and floating structures",0.00020447,0.04047631
+2007,Rubber and articles thereof,0.00003557,0.01604459
+2007,Other,0.00016104,0.08931255
+2008,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00576155,9.23018985
+2008,Wood and articles of wood; wood charcoal,0.00150979,2.14856481
+2008,"Ores, slag and ash",0.00136957,2.88657053
+2008,"Ships, boats and floating structures",0.00060938,0.02446110
+2008,Rubber and articles thereof,0.00006253,0.02327584
+2008,Other,0.00020252,0.10247420
+2009,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00365613,9.66081451
+2009,Wood and articles of wood; wood charcoal,0.00125308,1.98412963
+2009,"Ores, slag and ash",0.00043667,1.95888906
+2009,"Ships, boats and floating structures",0.00017571,0.01317801
+2009,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00008447,0.00391535
+2009,Other,0.00021092,0.25765701
+2010,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00551711,10.97250870
+2010,"Ores, slag and ash",0.00085557,2.74600211
+2010,Wood and articles of wood; wood charcoal,0.00072830,0.91750973
+2010,"Ships, boats and floating structures",0.00017104,0.00911810
+2010,Rubber and articles thereof,0.00005186,0.02110000
+2010,Other,0.00023721,0.10513208
+2011,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00823669,10.02572949
+2011,"Ships, boats and floating structures",0.00099548,0.04698239
+2011,"Ores, slag and ash",0.00081218,4.16172642
+2011,Wood and articles of wood; wood charcoal,0.00046193,0.46302408
+2011,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00025576,0.00258046
+2011,Other,0.00024850,0.12558750
+2012,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.01076690,13.75473262
+2012,"Ships, boats and floating structures",0.00285460,0.20854739
+2012,"Ores, slag and ash",0.00061193,2.99261242
+2012,Wood and articles of wood; wood charcoal,0.00045538,0.52230371
+2012,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00020764,0.01033656
+2012,Other,0.00033472,0.12848574
+2013,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00820633,12.89637800
+2013,"Ships, boats and floating structures",0.00347961,0.29267843
+2013,"Ores, slag and ash",0.00080166,3.84575294
+2013,Wood and articles of wood; wood charcoal,0.00047945,0.49748157
+2013,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00011859,0.01171974
+2013,Other,0.00034658,0.13739175
+2014,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00742216,13.90481669
+2014,"Ships, boats and floating structures",0.00440517,0.43835854
+2014,"Ores, slag and ash",0.00068176,3.40496530
+2014,Wood and articles of wood; wood charcoal,0.00052197,0.53606189
+2014,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00016472,0.01848093
+2014,Other,0.00041175,0.10751611
+2015,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00527134,13.42750327
+2015,"Ships, boats and floating structures",0.00453729,0.24681739
+2015,"Ores, slag and ash",0.00060957,4.04890217
+2015,Wood and articles of wood; wood charcoal,0.00054455,0.60024516
+2015,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00035297,0.01822330
+2015,Other,0.00044855,1.74816343
+2016,"Ships, boats and floating structures",0.00536695,0.28520417
+2016,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00375384,11.62289978
+2016,Wood and articles of wood; wood charcoal,0.00053919,0.68188297
+2016,"Ores, slag and ash",0.00047942,3.53963625
+2016,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00019883,0.01411075
+2016,Other,0.00040289,0.13708383
+2017,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00418682,10.28162840
+2017,"Ores, slag and ash",0.00115420,4.40931869
+2017,"Ships, boats and floating structures",0.00112398,0.14925366
+2017,Wood and articles of wood; wood charcoal,0.00057576,0.75062160
+2017,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00006643,0.00957411
+2017,Other,0.00030564,0.11942021
+2018,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00549891,10.08155334
+2018,"Ships, boats and floating structures",0.00195029,0.29411085
+2018,"Ores, slag and ash",0.00139984,5.11227326
+2018,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00095302,0.03240339
+2018,Wood and articles of wood; wood charcoal,0.00063491,0.97572126
+2018,Other,0.00041203,0.19059980
+2019,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00500249,9.80452250
+2019,"Ores, slag and ash",0.00140609,6.17489587
+2019,"Ships, boats and floating structures",0.00135584,0.12889837
+2019,Wood and articles of wood; wood charcoal,0.00067975,1.12585828
+2019,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00047794,0.03026194
+2019,Other,0.00033839,0.18855695
+2020,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00329046,10.35604754
+2020,"Ships, boats and floating structures",0.00177920,0.35578279
+2020,"Ores, slag and ash",0.00134526,7.35224863
+2020,Wood and articles of wood; wood charcoal,0.00058418,0.91552891
+2020,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00011015,0.01157138
+2020,Other,0.00038440,0.20306467
+2021,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00448784,8.75797769
+2021,"Ships, boats and floating structures",0.00164004,0.18751405
+2021,"Ores, slag and ash",0.00150461,8.60774630
+2021,Wood and articles of wood; wood charcoal,0.00068352,0.98983228
+2021,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00009472,0.09924296
+2021,Other,0.00041579,0.13609388
+2022,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00634228,9.81449645
+2022,"Ores, slag and ash",0.00197302,9.99460088
+2022,"Ships, boats and floating structures",0.00098076,0.09353879
+2022,Wood and articles of wood; wood charcoal,0.00087162,1.14274593
+2022,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",0.00024158,0.02856039
+2022,Other,0.00062754,0.23888933
+2023,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",0.00627777,10.97925635
+2023,"Ships, boats and floating structures",0.00162268,0.18753203
+2023,"Ores, slag and ash",0.00151717,9.56781068
+2023,Wood and articles of wood; wood charcoal,0.00072681,0.96060234
+2023,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",0.00010432,0.09763389
+2023,Other,0.00039292,0.14871489
