@@ -64,12 +64,12 @@ const App: React.FC = () => {
 
         <ScrollAnimationWrapper style={fullPageStyle}>
           <section style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
-            <ZoomScroll items={[
-              {
-                title: "In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.",
-                content: <WorldTradeMap onCountryClick={handleCountryClick} />
-              },
-            ]} />
+            <p className="description-text">
+              In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.
+              <br />
+              <br />
+              <WorldTradeMap onCountryClick={handleCountryClick} />
+            </p>
           </section>
         </ScrollAnimationWrapper>
 
