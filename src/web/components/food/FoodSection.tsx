@@ -34,9 +34,18 @@ export const FoodSection: React.FC = () => {
       imageSrc: yemen_img,
       imageAlt: 'Yemen Food Dependency',
       description:
-        // "PLACEHOLDER: DATA QUALITY. Food Dependence and civil war (shock) - Famine. Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. The environment is unsuitable for efficient large-scale agriculture for its 39 million people. TODO: Add civil war start event, Make y axis percentage",
+        // "PLACEHOLDER: DATA QUALITY. Food Dependence and civil war (shock) - Famine. 
+        // Plot timeseries of food/GDP. In contrast, Yemen's food-related imports are 17.5% of the country's GDP. 
+        // The environment is unsuitable for efficient large-scale agriculture for its 39 million people. 
+        // TODO: Add civil war start event, Make y axis percentage",
         `We will first explore trade of food through some unique edge cases. In "food" we include all HS92 categories (18) that are related to human nutrition. The grouping is broad and includes categories like meat and fish, vegetables and fruits, and, crucially, cereals like wheat and rice.
         
+        Yemen is a country of 39.39 million people that has great difficulty producing its own food due to severe water scarcity, poor land quality, and war.
+        As a result, Yemen a large part of the food it consumes and is currently facing food shortages and famine.
+
+        We are trying to capture this external dependence by normalizing food imports to the total size of the country's economy (GDP).
+        In 2023, Yemen food imports are equivalent to ~20% of its GDP and the percentage rose significantly after the 2014 civil and subsequent international wars.
+
         `,
       plot: <YemenFoodVsGdp />, 
 
