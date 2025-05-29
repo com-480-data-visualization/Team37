@@ -294,10 +294,23 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const [topExportSources, setTopExportSources] = useState<Record<string, any[]>>({});
 
     // State for lineplot
-    const [linePlotData, setLinePlotData] = useState<{ year: string, imports: number, exports: number }[]>([]);
+    interface LinePlotData {
+        year: string;
+        imports: number;
+        exports: number;
+    }
+
+    const [linePlotData, setLinePlotData] = useState<LinePlotData[]>([]);
 
     const loadLinePlotData = async (countryCode: string, productChapter: string) => {
-        if (!countryCode || !productChapter) {
+        console.log('loadLinePlotData called:', {
+            countryCode,
+            productChapter,
+            currentView,
+            trigger: 'direct'
+        });
+
+        if (!countryCode) {
             setLinePlotData([]);
             return;
         }
@@ -310,7 +323,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
             const lines = text.split('\n').filter(line => line.trim() !== '');
             const headers = lines[0].split(',').map(h => h.trim());
 
-            const data = lines.slice(1)
+            let rawData = lines.slice(1)
                 .map(line => {
                     const values = line.split(',');
                     const entry: any = {};
@@ -318,16 +331,56 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         entry[header] = values[i];
                     });
                     return entry as ProductTradeData;
-                })
-                .filter(item => item.product_chapter === productChapter)
-                .map(item => ({
-                    year: item.year,
-                    imports: parseFloat(item.imports_trln_USD || '0'),
-                    exports: parseFloat(item.exports_trln_USD || '0')
-                }))
-                .sort((a, b) => parseInt(a.year) - parseInt(b.year));
+                });
 
-            setLinePlotData(data);
+            let processedData: LinePlotData[];
+
+            // 根据视图类型过滤和处理数据
+            if (productChapter === '') {
+                // total 视图：汇总所有产品的数据
+                processedData = rawData.reduce((acc, item) => {
+                    const year = item.year;
+                    const imports = parseFloat(item.imports_trln_USD || '0');
+                    const exports = parseFloat(item.exports_trln_USD || '0');
+                    
+                    const existing = acc.find(x => x.year === year);
+                    if (existing) {
+                        existing.imports += imports;
+                        existing.exports += exports;
+                    } else {
+                        acc.push({ year, imports, exports });
+                    }
+                    return acc;
+                }, [] as LinePlotData[]);
+            } else {
+                // 特定产品视图：只显示选中产品的数据
+                processedData = rawData
+                    .filter(item => {
+                        console.log('Filtering item:', {
+                            itemChapter: item.product_chapter,
+                            targetChapter: productChapter,
+                            matches: item.product_chapter === productChapter
+                        });
+                        return item.product_chapter === productChapter;
+                    })
+                    .map(item => ({
+                        year: item.year,
+                        imports: parseFloat(item.imports_trln_USD || '0'),
+                        exports: parseFloat(item.exports_trln_USD || '0')
+                    }));
+            }
+
+            // 按年份排序
+            processedData = processedData.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+
+            console.log('Final processed data:', {
+                countryCode,
+                productChapter,
+                dataLength: processedData.length,
+                sampleData: processedData.slice(0, 3)
+            });
+
+            setLinePlotData(processedData);
         } catch (error) {
             console.error('Error loading line plot data:', error);
             setLinePlotData([]);
@@ -504,20 +557,41 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
     // lineplot useEffects
     useEffect(() => {
-        if (selectedCountry && selectedProduct) {
-            loadLinePlotData(selectedCountry, selectedProduct);
+        // 当选择了国家时，无论是否选择了产品，都加载数据
+        if (selectedCountry) {
+            console.log('Loading line plot data:', {
+                selectedCountry,
+                selectedProduct,
+                currentView,
+                trigger: 'useEffect'
+            });
+            const productChapter = currentView === 'total' ? '' : selectedProduct;
+            loadLinePlotData(selectedCountry, productChapter);
         }
-    }, [selectedCountry, selectedProduct]);
+    }, [selectedCountry]); // 只在国家改变时触发，品类切换通过 onChange 事件处理
 
     useEffect(() => {
-        if (!linePlotRef.current || linePlotData.length === 0) return;
+        if (!linePlotRef.current || linePlotData.length === 0) {
+            console.log('No data to render line plot:', {
+                hasRef: !!linePlotRef.current,
+                dataLength: linePlotData.length
+            });
+            return;
+        }
+
+        console.log('Rendering line plot with data:', {
+            dataLength: linePlotData.length,
+            sampleData: linePlotData.slice(0, 3)
+        });
 
         const chart = echarts.init(linePlotRef.current);
-        const desc = getChapterDescription(selectedProduct);
-        const first3Words = desc.split(' ').slice(0, 3).join(' ');
+        const title = currentView === 'total' 
+            ? 'Trade Over Time - Total Trade Balance'
+            : `Trade Over Time - ${getChapterDescription(selectedProduct)}`;
+
         const option = {
             title: {
-                text: `Trade Over Time - ${first3Words}`,
+                text: title,
                 left: 'center',
                 textStyle: {
                     fontSize: 18,
@@ -530,6 +604,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     const year = params[0].axisValue;
                     const imports = params[0].data;
                     const exports = params[1].data;
+                    console.log(year, imports, exports);
                     return `Year: ${year}<br/>` +
                         `Imports: ${imports.toFixed(6)} Trln USD<br/>` +
                         `Exports: ${exports.toFixed(6)} Trln USD`;
@@ -577,7 +652,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
         return () => {
             chart.dispose();
         };
-    }, [linePlotData, selectedCountry, selectedProduct]);
+    }, [linePlotData, selectedCountry, selectedProduct, currentView]);
 
     useEffect(() => {
         if (!sankeyChartRef.current || !selectedCountry || !selectedProduct) return;
@@ -1221,7 +1296,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
             return () => {
                 window.removeEventListener('resize', handleResize);
-                chart.dispose();
+                chart.dispose(); 
             };
         }
     }, [option, allData, chartRef]);
@@ -1269,11 +1344,16 @@ export const WorldTradeMapAnimated: React.FC = () => {
                             <select 
                                 value={selectedProduct}
                                 onChange={(e) => {
-                                    setSelectedProduct(e.target.value);
-                                    if (e.target.value === "") {
+                                    const newProduct = e.target.value;
+                                    setSelectedProduct(newProduct);
+                                    if (newProduct === "") {
                                         setCurrentView('total');
                                     } else {
                                         setCurrentView('product');
+                                    }
+                                    // 如果已经选择了国家，立即重新加载该国家的数据
+                                    if (selectedCountry) {
+                                        loadLinePlotData(selectedCountry, newProduct);
                                     }
                                 }}
                                 style={{ 
