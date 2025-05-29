@@ -25,6 +25,15 @@ export const ChinaFuelTrade: React.FC = () => {
 
         const chart = echarts.init(chartRef.current);
         const option = {
+            title: {
+                text: 'Mineral Fuel Deficit',
+                left: 'center',
+                top: 'top',
+                textStyle: {
+                    fontSize: Prm.plot_title_fontsz,
+                    fontWeight: 'bold'
+                },
+            },
             tooltip: {
                 trigger: 'axis',
                 axisPointer: {

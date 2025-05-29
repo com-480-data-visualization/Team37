@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../../hooks/useData';
+import * as Prm from '../params';
 
 const eventData = {
   "1995": {
@@ -53,26 +54,77 @@ export const UkraineGrainExporter: React.FC = () => {
 
     const chart = echarts.init(chartRef.current);
     const option = {
+      title: {
+        text: 'Ukrainian Cereal Exports Versus Global Exports',
+        left: 'center',
+        top: 'top',
+        textStyle: {
+          fontSize: Prm.plot_title_fontsz,
+          fontWeight: 'bold'
+        },
+      },
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow', // better for bar charts (you can use 'line' if preferred)
+          label: { backgroundColor: '#6a7985' }
+        },
+        formatter: (params: any[]) => {
+          // Use the first point’s x-axis label
+          const category = params[0].name;
+          let s = `<b>${category}</b><br/>`;
+          params.forEach(p => {
+            s += `${p.marker}${p.seriesName}: ${p.value}<br/>`;
+          });
+          return s;
+        }
+      },
       xAxis: {
         type: 'category',
-        data: flowData.map((d) => d.year)
+        data: flowData.map((d) => d.year),
+        axisLabel: {
+          fontSize: Prm.label_fontsz,
+        }
       },
       yAxis: {
         type: 'value',
-        name: 'Cereal Exports % Global Cereal Exports '
+        name: 'Exports % Global Exports ',
+        nameLocation: 'middle',
+        nameGap: 50,
+        nameTextStyle: {
+          fontSize: Prm.title_fontsz,
+          fontWeight: 'bold',
+        },
+        axisLabel: {
+          fontSize: Prm.label_fontsz,
+        }
       },
       series: [
         {
           name: 'Cereal Exports as % of Total (USD)',
           type: 'line',
-          data: flowData.map((d) => d.ratio_total_exp_usd),
-          smooth: true
+          data: flowData.map((d) => Math.round(d.ratio_total_exp_usd * 1000) / 10),
+          smooth: true,
+          lineStyle: {
+            color: Prm.curve_color_ukr_yellow,   // line color
+            width: Prm.line_width            // optional: line width
+          },
+          itemStyle: {
+            color: Prm.curve_color_ukr_yellow    // marker (symbol) color
+          },
         },
         {
           name: 'Cereal Exports as % of Total (Weight)',
           type: 'line',
-          data: flowData.map((d) => d.ratio_total_exp_weight),
-          smooth: true
+          data: flowData.map((d) => Math.round(d.ratio_total_exp_weight * 1000) / 10),
+          smooth: true,
+          lineStyle: {
+            color: Prm.curve_color_ukr_blue,   // line color
+            width: Prm.line_width            // optional: line width
+          },
+          itemStyle: {
+            color: Prm.curve_color_ukr_blue    // marker (symbol) color
+          },
         },
 
       ]

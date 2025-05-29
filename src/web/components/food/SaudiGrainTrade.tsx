@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../../hooks/useData';
+import * as Prm from '../params';
 
 const eventData = {
   "1995": {
@@ -35,6 +36,12 @@ const eventData = {
   }
 };
 
+// USDA Foreign Agricultural Service
+// Wheat: 3.57 Mt imported / 4.54 Mt consumed → 79 % 
+// Barley (feed): 3.0 Mt imported / 3.0 Mt consumed → ≈ 100 % 
+// Corn (feed & food): 4.0 Mt imported / 4.85 Mt consumed → 82 % 
+// Rice (food): 1.56 Mt imported / 1.56 Mt consumed → 100 % 
+
 interface TradeFlowData {
   year: number;
   imports_mln_metric_tons: number;
@@ -51,50 +58,72 @@ export const SaudiGrainTrade: React.FC = () => {
 
     const chart = echarts.init(chartRef.current);
     const option = {
+      title: {
+        text: 'Saudi Arabia Cereal Imports',
+        left: 'center',
+        top: 'top',
+        textStyle: {
+          fontSize: Prm.plot_title_fontsz,
+          fontWeight: 'bold'
+        },
+      },
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow',
+          label: { backgroundColor: '#6a7985' }
+        },
+        formatter: (params: any[]) => {
+          // Use the first point’s x-axis label
+          const category = params[0].name;
+          let s = `<b>${category}</b><br/>`;
+          params.forEach(p => {
+            s += `${p.marker}${p.seriesName}: ${p.value}<br/>`;
+          });
+          return s;
+        }
+      },
       xAxis: {
         type: 'category',
-        data: flowData.map((d) => d.year)
+        data: flowData.map((d) => d.year),
+        axisLabel: {
+          fontSize: Prm.label_fontsz,
+        },
       },
       yAxis: {
         type: 'value',
-        name: 'Million Metric Tons'
+        name: 'Million Metric Tons',
+        nameLocation: 'middle',
+        nameGap: 50,
+        nameTextStyle: {
+          fontSize: Prm.title_fontsz,
+          fontWeight: 'bold',
+        },
+        axisLabel: {
+          fontSize: Prm.label_fontsz,
+        }
       },
       series: [
         {
-          name: 'Imports',
-          type: 'line',
-          data: flowData.map((d) => d.imports_mln_metric_tons),
-          smooth: true
+          name: 'Cereal Imports',
+          type: 'bar',
+          data: flowData.map((d) => Math.round(d.imports_mln_metric_tons * 10) / 10),
+          smooth: true,
+          itemStyle: {
+            color: Prm.curve_color_saudi_green,   // line color
+          },
         },
-        {
-          name: 'Exports',
-          type: 'line',
-          data: flowData.map((d) => d.exports_mln_metric_tons),
-          smooth: true
-        }
+        // {
+        //   name: 'Exports',
+        //   type: 'line',
+        //   data: flowData.map((d) => d.exports_mln_metric_tons),
+        //   smooth: true
+        // }
       ]
     };
 
     chart.setOption(option);
 
-    chart.on('click', (params: any) => {
-      if (params.componentType === 'series') {
-        const year = flowData[params.dataIndex].year;
-        const value =
-          params.seriesName === 'Imports'
-            ? flowData[params.dataIndex].imports_mln_metric_tons
-            : flowData[params.dataIndex].exports_mln_metric_tons;
-        setSelectedPoint({ year, value });
-      }
-    });
-
-    const handleResize = () => chart.resize();
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      chart.dispose();
-    };
   }, [flowData]);
 
   if (loading) {
@@ -104,70 +133,6 @@ export const SaudiGrainTrade: React.FC = () => {
   return (
     <div style={{ position: 'relative' }}>
       <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
-
-      {selectedPoint && eventData[selectedPoint.year] && (
-        <>
-          <div
-            style={{
-              position: 'fixed',
-              top: 0,
-              left: 0,
-              width: '100vw',
-              height: '100vh',
-              background: 'rgba(0,0,0,0)',
-              zIndex: 999
-            }}
-            onClick={() => setSelectedPoint(null)}
-          />
-          <div
-            style={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              backgroundColor: 'white',
-              padding: '20px',
-              borderRadius: '8px',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-              zIndex: 1000,
-              maxWidth: '250px'
-            }}
-          >
-            <button
-              onClick={() => setSelectedPoint(null)}
-              style={{
-                position: 'absolute',
-                top: '10px',
-                right: '10px',
-                background: 'none',
-                border: 'none',
-                fontSize: '18px',
-                cursor: 'pointer'
-              }}
-            >×</button>
-            <h3 style={{ margin: 0, fontSize: '1rem' }}>
-              {eventData[selectedPoint.year].title} ({selectedPoint.year})
-            </h3>
-            <p style={{ fontSize: '0.9rem' }}>
-              {eventData[selectedPoint.year].description}
-            </p>
-            <a
-              href={eventData[selectedPoint.year].newsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={eventData[selectedPoint.year].imageUrl}
-                alt={eventData[selectedPoint.year].title}
-                style={{ width: '100%', borderRadius: '4px', margin: '10px 0' }}
-              />
-            </a>
-            <p style={{ fontSize: '0.9rem' }}>
-              Value: {selectedPoint.value.toLocaleString()} mln tons
-            </p>
-          </div>
-        </>
-      )}
     </div>
   );
 };

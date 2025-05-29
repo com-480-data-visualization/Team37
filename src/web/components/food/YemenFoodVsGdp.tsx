@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../../hooks/useData';
+import * as Prm from '../params';
 
 const eventData = {
   "1995": {
@@ -50,20 +51,64 @@ export const YemenFoodVsGdp: React.FC = () => {
 
     const chart = echarts.init(chartRef.current);
     const option = {
+      title: {
+        text: 'Yemeni Food Imports % GDP',
+        left: 'center',
+        top: 'top',
+        textStyle: {
+          fontSize: Prm.plot_title_fontsz,
+          fontWeight: 'bold'
+        },
+      },
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow', // better for bar charts (you can use 'line' if preferred)
+          label: { backgroundColor: '#6a7985' }
+        },
+        formatter: (params: any[]) => {
+          // Use the first point’s x-axis label
+          const category = params[0].name;
+          let s = `<b>${category}</b><br/>`;
+          params.forEach(p => {
+            s += `${p.marker}${p.seriesName}: ${p.value}<br/>`;
+          });
+          return s;
+        }
+      },
       xAxis: {
         type: 'category',
-        data: flowData.map((d) => d.year)
+        data: flowData.map((d) => d.year),
+        axisLabel: {
+          fontSize: Prm.label_fontsz,
+        }
       },
       yAxis: {
         type: 'value',
-        name: 'Food Imports % GDP'
+        name: 'Food Imports % GDP',
+        nameLocation: 'middle',
+        nameGap: 50,
+        nameTextStyle: {
+          fontSize: Prm.title_fontsz,   // ← set your desired font size here
+          fontWeight: 'bold',      // optional
+        },
+        axisLabel: {
+          fontSize: Prm.label_fontsz,
+        }
       },
       series: [
         {
           name: 'Food Imports % GDP',
           type: 'line',
-          data: flowData.map((d) => d.imports_pcnt_gdp),
-          smooth: true
+          data: flowData.map((d) => Math.round(d.imports_pcnt_gdp * 1000) / 10),
+          smooth: true,
+          lineStyle: {
+            color: Prm.yemen_black,   // line color
+            width: Prm.line_width            // optional: line width
+          },
+          itemStyle: {
+            color: Prm.yemen_black    // marker (symbol) color
+          },
         },
 
       ]

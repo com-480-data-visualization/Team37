@@ -47,6 +47,15 @@ export const UsaFuelTrade: React.FC = () => {
 
         const chart = echarts.init(chartRef.current);
         const option = {
+            title: {
+                text: 'USA: Mineral Fuel Trade Balance',
+                left: 'center',
+                top: 'top',
+                textStyle: {
+                    fontSize: Prm.plot_title_fontsz,
+                    fontWeight: 'bold'
+                },
+            },
             tooltip: {
                 trigger: 'axis',
                 axisPointer: {
@@ -73,6 +82,8 @@ export const UsaFuelTrade: React.FC = () => {
             yAxis: {
                 type: 'value',
                 name: 'Mineral Fuel Balance (Mil. Tons)',
+                nameLocation: 'middle',
+                nameGap: 50,
                 nameTextStyle: {
                     fontSize: Prm.title_fontsz,   // ← set your desired font size here
                     fontWeight: 'bold',      // optional
@@ -86,7 +97,7 @@ export const UsaFuelTrade: React.FC = () => {
                     name: 'Mineral Fuel Trade Balance (Million Metric Tons)',
                     type: 'line',
                     data: flowData.map(d => ({
-                        value: d.balance_mln_metric_tons,
+                        value: Math.round(d.balance_mln_metric_tons),
                         itemStyle: {
                             color: eventData[d.year] ? Prm.curve_color_red : Prm.curve_color_blue,
                             borderColor: eventData[d.year] ? '#FFF' : 'transparent',

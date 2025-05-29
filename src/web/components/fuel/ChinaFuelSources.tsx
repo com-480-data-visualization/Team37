@@ -53,6 +53,15 @@ export const ChinaFuelSources: React.FC = () => {
 
         const chart = echarts.init(chartRef.current);
         const option = {
+            title: {
+                text: 'Top Exporters of Mineral Fuels to China',
+                left: 'center',
+                top: 'top',
+                textStyle: {
+                    fontSize: Prm.plot_title_fontsz,
+                    fontWeight: 'bold'
+                },
+            },
             tooltip: {
                 trigger: 'axis',
                 axisPointer: {
@@ -82,8 +91,8 @@ export const ChinaFuelSources: React.FC = () => {
                 data: flowData.map(d => d.exporter),
                 splitLine: { show: false },
                 axisLabel: {
-                    rotate: 45,    // tilt them 45° (try –45 or 30 if you like)
-                    interval: 0,    // show every label
+                    rotate: 45,
+                    interval: 0,
                     fontSize: Prm.label_fontsz,
                 },
             },
@@ -94,8 +103,8 @@ export const ChinaFuelSources: React.FC = () => {
                     nameLocation: 'middle',
                     nameGap: 50,
                     nameTextStyle: {
-                        fontSize: Prm.title_fontsz,   // ← set your desired font size here
-                        fontWeight: 'bold',      // optional
+                        fontSize: Prm.title_fontsz,
+                        fontWeight: 'bold',
                     },
                     axisLabel: {
                         fontSize: Prm.label_fontsz,
