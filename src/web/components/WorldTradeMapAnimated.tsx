@@ -1149,6 +1149,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
             chart.setOption(option);
             console.log('WorldTradeMapAnimated: setOption 完成');
             chart.on('click', handleMapClick);
+
+            // 添加resize事件监听器
+            const handleResize = () => {
+                chart.resize();
+            };
+            window.addEventListener('resize', handleResize);
+
+            return () => {
+                window.removeEventListener('resize', handleResize);
+                chart.dispose();
+            };
         }
     }, [option, allData, chartRef]);
 
@@ -1208,24 +1219,24 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     <div
                         ref={linePlotRef}
                         style={{
-                            height: '50%',
+                            flex: 1,
                             backgroundColor: '#fff',
                             borderRadius: '8px',
                             boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
                             padding: '10px'
                         }}
                     />
-            </div>
+                </div>
 
                 {/* World Map (70% width) */}
                 <div
                     ref={chartRef}
                     style={{
-                        width: '70%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                        minHeight: '400px'
                     }}
                 />
             </div>
@@ -1233,15 +1244,14 @@ export const WorldTradeMapAnimated: React.FC = () => {
             {/* Bottom Section (30% height) */}
             <div style={{
                 display: 'flex',
-                height: '30%',
+                flex: 1,
                 marginTop: '20px',
                 gap: '20px'
             }}>
                 <div
                     ref={importsChartRef}
                     style={{
-                        width: '33.3%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
@@ -1250,19 +1260,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 <div
                     ref={sankeyChartRef}
                     style={{
-                        width: '33.3%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        minWidth: '300px',
+                        minWidth: '300px'
                     }}
                 />
                 <div
                     ref={exportsChartRef}
                     style={{
-                        width: '33.3%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
