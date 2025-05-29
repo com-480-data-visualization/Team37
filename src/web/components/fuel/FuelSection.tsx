@@ -44,7 +44,9 @@ export const FuelSection: React.FC = () => {
         What changed was the rapid commercialisation of shale technology:
         Shale technology uses high-pressure water, sand and chemicals to crack tight shale rock sideways through long horizontal wells, letting trapped oil and gas flow to the surface. Shale drilling has faced strong criticism for its environmental impact as it can lead to water contamination and earthquake risks.
         
-        Nevertheless, shale did what traditional drilling could not: it opened vast, previously uneconomic rock to economic exploitation and turned the United States into a net exporter of Mineral Fuels`,
+        Nevertheless, shale did what traditional drilling could not: it opened vast, previously uneconomic rock to economic exploitation and turned the United States into a net exporter of Mineral Fuels
+        
+        The Figure below shows the US's Mineral Fuel trade balance along with events that influenced the shale revolution.`,
       plot: <UsaFuelTrade />,
 
     },
@@ -54,11 +56,9 @@ export const FuelSection: React.FC = () => {
       title: "China Manufacturing",
       imageSrc: china_banner,
       imageAlt: 'Saudi Water Conservation',
-      description:
-        "PLACEHOLDER (Energy imports for manufacturing/diversification): Saudi Arabia's grain story reads like a policy whiplash." +
-        "Flush with oil money, the kingdom used fossil-aquifer irrigation to become a net" +
-        "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
-        "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
+      description:`China industrialized its economy at a breakneck speed starting in the mid 1990s. To keep its industrial machinery running, China consumes vast amounts of mineral fuels like oil and gas, much of which is imported from abroad. The scale of China's industrial achievement also lead to it accounting for ~20% of all mineral fuel imports. Further, China imports ~70% of the oil it consumes from abroad.
+      The following Figures illustrate China's rapid industrialization and also shed some light into the ddiverse set of countries that extract and supply the energy, with Russia and Saudi Arabia leading the pack.
+      `,
       plot1: <ChinaFuelTrade />,
       plot2: <ChinaFuelSources />,
     },

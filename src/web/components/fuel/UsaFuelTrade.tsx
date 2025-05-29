@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../../hooks/useData';
+import * as Prm from '../params';
 
 const eventData = {
     "1998": {
@@ -25,14 +26,6 @@ const eventData = {
     }
 };
 
-const curve_color_red = "#B22234"
-const curve_color_blue = "#3C3B6E"
-const large_marker_size = 20
-const marker_size = 16
-const marker_shape = 'circle'
-const line_width = 6
-const title_fontsz = 16
-const label_fontsz = 14
 
 interface TradeFlowData {
     year: number;
@@ -74,18 +67,18 @@ export const UsaFuelTrade: React.FC = () => {
                 type: 'category',
                 data: flowData.map((d) => d.year),
                 axisLabel: {
-                    fontSize: label_fontsz,
+                    fontSize: Prm.label_fontsz,
                 }
             },
             yAxis: {
                 type: 'value',
                 name: 'Mineral Fuel Balance (Mil. Tons)',
                 nameTextStyle: {
-                    fontSize: title_fontsz,   // ← set your desired font size here
+                    fontSize: Prm.title_fontsz,   // ← set your desired font size here
                     fontWeight: 'bold',      // optional
                 },
                 axisLabel: {
-                    fontSize: label_fontsz,
+                    fontSize: Prm.label_fontsz,
                 }
             },
             series: [
@@ -95,21 +88,21 @@ export const UsaFuelTrade: React.FC = () => {
                     data: flowData.map(d => ({
                         value: d.balance_mln_metric_tons,
                         itemStyle: {
-                            color: eventData[d.year] ? curve_color_red : curve_color_blue,
+                            color: eventData[d.year] ? Prm.curve_color_red : Prm.curve_color_blue,
                             borderColor: eventData[d.year] ? '#FFF' : 'transparent',
                             borderWidth: eventData[d.year] ? 2 : 0,
                             shadowColor: eventData[d.year] ? 'rgba(255,107,107,0.5)' : 'transparent',
                             shadowBlur: eventData[d.year] ? 10 : 0
                         },
-                        symbolSize: eventData[d.year] ? large_marker_size : marker_size,
-                        symbol: eventData[d.year] ? 'triangle' : marker_shape,
+                        symbolSize: eventData[d.year] ? Prm.large_marker_size : Prm.marker_size,
+                        symbol: eventData[d.year] ? 'triangle' : Prm.marker_shape,
                     })),
                     lineStyle: {
-                        color: curve_color_blue,   // line color
-                        width: line_width            // optional: line width
+                        color: Prm.curve_color_blue,   // line color
+                        width: Prm.line_width            // optional: line width
                     },
                     itemStyle: {
-                        color: curve_color_blue    // marker (symbol) color
+                        color: Prm.curve_color_blue    // marker (symbol) color
                     },
                     // symbol: marker_shape,
                     // symbolSize: marker_size,
