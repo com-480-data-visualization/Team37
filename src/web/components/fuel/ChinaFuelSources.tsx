@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../../hooks/useData';
+import * as Prm from '../params';
 
 const eventData = {
     "1995": {
@@ -53,13 +54,19 @@ export const ChinaFuelSources: React.FC = () => {
         const chart = echarts.init(chartRef.current);
         const option = {
             tooltip: {
-                trigger: 'item',
+                trigger: 'axis',
                 axisPointer: {
-                    type: 'shadow'  // nice for bar charts
+                    type: 'shadow', // better for bar charts (you can use 'line' if preferred)
+                    label: { backgroundColor: '#6a7985' }
                 },
-                formatter: params => {
-                    // params is a single series for trigger:'item'
-                    return `${params.marker}${params.name}: ${params.value} trln USD`;
+                formatter: (params: any[]) => {
+                    // Use the first point’s x-axis label
+                    const category = params[0].name;
+                    let s = `<b>${category}</b><br/>`;
+                    params.forEach(p => {
+                        s += `${p.marker}${p.seriesName}: ${p.value}<br/>`;
+                    });
+                    return s;
                 }
             },
             grid: {
@@ -76,20 +83,33 @@ export const ChinaFuelSources: React.FC = () => {
                 splitLine: { show: false },
                 axisLabel: {
                     rotate: 45,    // tilt them 45° (try –45 or 30 if you like)
-                    interval: 0    // show every label
-                }
+                    interval: 0,    // show every label
+                    fontSize: Prm.label_fontsz,
+                },
             },
             yAxis: [
                 {
                     type: 'value',
-                    name: 'TODO',
+                    name: 'Mineral Fuel Imports (Billion $)',
+                    nameLocation: 'middle',
+                    nameGap: 50,
+                    nameTextStyle: {
+                        fontSize: Prm.title_fontsz,   // ← set your desired font size here
+                        fontWeight: 'bold',      // optional
+                    },
+                    axisLabel: {
+                        fontSize: Prm.label_fontsz,
+                    }
                 },
             ],
             series: [
                 {
-                    name: 'TODO',
+                    name: 'Billion $',
                     type: 'bar',
-                    data: flowData.map(d => d.value_trln_USD)
+                    data: flowData.map(d => Math.round(d.value_trln_USD * 10000) / 10),
+                    itemStyle: {
+                        color: Prm.curve_color_china_red
+                    }
                 },
             ]
         };

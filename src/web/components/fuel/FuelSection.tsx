@@ -39,7 +39,7 @@ export const FuelSection: React.FC = () => {
       imageSrc: usa_banner,
       imageAlt: 'USA Oil Barrel',
       description:
-        `For most of the post-war era the United States burned more oil and gas than it could pump. Conventional fields onshore and in the Gulf of Mexico peaked in 1970; by 2005 domestic crude output had fallen almost in half, and the country was bringing in roughly 60 % of the oil it used. 
+        `For most of the post-war era the United States burned more oil and gas than it could pump. Conventional fields onshore and in the Gulf of Mexico peaked in 1970; by 2005 domestic crude output had fallen almost in half, and the country was bringing in roughly 60% of the oil it used. 
 
         What changed was the rapid commercialisation of shale technology:
         Shale technology uses high-pressure water, sand and chemicals to crack tight shale rock sideways through long horizontal wells, letting trapped oil and gas flow to the surface. Shale drilling has faced strong criticism for its environmental impact as it can lead to water contamination and earthquake risks.
@@ -53,11 +53,12 @@ export const FuelSection: React.FC = () => {
     {
       kind: 'BTFF',
       id: 'china',
-      title: "China Manufacturing",
+      title: "China's Manufacturing Miracle Must be Fed",
       imageSrc: china_banner,
       imageAlt: 'Saudi Water Conservation',
       description:`China industrialized its economy at a breakneck speed starting in the mid 1990s. To keep its industrial machinery running, China consumes vast amounts of mineral fuels like oil and gas, much of which is imported from abroad. The scale of China's industrial achievement also lead to it accounting for ~20% of all mineral fuel imports. Further, China imports ~70% of the oil it consumes from abroad.
-      The following Figures illustrate China's rapid industrialization and also shed some light into the ddiverse set of countries that extract and supply the energy, with Russia and Saudi Arabia leading the pack.
+      
+      The following Figures illustrate China's rapid industrialization and also shed some light into the diverse set of countries that extract and supply the energy, with Russia and Saudi Arabia leading the pack.
       `,
       plot1: <ChinaFuelTrade />,
       plot2: <ChinaFuelSources />,
