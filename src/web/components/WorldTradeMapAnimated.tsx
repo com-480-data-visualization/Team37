@@ -899,7 +899,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
         if (!allData) return [];
         const set = new Set<string>();
         allData.forEach(item => set.add(item.year));
-        return Array.from(set).sort();
+        return Array.from(set).sort((a, b) => parseInt(a) - parseInt(b));
     }, [allData]);
 
     const loadProductData = async (countryCode: string) => {
@@ -978,6 +978,13 @@ export const WorldTradeMapAnimated: React.FC = () => {
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentView, selectedProduct, allData, availableCountries]);
+
+    // 设置初始年份为最新年份
+    useEffect(() => {
+        if (years.length > 0) {
+            setYear(years[years.length - 1]);  // 设置为最后一年（最新年份）
+        }
+    }, [years]);
 
     // 动画年份切换
     useEffect(() => {
@@ -1180,14 +1187,15 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     {/* Controls (50% height) */}
                     <div style={{ height: '50%', padding: '10px', marginTop: '10px', display: 'flex', flexDirection: 'column' }}>
                         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                <input
-                    type="range"
-                    min={0}
-                    max={years.length - 1}
-                    value={years.indexOf(year)}
-                    onChange={e => setYear(years[Number(e.target.value)])}
-                    style={{ flex: 1 }}
-                />
+                            <span style={{ marginRight: '10px', fontWeight: 'bold' }}>1995</span>
+                            <input
+                                type="range"
+                                min={0}
+                                max={years.length - 1}
+                                value={years.indexOf(year)}
+                                onChange={e => setYear(years[Number(e.target.value)])}
+                                style={{ flex: 1 }}
+                            />
                             <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>{year}</span>
                         </div>
                 
