@@ -1184,20 +1184,23 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     value={selectedProduct}
                     onChange={(e) => {
                         setSelectedProduct(e.target.value);
-                                if (e.target.value === "") {
-                                    setCurrentView('total');
-                                } else {
-                        setCurrentView('product');
-                                }
+                        if (e.target.value === "") {
+                            setCurrentView('total');
+                        } else {
+                            setCurrentView('product');
+                        }
                     }}
-                            style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
+                    style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
                 >
                     <option value="">-- Show Total Trade Balance --</option>
-                    {productChapters.map(chapter => (
-                        <option key={chapter.product_chapter} value={chapter.product_chapter}>
-                            {chapter.description}
-                        </option>
-                    ))}
+                    {productChapters
+                        .slice()
+                        .sort((a, b) => a.description.localeCompare(b.description))
+                        .map(chapter => (
+                            <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                                {chapter.description}
+                            </option>
+                        ))}
                 </select>
                     </div>
 
