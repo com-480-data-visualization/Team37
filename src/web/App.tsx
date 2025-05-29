@@ -11,7 +11,6 @@ import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
 import { ZoomScroll } from './components/ZoomScroll'
-import { CountrySankey } from './components/CountrySankey';
 
 import {useEffect, useRef} from 'react';
 import { inView, animate} from 'framer-motion';
