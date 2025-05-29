@@ -447,7 +447,6 @@ export const WorldTradeMapAnimated: React.FC = () => {
         }
     };
 
-    // Update the Sankey useEffect
     useEffect(() => {
         if (!sankeyChartRef.current || !selectedCountry) return;
 
@@ -458,11 +457,13 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
         // Prepare nodes - need unique names and proper indices
         const nodes: SankeyNode[] = [
-            { name: `${countryName} (Imports)` },
+            // Left side nodes (import sources)
             ...importSources.map(src => ({
                 name: `${codeToName[src.country] || src.country} (Import)`
             })),
-            { name: `${countryName} (Exports)` },
+            // Center node (country)
+            { name: countryName },
+            // Right side nodes (export destinations)
             ...exportSources.map(src => ({
                 name: `${codeToName[src.country] || src.country} (Export)`
             }))
@@ -476,15 +477,15 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
         // Prepare links using indices
         const links: SankeyLink[] = [
-            // Import links (sources -> country imports)
+            // Import links (sources -> country)
             ...importSources.map(src => ({
                 source: nodeMap[`${codeToName[src.country] || src.country} (Import)`],
-                target: nodeMap[`${countryName} (Imports)`],
+                target: nodeMap[countryName],
                 value: src.value * 1000 // Convert to billions
             })),
-            // Export links (country exports -> destinations)
+            // Export links (country -> destinations)
             ...exportSources.map(src => ({
-                source: nodeMap[`${countryName} (Exports)`],
+                source: nodeMap[countryName],
                 target: nodeMap[`${codeToName[src.country] || src.country} (Export)`],
                 value: src.value * 1000 // Convert to billions
             }))
@@ -514,7 +515,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 emphasis: {
                     focus: 'adjacency'
                 },
-                nodeAlign: 'right',
+                nodeAlign: 'left',  // Changed to left alignment
+                orient: 'horizontal',  // Set orientation to horizontal
                 levels: [{
                     depth: 0,
                     itemStyle: {
@@ -538,10 +540,18 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     curveness: 0.5
                 },
                 label: {
+                    position: 'left',  // Position labels to the left of nodes
                     formatter: (params: any) => {
                         return params.name.replace(' (Import)', '').replace(' (Export)', '');
                     }
-                }
+                },
+                // Node positioning configuration
+                nodeWidth: 20,
+                nodeGap: 10,
+                left: '10%',
+                right: '10%',
+                top: '10%',
+                bottom: '10%'
             }]
         };
 
