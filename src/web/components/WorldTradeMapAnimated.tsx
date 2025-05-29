@@ -1185,42 +1185,61 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 {/* Left Panel (30% width) */}
                 <div style={{ width: '30%', display: 'flex', flexDirection: 'column' }}>
                     {/* Controls (50% height) */}
-                    <div style={{ height: '50%', padding: '10px', marginTop: '10px', display: 'flex', flexDirection: 'column' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                            <span style={{ marginRight: '10px', fontWeight: 'bold' }}>1995</span>
-                            <input
-                                type="range"
-                                min={0}
-                                max={years.length - 1}
-                                value={years.indexOf(year)}
-                                onChange={e => setYear(years[Number(e.target.value)])}
-                                style={{ flex: 1 }}
-                            />
-                            <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>{year}</span>
+                    <div style={{ height: '50%', padding: '20px', marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        {/* Timeline section */}
+                        <div>
+                            <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
+                                Select a year to view trade data for different periods
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                <span style={{ marginRight: '10px', fontWeight: 'bold', minWidth: '40px' }}>1995</span>
+                                <input
+                                    type="range"
+                                    min={0}
+                                    max={years.length - 1}
+                                    value={years.indexOf(year)}
+                                    onChange={e => setYear(years[Number(e.target.value)])}
+                                    style={{ flex: 1 }}
+                                />
+                                <span style={{ marginLeft: '10px', fontWeight: 'bold', minWidth: '40px' }}>{year}</span>
+                            </div>
                         </div>
-                
-                <select 
-                    value={selectedProduct}
-                    onChange={(e) => {
-                        setSelectedProduct(e.target.value);
-                        if (e.target.value === "") {
-                            setCurrentView('total');
-                        } else {
-                        setCurrentView('product');
-                        }
-                    }}
-                    style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
-                >
-                    <option value="">-- Show Total Trade Balance --</option>
-                    {productChapters
-                        .slice()
-                        .sort((a, b) => a.description.localeCompare(b.description))
-                        .map(chapter => (
-                        <option key={chapter.product_chapter} value={chapter.product_chapter}>
-                            {chapter.description}
-                        </option>
-                    ))}
-                </select>
+
+                        {/* Product selection section */}
+                        <div>
+                            <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
+                                Choose a product category or view overall trade balance
+                            </div>
+                            <select 
+                                value={selectedProduct}
+                                onChange={(e) => {
+                                    setSelectedProduct(e.target.value);
+                                    if (e.target.value === "") {
+                                        setCurrentView('total');
+                                    } else {
+                                        setCurrentView('product');
+                                    }
+                                }}
+                                style={{ 
+                                    width: '100%',
+                                    padding: '8px',
+                                    borderRadius: '4px',
+                                    border: '1px solid #ddd',
+                                    fontSize: '14px',
+                                    backgroundColor: '#fff'
+                                }}
+                            >
+                                <option value="">-- Show Total Trade Balance --</option>
+                                {productChapters
+                                    .slice()
+                                    .sort((a, b) => a.description.localeCompare(b.description))
+                                    .map(chapter => (
+                                    <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                                        {chapter.description}
+                                    </option>
+                                ))}
+                            </select>
+                        </div>
                     </div>
 
                     {/* Line Plot (50% height) */}
