@@ -261,7 +261,7 @@ interface SankeyLink {
 
 console.log('WorldTradeMapAnimated mounted');
 
-export const WorldTradeMapAnimated: React.FC = () => { 
+export const WorldTradeMapAnimated: React.FC = () => {
     // Ref for the main WorldMap Chart
     const chartRef = useRef<HTMLDivElement>(null);
     // Ref for the two bar charts for imports/exports
@@ -276,7 +276,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const { data: rawChapterMappings, loading: chaptersLoading } = useData<any[]>('interactive/prod_chap_to_description.csv');
     const [year, setYear] = useState<string>('2023');
     const [playing, setPlaying] = useState(false);
-    const [selectedProduct, setSelectedProduct] = useState<string>('84');
+    const [selectedProduct, setSelectedProduct] = useState<string>('');
     const [productData, setProductData] = useState<Record<string, Record<string, ProductTradeData[]>>>({});
     const [loadingProductData, setLoadingProductData] = useState(false);
     const [productChapters, setProductChapters] = useState<ProductChapterMapping[]>([]);
@@ -1187,7 +1187,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         if (e.target.value === "") {
                             setCurrentView('total');
                         } else {
-                            setCurrentView('product');
+                        setCurrentView('product');
                         }
                     }}
                     style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
@@ -1197,10 +1197,10 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         .slice()
                         .sort((a, b) => a.description.localeCompare(b.description))
                         .map(chapter => (
-                            <option key={chapter.product_chapter} value={chapter.product_chapter}>
-                                {chapter.description}
-                            </option>
-                        ))}
+                        <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                            {chapter.description}
+                        </option>
+                    ))}
                 </select>
                     </div>
 
