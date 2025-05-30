@@ -570,33 +570,38 @@ export const WorldTradeMapAnimated: React.FC = () => {
         }
     }, [selectedCountry]); // 只在国家改变时触发，品类切换通过 onChange 事件处理
 
-    useEffect(() => {
-        if (!linePlotRef.current || linePlotData.length === 0) {
-            console.log('No data to render line plot:', {
-                hasRef: !!linePlotRef.current,
-                dataLength: linePlotData.length
-            });
-            return;
-        }
+    // 添加一个辅助函数来获取前两个单词
+    const getFirstTwoWords = (text: string) => {
+        return text.split(' ').slice(0, 1).join(' ');
+    };
 
-        console.log('Rendering line plot with data:', {
-            dataLength: linePlotData.length,
-            sampleData: linePlotData.slice(0, 3)
-        });
+    useEffect(() => {
+        if (!linePlotRef.current || linePlotData.length === 0) return;
 
         const chart = echarts.init(linePlotRef.current);
-        const title = currentView === 'total' 
-            ? 'Trade Over Time - Total Trade Balance'
-            : `Trade Over Time - ${getChapterDescription(selectedProduct)}`;
+        const handleResize = () => {
+            chart.resize();
+        };
 
         const option = {
             title: {
-                text: title,
+                text: currentView === 'total' 
+                    ? 'Trade Over Time'
+                    : `Trade Over Time - ${getFirstTwoWords(getChapterDescription(selectedProduct))}`,
                 left: 'center',
+                top: 10,
                 textStyle: {
                     fontSize: 18,
+                    fontWeight: 'bold',
                     color: '#222'
                 }
+            },
+            grid: {
+                top: 60,
+                right: 40,
+                bottom: 60,
+                left: 60,
+                containLabel: true
             },
             tooltip: {
                 trigger: 'axis',
@@ -648,8 +653,10 @@ export const WorldTradeMapAnimated: React.FC = () => {
         };
 
         chart.setOption(option);
+        window.addEventListener('resize', handleResize);
 
         return () => {
+            window.removeEventListener('resize', handleResize);
             chart.dispose();
         };
     }, [linePlotData, selectedCountry, selectedProduct, currentView]);
@@ -662,6 +669,10 @@ export const WorldTradeMapAnimated: React.FC = () => {
         const exportSourcesUrl = `/Team37/data/interactive/${selectedCountry}/top_export_dsts.csv`;
 
         const sankeyChart = echarts.init(sankeyChartRef.current);
+        
+        const handleResize = () => {
+            sankeyChart.resize();
+        };
 
         Promise.all([
             fetch(importSourcesUrl).then(res => res.ok ? res.text() : ''),
@@ -701,8 +712,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
             const option = {
                 title: {
-                    text: `Trade Partners - ${countryName} (${year})`,
-                    subtext: selectedProduct ? getChapterDescription(selectedProduct) : 'Total Trade Balance',
+                    text: `Trade Partners - ${codeToName[selectedCountry] || selectedCountry}`,
+                    subtext: selectedProduct ? getFirstTwoWords(getChapterDescription(selectedProduct)) : 'Total Trade',
                     left: 'center',
                     top: 10,
                     textStyle: {
@@ -712,7 +723,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     subtextStyle: {
                         fontSize: 14,
                         color: '#666',
-                        padding: [5, 0, 0, 0]  // 上右下左的内边距
+                        padding: [5, 0, 0, 0]
                     }
                 },
                 tooltip: {
@@ -776,7 +787,10 @@ export const WorldTradeMapAnimated: React.FC = () => {
             sankeyChart.setOption(option);
         });
 
+        window.addEventListener('resize', handleResize);
+
         return () => {
+            window.removeEventListener('resize', handleResize);
             sankeyChart.dispose();
         };
     }, [selectedCountry, selectedProduct, year]);
@@ -806,6 +820,11 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
         const importsChart = echarts.init(importsChartRef.current);
         const exportsChart = echarts.init(exportsChartRef.current);
+
+        const handleResize = () => {
+            importsChart.resize();
+            exportsChart.resize();
+        };
 
         if (selectedCountry) {
             const importsTitle = `Top Imports - ${codeToName[selectedCountry] || selectedCountry} (${year})`;
@@ -1318,13 +1337,22 @@ export const WorldTradeMapAnimated: React.FC = () => {
     }
 
     return (
-        <div style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column' }}>
-            {/* Top Section (70% height) */}
-            <div style={{ display: 'flex', height: '70%', gap: '20px' }}>
+        <div style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column', padding: '20px', gap: '20px' }}>
+            {/* Top Section (65% height) */}
+            <div style={{ display: 'flex', height: '65%', gap: '20px', minHeight: '500px' }}>
                 {/* Left Panel (30% width) */}
-                <div style={{ width: '30%', display: 'flex', flexDirection: 'column' }}>
-                    {/* Controls (50% height) */}
-                    <div style={{ height: '50%', padding: '20px', marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                <div style={{ width: '30%', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                    {/* Controls */}
+                    <div style={{ 
+                        padding: '20px', 
+                        backgroundColor: '#fff',
+                        borderRadius: '8px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                        display: 'flex', 
+                        flexDirection: 'column', 
+                        gap: '20px',
+                        height: '40%'
+                    }}>
                         {/* Timeline section */}
                         <div>
                             <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
@@ -1359,7 +1387,6 @@ export const WorldTradeMapAnimated: React.FC = () => {
                                     } else {
                                         setCurrentView('product');
                                     }
-                                    // 如果已经选择了国家，立即重新加载该国家的数据
                                     if (selectedCountry) {
                                         loadLinePlotData(selectedCountry, newProduct);
                                     }
@@ -1386,7 +1413,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Line Plot (50% height) */}
+                    {/* Line Plot */}
                     <div
                         ref={linePlotRef}
                         style={{
@@ -1394,12 +1421,13 @@ export const WorldTradeMapAnimated: React.FC = () => {
                             backgroundColor: '#fff',
                             borderRadius: '8px',
                             boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                            padding: '10px'
+                            padding: '20px',
+                            minHeight: '300px'
                         }}
                     />
                 </div>
 
-                {/* World Map (70% width) */}
+                {/* World Map */}
                 <div
                     ref={chartRef}
                     style={{
@@ -1407,54 +1435,80 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        minHeight: '400px'
+                        padding: '20px',
+                        minHeight: '500px'
                     }}
                 />
             </div>
 
-            {/* Bottom Section (30% height) */}
+            {/* Bottom Section (35% height) */}
             <div style={{
                 display: 'flex',
-                flex: 1,
-                marginTop: '20px',
+                height: '35%',
                 gap: '20px',
-                minHeight: '400px',  // 增加最小高度
-                paddingBottom: '20px'  // 增加底部内边距
+                minHeight: '300px'
             }}>
-                <div
-                    ref={importsChartRef}
-                    style={{
-                        flex: 1,
-                        backgroundColor: '#fff',
-                        borderRadius: '8px',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        padding: '20px'  // 增加内边距
-                    }}
-                />
-                <div
-                    ref={sankeyChartRef}
-                    style={{
-                        flex: 1,
-                        backgroundColor: '#fff',
-                        borderRadius: '8px',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        minWidth: '300px',
-                        padding: '20px'  // 增加内边距
-                    }}
-                />
-                <div
-                    ref={exportsChartRef}
-                    style={{
-                        flex: 1,
-                        backgroundColor: '#fff',
-                        borderRadius: '8px',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        padding: '20px'  // 增加内边距
-                    }}
-                />
+                {/* Imports Chart */}
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    <div
+                        ref={importsChartRef}
+                        style={{
+                            flex: 1,
+                            backgroundColor: '#fff',
+                            borderRadius: '8px',
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                            padding: '20px',
+                            minHeight: '100%'
+                        }}
+                    />
+                </div>
+
+                {/* Sankey Chart */}
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    <div
+                        ref={sankeyChartRef}
+                        style={{
+                            flex: 1,
+                            backgroundColor: '#fff',
+                            borderRadius: '8px',
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                            padding: '20px',
+                            minHeight: '100%'
+                        }}
+                    />
+                </div>
+
+                {/* Exports Chart */}
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    <div
+                        ref={exportsChartRef}
+                        style={{
+                            flex: 1,
+                            backgroundColor: '#fff',
+                            borderRadius: '8px',
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                            padding: '20px',
+                            minHeight: '100%'
+                        }}
+                    />
+                </div>
             </div>
 
-            {(loadingProductData || loadingTopData) && <div>Loading data...</div>}
+            {(loadingProductData || loadingTopData) && (
+                <div style={{
+                    position: 'fixed',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+                    padding: '20px',
+                    borderRadius: '8px',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                    zIndex: 1000
+                }}>
+                    Loading data...
+                </div>
+            )}
         </div>
     );
 };
