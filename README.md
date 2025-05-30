@@ -16,8 +16,11 @@ To run locally:
 * In `src/web` run `npm install` to install all dependencies.
 * In `src/web` run `npm run dev`.
 
-To run the EDA:
+To deploy:
+* From the root of the repo run `deploy.sh` - this calls `npm run build` and places the generated static files in docs/
+* Add changes to docs/ and push.
 
+To run the EDA:
 `cd src/eda`
 Run `jupyter notebook`
 
