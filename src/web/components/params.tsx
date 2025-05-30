@@ -23,6 +23,7 @@ export const plot_title_fontsz = 20
 
 export const map_red = "#D1495B"
 export const map_blue = "#3B73B9"
+export const map_yellow = "#FFFACD"
 
 // Complete ISO 3166-1 alpha-3 to English country name mapping table (including common countries and special codes)
 export const countryCodeToName: Record<string, string> = {
