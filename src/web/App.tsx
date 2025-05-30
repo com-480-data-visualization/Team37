@@ -44,24 +44,38 @@ const App: React.FC = () => {
       </ScrollAnimationWrapper>
       <main>
 
-        <VerticalScrollSection title="The Basics" text={
-          <>
-            It is said that the world became more and more interconnected over the last 35 years.
-            <br />
-            Let's get a sense of what changed by asking:
-          </>} items={[
-            { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
-            {
-              title: "In order to observe trade trends through a more \"material\" metric, let's answer:", text: (
-                <>
-                  <i>How many tons of products does humanity shuffle around the world each year?</i>
-                  <br />
-                  <br />
-                  It turns out that at 15 Billion Metric Tons per year, humanity is shipping the equivalent weight of all 1.2 Billion active cars in the world <b><i>7 times over!</i></b>
-                </>
-              ), content: <TradeWeightChart />
-            }
-          ]} />
+        <ScrollAnimationWrapper style={fullPageStyle}>
+          <section>
+            <header>
+              <h2 className="scroll-section-header">The Basics</h2>
+            </header>
+            <p className="description-text">
+              It is said that the world became more and more interconnected over the last 35 years.
+              <br />
+              Let's get a sense of what changed by asking:
+            </p>
+          </section>
+        </ScrollAnimationWrapper>
+
+        <ScrollAnimationWrapper style={fullPageStyle}>
+          <section>
+            <h2>What percentage of global economic activity is conducted through trade?</h2>
+            <TradeGDPChart />
+          </section>
+        </ScrollAnimationWrapper>
+
+        <ScrollAnimationWrapper style={fullPageStyle}>
+          <section>
+            <h2>In order to observe trade trends through a more "material" metric, let's answer:</h2>
+            <p className="description-text">
+              <i>How many tons of products does humanity shuffle around the world each year?</i>
+              <br /><br />
+              It turns out that at 15 Billion Metric Tons per year, humanity is shipping the equivalent weight of all 1.2 Billion active cars in the world <b><i>7 times over!</i></b>
+            </p>
+            <TradeWeightChart />
+          </section>
+        </ScrollAnimationWrapper>
+
         {/* Moving 15 Billion metric tonnes per year is equivalent to shipping all 1.2 Billion active cars in the world <i>7 times!</i>. */}
         {/* <ScrollAnimationWrapper style={fullPageStyle}>
           <section className="image-text-section">
@@ -79,9 +93,9 @@ const App: React.FC = () => {
         <ScrollAnimationWrapper style={fullPageStyle}>
           <section style={{ width: '100%', height: '100%', display: 'flex', aspectRatio: '16/9', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
             <p className="description-text">
-              In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.
+              In Dollar terms, some countries consume more material goods than they create.
               <br />
-              Others produce the differrence but do not consume it themselves.
+              Others produce the difference but do not consume it themselves.
               <br />
               <br />
               The following map shows the absolute dollar value of the trade balance of each country.

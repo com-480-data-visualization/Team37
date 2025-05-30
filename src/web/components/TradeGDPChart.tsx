@@ -191,9 +191,6 @@ export const TradeGDPChart: React.FC = () => {
       
       {/* Custom popup for clicked points */}
       {selectedPoint && eventData[selectedPoint.year] && (() => {
-        // Calculate the left position and clamp it to avoid overflow
-        const yearPercent = (parseInt(selectedPoint.year) - 1995) * (100 / (2023 - 1995));
-        const safePercent = Math.max(10, Math.min(90, yearPercent));
         return (
           <>
             {/* Overlay: click to close popup */}
@@ -211,18 +208,19 @@ export const TradeGDPChart: React.FC = () => {
             />
             {/* Popup */}
             <div style={{
-              position: 'absolute',
+              position: 'fixed', // Changed from 'absolute'
               top: '50%',
-              left: `${safePercent}%`,
-              transform: 'translate(-50%, -50%)',
+              left: '50%',
+              transform: 'translate(-50%, -50%)', // Center the popup
               backgroundColor: 'white',
               padding: '20px',
               borderRadius: '8px',
               boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
               zIndex: 1000,
-              maxWidth: '200px',
-              transition: 'left 0.3s ease-in-out'
+              maxWidth: '350px', // Increased width for better content display
+              // transition for 'left' is no longer needed
             }}>
+              {/* Close button */}
               <button 
                 onClick={() => setSelectedPoint(null)}
                 style={{
@@ -231,10 +229,13 @@ export const TradeGDPChart: React.FC = () => {
                   right: '10px',
                   background: 'none',
                   border: 'none',
-                  fontSize: '18px',
-                  cursor: 'pointer'
+                  fontSize: '24px', // Made 'x' more visible
+                  cursor: 'pointer',
+                  lineHeight: '1',
+                  padding: '0'
                 }}
               >
+                &times; {/* Added the '×' character */}
               </button>
               <h3 style={{ marginTop: 0, fontSize: '1.05rem', lineHeight: 1.2 }}>
                 {eventData[selectedPoint.year].title} ({selectedPoint.year})

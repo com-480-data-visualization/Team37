@@ -16,7 +16,8 @@ export const ScrollAnimationWrapper = ({ children, style = {}, className = '' })
           }
         );
         
-        return () => animate(element, { opacity: 0, x: -50 });
+        // To prevent fading out on scroll, we remove the cleanup function
+        // return () => animate(element, { opacity: 0, x: -50 });
       });
     }
   }, []);
@@ -36,5 +37,3 @@ export const ScrollAnimationWrapper = ({ children, style = {}, className = '' })
     </div>
   );
 };
-
-
