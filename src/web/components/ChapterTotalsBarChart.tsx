@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../hooks/useData';
+import * as Prm from './params';
 
 // Define the interface matching the CSV structure
 interface ChapterData {
@@ -42,7 +43,7 @@ export const ChapterTotalsBarChart: React.FC = () => {
           if (!originalItem) return '';
 
           return `<b>${dataItem.name}</b><br/>
-                  Value: $${originalItem.value_trln_USD.toFixed(2)} Trillion USD<br/>
+                  Value: $${originalItem.value_trln_USD.toFixed(2)} Billion USD<br/>
                   Quantity: ${originalItem.quantity_mln_metric_tons.toFixed(0)}M Metric Tons`;
         }
       },
@@ -56,15 +57,15 @@ export const ChapterTotalsBarChart: React.FC = () => {
       // X Axis (Value Axis for vertical bars)
       xAxis: {
         type: 'value',
-        name: 'Value (Trillion USD)',
+        name: 'Value (Billion USD)',
         nameLocation: 'middle',
-        nameGap: 30, // Space below the axis name
+        nameGap: 40, // Space below the axis name
         axisLabel: {
-          formatter: '${value}T', // Format as Trillions
-          fontSize: 12 // Adjust font size if needed
+          formatter: '${value}B', // Format as Trillions
+          fontSize: 24 // Adjust font size if needed
         },
         nameTextStyle: {
-            fontSize: 14
+            fontSize: 26
         }
       },
       // Y Axis (Category Axis for vertical bars)
@@ -72,13 +73,13 @@ export const ChapterTotalsBarChart: React.FC = () => {
         type: 'category',
         data: sortedData.map(item => item.product_chapter), // Use sorted chapter names
         axisLabel: {
-          fontSize: 10, // Adjust font size for potentially long labels
+          fontSize: 18, // Adjust font size for potentially long labels
           interval: 0, // Show all labels
           // Optional: Rotate labels if they overlap significantly
           // rotate: 30,
           // Optional: Truncate long labels
           formatter: function (value: string) {
-             return value.length > 40 ? value.substring(0, 37) + '...' : value;
+             return value.length > 40 ? value.substring(0, 45) + '...' : value;
           }
         },
         // Inverse order to show highest value at the top
@@ -88,16 +89,16 @@ export const ChapterTotalsBarChart: React.FC = () => {
         {
           name: 'Trade Value', // Name for tooltip/legend
           type: 'bar',
-          data: sortedData.map(item => item.value_trln_USD), // Use sorted values
+          data: sortedData.map(item => Math.round(item.value_trln_USD * 1000)), // Use sorted values
           label: { // Optional: Show value labels on bars
             show: true,
             position: 'right', // Position labels to the right of bars
-            formatter: '${c}T', // Format as Trillions (c refers to the data value)
-            fontSize: 10,
+            formatter: '${c}B', // Format as Trillions (c refers to the data value)
+            fontSize: 14,
             color: '#333'
           },
           itemStyle: {
-            color: '#5470C6' // ECharts default blue, change as needed
+            color: Prm.curve_color_blue // ECharts default blue, change as needed
             // Example gradient color:
             // color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
             //   { offset: 0, color: '#83bff6' },

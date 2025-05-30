@@ -88,20 +88,20 @@ const App: React.FC = () => {
               <br />
               <br />
             </p>
-              <WorldTradeMap onCountryClick={handleCountryClick} />
+            <WorldTradeMap onCountryClick={handleCountryClick} />
           </section>
         </ScrollAnimationWrapper>
 
         {/* Sankey */}
-        {selectedCountry && (
+        {/* {selectedCountry && (
           <CountrySankey countryCode={selectedCountry} year={selectedYear} productChapter={selectedProduct} />
-        )}
+        )} */}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
           <section>
             <h2> Which Categories of Goods are more Prominent in Global Trade Value? (2023)</h2>
             <p className="description-text">
-              While Mineral fuels dominate trade by sheer weight, electronics, machinery, and vehicles represent a larger share of the total dollar value exchanged globally.
+              Electronics, Mineral Fuels, Machinery, and Vehicles represent the largest product categories in terms of total dollar value traded globally.
             </p>
             <ChapterTotalsBarChart />
           </section>
