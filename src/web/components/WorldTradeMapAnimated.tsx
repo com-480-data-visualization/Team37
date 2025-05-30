@@ -105,8 +105,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 .filter(item => item.product_chapter === productChapter)
                 .map(item => ({
                     year: item.year,
-                    imports: parseFloat(item.imports_trln_USD || '0'),
-                    exports: parseFloat(item.exports_trln_USD || '0')
+                    imports: (parseFloat(item.imports_trln_USD || '0') * 1000), // Convert to billions
+                    exports: (parseFloat(item.exports_trln_USD || '0') * 1000)  // Convert to billions
                 }))
                 .sort((a, b) => parseInt(a.year) - parseInt(b.year));
 
@@ -313,9 +313,9 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     const year = params[0].axisValue;
                     const imports = params[0].data;
                     const exports = params[1].data;
-                    return `Year: ${year}<br/>` +
-                        `Imports: ${imports.toFixed(6)} Trln USD<br/>` +
-                        `Exports: ${exports.toFixed(6)} Trln USD`;
+                    return `Year: ${year}<br/>` + // Values are now in billions
+                        `Imports: ${imports.toFixed(1)} Billion USD<br/>` +
+                        `Exports: ${exports.toFixed(1)} Billion USD`;
                 }
             },
             legend: {
@@ -329,11 +329,14 @@ export const WorldTradeMapAnimated: React.FC = () => {
             },
             yAxis: {
                 type: 'value',
-                name: 'Value (Trillion USD)',
+                name: 'Value (Billion USD)', // Updated axis title
                 nameLocation: 'middle',
                 nameGap: 43,
                 nameTextStyle: {
-                   
+                    fontSize: 10
+                },
+                axisLabel: {
+                    formatter: '{value}', // Values on axis are now in billions
                     fontSize: 10
                 }
             },
@@ -527,10 +530,11 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     trigger: 'axis',
                     axisPointer: { type: 'shadow' },
                     formatter: function(params: any) {
-                        // params[0].name 是完整的y轴标签
                         let content = `<b>${params[0].name}</b><br/>`;
                         params.forEach((item: any) => {
-                            content += `${item.seriesName || ''}: ${item.value}<br/>`;
+                            // item.value is now in billions
+                            const valueInBillions = (item.value as number);
+                            content += `${item.seriesName || 'Value'}: ${valueInBillions.toFixed(1)} Billion USD<br/>`;
                         });
                         return content;
                     }
@@ -543,17 +547,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 },
                 xAxis: {
                     type: 'value',
-                    name: 'Value (Trillion USD)',
+                    name: 'Value (Billion USD)', // Updated axis title
                     nameLocation: 'middle',
                     nameGap: 20,
                     nameTextStyle: {
-                        
                         fontSize: 14
                     },
                     axisLabel: {
                         fontSize: 14,
                         color: '#333',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold',
+                        formatter: '{value}' // Values on axis are now in billions
                     }
                 },
                 yAxis: {
@@ -578,14 +582,15 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 },
                 series: [{
                     type: 'bar',
-                    data: yearData.map(item => parseFloat(item.value_trln_USD)),
+                    // Convert value to billions
+                    data: yearData.map(item => parseFloat(item.value_trln_USD) * 1000),
                     label: {
                         show: true,
                         position: 'right',
                         fontSize: 14,
                         fontWeight: 'bold',
                         color: '#333',
-                        formatter: (params: any) => params.value.toFixed(6)
+                        formatter: (params: any) => (params.value as number).toFixed(1) // Value is in billions
                     }
                 }],
                 textStyle: {
