@@ -44,7 +44,7 @@ interface SankeyLink {
 
 console.log('WorldTradeMapAnimated mounted');
 
-export const WorldTradeMapAnimated: React.FC = () => { 
+export const WorldTradeMapAnimated: React.FC = () => {
     // Ref for the main WorldMap Chart
     const chartRef = useRef<HTMLDivElement>(null);
     // Ref for the two bar charts for imports/exports
@@ -59,7 +59,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
     const { data: rawChapterMappings, loading: chaptersLoading } = useData<any[]>('interactive/prod_chap_to_description.csv');
     const [year, setYear] = useState<string>('2023');
     const [playing, setPlaying] = useState(false);
-    const [selectedProduct, setSelectedProduct] = useState<string>('84');
+    const [selectedProduct, setSelectedProduct] = useState<string>('');
     const [productData, setProductData] = useState<Record<string, Record<string, ProductTradeData[]>>>({});
     const [loadingProductData, setLoadingProductData] = useState(false);
     const [productChapters, setProductChapters] = useState<ProductChapterMapping[]>([]);
@@ -682,7 +682,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
         if (!allData) return [];
         const set = new Set<string>();
         allData.forEach(item => set.add(item.year));
-        return Array.from(set).sort();
+        return Array.from(set).sort((a, b) => parseInt(a) - parseInt(b));
     }, [allData]);
 
     const loadProductData = async (countryCode: string) => {
@@ -761,6 +761,13 @@ export const WorldTradeMapAnimated: React.FC = () => {
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentView, selectedProduct, allData, availableCountries]);
+
+    // 设置初始年份为最新年份
+    useEffect(() => {
+        if (years.length > 0) {
+            setYear(years[years.length - 1]);  // 设置为最后一年（最新年份）
+        }
+    }, [years]);
 
     // 动画年份切换
     useEffect(() => {
@@ -932,6 +939,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
             chart.setOption(option);
             console.log('WorldTradeMapAnimated: setOption 完成');
             chart.on('click', handleMapClick);
+
+            // 添加resize事件监听器
+            const handleResize = () => {
+                chart.resize();
+            };
+            window.addEventListener('resize', handleResize);
+
+            return () => {
+                window.removeEventListener('resize', handleResize);
+                chart.dispose();
+            };
         }
     }, [option, allData, chartRef]);
 
@@ -950,65 +968,85 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 {/* Left Panel (30% width) */}
                 <div style={{ width: '30%', display: 'flex', flexDirection: 'column' }}>
                     {/* Controls (50% height) */}
-                    <div style={{ height: '50%', padding: '10px', marginTop: '10px', display: 'flex', flexDirection: 'column' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-                <input
-                    type="range"
-                    min={0}
-                    max={years.length - 1}
-                    value={years.indexOf(year)}
-                    onChange={e => setYear(years[Number(e.target.value)])}
-                    style={{ flex: 1 }}
-                />
-                            <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>{year}</span>
+                    <div style={{ height: '50%', padding: '20px', marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        {/* Timeline section */}
+                        <div>
+                            <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
+                                Select a year to view trade data for different periods
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                <span style={{ marginRight: '10px', fontWeight: 'bold', minWidth: '40px' }}>1995</span>
+                                <input
+                                    type="range"
+                                    min={0}
+                                    max={years.length - 1}
+                                    value={years.indexOf(year)}
+                                    onChange={e => setYear(years[Number(e.target.value)])}
+                                    style={{ flex: 1 }}
+                                />
+                                <span style={{ marginLeft: '10px', fontWeight: 'bold', minWidth: '40px' }}>{year}</span>
+                            </div>
                         </div>
-                
-                <select 
-                    value={selectedProduct}
-                    onChange={(e) => {
-                        setSelectedProduct(e.target.value);
-                        if (e.target.value === "") {
-                            setCurrentView('total');
-                        } else {
-                            setCurrentView('product');
-                        }
-                    }}
-                    style={{ marginTop: '10px', padding: '5px 10px', width: '100%' }}
-                >
-                    <option value="">-- Show Total Trade Balance --</option>
-                    {productChapters
-                        .slice()
-                        .sort((a, b) => a.description.localeCompare(b.description))
-                        .map(chapter => (
-                            <option key={chapter.product_chapter} value={chapter.product_chapter}>
-                                {chapter.description}
-                            </option>
-                        ))}
-                </select>
+
+                        {/* Product selection section */}
+                        <div>
+                            <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
+                                Choose a product category or view overall trade balance
+                            </div>
+                            <select 
+                                value={selectedProduct}
+                                onChange={(e) => {
+                                    setSelectedProduct(e.target.value);
+                                    if (e.target.value === "") {
+                                        setCurrentView('total');
+                                    } else {
+                                        setCurrentView('product');
+                                    }
+                                }}
+                                style={{ 
+                                    width: '100%',
+                                    padding: '8px',
+                                    borderRadius: '4px',
+                                    border: '1px solid #ddd',
+                                    fontSize: '14px',
+                                    backgroundColor: '#fff'
+                                }}
+                            >
+                                <option value="">-- Show Total Trade Balance --</option>
+                                {productChapters
+                                    .slice()
+                                    .sort((a, b) => a.description.localeCompare(b.description))
+                                    .map(chapter => (
+                                    <option key={chapter.product_chapter} value={chapter.product_chapter}>
+                                        {chapter.description}
+                                    </option>
+                                ))}
+                            </select>
+                        </div>
                     </div>
 
                     {/* Line Plot (50% height) */}
                     <div
                         ref={linePlotRef}
                         style={{
-                            height: '50%',
+                            flex: 1,
                             backgroundColor: '#fff',
                             borderRadius: '8px',
                             boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
                             padding: '10px'
                         }}
                     />
-            </div>
+                </div>
 
                 {/* World Map (70% width) */}
                 <div
                     ref={chartRef}
                     style={{
-                        width: '70%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                        minHeight: '400px'
                     }}
                 />
             </div>
@@ -1016,15 +1054,14 @@ export const WorldTradeMapAnimated: React.FC = () => {
             {/* Bottom Section (30% height) */}
             <div style={{
                 display: 'flex',
-                height: '30%',
+                flex: 1,
                 marginTop: '20px',
                 gap: '20px'
             }}>
                 <div
                     ref={importsChartRef}
                     style={{
-                        width: '33.3%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
@@ -1033,19 +1070,17 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 <div
                     ref={sankeyChartRef}
                     style={{
-                        width: '33.3%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                        minWidth: '300px',
+                        minWidth: '300px'
                     }}
                 />
                 <div
                     ref={exportsChartRef}
                     style={{
-                        width: '33.3%',
-                        height: '100%',
+                        flex: 1,
                         backgroundColor: '#fff',
                         borderRadius: '8px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
