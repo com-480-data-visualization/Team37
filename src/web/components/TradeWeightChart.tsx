@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../hooks/useData';
+import * as Prm from './params';
 
 interface TradeWeightData {
   year: string;
@@ -15,7 +16,7 @@ export const TradeWeightChart: React.FC = () => {
     if (!chartRef.current || !tradeData) return;
 
     const chart = echarts.init(chartRef.current);
-    
+
     const option = {
       backgroundColor: '#fff',
       title: {
@@ -30,14 +31,18 @@ export const TradeWeightChart: React.FC = () => {
       },
       tooltip: {
         trigger: 'axis',
-        formatter: function(params: any) {
-          const value = params[0].value;
-          const gizaPyramid = value / 5.9; // The Pyramids of Giza weigh about 5.9 million tons.
-          const cars = value / 1.4; // Total global vehicle weight of about 140 million tons
-          return `Year ${params[0].axisValue}<br/>
-            Total Weight: ${value.toFixed(0)}M metric tons<br/>`;
-            // Equivalent to: ${gizaPyramid.toFixed(0)}x Pyramid of Giza<br/>
-            // Or ${cars.toFixed(0)}x all active cars in the world`;
+        axisPointer: {
+          type: 'shadow', // better for bar charts (you can use 'line' if preferred)
+          label: { backgroundColor: '#6a7985' }
+        },
+        formatter: (params: any[]) => {
+          // Use the first point’s x-axis label
+          const category = params[0].name;
+          let s = `<b>${category}</b><br/>`;
+          params.forEach(p => {
+            s += `${p.marker}${p.seriesName}: ${p.value}<br/>`;
+          });
+          return s;
         }
       },
       grid: {
@@ -49,11 +54,11 @@ export const TradeWeightChart: React.FC = () => {
       },
       xAxis: {
         type: 'category',
-        boundaryGap: false,
+        boundaryGap: true,
         data: tradeData.map(item => item.year),
         axisLabel: {
           formatter: '{value}',
-          fontSize: 16
+          fontSize: 24
         }
       },
       yAxis: {
@@ -61,33 +66,26 @@ export const TradeWeightChart: React.FC = () => {
         position: 'right',
         name: 'Weight (Metric Tons)',
         nameLocation: 'middle', // Position the title in the middle vertically
-        nameGap: 55, // Adjust this value to control the distance from the axis labels
+        nameGap: 80, // Adjust this value to control the distance from the axis labels
         nameTextStyle: {
           verticalAlign: 'middle', // Ensures vertical centering
           align: 'center', // Ensures horizontal centering relative to the axis line
           padding: [0, 0, 0, 0],
           rotate: 90,
-          fontSize: 18
+          fontSize: 26
         },
         axisLabel: {
           formatter: '{value}B',
-          fontSize: 16
+          fontSize: 24
         }
       },
       series: [
         {
-          name: 'Trade Weight',
-          type: 'line',
+          name: 'Trade Weight (Bln. Metric Tons)',
+          type: 'bar',
           data: tradeData.map(item => item.quantity_mln_metric_tons),
-          smooth: true,
-          symbol: 'circle',
-          symbolSize: 5,
-          lineStyle: {
-            width: 10,
-            color: '#808080'
-          },
           itemStyle: {
-            color: '#808080'
+            color: Prm.curve_color_blue
           },
           areaStyle: {
             color: new echarts.graphic.LinearGradient(
@@ -127,15 +125,15 @@ export const TradeWeightChart: React.FC = () => {
   }
 
   return (
-    <div 
-      ref={chartRef} 
-      style={{ 
+    <div
+      ref={chartRef}
+      style={{
         width: '95%',
         height: '600px',
         backgroundColor: '#fff',
         borderRadius: '98%',
         marginTop: '1%'
-      }} 
+      }}
     />
   );
 }; 

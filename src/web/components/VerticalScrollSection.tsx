@@ -24,6 +24,19 @@ export const VerticalScrollSection = ({ title, text, items }) => {
         {items.map((item, index) => (
           <ScrollAnimationWrapper key={`${item.title}-${index}`} style={fullPageStyle}>
             <h2>{item.title}</h2>
+            {item.text && item.text !== '' && (
+              <p className="description-text">{item.text}</p>
+            )}
+            {/* {item.text && item.text.trim() !== '' && (
+              <p className="description-text">
+                {item.text.split('\n').map((line, idx) => (
+                  <React.Fragment key={idx}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
+              </p>
+            )} */}
             {item.content}
           </ScrollAnimationWrapper>
         ))}

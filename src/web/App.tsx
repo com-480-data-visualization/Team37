@@ -53,10 +53,19 @@ const App: React.FC = () => {
             Let's get a sense of what changed by asking:
           </>} items={[
             { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
-            { title: "How much \"stuff\" does humanity shuffle around the world?", content: <TradeWeightChart /> }
+            {
+              title: "In order to observe trade trends through a more \"material\" metric, let's answer:", text: (
+                <>
+                  <i>How many tons of products does humanity shuffle around the world each year?</i>
+                  <br />
+                  <br />
+                  It turns out that at 15 Billion Metric Tons per year, humanity is shipping the equivalent weight of all 1.2 Billion active cars in the world <b><i>7 times over!</i></b>
+                </>
+              ), content: <TradeWeightChart />
+            }
           ]} />
-
-        <ScrollAnimationWrapper style={fullPageStyle}>
+        {/* Moving 15 Billion metric tonnes per year is equivalent to shipping all 1.2 Billion active cars in the world <i>7 times!</i>. */}
+        {/* <ScrollAnimationWrapper style={fullPageStyle}>
           <section className="image-text-section">
             <div className="text-column">
               <p className="description-text">
@@ -67,7 +76,7 @@ const App: React.FC = () => {
               </p>
             </div>
           </section>
-        </ScrollAnimationWrapper>
+        </ScrollAnimationWrapper> */}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
           <section style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
