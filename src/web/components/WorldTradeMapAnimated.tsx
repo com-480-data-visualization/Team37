@@ -303,7 +303,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 text: `Trade Over Time - ${first3Words}`,
                 left: 'center',
                 textStyle: {
-                    fontSize: 18,
+                    fontSize: 16, // Consistent sub-chart title size
                     color: '#222'
                 }
             },
@@ -320,24 +320,33 @@ export const WorldTradeMapAnimated: React.FC = () => {
             },
             legend: {
                 data: ['Imports', 'Exports'],
-                bottom: 0
+                bottom: 0,
+                textStyle: {
+                    fontSize: Prm.label_fontsz // 14px
+                }
             },
             xAxis: {
                 type: 'category',
                 data: linePlotData.map(item => item.year),
-                name: 'Year'
+                name: 'Year',
+                nameLocation: 'middle',
+                nameGap: 25,
+                nameTextStyle: {
+                    fontSize: Prm.title_fontsz // 16px
+                },
+                axisLabel: {
+                    fontSize: Prm.label_fontsz // 14px
+                }
             },
             yAxis: {
                 type: 'value',
                 name: 'Value (Billion USD)', // Updated axis title
                 nameLocation: 'middle',
                 nameGap: 43,
-                nameTextStyle: {
-                    fontSize: 10
-                },
+                nameTextStyle: { fontSize: Prm.title_fontsz }, // 16px
                 axisLabel: {
-                    formatter: '{value}', // Values on axis are now in billions
-                    fontSize: 10
+                    formatter: '{value}',
+                    fontSize: Prm.label_fontsz // 14px
                 }
             },
             series: [
@@ -345,15 +354,21 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     name: 'Imports',
                     type: 'line',
                     data: linePlotData.map(item => item.imports),
-                    itemStyle: { color: '#FF6B6B' },
-                    lineStyle: { width: 3 }
+                    itemStyle: { color: Prm.map_red },
+                    lineStyle: { 
+                        width: 3,
+                        color: Prm.map_red 
+                    }
                 },
                 {
                     name: 'Exports',
                     type: 'line',
                     data: linePlotData.map(item => item.exports),
-                    itemStyle: { color: '#4C6FB1' },
-                    lineStyle: { width: 3 }
+                    itemStyle: { color: Prm.map_blue },
+                    lineStyle: { 
+                        width: 3,
+                        color: Prm.map_blue
+                    }
                 }
             ]
         };
@@ -384,6 +399,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
             const importSources = importSourcesAll.slice(0, 6);
             const exportSources = exportSourcesAll.slice(0, 6);
             const countryName = codeToName[selectedCountry] || selectedCountry;
+            const chapterDesc = getChapterDescription(selectedProduct);
+            const firstWordOfChapter = chapterDesc.split(' ')[0];
 
             // Prepare nodes - need unique names and proper indices
             const nodes: SankeyNode[] = [
@@ -412,11 +429,12 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
             const option = {
                 title: {
-                    text: `Trade Partners - ${countryName} (${year})`,
+                    // text: `Trade Partners - ${countryName} (${year})`,
+                    text: `Trade Partners: ${firstWordOfChapter} - ${countryName} (${year})`,
                     left: 'center',
                     top: 10,
                     textStyle: {
-                        fontSize: 18,
+                        fontSize: 18, // Consistent sub-chart title size
                         color: '#222'
                     }
                 },
@@ -443,12 +461,12 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     orient: 'horizontal',
                     left: '25%',
                     top: '18%',
-                    right: '10%',
+                    right: '15%', // Adjusted right to give more space for labels
                     bottom: '10%',
                     levels: [{
                         depth: 0,
                         itemStyle: {
-                            color: '#fbb4ae'
+                            color: Prm.map_red // Import sources
                         },
                         lineStyle: {
                             color: 'source',
@@ -457,7 +475,16 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     }, {
                         depth: 1,
                         itemStyle: {
-                            color: '#b3cde3'
+                            color: '#BDBDBD' // Neutral color for the selected country (middle node)
+                        },
+                        lineStyle: {
+                            color: 'source',
+                            opacity: 0.6
+                        }
+                    }, {
+                        depth: 2, // Added level for export destinations
+                        itemStyle: {
+                            color: Prm.map_blue // Export destinations
                         },
                         lineStyle: {
                             color: 'source',
@@ -465,13 +492,15 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         }
                     }],
                     lineStyle: {
-                        curveness: 0.5
+                        curveness: 0.5,
+                        // Link colors will be inherited from source node due to 'levels' config
                     },
                     label: {
                         position: 'left',
                         formatter: (params: any) => {
                             return params.name.replace(' (Import)', '').replace(' (Export)', '');
-                        }
+                        },
+                        fontSize: 12 // Reduced font size for Sankey node labels
                     },
                     nodeWidth: 20,
                     nodeGap: 10,
@@ -514,6 +543,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
         const renderChart = (chart: echarts.ECharts, data: TopTradeData[], title: string) => {
             const yearData = getYearData(data, year);
+            // Determine bar color based on title (import or export)
+            const barColor = title.toLowerCase().includes('import') ? Prm.map_red : Prm.map_blue;
 
             chart.setOption({
                 title: {
@@ -521,8 +552,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     left: 'center',
                     top: 10,
                     textStyle: {
-                        fontSize: 50,
-                        
+                        fontSize: 18, // Consistent sub-chart title size
                         color: '#222'
                     }
                 },
@@ -549,15 +579,12 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     type: 'value',
                     name: 'Value (Billion USD)', // Updated axis title
                     nameLocation: 'middle',
-                    nameGap: 20,
-                    nameTextStyle: {
-                        fontSize: 14
-                    },
+                    nameGap: 25, // Increased gap for better readability
+                    nameTextStyle: { fontSize: Prm.title_fontsz }, // 16px
                     axisLabel: {
-                        fontSize: 14,
+                        fontSize: Prm.label_fontsz, // 14px
                         color: '#333',
-                        fontWeight: 'bold',
-                        formatter: '{value}' // Values on axis are now in billions
+                        formatter: '{value}'
                     }
                 },
                 yAxis: {
@@ -565,14 +592,14 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     data: yearData.map(item => item.product_chapter),
                     nameTextStyle: {
                         fontWeight: 'bold',
-                        fontSize: 14
+                        fontSize: Prm.label_fontsz // 14px (for consistency if a name were used)
                     },
                     axisLabel: {
                         interval: 0,
                         width: 180,
                         overflow: 'truncate',
                         ellipsis: '...',
-                        fontSize: 14,
+                        fontSize: Prm.label_fontsz, // 14px
                         color: '#333',
                         fontWeight: 'bold',
                         formatter: function(value: string) {
@@ -583,19 +610,22 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 series: [{
                     type: 'bar',
                     // Convert value to billions
+                    itemStyle: { // Set bar color
+                        color: barColor
+                    },
                     data: yearData.map(item => parseFloat(item.value_trln_USD) * 1000),
                     label: {
                         show: true,
                         position: 'right',
-                        fontSize: 14,
+                        fontSize: Prm.label_fontsz, // 14px
                         fontWeight: 'bold',
                         color: '#333',
                         formatter: (params: any) => (params.value as number).toFixed(1) // Value is in billions
                     }
                 }],
                 textStyle: {
-                    fontFamily: 'inherit',
-                    fontSize: 14,
+                    fontFamily: 'inherit', // Keep inherit or set specific
+                    fontSize: Prm.label_fontsz, // 14px for general text within chart
                     color: '#333'
                 }
             });
@@ -605,12 +635,12 @@ export const WorldTradeMapAnimated: React.FC = () => {
             renderChart(
                 importsChart,
                 topImportsData[selectedCountry] || [],
-                `Top Imports - ${codeToName[selectedCountry] || selectedCountry} (${year})`
+                `Top Import Categories - ${codeToName[selectedCountry] || selectedCountry} (${year})`
             );
             renderChart(
                 exportsChart,
                 topExportsData[selectedCountry] || [],
-                `Top Exports - ${codeToName[selectedCountry] || selectedCountry} (${year})`
+                `Top Export Categories - ${codeToName[selectedCountry] || selectedCountry} (${year})`
             );
         } else {
             // Clear charts when no country selected
@@ -901,7 +931,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
             title: {
         text: 'Trade Surpluses and Deficits by Category',
                 left: 'center',
-                top: 20,
+                top: 10, // Adjusted for visual balance with controls
                 textStyle: { color: '#333', fontSize: 20 }
             },
             tooltip: {
@@ -971,7 +1001,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
             <div style={{ display: 'flex', height: '70%', gap: '20px' }}>
                 {/* Left Panel (30% width) */}
                 <div style={{ width: '30%', display: 'flex', flexDirection: 'column' }}>
-                    {/* Controls (50% height) */}
+                    {/* Controls (Adjusted to be less than 50% to give more space to line plot if needed) */}
                     <div style={{ height: '50%', padding: '20px', marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
                         {/* Timeline section */}
                         <div>
@@ -1041,7 +1071,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                         }}
                     />
                 </div>
-
+                
                 {/* World Map (70% width) */}
                 <div
                     ref={chartRef}
