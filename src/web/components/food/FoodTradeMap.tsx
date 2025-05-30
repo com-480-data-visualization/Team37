@@ -87,7 +87,12 @@ export const FoodTradeMap: React.FC = () => {
         type: 'map',
         map: 'world',
         roam: false,
-        emphasis: { label: { show: true } },
+        emphasis: { 
+            label: { show: true },
+            itemStyle: {
+                areaColor: '#FFFACD' // Milder yellow for hover
+            }
+        },
         data: finalMapData
       }]
     };

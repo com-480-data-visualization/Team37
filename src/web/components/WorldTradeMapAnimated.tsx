@@ -442,9 +442,15 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     trigger: 'item',
                     formatter: (params: any) => {
                         if (params.dataType === 'edge') {
-                            const source = nodes[params.data.source].name.replace(' (Import)', '').replace(' (Export)', '');
-                            const target = nodes[params.data.target].name.replace(' (Import)', '').replace(' (Export)', '');
-                            return `${source} → ${target}<br/>Value: ${params.data.value.toFixed(6)} Billion USD`;
+                            // const source = nodes[params.data.source].name.replace(' (Import)', '').replace(' (Export)', '');
+                            // const target = nodes[params.data.target].name.replace(' (Import)', '').replace(' (Export)', '');
+                            // return `${source} → ${target}<br/>Value: ${params.data.value.toFixed(6)} Billion USD`;
+                            // params.data.source and params.data.target are the string names of the nodes
+                            const sourceName = (params.data.source as string).replace(' (Import)', '').replace(' (Export)', '');
+                            const targetName = (params.data.target as string).replace(' (Import)', '').replace(' (Export)', '');
+                            // params.data.value is already in billions from the link preparation
+                            const valueInBillions = (params.data.value as number);
+                            return `${sourceName} → ${targetName}<br/>Value: ${valueInBillions.toFixed(1)} Billion USD`;
                         }
                         return params.name.replace(' (Import)', '').replace(' (Export)', '');
                     }
@@ -956,7 +962,12 @@ export const WorldTradeMapAnimated: React.FC = () => {
                 type: 'map',
                 map: 'world',
                 roam: false,
-        emphasis: { label: { show: true } },
+        emphasis: { 
+            label: { show: true },
+            itemStyle: {
+                areaColor: '#FFFACD' // Milder yellow for hover
+            }
+        },
         data: mapData
       }]
     };
