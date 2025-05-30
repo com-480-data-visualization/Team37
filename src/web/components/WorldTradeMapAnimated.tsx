@@ -856,14 +856,18 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     },
                     axisLabel: {
                         interval: 0,
-                        width: 180,
-                        overflow: 'truncate',
-                        ellipsis: '...',
-                        fontSize: 14,
+                        width: 200,
+                        overflow: 'break',
+                        lineHeight: 20,
+                        fontSize: 12,
                         color: '#333',
                         fontWeight: 'bold',
                         formatter: function(value: string) {
-                            return value.length > 18 ? value.slice(0, 18) + '...' : value;
+                            const desc = getChapterDescription(value);
+                            // 删除 "Chapter " 字样，然后获取第一个单词
+                            const cleanDesc = desc.replace(/Chapter\s+/i, '');
+                            const firstWord = cleanDesc.split(' ')[0];
+                            return firstWord;
                         }
                     }
                 },
@@ -926,14 +930,18 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     },
                     axisLabel: {
                         interval: 0,
-                        width: 180,
-                        overflow: 'truncate',
-                        ellipsis: '...',
-                        fontSize: 14,
+                        width: 200,
+                        overflow: 'break',
+                        lineHeight: 20,
+                        fontSize: 12,
                         color: '#333',
                         fontWeight: 'bold',
                         formatter: function(value: string) {
-                            return value.length > 18 ? value.slice(0, 18) + '...' : value;
+                            const desc = getChapterDescription(value);
+                            // 删除 "Chapter " 字样，然后获取第一个单词
+                            const cleanDesc = desc.replace(/Chapter\s+/i, '');
+                            const firstWord = cleanDesc.split(' ')[0];
+                            return firstWord;
                         }
                     }
                 },
