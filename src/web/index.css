@@ -114,7 +114,7 @@ header p {
   color: #333; /* Or your desired text color */
   font-size: 1.4rem; /* Slightly larger font size */
   line-height: 1.8; /* Improves readability */
-  max-width: 1200px; /* Limits the width on larger screens */
+  max-width: 1400px; /* Limits the width on larger screens */
   margin-left: auto;  /* Centers the text block */
   margin-right: auto; /* Centers the text block */
   text-align: center; /* Centers the text itself. Use 'left' or 'justify' if preferred. */

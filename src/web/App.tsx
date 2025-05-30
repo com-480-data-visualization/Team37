@@ -19,12 +19,10 @@ import { FoodTradeMap } from "./components/food/FoodTradeMap";
 import { FuelTradeMap } from "./components/fuel/FuelTradeMap";
 
 const App: React.FC = () => {
-  // 新增状态用于存储选中的国家
   const [selectedCountry, setSelectedCountry] = React.useState<string>('');
   const [selectedYear, setSelectedYear] = React.useState<string>('2023');
   const [selectedProduct, setSelectedProduct] = React.useState<string>('84');
 
-  // 地图点击事件处理
   const handleCountryClick = (countryCode: string) => {
     setSelectedCountry(countryCode);
   };
@@ -48,7 +46,7 @@ const App: React.FC = () => {
 
         <VerticalScrollSection title="The Basics" text={
           <>
-            It said that the world became more and more interconnected over the last 35 years.
+            It is said that the world became more and more interconnected over the last 35 years.
             <br />
             Let's get a sense of what changed by asking:
           </>} items={[
@@ -79,26 +77,31 @@ const App: React.FC = () => {
         </ScrollAnimationWrapper> */}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
-          <section style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
+          <section style={{ width: '100%', height: '100%', display: 'flex', aspectRatio: '16/9', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
             <p className="description-text">
               In Dollar terms, some countries consume more material goods than they create. Others produce the differrence but do not consume it themselves.
               <br />
+              Others produce the differrence but do not consume it themselves.
               <br />
-              <WorldTradeMap onCountryClick={handleCountryClick} />
+              <br />
+              The following map shows the absolute dollar value of the trade balance of each country.
+              <br />
+              <br />
             </p>
+              <WorldTradeMap onCountryClick={handleCountryClick} />
           </section>
         </ScrollAnimationWrapper>
 
-        {/* Sankey 图集成在地图下方 */}
+        {/* Sankey */}
         {selectedCountry && (
           <CountrySankey countryCode={selectedCountry} year={selectedYear} productChapter={selectedProduct} />
         )}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
           <section>
-            <h2>What Categories of Goods Dominate Global Trade Value? (2023)</h2>
+            <h2> Which Categories of Goods are more Prominent in Global Trade Value? (2023)</h2>
             <p className="description-text">
-              While fuels dominate trade by sheer weight, electronics, machinery, and vehicles represent a larger share of the total dollar value exchanged globally.
+              While Mineral fuels dominate trade by sheer weight, electronics, machinery, and vehicles represent a larger share of the total dollar value exchanged globally.
             </p>
             <ChapterTotalsBarChart />
           </section>
