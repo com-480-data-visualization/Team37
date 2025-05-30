@@ -653,25 +653,23 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
     // 处理章节映射
     useEffect(() => {
-        if (!rawChapterMappings) return;
+        if (!rawChapterMappings || rawChapterMappings.length === 0) {
+            setProductChapters([]); // Ensure it's empty if no data or loading
+            return;
+        }
         const processedChapters: ProductChapterMapping[] = [];
         rawChapterMappings.forEach(row => {
-            const descStr = row['0'] || '';
-            try {
-                const cleanStr = descStr.replace(/{|}/g, '');
-                const parts = cleanStr.split(':');
-                if (parts.length === 2) {
-                    const chapterCode = parts[0].trim().replace(/'/g, '');
-                    const chapterDesc = parts[1].trim().replace(/'/g, '');
-                    if (chapterCode && chapterDesc) {
-                        processedChapters.push({
-                            product_chapter: chapterCode,
-                            description: chapterDesc
-                        });
-                    }
-                }
-            } catch (error) {
-                console.error('Error parsing chapter description:', error);
+            // Assuming 'useData' parses CSV into objects with keys matching CSV headers
+            const chapterCode = row.product_chapter; // Use direct property access
+            const chapterDesc = row.description;   // Use direct property access
+
+            if (chapterCode && chapterDesc) {
+                processedChapters.push({
+                    product_chapter: String(chapterCode).trim(),
+                    description: String(chapterDesc).trim()
+                });
+            } else {
+                console.warn('Skipping row due to missing product_chapter or description:', row);
             }
         });
         processedChapters.sort((a, b) => a.product_chapter.localeCompare(b.product_chapter));
@@ -915,7 +913,8 @@ export const WorldTradeMapAnimated: React.FC = () => {
         text: ['Surplus', 'Deficit'],
                 realtime: false,
                 calculable: true,
-        inRange: { color: ['#ff0000', '#ffffff', '#0000ff'] }
+        inRange: { color: [Prm.map_red, '#ffffff', Prm.map_blue] }
+        
             },
             series: [{
         name: 'Trade Balance',

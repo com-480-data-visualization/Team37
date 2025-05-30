@@ -21,6 +21,9 @@ export const title_fontsz = 16
 export const label_fontsz = 14
 export const plot_title_fontsz = 20
 
+export const map_red = "#D1495B"
+export const map_blue = "#3B73B9"
+
 // Complete ISO 3166-1 alpha-3 to English country name mapping table (including common countries and special codes)
 export const countryCodeToName: Record<string, string> = {
     AFG: 'Afghanistan',

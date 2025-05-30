@@ -81,7 +81,7 @@ export const FuelTradeMap: React.FC = () => {
         text: ['Surplus', 'Deficit'],
         realtime: false,
         calculable: true,
-        inRange: { color: ['#ff0000', '#ffffff', '#0000ff'] }
+        inRange: { color: [Prm.map_red, '#ffffff', Prm.map_blue] }
       },
       series: [{
         name: 'Trade Balance',
