@@ -1016,7 +1016,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
                     <div style={{ height: '50%', padding: '20px', marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
                         {/* Timeline section */}
                         <div>
-                            <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
+                            <div style={{ marginBottom: '8px', fontSize: '18px', color: '#666' }}>
                                 Select a year to view trade data for different periods
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -1035,7 +1035,7 @@ export const WorldTradeMapAnimated: React.FC = () => {
 
                         {/* Product selection section */}
                         <div>
-                            <div style={{ marginBottom: '8px', fontSize: '14px', color: '#666' }}>
+                            <div style={{ marginBottom: '8px', fontSize: '18px', color: '#666' }}>
                                 Choose a product category or view overall trade balance
                             </div>
                             <select 
