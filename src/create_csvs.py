@@ -198,20 +198,22 @@ def produce_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df):
     # # save_dataframe_to_csv(surplus, f"{OUTPUT_DIR}/top_surplus_countries_pcnt.csv")
     # # save_dataframe_to_csv(deficit, f"{OUTPUT_DIR}/top_deficit_countries_pcnt.csv")
 
-    # chapter_totals = get_totals_per_chapter(data_df)
-    # save_dataframe_to_csv(make_human_readable(chapter_totals, cc_df, epc22_df, product_fmt="description"),
-    #                        f"{OUTPUT_DIR}/chapter_totals.csv")
+    chapter_totals = get_totals_per_chapter(data_df)
+    save_dataframe_to_csv(make_human_readable(chapter_totals, cc_df, epc22_df, product_fmt="description"),
+                           f"{OUTPUT_DIR}/chapter_totals.csv")
     
-    # year = 2023
-    # keep_top_n = 20
-    # to_csv = get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n)
-    # save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR}/chapter_totals_{year}.csv")
+    year = 2023
+    keep_top_n = 30
+    to_csv = get_chapter_totals_for_year(chapter_totals, cc_df, epc22_df, year, keep_top_n)
+    save_dataframe_to_csv(to_csv, f"{OUTPUT_DIR}/chapter_totals_{year}.csv")
 
-    # produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
+
+    # LONG
+    produce_interactive_map_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
     # produce_interactive_map_csvs_parallel(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df, n_processes=6)
 
 
-    produce_country_specific_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
+    # produce_country_specific_csvs(data_df, epc22_df, pc_df, cc_df, gdp_df, cpi_df)
 
 
 if __name__ == "__main__":

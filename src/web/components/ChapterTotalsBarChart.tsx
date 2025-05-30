@@ -143,7 +143,7 @@ export const ChapterTotalsBarChart: React.FC = () => {
       ref={chartRef}
       style={{
         width: '100%',
-        height: '500px', // Adjust height as needed for vertical bars
+        height: '800px', // Adjust height as needed for vertical bars
         backgroundColor: '#fff',
         borderRadius: '8px',
         boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
