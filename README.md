@@ -6,6 +6,8 @@
 | Konstantinos Prasopoulos | 285813 |
 | Yuchen Qian  |322420 |
 
+## Please find the Process Book and the Screencast in `milestone 3/`
+
 # How to use
 
 The website is hosted here: https://com-480-data-visualization.github.io/Team37/
