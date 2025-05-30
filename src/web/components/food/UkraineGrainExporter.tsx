@@ -74,6 +74,19 @@ export const UkraineGrainExporter: React.FC = () => {
           return s;
         }
       },
+      legend: {
+        data: ['Cereal Exports as % of Total (USD)', 'Cereal Exports as % of Total (Weight)'],
+        bottom: 10, // Position the legend at the bottom
+        textStyle: {
+          fontSize: Prm.label_fontsz // Consistent font size
+        }
+      },
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '15%', // Increased bottom margin to make space for the legend
+        containLabel: true
+      },
       xAxis: {
         type: 'category',
         data: flowData.map((d) => d.year),
@@ -161,7 +174,7 @@ export const UkraineGrainExporter: React.FC = () => {
   }
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', width: '100%' }}>
       <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
 
       {/* Event Code Start */}

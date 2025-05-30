@@ -6,7 +6,7 @@ import { ChinaFuelSources } from './ChinaFuelSources';
 import { UsaFuelTrade } from './UsaFuelTrade';
 import { CountrySlideBTF, CountrySlidePropsBTF } from '../CountrySlideBTF';
 import { CountrySlideBTFF, CountrySlidePropsBTFF } from '../CountrySlideBTFF';
-import usa_banner from '../../assets/usa_oil.png';
+import usa_banner from '../../assets/usa_oil_2.png';
 import china_banner from '../../assets/china.png';
 
 type SlideBTF = CountrySlidePropsBTF & { kind: 'BTF' }
@@ -37,6 +37,7 @@ export const FuelSection: React.FC = () => {
       id: 'usa',
       title: "USA: From Chronic Importer to Net Exporter",
       imageSrc: usa_banner,
+      imageObjectFit: 'contain', // Specify 'contain' for this slide
       imageAlt: 'USA Oil Barrel',
       description:
         `For most of the post-war era the United States burned more oil and gas than it could pump. Conventional fields onshore and in the Gulf of Mexico peaked in 1970; by 2005 domestic crude output had fallen almost in half, and the country was bringing in roughly 60% of the oil it used. 
@@ -68,7 +69,7 @@ export const FuelSection: React.FC = () => {
   return (
     <article id="fuel-gallery">
       <header>
-        <h2>Mineral Fuels: Refined and Unrefined Oil, Natural Gass, Coal </h2>
+        <h2>Category switch to: Mineral Fuels, i.e., Refined and Unrefined Oil, Natural Gass, Coal </h2>
       </header>
 
       <section className="img-group-container" ref={containerRef}>

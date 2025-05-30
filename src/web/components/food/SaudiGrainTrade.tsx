@@ -52,6 +52,13 @@ export const SaudiGrainTrade: React.FC = () => {
           return s;
         }
       },
+      grid: {
+        left: '12%',    // Space for y-axis name and labels
+        right: '5%',     // Standard right margin
+        top: '18%',      // Space for the title
+        bottom: '10%',   // Space for x-axis labels
+        containLabel: true // Crucial for ensuring labels fit without squishing the chart
+      },
       xAxis: {
         type: 'category',
         data: flowData.map((d) => d.year),
@@ -100,7 +107,7 @@ export const SaudiGrainTrade: React.FC = () => {
   }
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', width: '100%' }}>
       <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
     </div>
   );

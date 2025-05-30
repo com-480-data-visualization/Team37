@@ -151,7 +151,7 @@ export const YemenFoodVsGdp: React.FC = () => {
   }
 
   return (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', width: '100%' }}> {/* Added width: '100%' */}
       <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
 
       {/* Event Code Start */}

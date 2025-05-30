@@ -37,13 +37,13 @@ export const FoodSection: React.FC = () => {
         `We will first explore trade of food through some unique edge cases. In "food" we include all HS92 categories (18) that are related to human nutrition. The grouping is broad and includes categories like meat and fish, vegetables and fruits, and, crucially, cereals like wheat and rice.
         
         Yemen is a country of 39.39 million people that has great difficulty producing its own food due to severe water scarcity, poor land quality, and war.
-        As a result, Yemen a large part of the food it consumes and is currently facing food shortages and famine.
+        As a result, Yemen imports a large part of the food it consumes and is currently facing food shortages and famine.
 
         We are trying to capture this external dependence by normalizing food imports to the total size of the country's economy (GDP).
         In 2023, Yemen food imports are equivalent to ~20% of its GDP and the percentage rose significantly after the 2014 civil and subsequent international wars.
 
         `,
-      plot: <YemenFoodVsGdp />, 
+      plot: <YemenFoodVsGdp />,
 
     },
     {
@@ -58,11 +58,11 @@ export const FoodSection: React.FC = () => {
 
         Below, we illustrate the rapid growth in cereal imports.
         `,
-        // "PLACEHOLDER DEFINE CEREAL (Trade-offs (water/agriculture) and policy choices): Saudi Arabia's grain story reads like a policy whiplash."+ 
-        // "Flush with oil money, the kingdom used fossil-aquifer irrigation to become a net" +
-        // "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
-        // "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
-      plot: <SaudiGrainTrade />, 
+      // "PLACEHOLDER DEFINE CEREAL (Trade-offs (water/agriculture) and policy choices): Saudi Arabia's grain story reads like a policy whiplash."+ 
+      // "Flush with oil money, the kingdom used fossil-aquifer irrigation to become a net" +
+      // "wheat exporter in the 1980s-90s. Then, on 19 November 2007, Riyadh ordered production" +
+      // "quotas cut each year until domestic procurement stopped—mission accomplished with the last local wheat purchase in 2015/16, turning the country into a four-million-ton-a-year importer. A broader water crackdown followed: green-fodder crops were banned in December 2015, the prohibition taking full effect on 5 November 2018. That same day, the government eased up slightly, offering small farmers subsidised contracts for up to 1.5 million tons of wheat a year. By 2023/24 the revival had lifted output to about 1.2 million tons, but Saudi grain needs still hinge on world markets—and on whichever policy pivot comes next.",
+      plot: <SaudiGrainTrade />,
     },
     {
       id: 'ukraine',
@@ -77,15 +77,29 @@ export const FoodSection: React.FC = () => {
         Despite the 2022 war and naval blockade threatening Ukraine's export industry and the food stability of the planet, Ukraine's contribution to food availability has remained relatively stable.
         
         We visualize the evolution of one of the worlds major food contributors in terms of Cereal exports in Dollar and weight terms.`,
-      plot: <UkraineGrainExporter />, 
+      plot: <UkraineGrainExporter />,
     }
   ];
 
   return (
     <article id="food-gallery">
-      <header>
-        <h2>Global Food Trade Patterns</h2>
+      <header style={{
+        // Reset any problematic height/min-height from global styles
+        height: 'auto',
+        minHeight: 'unset',
+        // Add desired spacing for this specific header
+        paddingTop: '2rem', // Adjust as needed
+        paddingBottom: '1rem', // Adjust as needed for space below the h2
+      }}>
+        <h2>Stories of Food Trade</h2>
       </header>
+      <p className="description-text">
+        Let's pass from aggregate statistics and talk about narrower classes of goods, 
+              <br />
+        starting with arguably the most important one: 
+              <br />
+        Food
+      </p>
 
       <section className="img-group-container" ref={containerRef}>
         <div>

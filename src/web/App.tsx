@@ -32,12 +32,14 @@ const App: React.FC = () => {
       <ScrollAnimationWrapper style={fullPageStyle}>
         <section className="intro">
           <header>
-            <h1>The Flow of Goods Around the World</h1>
+            <h1>Acquiring Intuition on Global Trade</h1>
             <p className="description-text">In 2025, the collective brain of humanity turned its attention to the difference between where goods like food and cars are <u>made</u> and where they are <u>consumed</u>.
               Motivated by the desire to reduce transportation emissions or by national security concerns, humanity appears to be peeking under the hood of the global trade system, with the subject debated everywhere from government circles to taxi rides.
               <br />
               <br />
               This website attempts to provide intuition on the ever-more important matter of how goods flow around the world.
+              <br />
+              Just scroll down :)
             </p>
           </header>
         </section>
@@ -70,7 +72,9 @@ const App: React.FC = () => {
             <p className="description-text">
               <i>How many tons of products does humanity shuffle around the world each year?</i>
               <br /><br />
-              It turns out that at 15 Billion Metric Tons per year, humanity is shipping the equivalent weight of all 1.2 Billion active cars in the world <b><i>7 times over!</i></b>
+              It turns out that at 15 Billion Metric Tons per year, humanity is shipping the equivalent weight of all 1.2 Billion active cars in the world 
+              <br />
+              <b><i>7 times over!</i></b>
             </p>
             <TradeWeightChart />
           </section>

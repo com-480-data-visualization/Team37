@@ -138,7 +138,7 @@ export const ChinaFuelTrade: React.FC = () => {
     }
 
     return (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', width: '100%' }}>
             <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
         </div>
     );

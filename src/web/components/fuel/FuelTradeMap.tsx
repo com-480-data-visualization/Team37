@@ -66,13 +66,7 @@ export const FuelTradeMap: React.FC = () => {
 
     const option = {
       backgroundColor: '#fff',
-      title: {
-        // text: 'Trade Suprluses and Deficits in $ Billion in 2023',
-        // subtext: 'Unit: Billion USD',
-        left: 'center',
-        top: 20,
-        textStyle: { color: '#333', fontSize: 20 }
-      },
+      // Title removed, will be handled by FuelMapSlide
       tooltip: {
         trigger: 'item',
         formatter: (params: any) => {
@@ -114,11 +108,10 @@ export const FuelTradeMap: React.FC = () => {
   }
 
   return (
-    <div style={{ width: '100%', margin: '20px 0' }}>
-      <div ref={chartRef} style={{
-        width: '100%', height: '800px', backgroundColor: '#fff',
-        borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-      }} />
-    </div>
+    <div ref={chartRef} style={{
+      width: '100%',
+      height: '100%', // Fill container provided by FuelMapSlide
+      minHeight: '600px' // Optional: maintain a minimum height
+    }} />
   );
 };
