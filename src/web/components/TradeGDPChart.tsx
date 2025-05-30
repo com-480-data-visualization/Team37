@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { useData } from '../hooks/useData';
 import { motion, useScroll, useTransform, WithQuerySelectorAll, animate, scroll } from 'framer-motion';
+import * as Prm from './params';
 
 interface TradeGDPData {
   year: string;
@@ -17,25 +18,25 @@ const eventData = {
   },
   "2001": {
     title: "China joined WTO",
-    description: "Jesus Christ pls save me from this huge trade deficit.",
+    description: "This move fascilitated trade between China and the rest of the world by reducing tarrifs and etsblishing common rules and arbitration mechanisms.",
     imageUrl: "./assets/wto-china.jpg",
     newsUrl: "https://www.wto.org/english/thewto_e/acc_e/s7lu_e.pdf"
   },
   "2008": {
     title: "Global Financial Crisis",
-    description: "Trade volumes dropped sharply during the financial crisis.",
+    description: "Trade volumes dropped sharply during the financial crisis, even as a percentage of the also lower global GDP.",
     imageUrl: "./assets/2008-mortgage.webp",
     newsUrl: "https://en.wikipedia.org/wiki/2008_financial_crisis"
   },
   "2016": {
-    title: "MAKE AMERICA GREAT AGAIN!!!!!!!!!!!!!!!",
-    description: "CHINA!!!!!!!!!!!!!!!!!!!!!",
+    title: "Shift in American Trade Policy",
+    description: "Although free trade agreements had already started becoming unpopular with the electorate and toxic for candidates of both major US parties, the election of Donald Trump marked a shift in US trade policy that only became stronger by 2025.",
     imageUrl: "./assets/trump_mad.webp",
     newsUrl: "https://www.bbc.com/news/election-us-2016-37920175"
   },
   "2020": {
     title: "COVID-19 Pandemic",
-    description: "Global trade was significantly disrupted by pandemic lockdowns.",
+    description: "Global trade was significantly disrupted by pandemic lockdowns. The concept of self-sufficiency for essential goods is strongly present in public discourse.",
     imageUrl: "./assets/corona.jpg",
     newsUrl: "https://www.who.int/news/item/29-06-2020-covidtimeline"
   }
@@ -53,6 +54,22 @@ export const TradeGDPChart: React.FC = () => {
 
     const option = {
       backgroundColor: '#fff',
+      tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow', // better for bar charts (you can use 'line' if preferred)
+                    label: { backgroundColor: '#6a7985' }
+                },
+                formatter: (params: any[]) => {
+                    // Use the first point’s x-axis label
+                    const category = params[0].name;
+                    let s = `<b>${category}</b><br/>`;
+                    params.forEach(p => {
+                        s += `${p.marker}${p.seriesName}: ${p.value}<br/>`;
+                    });
+                    return s;
+                }
+            },
       title: {
         left: 'center',
         top: 20,
@@ -60,9 +77,6 @@ export const TradeGDPChart: React.FC = () => {
           color: '#333',
           fontSize: 20
         }
-      },
-      tooltip: {
-        show: false
       },
       grid: {
         left: '6%',
@@ -77,47 +91,50 @@ export const TradeGDPChart: React.FC = () => {
         data: tradeData.map(item => item.year),
         axisLabel: {
           formatter: '{value}',
-          fontSize: 16
+          fontSize: 24
         }
       },
       yAxis: {
         type: 'value',
         position: 'right',
-        name: 'Percent of GDP',
+        name: 'Trade as % of Global GDP',
         nameLocation: 'middle',
-        nameGap: 55,
+        nameGap: 80,
         nameTextStyle: {
           verticalAlign: 'middle',
           align: 'center',
           padding: [0, 0, 0, 0],
           rotate: 90,
-          fontSize: 18
+          fontSize: 26
         },
         axisLabel: {
           formatter: '{value}%',
-          fontSize: 16
+          fontSize: 24
         }
       },
       series: [{
         name: 'Trade as % of GDP',
         type: 'line',
         data: tradeData.map(item => ({
-          value: item.trade_pcn_gdp,
+          value: Math.round(item.trade_pcn_gdp * 10) / 10,
           itemStyle: {
-            color: eventData[item.year] ? '#FF6B6B' : '#85BB65',
+            color: eventData[item.year] ? Prm.curve_color_red : Prm.curve_color_blue,
             borderColor: eventData[item.year] ? '#FFF' : 'transparent',
             borderWidth: eventData[item.year] ? 2 : 0,
             shadowColor: eventData[item.year] ? 'rgba(255,107,107,0.5)' : 'transparent',
             shadowBlur: eventData[item.year] ? 10 : 0
           },
-          symbolSize: eventData[item.year] ? 14 : 6,
+          symbolSize: eventData[item.year] ? Prm.marker_size_large : 6,
           symbol: eventData[item.year] ? 'roundRect' : 'circle',
         })),
         smooth: true,
         lineStyle: {
-          width: 3, // Slightly thinner line
-          color: '#85BB65'
-        },
+                                color: Prm.curve_color_blue,   // line color
+                                width: Prm.line_width_thk            // optional: line width
+                            },
+                            itemStyle: {
+                                color: Prm.curve_color_blue    // marker (symbol) color
+                            },
         emphasis: { // Hover effects
           scale: true,
           itemStyle: {
@@ -128,7 +145,7 @@ export const TradeGDPChart: React.FC = () => {
             shadowBlur: 15
           },
           symbolSize: function (data: any) {
-            return eventData[data[0]] ? 18 : 8;
+            return eventData[data[0]] ? Prm.marker_size_large : 8;
           }
         }
       }
@@ -243,246 +260,3 @@ export const TradeGDPChart: React.FC = () => {
     </div>
   );
 };
-
-// Not used right?
-// const TradeGDPChartWithScroll = ({ tradeData }) => {
-//   const chartRef = useRef(null);
-//   const containerRef = useRef(null);
-//   const [activeEventIndex, setActiveEventIndex] = useState(-1);
-//   const eventYears = Object.keys(eventData).sort();
-
-//   const { scrollYProgress } = useScroll({
-//     target: containerRef,
-//     offset: ["start end", "end end"]
-//   });
-
-//   useEffect(() => {
-//     if (!chartRef.current || !tradeData || tradeData.length === 0) return;
-
-//     const chart = echarts.init(chartRef.current);
-
-//     // Full chart configuration
-//     const option = {
-//       backgroundColor: '#fff',
-//       title: {
-//         left: 'center',
-//         top: 20,
-//         textStyle: {
-//           color: '#333',
-//           fontSize: 20
-//         }
-//       },
-//       tooltip: {
-//         show: false
-//       },
-//       grid: {
-//         left: '6%',
-//         right: '6%',
-//         bottom: '5%',
-//         top: '5%',
-//         containLabel: true
-//       },
-//       xAxis: {
-//         type: 'category',
-//         boundaryGap: false,
-//         data: tradeData.map(item => item.year),
-//         axisLabel: {
-//           formatter: '{value}',
-//           fontSize: 16
-//         }
-//       },
-//       yAxis: {
-//         type: 'value',
-//         position: 'right',
-//         name: 'Percent of GDP',
-//         nameLocation: 'middle',
-//         nameGap: 55,
-//         nameTextStyle: {
-//           verticalAlign: 'middle',
-//           align: 'center',
-//           padding: [0, 0, 0, 0],
-//           rotate: 90,
-//           fontSize: 18
-//         },
-//         axisLabel: {
-//           formatter: '{value}%',
-//           fontSize: 16
-//         }
-//       },
-//       series: [{
-//         name: 'Trade as % of GDP',
-//         type: 'line',
-//         data: tradeData.map(item => ({
-//           value: item.trade_pcn_gdp,
-//           itemStyle: {
-//             color: eventData[item.year] ? '#FF6B6B' : '#85BB65',
-//             borderColor: eventData[item.year] ? '#FFF' : 'transparent',
-//             borderWidth: eventData[item.year] ? 2 : 0,
-//             shadowColor: eventData[item.year] ? 'rgba(255,107,107,0.5)' : 'transparent',
-//             shadowBlur: eventData[item.year] ? 10 : 0
-//           },
-//           symbolSize: eventData[item.year] ? 14 : 6,
-//           symbol: eventData[item.year] ? 'roundRect' : 'circle',
-//         })),
-//         smooth: true,
-//         lineStyle: {
-//           width: 3, // Slightly thinner line
-//           color: '#85BB65'
-//         },
-//         emphasis: { // Hover effects
-//           scale: true,
-//           itemStyle: {
-//             color: '#FF6B6B',
-//             borderColor: '#FFF',
-//             borderWidth: 3,
-//             shadowColor: 'rgba(255,107,107,0.8)',
-//             shadowBlur: 15
-//           },
-//           symbolSize: function (data: any) {
-//             return eventData[data[0]] ? 18 : 8;
-//           }
-//         }
-//       }
-//     ]
-//     };
-
-//     chart.setOption(option);
-
-//     const unsubscribe = scrollYProgress.on("change", (progress) => {
-//       const index = Math.min(
-//         Math.floor(progress * eventYears.length),
-//         eventYears.length - 1
-//       );
-//       setActiveEventIndex(index);
-//     });
-
-//     return () => {
-//       unsubscribe();
-//       chart.dispose();
-//     };
-//   }, [tradeData, scrollYProgress]);
-
-//   useEffect(() => {
-//     if (!chartRef.current || !tradeData || tradeData.length === 0) return;
-
-//     const chart = echarts.init(chartRef.current);
-
-//     // Initial chart configuration
-//     const option = {
-//       backgroundColor: '#fff',
-//       tooltip: {
-//         trigger: 'axis',
-//         formatter: (params) => {
-//           const year = params[0].axisValue;
-//           const value = params[0].value;
-//           return `Year: ${year}<br/>Trade: ${value.toFixed(2)}% of GDP`;
-//         }
-//       },
-//       grid: {
-//         left: '10%',
-//         right: '10%',
-//         bottom: '15%',
-//         top: '10%'
-//       },
-//       xAxis: {
-//         type: 'category',
-//         data: tradeData.map(item => item.year),
-//         axisLabel: { rotate: 45 }
-//       },
-//       yAxis: {
-//         type: 'value',
-//         name: '% of GDP',
-//         nameLocation: 'middle',
-//         nameGap: 30
-//       },
-//       series: [{
-//         name: 'Trade as % of GDP',
-//         type: 'line',
-//         data: tradeData.map(item => ({
-//           value: item.trade_pcn_gdp,
-//           itemStyle: {
-//             color: '#85BB65',
-//             opacity: 0.6
-//           },
-//           symbolSize: 6
-//         })),
-//         lineStyle: {
-//           width: 3,
-//           color: '#85BB65'
-//         },
-//         emphasis: {
-//           itemStyle: {
-//             color: '#FF6B6B',
-//             borderColor: '#FFF',
-//             borderWidth: 3,
-//             shadowColor: 'rgba(255,107,107,0.8)',
-//             shadowBlur: 15
-//           }
-//         }
-//       }]
-//     };
-
-//     chart.setOption(option);
-//   }, [activeEventIndex, tradeData, eventYears]);
-
-//   return (
-//     <div ref={containerRef} style={{ height: '200vh', position: 'relative' }}>
-//       <div style={{ 
-//         position: 'sticky', 
-//         top: 0, 
-//         height: '100vh',
-//         display: 'flex',
-//         flexDirection: 'column',
-//         justifyContent: 'center'
-//       }}>
-//         <div
-//           ref={chartRef}
-//           style={{ 
-//             width: '100%', 
-//             height: '80%',
-//             margin: '0 auto'
-//           }}
-//         />
-        
-//         {activeEventIndex >= 0 && (
-//           <motion.div
-//             initial={{ opacity: 0, y: 20 }}
-//             animate={{ opacity: 1, y: 0 }}
-//             exit={{ opacity: 0, y: -20 }}
-//             transition={{ duration: 0.3 }}
-//             style={{
-//               backgroundColor: 'white',
-//               padding: '20px',
-//               borderRadius: '8px',
-//               boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-//               maxWidth: '500px',
-//               margin: '0 auto',
-//               textAlign: 'center'
-//             }}
-//           >
-//             <h3 style={{ marginTop: 0, fontSize: '1.05rem', lineHeight: 1.2 }}>
-//               {eventData[eventYears[activeEventIndex]].title} ({eventYears[activeEventIndex]})
-//             </h3>
-//             <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>{eventData[eventYears[activeEventIndex]].description}</p>
-//             <a href={eventData[eventYears[activeEventIndex]].newsUrl} target="_blank" rel="noopener noreferrer">
-//               <img 
-//                 src={eventData[eventYears[activeEventIndex]].imageUrl} 
-//                 alt={eventData[eventYears[activeEventIndex]].title}
-//                 style={{ 
-//                   width: '100%', 
-//                   borderRadius: '4px',
-//                   margin: '10px auto',
-//                   display: 'block'
-//                 }}
-//               />
-//             </a>
-//             <p style={{ fontSize: '0.92rem', margin: '8px 0' }}>
-//               <strong>Trade:</strong> {
-//                 tradeData.find(d => d.year === eventYears[activeEventIndex])?.trade_pcn_gdp?.toFixed(2) ?? 'N/A'} % of GDP
-//             </p>
-//           </motion.div>
-//         )}
-//       </div>
-//     </div>
-//   );
-// };

@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { ScrollAnimationWrapper } from './ScrollAnimationWrapper';
 import { fullPageStyle } from './FullPageStyle';
 
-export const VerticalScrollSection = ({ title, items }) => {
+export const VerticalScrollSection = ({ title, text, items }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -18,6 +18,7 @@ export const VerticalScrollSection = ({ title, items }) => {
         <header>
           <h2 className="scroll-section-header">{title}</h2>
         </header>
+        <p className="description-text">{text}</p>
       </ScrollAnimationWrapper>
       <motion.div style={{ y, position: 'sticky', top: 0 }}>
         {items.map((item, index) => (

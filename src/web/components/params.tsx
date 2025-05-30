@@ -11,10 +11,12 @@ export const yemen_black = "#000000"
 
 
 export const large_marker_size = 20
+export const marker_size_large = 24
 export const marker_size = 16
 export const marker_size_small = 10
 export const marker_shape = 'circle'
 export const line_width = 6
+export const line_width_thk = 9
 export const title_fontsz = 16
 export const label_fontsz = 14
 export const plot_title_fontsz = 20

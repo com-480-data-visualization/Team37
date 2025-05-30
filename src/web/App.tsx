@@ -8,13 +8,13 @@ import { WorldTradeMapAnimated } from "./components/WorldTradeMapAnimated";
 import { ChapterTotalsBarChart } from "./components/ChapterTotalsBarChart";
 import { FoodSection } from './components/food/FoodSection';
 import { FuelSection } from './components/fuel/FuelSection';
-import {ScrollAnimationWrapper} from './components/ScrollAnimationWrapper'
+import { ScrollAnimationWrapper } from './components/ScrollAnimationWrapper'
 import { VerticalScrollSection } from './components/VerticalScrollSection';
 import { fullPageStyle } from './components/FullPageStyle';
 import { ZoomScroll } from './components/ZoomScroll'
 
-import {useEffect, useRef} from 'react';
-import { inView, animate} from 'framer-motion';
+import { useEffect, useRef } from 'react';
+import { inView, animate } from 'framer-motion';
 import { FoodTradeMap } from "./components/food/FoodTradeMap";
 import { FuelTradeMap } from "./components/fuel/FuelTradeMap";
 
@@ -31,37 +31,42 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-        <ScrollAnimationWrapper style={fullPageStyle}>
+      <ScrollAnimationWrapper style={fullPageStyle}>
         <section className="intro">
           <header>
             <h1>The Flow of Goods Around the World</h1>
-            <p className="description-text">In 2025, the collective brain of humanity turned its attention to the difference between where goods like food and cars are <i>made</i> and where they are <i>consumed</i>.
+            <p className="description-text">In 2025, the collective brain of humanity turned its attention to the difference between where goods like food and cars are <u>made</u> and where they are <u>consumed</u>.
               Motivated by the desire to reduce transportation emissions or by national security concerns, humanity appears to be peeking under the hood of the global trade system, with the subject debated everywhere from government circles to taxi rides.
               <br />
               <br />
-              This page attempts to provide intuition on the ever-more important matter of how goods flow around the world.
+              This website attempts to provide intuition on the ever-more important matter of how goods flow around the world.
             </p>
           </header>
         </section>
-        </ScrollAnimationWrapper>
+      </ScrollAnimationWrapper>
       <main>
 
-        <VerticalScrollSection title="Introduction" items={[
-          { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
-          { title: "How much \"stuff\" does humanity shuffle around the world?", content: <TradeWeightChart/> }
-        ]} />
+        <VerticalScrollSection title="The Basics" text={
+          <>
+            It said that the world became more and more interconnected over the last 35 years.
+            <br />
+            Let's get a sense of what changed by asking:
+          </>} items={[
+            { title: "What percentage of global economic activity is conducted through trade?", content: <TradeGDPChart /> },
+            { title: "How much \"stuff\" does humanity shuffle around the world?", content: <TradeWeightChart /> }
+          ]} />
 
         <ScrollAnimationWrapper style={fullPageStyle}>
-        <section className="image-text-section">
-          <div className="text-column">
-            <p className="description-text">
-              Moving 15 Billion metric tonnes per year is equivalent to shipping all 1.2 Billion active cars in the world <i>7 times!</i>.
-              <br />
-              <br />
-              (Placeholder Figure)
-            </p>
-          </div>
-        </section>
+          <section className="image-text-section">
+            <div className="text-column">
+              <p className="description-text">
+                Moving 15 Billion metric tonnes per year is equivalent to shipping all 1.2 Billion active cars in the world <i>7 times!</i>.
+                <br />
+                <br />
+                (Placeholder Figure)
+              </p>
+            </div>
+          </section>
         </ScrollAnimationWrapper>
 
         <ScrollAnimationWrapper style={fullPageStyle}>
@@ -81,24 +86,24 @@ const App: React.FC = () => {
         )}
 
         <ScrollAnimationWrapper style={fullPageStyle}>
-        <section>
-          <h2>What Categories of Goods Dominate Global Trade Value? (2023)</h2>
-          <p className="description-text">
-            While fuels dominate trade by sheer weight, electronics, machinery, and vehicles represent a larger share of the total dollar value exchanged globally.
-          </p>
-          <ChapterTotalsBarChart />
-        </section>
+          <section>
+            <h2>What Categories of Goods Dominate Global Trade Value? (2023)</h2>
+            <p className="description-text">
+              While fuels dominate trade by sheer weight, electronics, machinery, and vehicles represent a larger share of the total dollar value exchanged globally.
+            </p>
+            <ChapterTotalsBarChart />
+          </section>
         </ScrollAnimationWrapper>
 
         <FoodSection />
         <FuelSection />
 
         <ScrollAnimationWrapper style={fullPageStyle}>
-        <section>
-          <p className="description-text"> Freely explore trade dynamics for any country across 87 categories of goods for years between 1995 and 2023!
-          </p>
-          <WorldTradeMapAnimated />
-        </section>
+          <section>
+            <p className="description-text"> Freely explore trade dynamics for any country across 87 categories of goods for years between 1995 and 2023!
+            </p>
+            <WorldTradeMapAnimated />
+          </section>
         </ScrollAnimationWrapper>
       </main>
     </div>
